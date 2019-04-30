@@ -2,6 +2,7 @@ baseURL = "https://sysarmy.com/blog/"
 languageCode = "en-us"
 title = "Blog Sysarmy"
 theme = "sysarmy"
+publishDir = "sysarmy.github.io/blog"
 MetaDataFormat = "toml"
 googleAnalytics = "UA-36359098-1"
 
