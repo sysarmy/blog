@@ -1,0 +1,29 @@
+{{ $baseurl := .Site.BaseURL }}
+    <div>
+        <section id="datecount">
+          <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
+          <h5 id="wc"> {{ .FuzzyWordCount }} Palabras </h5>
+          <h5 id="readtime"> Lectura en aprox. {{ .ReadingTime }} Min </h5>
+        </section>
+        <ul id="tags">
+          {{ range .Params.tags }}
+            <li> <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a> </li>
+          {{ end }}
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;{{if .Prev}}<a class="previous" href="{{.Prev.Permalink}}"><i class="icon-arrow-left"></i> {{.Prev.Title}}</a><br>{{end}}
+        </section><section id="next">
+            &nbsp;{{if .Next}}<a class="next" href="{{.Next.Permalink}}">{{.Next.Title}} <i class="icon-arrow-right"></i></a>{{end}}
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>Acerca de sysarmy:</h4> 
+
+            <p>
+            Sysarmy es la comunidad de sistemas que nuclea a todos los profesionales del área para favorecer el contacto y el intercambio de conocimiento de manera informal.
+            </p>
+
+        </section> </div>

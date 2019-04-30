@@ -1,0 +1,9 @@
+baseURL = "https://sysarmy.com/blog/"
+languageCode = "en-us"
+title = "Blog Sysarmy"
+theme = "sysarmy"
+MetaDataFormat = "toml"
+googleAnalytics = "UA-36359098-1"
+
+[author]
+    name = "Sysarmy"
