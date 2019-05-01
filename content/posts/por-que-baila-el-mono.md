@@ -25,7 +25,6 @@ Url: 2015/04/13/por-que-baila-el-mono
 date: 2015-04-13
 ---
 
-{{% img src="/blog/assets/adminfest.png" class="half right" %}}
 <p>Desde hace varios años, algunas empresas ofrecen <em>beneficios</em> como un adicional al sueldo y, por otro lado, existen cuestiones del día a día que muchas veces son más importantes y hacen al bienestar de los empleados.</p>
 <p>Lanzamos esta<strong><a href="https://docs.google.com/forms/d/1NwZUEIikaFjClZRTTwO1UJxQtJ7QGt_NONSwthGJLsY/viewform"> breve encuesta</a></strong> para saber qué es lo que los profesionales de sistemas priorizan a la hora de considerar un cambio de trabajo.</p>
 <p>&nbsp;</p>

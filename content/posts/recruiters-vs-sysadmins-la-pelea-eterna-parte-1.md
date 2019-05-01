@@ -25,7 +25,6 @@ Url: 2016/02/15/recruiters-vs-sysadmins-la-pelea-eterna-parte-1
 date: 2016-02-15
 ---
 
-{{% img src="/blog/assets/tbbt.jpg" class="half right" %}}
 <p>No importa de qué bando seas, seguramente más de una vez tuviste un encontronazo con alguien del otro equipo. La idea atrás de esto es limar un poco las asperezas y tratar que todos llevemos la fiesta en paz. Si no se puede, entraremos en la carrera armamentística, pero al menos los libros de historia van a decir que lo intentamos.</p>
 <p><strong>Recruiters:</strong><br />
 Vamos a hacer una intro quizás conocida pero necesaria: los sysadmins somos un tanto especiales. Es probable que sean las personas más particulares que alguna vez les toque entrevistar y/o contratar. Piensen en gente que, en vez de pasar sus años de infancia jugando a hacer agujeros en la tierra con una rama en la plaza, se la pasó quemándose las retinas enfrente de un Family y un CRT (¿se acuerdan, no, de esos mamotretos de rayos catódicos? Vamos, que nadie de acá nació con un LCD). Y los que no crecieron a la sombra de un Family, lo hicieron con una Commodore o una Amiga, lo cual empeora un poco las cosas.</p>

@@ -25,7 +25,6 @@ Url: 2015/07/31/feliz-dia-del-admin
 date: 2015-07-31
 ---
 
-{{% img src="/blog/assets/adminfest.png" class="half right" %}}
 <p>No vamos a hacer un post muy extenso ya que todavía estamos preparando muchas cosas para <a href="http://www.adminfest.com"><strong>AdminFest</strong></a> (<strong>HOY !!</strong>) pero queríamos saludar a todos los admins que hacen posible que el mundo siga girando !</p>
 <p>&nbsp;</p>
 <p><strong>Nos vemos a partir de las 19hs en La Cigale (25 de Mayo 597, CABA) para celebrar nuestro día.</strong></p>

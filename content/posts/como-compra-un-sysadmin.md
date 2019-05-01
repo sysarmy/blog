@@ -25,7 +25,6 @@ Url: 2015/04/06/como-compra-un-sysadmin
 date: 2015-04-06
 ---
 
-{{% img src="/blog/assets/chownealo.png" class="half right" %}}
 <p><strong>El sysadmin no compra, se adueña.</strong></p>
 <p>De ahí surge nuestro sitio de clasificados, <a href="https://sysarmy.com/chownealo"><strong>Chownealo</strong></a>. La idea es darle a la comunidad un espacio para que los miembros (y no miembros !) publiquen artículos — <em>ya sean nuevos o usados</em> — y que estos lleguen de una manera rápida y sencilla a posibles compradores.</p>
 <p>&nbsp;</p>

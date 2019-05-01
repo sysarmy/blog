@@ -25,7 +25,6 @@ Url: 2016/10/12/analizando-los-sueldos-de-la-industria-del-software-en-argentina
 date: 2016-10-12
 ---
 
-{{% img src="/blog/assets/1-0yjdyv9xusf8w3_g7zdf-q.png" class="half right" %}}
 <section class="section section--body">
 <div class="section-divider layoutSingleColumn"></div>
 <div class="section-content">

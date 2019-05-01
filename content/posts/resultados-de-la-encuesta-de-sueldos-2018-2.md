@@ -25,7 +25,6 @@ Url: 2018/09/04/resultados-de-la-encuesta-de-sueldos-2018-2
 date: 2018-09-04
 ---
 
-{{% img src="/blog/assets/argentina-peso_423392900-850x491.jpg" class="half right" %}}
 <p><strong>En esta ocasión juntamos más de 2000 respuestas a este pulso de mitad de año.</strong></p>
 <p>Les dejamos este <strong><a href="https://goo.gl/w72g79" target="_blank" rel="noopener">Google Spreadsheet</a> </strong>para que puedan ver y analizar los resultados (pueden hacer una copia o bajar las hojas en formato csv). Esperamos con ansias los análisis de la comunidad!</p>
 <p>Como siempre, algunas frases que nos regalaron:</p>

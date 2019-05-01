@@ -25,7 +25,6 @@ Url: 2016/01/11/encuesta-anonima-de-sueldos-2016-1
 date: 2016-01-11
 ---
 
-{{% img src="/blog/assets/stallman.jpg" class="half right" %}}
 <p>Comenzamos el año con una nueva encuesta para evaluar los sueldos del último semestre.</p>
 <p>En la última edición recibimos muchas recomendaciones por lo que agregamos algunas preguntas y opciones.</p>
 <p><strong><a href="http://goo.gl/forms/AZ8RZqgQ6F">Los invitamos a responder y compartir con sus conocidos !</a></strong></p>

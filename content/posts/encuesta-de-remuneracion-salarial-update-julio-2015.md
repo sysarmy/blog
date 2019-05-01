@@ -25,7 +25,6 @@ Url: 2015/07/02/encuesta-de-remuneracion-salarial-update-julio-2015
 date: 2015-07-02
 ---
 
-{{% img src="/blog/assets/stallman.jpg" class="half right" %}}
 <p>Al finalizar el año pasado hicimos una <strong><a title="S01E04 – Resultados de la encuesta salarial" href="2014/12/s01e04-resultados-de-la-encuesta-salarial/">breve encuesta anónima</a></strong> para medir cómo estaba el <strong>mercado IT en Argentina</strong>.</p>
 <p>Aprovechando que luego del <strong>leap second</strong> y el <strong>aguinaldo</strong> llegamos a la mitad del 2015, queríamos saber cómo fueron estos primeros 6 meses.</p>
 <p>&nbsp;</p>

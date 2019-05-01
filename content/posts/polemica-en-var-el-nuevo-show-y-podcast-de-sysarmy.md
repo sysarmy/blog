@@ -25,7 +25,6 @@ Url: 2017/03/20/polemica-en-var-el-nuevo-show-y-podcast-de-sysarmy
 date: 2017-03-20
 ---
 
-{{% img src="/blog/assets/logo-tv.png" class="half right" %}}
 <p>A fines del 2016 pudimos por fin arrancar el proyecto que veníamos postergando hacía <strong>3 años</strong>, la idea de un podcast bajo el nombre de "<strong>Polémica en /var</strong>". El 16 de noviembre de 2016 hicimos público el primer piloto del nuevo master plan para conquistar el mundo. Seguimos a buen ritmo, así que era hora de hacer la presentación formal:</p>
 <p><strong>Polemica en /var es un show pensado primariamente para gente de sistemas</strong>, a partir de allí se desprenden distintas temáticas y formas de abordarlas; desde <strong>noticias rápidas, eventos, lanzamientos de juegos, vulnerabilidades</strong> o bien problemas que sucedieron en Internet o el mundo de sistemas. La idea es llevar todo esto a un formato que se deje ver y escuchar y que tenga un <strong>valor agregado</strong>, que no sea solamente leer una noticia. Estamos incluyendo entrevistas y especiales y <strong>no se pierdan <a href="https://www.youtube.com/watch?v=xsYcYAc40u0">los bloopers</a></strong>.</p>
 <p>A continuación pueden ver la Playlist de Polémica en /var en Youtube:<br />

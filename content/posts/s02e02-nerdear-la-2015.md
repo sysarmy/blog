@@ -25,7 +25,6 @@ Url: 2015/01/21/s02e02-nerdear-la-2015
 date: 2015-01-21
 ---
 
-{{% img src="/blog/assets/nerdearla.jpg" class="half right" %}}
 <p>Estamos comenzando a organizar una nueva edición de <strong><a href="http://nerdear.la">Nerdear.la</a></strong> y este año, además de las charlas orientadas a sysadmins sobre Sistemas Operativos, networking y nuevas tecnologías, queremos agregar otras temáticas nerd que también nos interesen a los administradores de sistemas.</p>
 <p>&nbsp;</p>
 <p>Para eso hicimos un <strong><a href="https://docs.google.com/forms/d/1vTDiQGglYFiafW8D1I6eSgeGgetNjQD7lnoQNVw1SPI/viewform">pequeño formulario</a></strong> donde pueden votar sus temas favoritos, además de dejarnos comentarios/sugerencias/puteadas para el evento que se viene :)</p>

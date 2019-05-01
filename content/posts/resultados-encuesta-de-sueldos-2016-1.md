@@ -25,7 +25,6 @@ Url: 2016/03/01/resultados-encuesta-de-sueldos-2016-1
 date: 2016-03-01
 ---
 
-{{% img src="/blog/assets/330973_14871194668374_rid13.jpg" class="half right" %}}
 <p>En Enero hicimos un update de nuestra encuestra semestral de sueldos y, como lo prometido es deuda, aquí pueden encontrar los resultados:</p>
 <p><strong><a href="https://drive.google.com/open?id=0B7UapTwn9AahLTJmSE5zOUQ0aGc" rel="">sysarmy-encuesta-salarial-enero-2016.csv</a></strong></p>
 <p><strong>EDIT: Agradecemos a Lorena, a Martín y a <b class="fn">ENSASKE</b> quienes armaron algunos reportes y análisis sobre la data que compartimos</strong><strong>:</strong></p>

@@ -25,7 +25,6 @@ Url: 2015/09/30/data-de-la-encuesta-de-remuneracion-salarial
 date: 2015-09-30
 ---
 
-{{% img src="/blog/assets/shutup.png" class="half right" %}}
 <p>Hace un tiempo hicimos un update de nuestra encuesta semestral de sueldos y si bien todavía no pudimos publicar el análisis y gráficos como nos gustaría hacerlo, les dejamos los resultados obtenidos:</p>
 <p>&nbsp;</p>
 <p><strong><a href="https://drive.google.com/open?id=0B7UapTwn9AahSHl1aGNfTlNrYWc" target="_blank" rel="noopener">sysarmy-encuesta-salarial-julio-2015.csv</a></strong></p>

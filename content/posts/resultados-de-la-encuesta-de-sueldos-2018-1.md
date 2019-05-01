@@ -25,7 +25,6 @@ Url: 2018/03/05/resultados-de-la-encuesta-de-sueldos-2018-1
 date: 2018-03-05
 ---
 
-{{% img src="/blog/assets/onetrillion-e1520234146371.jpeg" class="half right" %}}
 <p><strong>Queremos agradecer a las más de 4700 personas que formaron parte de esta nueva encuesta de sueldos!</strong></p>
 <p>Les dejamos este <strong><a href="https://docs.google.com/spreadsheets/d/1OcOGeYEsI-iIO_QNfl_8avUK2ifg9wRFUly-f-c1CJM/edit#gid=2144425141" target="_blank" rel="noopener">Google Spreadsheet</a> </strong>para que puedan ver y analizar los resultados (pueden hacer una copia o bajar las hojas en formato csv). Esperamos con ansias los análisis de la comunidad!</p>
 <p>Como siempre, algunas frases que nos regalaron:</p>

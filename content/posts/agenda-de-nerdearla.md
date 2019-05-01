@@ -25,7 +25,6 @@ Url: 2015/05/07/agenda-de-nerdearla
 date: 2015-05-07
 ---
 
-{{% img src="/blog/assets/nerdearla9.jpg" class="half right" %}}
 <p><strong>Falta menos de una semana para nerdear.la</strong> y ya publicamos la <a href="http://nerdear.la/schedule.php?lang=es"><strong>lista de charlas y workshops</strong></a> !</p>
 <p>Durante la mañana habrá charlas <em>"nerds"</em> mientras que por la tarde el contenido será un poco más técnico y más orientado a sysadmins y afines.</p>
 <p>&nbsp;</p>

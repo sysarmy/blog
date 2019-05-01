@@ -25,7 +25,6 @@ Url: 2016/03/21/multiple-vulnerabilities-in-openssl-heres-what-you-need-to-do
 date: 2016-03-21
 ---
 
-{{% img src="/blog/assets/drown-1.png" class="half right" %}}
 <p><em>Originally written by <a href="https://twitter.com/johannorrman" target="_blank">Johan Norrman</a>, CIO at <a href="http://www.detectify.com" target="_blank">Detectify</a> for <strong><a href="http://www.sysarmy.com" target="_blank">sysarmy</a></strong>.</em></p>
 <p>&nbsp;</p>
 <p>March could have started better for the OpenSSL team. During the last week, the OpenSSL development team published two high impacts CVEs, <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0800" target="_blank">CVE-2016-0800</a> and <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0703" target="_blank">CVE-2016-0703</a>.</p>

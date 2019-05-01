@@ -25,7 +25,6 @@ Url: 2017/09/11/resultados-de-la-encuesta-de-sueldos-2017-2
 date: 2017-09-11
 ---
 
-{{% img src="/blog/assets/floyd-mayweather1.jpg" class="half right" %}}
 <p><strong>Queremos agradecer a los más de 5000 participantes que formaron parte de esta nueva encuesta de sueldos!</strong></p>
 <p>Les dejamos este <strong><a href="https://goo.gl/CGZjhp" target="_blank" rel="noopener">Google Spreadsheet</a> </strong>para que puedan ver y analizar los resultados (pueden hacer una copia o bajar las hojas en formato csv). Esperamos con ansias los análisis de la comunidad!</p>
 <p>Como siempre, algunas frases que nos regaló la gente:</p>

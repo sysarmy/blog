@@ -25,7 +25,6 @@ Url: 2019/02/22/resultados-de-la-encuesta-de-sueldos-2019-1
 date: 2019-02-22
 ---
 
-{{% img src="/blog/assets/dyarnaruwaavxs7.jpg" class="half right" %}}
 <p>No se pierdan <a href="https://openqube.io/sueldos"><strong>el análisis que realizó openqube</strong></a> con las más de 4700 respuestas obtenidas!</p>
 <p>Les dejamos este <strong><a href="https://docs.google.com/spreadsheets/d/1vSDayPh18LCMKmkM9jo2OyrHWaxp87qg8_AViv2bygw/edit?usp=sharing">Spreadsheet</a> </strong>para que puedan ver y analizar los resultados (pueden hacer una copia o bajar las hojas en formato csv). Esperamos también los análisis de la comunidad!</p>
 <p>La imagen del post es de <a href="https://twitter.com/facu_pedrini/status/1089918623148314625/" target="_blank" rel="noopener noreferrer">@facu_pedrini</a> y les dejamos algunas de las frases que nos regalaron:</p>

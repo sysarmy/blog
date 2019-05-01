@@ -25,7 +25,6 @@ Url: 2015/03/15/vos-de-que-trabajabas
 date: 2015-03-15
 ---
 
-{{% img src="/blog/assets/xkcd.png" class="half right" %}}
 <p>Hace unos días les pedimos que nos contaran lo que contestan cuando <strong><a title="De qué trabajás?" href="2015/02/20/de-que-trabajas/">alguien les pregunta por su trabajo</a></strong>. A continuación algunas de las mejores respuestas:</p>
 <h3><strong>De qué trabaja un SysAdmin?</strong></h3>
 <blockquote><p>Soy la puta que esta para hacer todo lo que se te canten las pelotas.. desde regularte la temperatura del calefon a averiguar porque el correo que le mandaste a wwww@.com no le contesta..</p></blockquote>

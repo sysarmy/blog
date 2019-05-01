@@ -25,7 +25,6 @@ Url: 2014/10/05/s01e01-pilot
 date: 2014-10-05
 ---
 
-{{% img src="/blog/assets/logo.png" class="half right" %}}
 <p>Lanzamos este blog como un PoC (Proof of Concept) ya que tuvimos varias discusiones internas con respecto a qué motor usar.</p>
 <p>Había que tener en cuenta:</p>
 <ul>

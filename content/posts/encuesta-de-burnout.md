@@ -15,6 +15,7 @@ Section:
 Slug: encuesta-de-burnout
 Tags:
 - sysarmy
+- encuesta
 Thumbnail: /blog/assets/gettyimages-175268984.jpg
 Title: Encuesta de burnout
 Topics:
@@ -25,7 +26,6 @@ Url: 2019/04/04/encuesta-de-burnout
 date: 2019-04-04
 ---
 
-{{% img src="/blog/assets/gettyimages-175268984.jpg" class="half right" %}}
 <p>Nos llevó casi 5 años, pero finalmente pudimos hacer un seguimiento de nuestra encuesta de <a href="2014/11/14/s01e02-encuesta-de-insatisfaccion-laboral/">(in)satisfacción laboral</a>.</p>
 <p><strong><a href="https://docs.google.com/spreadsheets/d/16EpuM7gi4wCSryrsaX0VMMN6e6Vr4JHe-ek1mm-gyFE/edit#gid=896578516">Recolectamos más de 450 respuestas y, como es nuestra costumbre, abrimos la data</a>.</strong> ¡Esperamos con ansiedad los análisis que la comunidad pueda hacer sobre estos resultados!</p>
 <p>EDIT #1: nos envían una <a href="https://docs.google.com/document/d/1PEXfq1N0tUQPAhIvloINRpeciiV-eMG-BPwlHON5ywY/edit?ts=5ca6ae58">visualización de las respuestas</a></p>

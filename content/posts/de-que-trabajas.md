@@ -25,7 +25,6 @@ Url: 2015/02/20/de-que-trabajas
 date: 2015-02-20
 ---
 
-{{% img src="/blog/assets/titc.jpg" class="half right" %}}
 <blockquote><em>De dónde venimos? Hacia dónde vamos? <strong>De qué trabajás?</strong></em></p></blockquote>
 <p>Ésas deben ser las preguntas más difíciles de responder para alguien de sistemas.</p>
 <p><strong>Cómo explicar</strong> a los que tienen poco conocimiento de lo nuestro, que hay personas que trabajan con computadoras "más grandes" que las que ellos conocen y que están conectadas entre sí por cables que no son los que ellos usan.</p>

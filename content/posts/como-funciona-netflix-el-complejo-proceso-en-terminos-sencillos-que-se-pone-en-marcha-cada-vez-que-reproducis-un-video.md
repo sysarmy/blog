@@ -12,20 +12,19 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: como-funciona-netflix-el-complejo-proceso-en-terminos-sencillos-que-se-pone-en-marcha-cada-vez-que-reproducis-un-video
+Slug: como-funciona-netflix-el-complejo-proceso-en-terminos-sencillos
 Tags:
 - sysarmy
 Thumbnail: /blog/assets/https3a2f2fcdn-images-1-medium-com2fmax2f16002f04q74mywyhitabob1-jpg.jpeg
-Title: Cómo funciona Netflix - el complejo proceso (en términos sencillos) que se pone en marcha cada vez que reproducís un video
+Title: Cómo funciona Netflix - el complejo proceso en términos sencillos
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2017/12/06/como-funciona-netflix-el-complejo-proceso-en-terminos-sencillos-que-se-pone-en-marcha-cada-vez-que-reproducis-un-video
+Url: 2017/12/06/como-funciona-netflix-el-complejo-proceso-en-terminos-sencillos
 date: 2017-12-06
 ---
 
-{{% img src="/blog/assets/https3a2f2fcdn-images-1-medium-com2fmax2f16002f04q74mywyhitabob1-jpg.jpeg" class="half right" %}}
 <p><em>Artículo original en inglés: <a href="https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b" target="_blank" rel="noopener">https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b</a></em></p>
 <p><img title="" src="assets/image.png" alt="" width="794" height="390" /></p>
 <p>Hace poco volvió <i>Stranger Things</i> con su segunda temporada y se puso fin a la larga espera que tenía en vilo a todos los amantes de la ciencia ficción. Para estas personas, empezar una maratón es algo tan sencillo como disponer de un dispositivo o un control remoto, abrir la aplicación de Netflix y apretar “Reproducir”. Una gratificación sencilla, rápida e instantánea.</p>

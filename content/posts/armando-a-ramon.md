@@ -25,7 +25,6 @@ Url: 2015/12/14/armando-a-ramon
 date: 2015-12-14
 ---
 
-{{% img src="/blog/assets/12184149_920268121343011_5167075062998985260_o.jpg" class="half right" %}}
 <p>Hace un año y monedas, en la célebre <a href="https://www.ekoparty.org/" target="_blank">#eko10</a> hizo su entrada en escena el que luego sería nombrado 'muñeko'. Con la consigna 'No Soporto Más', la gente podía acercarse a nuestro stand y descargarse, imaginando que le pegaban a su jefe, a sus usuarios, sus devs, etc. Tuvo una vida bastante corta, ya que la primera versión duró unas pocas horas, y la segunda llegó a los dos días pidiendo el cambio urgente.</p>
 <p>Para la siguiente ekoparty, queríamos retomar la idea, pero sin tener que sufrir constantemente pensando que al siguiente golpe el muñeko se iba a desarmar. Así que este año nos pusimos en campaña para dar nacimiento a Ramón, con ese mismo objetivo (qué equivocados que estábamos).</p>
 <p>Por voto popular (es decir, porque fue el único que se ofreció), Ramón, la nueva encarnación del muñeko, fue hosteado temporalmente en la casa de godlike desde sus inicios, con la idea de fabricar partes extras (hola señora cabeza). Por si no se entiende, aparte de un Ramón y un soporte, también conseguimos esto:</p>

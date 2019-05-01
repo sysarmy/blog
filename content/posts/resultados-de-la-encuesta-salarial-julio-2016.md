@@ -25,7 +25,6 @@ Url: 2016/08/22/resultados-de-la-encuesta-salarial-julio-2016
 date: 2016-08-22
 ---
 
-{{% img src="/blog/assets/encuesta.png" class="half right" %}}
 <p>Queremos agradecer a los más de 4000 participantes que formaron parte de esta nueva encuesta de sueldos!</p>
 <p>&nbsp;</p>
 <p>Les dejamos un <strong><a href="assets/encuesta-sysarmy-julio-2016.pdf" target="_blank" rel="noopener">PDF con algunos gráficos</a></strong> sobre los resultados y quienes que quieran comparar su sueldo con el de otros pares, pueden utilizar este <strong><a href="https://goo.gl/3u5GuE" target="_blank" rel="noopener">Google Spreadsheet</a></strong>. Aquellos que tengan ganas de hacer un análisis más exhaustivo también pueden descargar un <strong><a href="https://drive.google.com/open?id=1axuz2PvpbQp85hpbV9Fk6tXKx0XHvx-Z">zip con los resultados en csv</a></strong>.</p>

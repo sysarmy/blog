@@ -25,7 +25,6 @@ Url: 2017/08/15/como-levante-un-viejo-proliant-o-la-espada-del-rey-arturo
 date: 2017-08-15
 ---
 
-{{% img src="/blog/assets/img_20170703_201217_766.jpg" class="half right" %}}
 <p><em>Por <a href="http://twitter.com/pcarboni">Pablo Carboni</a>.</em></p>
 <p>El sábado de la última semana de junio, asistí a <a href="http://nerdear.la">nerdear.la 2017</a> - puntual, 9hs - a las charlas previstas. Además de eso, concurrí con una vieja notebook (año 2000), con todo sus elementos originales, CDs grabados inclusive, de FreeBSD(4.x), lista para donarla al Museo de la Informática.</p>
 <p>En el evento había como desafío 'revivir' un Compaq Proliant DL360 G1 (2001) e instalarle un servidor web.</p>

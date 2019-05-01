@@ -25,7 +25,6 @@ Url: 2016/03/17/multiples-vulnerabilidades-en-openssl-esto-es-lo-que-hay-que-hac
 date: 2016-03-17
 ---
 
-{{% img src="/blog/assets/drown-1.png" class="half right" %}}
 <p><em>Post original escrito por <a href="https://twitter.com/johannorrman">Johan Norrman</a> de <a href="https://detectify.com/">Detectify</a> para <strong>sysarmy</strong>.</em></p>
 <p>&nbsp;</p>
 <p class="western"><span style="color:#000000;"><span style="font-family:Arial, serif;"><span lang="en-US">Marzo podría haber empezado mejor para el equipo de OpenSSL. Durante la última semana, el equipo de desarrollo de OpenSSL publicó dos CVEs de alto impacto, </span></span></span><span style="color:#0000ff;"><u><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0800"><span style="color:#000000;"><span style="font-family:Arial, serif;"><span lang="en-US">CVE-2016-0800</span></span></span></a></u></span><span style="color:#000000;"><span style="font-family:Arial, serif;"><span lang="en-US"> y </span></span></span><span style="color:#0000ff;"><u><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0703"><span style="color:#000000;"><span style="font-family:Arial, serif;"><span lang="en-US">CVE-2016-0703</span></span></span></a></u></span><span style="color:#000000;"><span style="font-family:Arial, serif;"><span lang="en-US">. En este post, explicamos cómo las CVEs pueden comprometer tu seguridad y qué pasos podés tomar para asegurarte.</span></span></span></p>

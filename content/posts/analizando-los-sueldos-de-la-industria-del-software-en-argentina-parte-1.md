@@ -25,7 +25,6 @@ Url: 2016/08/29/analizando-los-sueldos-de-la-industria-del-software-en-argentina
 date: 2016-08-29
 ---
 
-{{% img src="/blog/assets/1-y7wayzgfzmxktejssq3prq.png" class="half right" %}}
 <p class="graf--p">Un tiempo atrás, hicimos una encuesta sobre el estado laboral de los trabajadores de software en Argentina y divulgamos los resultados de la misma, <a class="markup--anchor markup--p-anchor" href="https://drive.google.com/open?id=1axuz2PvpbQp85hpbV9Fk6tXKx0XHvx-Z" target="_blank" rel="noopener">disponibles acá</a>.</p>
 <p class="graf--p">Hoy vamos a analizarlos paso a paso, usando el lenguaje R. Todo el código está <a class="markup--anchor markup--p-anchor" href="https://github.com/fernandezpablo85/sysarmy-salaries-data-2016/" target="_blank" rel="noopener">disponible online</a> con licencia MIT.</p>
 <p class="graf--p">Ante cualquier duda, comentario o mejora, abran un ticket en el repo. También respondo por twitter en <a class="markup--anchor markup--p-anchor" href="https://twitter.com/fernandezpablo" target="_blank" rel="noopener">@fernandezpablo</a></p>

@@ -25,7 +25,6 @@ Url: 2018/08/06/irc-sysarmy-r-en-freenode
 date: 2018-08-06
 ---
 
-{{% img src="/blog/assets/screen-shot-2018-08-06-at-17-19-19.png" class="half right" %}}
 <div style="text-align:justify;">En estos últimos días Freenode (la red de IRC donde está alojado el canal de chat de sysarmy) está sufriendo ataques de spam diarios:</div>
 <div style="text-align:justify;"></div>
 <div style="text-align:justify;">

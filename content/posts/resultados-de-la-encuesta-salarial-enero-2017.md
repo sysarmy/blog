@@ -25,7 +25,6 @@ Url: 2017/02/15/resultados-de-la-encuesta-salarial-enero-2017
 date: 2017-02-15
 ---
 
-{{% img src="/blog/assets/330973_14871194668374_rid13.jpg" class="half right" %}}
 <p>Queremos agradecer a los más de 4000 participantes que formaron parte de esta nueva encuesta de sueldos!</p>
 <p>Les dejamos este <strong><a href="https://goo.gl/zbKKIy" target="_blank" rel="noopener">Google Spreadsheet</a> </strong>para que puedan ver y analizar los resultados (pueden hacer una copia o bajar las hojas en formato csv). Pedimos disculpas por un problema en Google Forms que no pudimos solucionar, relacionado con las tecnologías utilizadas por puesto. Para la próxima encuesta vamos a elegir una plataforma más robusta y acorde para la cantidad de preguntas y volumen de respuestas que estamos obteniendo.</p>
 <p>Esperamos con ansias los análisis de la comunidad!</p>

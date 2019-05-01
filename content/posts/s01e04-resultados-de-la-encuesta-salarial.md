@@ -25,7 +25,6 @@ Url: 2014/12/31/s01e04-resultados-de-la-encuesta-salarial
 date: 2014-12-31
 ---
 
-{{% img src="/blog/assets/stallman.jpg" class="half right" %}}
 <p>No queríamos terminar el año sin compartir <a href="assets/sysarmy-encuesta_remuneracion_salarial_2014.pdf">los resultados</a> de la <a title="S01E03 – Encuesta anónima de remuneración salarial" href="2014/11/25/s01e03-encuesta-de-remuneracion-salarial/">encuesta de salarios</a>. Esperamos para la próxima poder hacer un análisis más profundo de la información.</p>
 <p>Recordamos que los datos son sólo los promedios de las respuestas que obtuvimos. no es una estadística exacta ni representativa (<em>léase, no vayan a pedir aumento usando estos números como justificativo</em>)</p>
 <p><strong>Y algunos comentarios:</strong></p>

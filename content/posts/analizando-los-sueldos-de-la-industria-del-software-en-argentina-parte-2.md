@@ -25,7 +25,6 @@ Url: 2016/09/06/analizando-los-sueldos-de-la-industria-del-software-en-argentina
 date: 2016-09-06
 ---
 
-{{% img src="/blog/assets/1-p-i0_gpvcdhpg_uokpnayq.png" class="half right" %}}
 <p class="graf--p">En el <a class="markup--anchor markup--p-anchor" href="2016/08/29/analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-1/">primer post</a> hicimos un <strong class="markup--strong markup--p-strong">análisis exploratorio</strong> general de los sueldos, en este vamos a realizar una <strong class="markup--strong markup--p-strong">inferencia estadística</strong>. Otra vez, todo el código se encuentra <a class="markup--anchor markup--p-anchor" href="https://github.com/fernandezpablo85/sysarmy-salaries-data-2016" target="_blank">disponible acá</a>.</p>
 <h4 class="graf--h4">Hipótesis</h4>
 <p class="graf--p">Primero formulamos una hipótesis:</p>

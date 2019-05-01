@@ -25,7 +25,6 @@ Url: 2014/11/14/s01e02-encuesta-de-insatisfaccion-laboral
 date: 2014-11-14
 ---
 
-{{% img src="/blog/assets/office-space.png" class="half right" %}}
 <p>A principios del mes de septiembre realizamos una <a title="pequeña encuesta" href="https://docs.google.com/a/sysarmy.com.ar/forms/d/1BPqgUJE3I7ZS79QBkHSc6ZdK4XcJsSyVP5UMQIPZwuw/viewform">pequeña encuesta</a> anónima para saber cómo se encontraban los sysadmins (y otros profesionales) en su ambiente laboral.</p>
 <p>&nbsp;</p>
 <p>Obtuvimos <a title="sysarmy-encuesta_insatisfaccion_laboral" href="assets/sysarmy-encuesta_insatisfaccion_laboral-1.pdf">más de 400 respuestas</a>, de todo tipo. Si bien la mayoría se quejó del factor salarial y las condiciones laborales, vale la pena remarcar que hubo muchas menciones positivas para varias empresas.</p>
