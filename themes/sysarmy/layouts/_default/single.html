@@ -5,6 +5,9 @@
 
 <section id="main">
   <h1 itemprop="name" id="title">{{ .Title }}</h1>
+  {{ if (isset .Params "Thumbail") }}
+  	<img src="{{ .Params.Thumbnail }}" alt="{{ .Title }}">
+  {{ end }}
   <div>
         <article itemprop="articleBody" id="content">
            {{ .Content }}
