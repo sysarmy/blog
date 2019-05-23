@@ -297,7 +297,7 @@ footer a {
 
 section a:hover,
 footer a:hover {
-    background: #fafafa
+    /* background: #fafafa */
 }
 
 .scrollable {
