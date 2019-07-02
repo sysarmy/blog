@@ -1,6 +1,6 @@
 baseURL = "https://sysarmy.com/blog/"
 languageCode = "en-us"
-title = "Blog Sysarmy"
+title = "El blog de quienes dan soporte"
 theme = "sysarmy"
 publishDir = "sysarmy.github.io/blog"
 MetaDataFormat = "toml"
