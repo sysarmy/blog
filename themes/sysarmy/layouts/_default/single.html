@@ -66,9 +66,11 @@
 </div>
 {{ $.Page.Scratch.Set "photoswipeloaded" 1 }}
            {{ .Content }}
+           {{ partial "veeam.html" . }}
         </article>
   </div>
 </section>
+
 
 {{ partial "meta_aside.html" . }}
 
