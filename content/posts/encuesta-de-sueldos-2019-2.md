@@ -19,9 +19,9 @@ Tags:
 - sysarmy
 - encuesta
 - sueldos
-Thumbnail: /blog/assets/billete500.jpg
-socialImage: /blog/assets/billete500.jpg
-featuredImage: /blog/assets/billete500.jpg
+Thumbnail: https://sysarmy.com/blog/assets/billete500.jpg
+socialImage: https://sysarmy.com/blog/assets/billete500.jpg
+featuredImage: https://sysarmy.com/blog/assets/billete500.jpg
 Title: Encuesta de sueldos 2019.2
 Topics:
 - Development
