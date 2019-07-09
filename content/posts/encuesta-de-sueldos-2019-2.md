@@ -1,5 +1,5 @@
 ---
-Description: "Sysarmy - Comunidad de sistemas"
+Description: "¡Lanzamos la décima edición de nuestra encuesta de sueldos!"
 Keywords:
 - sysadmin 
 - sistemas
@@ -20,6 +20,8 @@ Tags:
 - encuesta
 - sueldos
 Thumbnail: /blog/assets/billete500.jpg
+socialImage: /blog/assets/billete500.jpg
+featuredImage: /blog/assets/billete500.jpg
 Title: Encuesta de sueldos 2019.2
 Topics:
 - Development
