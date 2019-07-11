@@ -3,8 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sysarmy.com/blog/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://sysarmy.com/blog/posts/encuesta-de-sueldos-2019-2/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/posts/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/encuesta/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/sueldos/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/sysarmy/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -153,6 +189,12 @@
   </url>
   
   <url>
+    <loc>https://sysarmy.com/blog/tags/nerdearla/</loc>
+    <lastmod>2015-05-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://sysarmy.com/blog/2015/04/13/por-que-baila-el-mono/</loc>
     <lastmod>2015-04-13T00:00:00+00:00</lastmod>
   </url>
@@ -220,48 +262,6 @@
   
   <url>
     <loc>https://sysarmy.com/blog/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/encuesta/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/nerdearla/</loc>
-    <lastmod>2015-05-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/posts/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/sueldos/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/sysarmy/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/</loc>
-    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
