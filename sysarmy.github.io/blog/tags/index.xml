@@ -6,13 +6,22 @@
     <description>Recent content in Tags on El blog de quienes dan soporte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sysarmy.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>encuesta</title>
+      <title>Blog</title>
+      <link>https://sysarmy.com/blog/tags/blog/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysarmy.com/blog/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Encuesta</title>
       <link>https://sysarmy.com/blog/tags/encuesta/</link>
       <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
       
@@ -21,25 +30,7 @@
     </item>
     
     <item>
-      <title>sueldos</title>
-      <link>https://sysarmy.com/blog/tags/sueldos/</link>
-      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sysarmy.com/blog/tags/sueldos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sysarmy</title>
-      <link>https://sysarmy.com/blog/tags/sysarmy/</link>
-      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sysarmy.com/blog/tags/sysarmy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nerdearla</title>
+      <title>Nerdearla</title>
       <link>https://sysarmy.com/blog/tags/nerdearla/</link>
       <pubDate>Thu, 07 May 2015 00:00:00 +0000</pubDate>
       
@@ -48,11 +39,20 @@
     </item>
     
     <item>
-      <title>blog</title>
-      <link>https://sysarmy.com/blog/tags/blog/</link>
-      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      <title>Sueldos</title>
+      <link>https://sysarmy.com/blog/tags/sueldos/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sysarmy.com/blog/tags/blog/</guid>
+      <guid>https://sysarmy.com/blog/tags/sueldos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sysarmy</title>
+      <link>https://sysarmy.com/blog/tags/sysarmy/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysarmy.com/blog/tags/sysarmy/</guid>
       <description></description>
     </item>
     

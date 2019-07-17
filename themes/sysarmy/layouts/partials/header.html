@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="https://sysarmy.com/favicon.png" />
+    <link rel="apple-touch-icon" href="https://sysarmy.com/favicon.png" />	
     {{ partial "meta.html" . }}
 
     <base href="{{ .Site.BaseURL }}">
@@ -10,6 +11,4 @@
     {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
 
     {{ partial "head_includes.html" . }}
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/favicon.ico" />	
 </head>
