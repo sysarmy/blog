@@ -2297,3 +2297,22 @@ body>footer p {
 .icon-headphones:before {
     content: "\e014"
 }
+
+/**Agregar veeam logo**/
+.dcmads.desktop {
+    display: inline-block !important;
+}
+
+.dcmads.mobile {
+    display: none !important;
+}
+
+@media screen and (max-width: 800px) {
+    .dcmads.desktop {
+        display: none !important;
+    }
+
+    .dcmads.mobile {
+        display: inline-block !important;
+    }
+}
