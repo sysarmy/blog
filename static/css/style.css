@@ -2299,20 +2299,20 @@ body>footer p {
 }
 
 /**Agregar veeam logo**/
-.dcmads.desktop {
+.ve-desktop {
     display: inline-block !important;
 }
 
-.dcmads.mobile {
+.ve-mobile {
     display: none !important;
 }
 
 @media screen and (max-width: 800px) {
-    .dcmads.desktop {
+    .ve-desktop {
         display: none !important;
     }
 
-    .dcmads.mobile {
+    .ve-mobile {
         display: inline-block !important;
     }
 }
