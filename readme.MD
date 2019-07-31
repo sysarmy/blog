@@ -2,7 +2,6 @@
 
 El blog de Sysarmy fue migrado desde Wordpress hacia [Go Hugo](https://gohugo.io/).
 
-
 ## Instalación y configuracion de Go Hugo
 Utilizando brew se debe correr el siguiente comando
 ```bash
