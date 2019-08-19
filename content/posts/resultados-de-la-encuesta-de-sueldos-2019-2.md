@@ -34,8 +34,8 @@ date: 2019-08-19
 <p>Queremos agradecerle a las <strong>más de 3200 personas</strong> que se tomaron unos minutos para completar el pulso de julio. Estamos felices de compartir las respuestas con la comunidad para que puedan hacer sus análisis. Al tener más del 90% de las entradas provinientes de Argentina, separamos los archivos en dos: Argentina y resto de los países relevados. Esperamos en los próximos días lanzar las estadísticas desde <a href="https://openqube.io">openqube.io</a></p>
 
 <ul>
-  <li><a href="https://bit.ly/sueldos20192arg">Resultados 2019.2 para Argentina</li>
-  <li><a href="https://bit.ly/sueldos20192latam">Resultados 2019.2 para el resto de los países relevados</li>
+  <li><a href="https://bit.ly/sueldos20192arg">Resultados 2019.2 para Argentina</a></li>
+  <li><a href="https://bit.ly/sueldos20192latam">Resultados 2019.2 para el resto de los países relevados</a></li>
 </ul>
 
 Al igual que en cada edición, les dejamos algunos quotes que nos regalaron:
