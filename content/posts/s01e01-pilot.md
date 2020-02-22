@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2014/10/05/s01e01-pilot
 date: 2014-10-05
+markup: html
 ---
 
 <p>Lanzamos este blog como un PoC (Proof of Concept) ya que tuvimos varias discusiones internas con respecto a qué motor usar.</p>

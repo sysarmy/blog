@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/02/01/s02e03-mudanza
 date: 2015-02-01
+markup: html
 ---
 
 <p>Conforme vamos creciendo como comunidad, también va creciendo la cantidad proyectos y gente que participa de los mismos. Finalmente el mes pasado pudimos finalizar la mudanza de la web, el blog y otros varios sitios a una nueva casa que nos permitirá hacer más cosas y de manera más sencilla.</p>

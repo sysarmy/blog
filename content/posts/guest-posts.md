@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/06/26/guest-posts
 date: 2015-06-26
+markup: html
 ---
 
 <p>Desde <a href="https://www.youtube.com/watch?v=qA_DM3oIVD0">nerdear.la</a> estamos muy ocupados con cosas nuevas (cofcof <a href="https://help.sysarmy.com"> --help </a> cofcof) así que abrimos la convocatoria a aquellos que quieran colaborar escribiendo algún artículo técnico que pueda ser de utilidad para la comunidad.</p>

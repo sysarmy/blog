@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2016/03/17/multiples-vulnerabilidades-en-openssl-esto-es-lo-que-hay-que-hacer
 date: 2016-03-17
+markup: html
 ---
 
 <p><em>Post original escrito por <a href="https://twitter.com/johannorrman">Johan Norrman</a> de <a href="https://detectify.com/">Detectify</a> para <strong>sysarmy</strong>.</em></p>

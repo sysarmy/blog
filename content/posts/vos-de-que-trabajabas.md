@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/03/15/vos-de-que-trabajabas
 date: 2015-03-15
+markup: html
 ---
 
 <p>Hace unos días les pedimos que nos contaran lo que contestan cuando <strong><a title="De qué trabajás?" href="2015/02/20/de-que-trabajas/">alguien les pregunta por su trabajo</a></strong>. A continuación algunas de las mejores respuestas:</p>

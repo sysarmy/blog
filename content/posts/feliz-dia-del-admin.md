@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/07/31/feliz-dia-del-admin
 date: 2015-07-31
+markup: html
 ---
 
 <p>No vamos a hacer un post muy extenso ya que todavía estamos preparando muchas cosas para <a href="http://www.adminfest.com"><strong>AdminFest</strong></a> (<strong>HOY !!</strong>) pero queríamos saludar a todos los admins que hacen posible que el mundo siga girando !</p>

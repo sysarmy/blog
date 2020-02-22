@@ -27,6 +27,7 @@ Topics:
 - Leadership
 - Systems
 date: 2019-08-19
+markup: html
 ---
 <p>&nbsp;</p>
 <p>&nbsp;</p>

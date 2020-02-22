@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/02/20/de-que-trabajas
 date: 2015-02-20
+markup: html
 ---
 
 <blockquote><em>De dónde venimos? Hacia dónde vamos? <strong>De qué trabajás?</strong></em></p></blockquote>

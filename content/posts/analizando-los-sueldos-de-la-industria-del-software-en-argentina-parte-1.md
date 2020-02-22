@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2016/08/29/analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-1
 date: 2016-08-29
+markup: html
 ---
 
 <p class="graf--p">Un tiempo atrás, hicimos una encuesta sobre el estado laboral de los trabajadores de software en Argentina y divulgamos los resultados de la misma, <a class="markup--anchor markup--p-anchor" href="https://drive.google.com/open?id=1axuz2PvpbQp85hpbV9Fk6tXKx0XHvx-Z" target="_blank" rel="noopener">disponibles acá</a>.</p>

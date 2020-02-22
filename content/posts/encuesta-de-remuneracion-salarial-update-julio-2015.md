@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/07/02/encuesta-de-remuneracion-salarial-update-julio-2015
 date: 2015-07-02
+markup: html
 ---
 
 <p>Al finalizar el año pasado hicimos una <strong><a title="S01E04 – Resultados de la encuesta salarial" href="2014/12/s01e04-resultados-de-la-encuesta-salarial/">breve encuesta anónima</a></strong> para medir cómo estaba el <strong>mercado IT en Argentina</strong>.</p>

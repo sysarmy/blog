@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2016/10/12/analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-3
 date: 2016-10-12
+markup: html
 ---
 
 <section class="section section--body">

@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2016/12/26/encuesta-salarial-2017-1
 date: 2016-12-26
+markup: html
 ---
 
 <p>Terminamos el año con una nueva encuesta salarial para todo Latinoamérica, con nuevas preguntas en base a las sugerencias que tuvimos en la edición anterior. Al finalizar la encuesta vamos a publicar el csv para que la comunidad pueda analizar los resultados.</p>

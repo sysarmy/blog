@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2018/09/04/resultados-de-la-encuesta-de-sueldos-2018-2
 date: 2018-09-04
+markup: html
 ---
 
 <p><strong>En esta ocasión juntamos más de 2000 respuestas a este pulso de mitad de año.</strong></p>

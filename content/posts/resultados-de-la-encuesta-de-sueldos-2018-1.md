@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2018/03/05/resultados-de-la-encuesta-de-sueldos-2018-1
 date: 2018-03-05
+markup: html
 ---
 
 <p><strong>Queremos agradecer a las más de 4700 personas que formaron parte de esta nueva encuesta de sueldos!</strong></p>

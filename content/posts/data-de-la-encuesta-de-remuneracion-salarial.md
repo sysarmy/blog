@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/09/30/data-de-la-encuesta-de-remuneracion-salarial
 date: 2015-09-30
+markup: html
 ---
 
 <p>Hace un tiempo hicimos un update de nuestra encuesta semestral de sueldos y si bien todavía no pudimos publicar el análisis y gráficos como nos gustaría hacerlo, les dejamos los resultados obtenidos:</p>

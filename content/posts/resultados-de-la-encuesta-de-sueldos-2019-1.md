@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2019/02/22/resultados-de-la-encuesta-de-sueldos-2019-1
 date: 2019-02-22
+markup: html
 ---
 
 <p>No se pierdan <a href="https://openqube.io/sueldos"><strong>el análisis que realizó openqube</strong></a> con las más de 4700 respuestas obtenidas!</p>

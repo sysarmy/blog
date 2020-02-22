@@ -24,6 +24,7 @@ Topics:
 - Systems
 Url: 2019/04/04/encuesta-de-burnout
 date: 2019-04-04
+markup: html
 ---
 
 <p>Nos llevó casi 5 años, pero finalmente pudimos hacer un seguimiento de nuestra encuesta de <a href="2014/11/14/s01e02-encuesta-de-insatisfaccion-laboral/">(in)satisfacción laboral</a>.</p>

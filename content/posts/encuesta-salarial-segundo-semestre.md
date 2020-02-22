@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2016/07/11/encuesta-salarial-segundo-semestre
 date: 2016-07-11
+markup: html
 ---
 
 <p>Comenzamos el segundo semestre con todo y es por eso que lanzamos una nueva encuesta salarial.</p>

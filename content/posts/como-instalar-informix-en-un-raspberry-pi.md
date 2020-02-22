@@ -22,6 +22,7 @@ Topics:
 - Systems
 Url: 2015/09/07/como-instalar-informix-en-un-raspberry-pi
 date: 2015-09-07
+markup: html
 ---
 
 <p>Ésta es una receta para instalar Informix Dynamic Server Developer Edition en una RaspberryPi utilizando raw devices (Como somos sysadmines, queremos raw devices).</p>

@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2016/02/15/recruiters-vs-sysadmins-la-pelea-eterna-parte-1
 date: 2016-02-15
+markup: html
 ---
 
 <p>No importa de qué bando seas, seguramente más de una vez tuviste un encontronazo con alguien del otro equipo. La idea atrás de esto es limar un poco las asperezas y tratar que todos llevemos la fiesta en paz. Si no se puede, entraremos en la carrera armamentística, pero al menos los libros de historia van a decir que lo intentamos.</p>

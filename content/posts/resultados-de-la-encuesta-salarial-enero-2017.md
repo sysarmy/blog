@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2017/02/15/resultados-de-la-encuesta-salarial-enero-2017
 date: 2017-02-15
+markup: html
 ---
 
 <p>Queremos agradecer a los más de 4000 participantes que formaron parte de esta nueva encuesta de sueldos!</p>

@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/01/21/s02e02-nerdear-la-2015
 date: 2015-01-21
+markup: html
 ---
 
 <p>Estamos comenzando a organizar una nueva edición de <strong><a href="http://nerdear.la">Nerdear.la</a></strong> y este año, además de las charlas orientadas a sysadmins sobre Sistemas Operativos, networking y nuevas tecnologías, queremos agregar otras temáticas nerd que también nos interesen a los administradores de sistemas.</p>

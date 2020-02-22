@@ -22,6 +22,7 @@ Topics:
 - Systems
 Url: 2015/09/16/configurando-y-usando-informix-en-raspberry-pi
 date: 2015-09-16
+markup: html
 ---
 
 <p>Una vez instalado todo, ahora tenemos que configurar el motor de base de datos y levantarlo.</p>

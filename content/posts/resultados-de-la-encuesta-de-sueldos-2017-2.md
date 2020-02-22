@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2017/09/11/resultados-de-la-encuesta-de-sueldos-2017-2
 date: 2017-09-11
+markup: html
 ---
 
 <p><strong>Queremos agradecer a los más de 5000 participantes que formaron parte de esta nueva encuesta de sueldos!</strong></p>

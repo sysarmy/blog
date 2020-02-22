@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/12/14/armando-a-ramon
 date: 2015-12-14
+markup: html
 ---
 
 <p>Hace un año y monedas, en la célebre <a href="https://www.ekoparty.org/" target="_blank">#eko10</a> hizo su entrada en escena el que luego sería nombrado 'muñeko'. Con la consigna 'No Soporto Más', la gente podía acercarse a nuestro stand y descargarse, imaginando que le pegaban a su jefe, a sus usuarios, sus devs, etc. Tuvo una vida bastante corta, ya que la primera versión duró unas pocas horas, y la segunda llegó a los dos días pidiendo el cambio urgente.</p>

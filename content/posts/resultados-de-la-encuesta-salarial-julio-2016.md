@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2016/08/22/resultados-de-la-encuesta-salarial-julio-2016
 date: 2016-08-22
+markup: html
 ---
 
 <p>Queremos agradecer a los más de 4000 participantes que formaron parte de esta nueva encuesta de sueldos!</p>

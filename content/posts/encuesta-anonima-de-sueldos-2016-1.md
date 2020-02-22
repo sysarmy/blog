@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2016/01/11/encuesta-anonima-de-sueldos-2016-1
 date: 2016-01-11
+markup: html
 ---
 
 <p>Comenzamos el año con una nueva encuesta para evaluar los sueldos del último semestre.</p>

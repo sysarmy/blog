@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/02/09/s02e04-codigo-de-conducta
 date: 2015-02-09
+markup: html
 ---
 
 <p>Debido al crecimiento que estamos teniendo, nos parece apropiado empezar a establecer ciertas pautas. Para eso hemos creado un <strong><a href="https://sysarmy.com/coc/" target="_blank">Código de Conducta</a></strong>, que da algunos lineamientos generales sobre lo que no está permitido en la comunidad. No hace falta tener más que <strong>sentido común</strong> para comprenderlo y aplicarlo.</p>

@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/01/09/s02e01-open-papa
 date: 2015-01-09
+markup: html
 ---
 
 <p>Cerramos el 2014 con la publicación de los resultados de la <strong><a title="S01E04 – Resultados de la encuesta salarial" href="2014/12/31/s01e04-resultados-de-la-encuesta-salarial/">encuesta anónima salarial</a></strong> y, a pedido de muchos, vamos a comenzar el 2015 <strong>abriendo la <del>papa</del> data</strong>.</p>

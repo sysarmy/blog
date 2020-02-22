@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/05/07/agenda-de-nerdearla
 date: 2015-05-07
+markup: html
 ---
 
 <p><strong>Falta menos de una semana para nerdear.la</strong> y ya publicamos la <a href="http://nerdear.la/schedule.php?lang=es"><strong>lista de charlas y workshops</strong></a> !</p>

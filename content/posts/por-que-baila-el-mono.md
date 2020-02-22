@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/04/13/por-que-baila-el-mono
 date: 2015-04-13
+markup: html
 ---
 
 <p>Desde hace varios años, algunas empresas ofrecen <em>beneficios</em> como un adicional al sueldo y, por otro lado, existen cuestiones del día a día que muchas veces son más importantes y hacen al bienestar de los empleados.</p>

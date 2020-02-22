@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2016/03/01/resultados-encuesta-de-sueldos-2016-1
 date: 2016-03-01
+markup: html
 ---
 
 <p>En Enero hicimos un update de nuestra encuestra semestral de sueldos y, como lo prometido es deuda, aquí pueden encontrar los resultados:</p>

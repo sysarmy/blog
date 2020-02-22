@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2017/03/20/polemica-en-var-el-nuevo-show-y-podcast-de-sysarmy
 date: 2017-03-20
+markup: html
 ---
 
 <p>A fines del 2016 pudimos por fin arrancar el proyecto que veníamos postergando hacía <strong>3 años</strong>, la idea de un podcast bajo el nombre de "<strong>Polémica en /var</strong>". El 16 de noviembre de 2016 hicimos público el primer piloto del nuevo master plan para conquistar el mundo. Seguimos a buen ritmo, así que era hora de hacer la presentación formal:</p>

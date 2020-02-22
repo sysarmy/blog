@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2017/08/15/como-levante-un-viejo-proliant-o-la-espada-del-rey-arturo
 date: 2017-08-15
+markup: html
 ---
 
 <p><em>Por <a href="http://twitter.com/pcarboni">Pablo Carboni</a>.</em></p>

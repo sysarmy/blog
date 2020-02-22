@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2014/11/25/s01e03-encuesta-de-remuneracion-salarial
 date: 2014-11-25
+markup: html
 ---
 
 <p>Se viene acercando fin de año y eso suele traer cosas buenas:</p>

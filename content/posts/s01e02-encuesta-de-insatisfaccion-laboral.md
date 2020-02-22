@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2014/11/14/s01e02-encuesta-de-insatisfaccion-laboral
 date: 2014-11-14
+markup: html
 ---
 
 <p>A principios del mes de septiembre realizamos una <a title="pequeña encuesta" href="https://docs.google.com/a/sysarmy.com.ar/forms/d/1BPqgUJE3I7ZS79QBkHSc6ZdK4XcJsSyVP5UMQIPZwuw/viewform">pequeña encuesta</a> anónima para saber cómo se encontraban los sysadmins (y otros profesionales) en su ambiente laboral.</p>

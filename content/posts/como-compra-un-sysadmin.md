@@ -23,6 +23,7 @@ Topics:
 - Systems
 Url: 2015/04/06/como-compra-un-sysadmin
 date: 2015-04-06
+markup: html
 ---
 
 <p><strong>El sysadmin no compra, se adueña.</strong></p>
