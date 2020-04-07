@@ -1,5 +1,5 @@
 ---
-Description: "Polémica en /var S4E0"
+Description: "Polémica en /var S04E00"
 Keywords:
 - sysadmin 
 - sistemas
@@ -14,7 +14,7 @@ Tags:
 Thumbnail: assets/larry_tesler.jpg
 socialImage: assets/larry_tesler.jpg
 featuredImage: assets/larry_tesler.jpg
-Title: Polémica en /var S4E0
+Title: Polémica en /var S04E00
 Topics:
 - sysarmy
 - polemica
@@ -22,24 +22,30 @@ Topics:
 markup: markdown
 date: 2020-04-06
 ---
-[Spotify](https://open.spotify.com/episode/54rOiXC2dyoyKOaBxfw0IB?si=FYKsjR3ETeKWxMihlGlW5g)
 
-# Sponsors Nerdearla 2020
+Increíble pero cierto, arrancamos la 5ta temporada de Polémica en /var ! charlamos sobre algunas de las noticias que transcurrieron en el último mes(es).
+Nos adaptamos a los tiempos que corren y cambiamos el formato a una videollamada donde repasamos lo más interesante del mundo de sistemas.
+
+[Escuchanos en Spotify](https://open.spotify.com/episode/54rOiXC2dyoyKOaBxfw0IB?si=FYKsjR3ETeKWxMihlGlW5g)
+
+<!--more-->
+
+# Gracias a nuestros Sponsors de Nerdearla 2020
 Accenture, WildLife, Santander, Despegar, Nubiral, PedidosYa, Cognizant/Softvision, Tiendanube, ASAPP, Onapsis, Galicia, Innovid, IBM, openqube
 
-# Búsquedas
+# Búsquedas laborales
 
 #### Accenture
-- Python Developer: Python,Oracle and No Sql, Agile development
+- [Python Developer](https://sysar.my/dI65xL): Python,Oracle and No Sql, Agile development
 
 #### Despegar
-- Backend developer: Java, Scala, NoSQL.
+- [Backend developer](https://sysar.my/HMC2lj): Java, Scala, NoSQL.
 
 #### Santander 
-- Frontend developer, agnóstico de tecnología
+- [Frontend developer](https://sysar.my/laN05W), agnóstico de tecnología
 
 #### Wildlife Studios
-- Site Reliability Engineer: Linux, AWS, Kubernetes
+- [Site Reliability Engineer](https://sysar.my/el08X6): Linux, AWS, Kubernetes
 
 
 # Noticias
@@ -59,7 +65,9 @@ Linus no va a mergear código de ZFS a menos que el abogado principal de Oracle 
 ### [Is SMS 2FA Secure?](https://www.issms2fasecure.com/) 
 No.
 
-### [ProtonVPN libera el código de todas sus aplicaciones](http://bit.ly/30H3wUP): "Somos el primer proveedor de VPN en hacer esto"
+### [ProtonVPN libera el código de todas sus aplicaciones](http://bit.ly/30H3wUP)
+
+"Somos el primer proveedor de VPN en hacer esto"
 Estudios han descubierto que más de un tercio de las VPNs para Android contienen realmente malware, muchas VPNs han sufrido importantes fallos de seguridad y muchos servicios VPN gratuitos que dicen proteger la privacidad están vendiendo secretamente los datos de los usuarios a terceros.
 
 ### [250 millones de registros de clientes de M$ expuestos](https://www.comparitech.com/blog/information-security/microsoft-customer-service-data-leak/)
