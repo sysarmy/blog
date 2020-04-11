@@ -36,7 +36,7 @@ La manera más simple de entender qué es un contenedor es comenzar pensando en 
 
 Más estrictamente hablando, podemos considerar a un contenedor como **un ambiente que ejecuta sus propios procesos, tiene sus propias interfaces de red y puntos de montaje, y se encuentra completamente aislado de otros contenedores**, lo que aumenta la seguridad. Sin embargo, accede al kernel del sistema operativo donde está instalado a través de Docker (o mejor dicho, del Docker Engine) como se observa en la imagen de abajo:
 
-![Estructura de Docker](/img/estructura-docker.png)
+![Estructura de Docker](/assets/estructura-docker.png)
 
 Otra característica distintiva que vemos arriba es que, a diferencia de la virtualización tradicional (que emula hardware), Docker hace lo propio con el kernel del sistema operativo (lo comparte entre todos los contenedores que administra). Por esta razón, los contenedores tienden a ser pequeños en tamaño y en uso de recursos comparados a una máquina virtual ya que no requieren un sistema operativo propio para funcionar (otra ventaja para anotar).
 
@@ -84,6 +84,18 @@ Puede suceder que el gestor de nuestra distribución no encuentre los siguientes
 
 4. Iniciar el servicio
 
-    `sudo systemctl start docker`
+    sudo systemctl start docker
 
 Una vez que Docker Engine esté ejecutándose, podremos crear un contenedor simple como explicamos a continuación. Si bien es posible crear un contenedor desde cero, para finalizar este artículo haremos uso de una imagen previamente creada.
+
+## Nuestro primer contenedor
+
+[Docker Hub](https://hub.docker.com/) es un repositorio de imágenes Docker que contiene tanto alternativas oficiales (creadas y mantenidas por empresas) como no oficiales (provenientes de desarrolladores individuales o equipos independientes de cualquier parte del mundo). Una de las imágenes más populares que se utiliza a menudo con fines didácticos al introducir el mundo de Docker a nuevos adeptos es **whalesay**, una variación del **cowsay** clásico de Linux. Como es de esperarse, la figura que se muestra es una ballena (del logo de Docker) en vez de la famosa vaca.
+
+Para ejecutar **whalesay** utilizaremos `docker run` de la siguiente forma. La primera vez que lo hagamos, `docker` descargará la imagen de Docker Hub, mientras que en ejecuciones posteriores la utilizará sin necesidad de hacerlo nuevamente.
+
+    sudo docker run docker/whalesay cowsay "Aguanten Docker y sysarmy!"
+
+![Ejecución de whalesay](/assets/docker-whalesay-sysarmy.png)
+
+En próximos artículos describiremos otros comandos para administrar contenedores y crear los nuestros propios. ¡Nos leemos en breve!
