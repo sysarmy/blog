@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>El blog de quienes dan soporte</title>
@@ -6,10 +6,22 @@
     <description>Recent content on El blog de quienes dan soporte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sysarmy.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Join sysarmy</title>
+      <link>https://sysarmy.com/blog/posts/crear-usuario-en-freenode-para-joinerte-a-sysarmy/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysarmy.com/blog/posts/crear-usuario-en-freenode-para-joinerte-a-sysarmy/</guid>
+      <description>Que? Simple, vamos a explicar como unirse al chat de sysarmy creando un usuario dentro de freenode con el cliente XChat.
+A la consola Primero, a descargar el Xchat.
+sudo apt-get install -y xchat  Después, abrimos el XChat e ingresan lo que le pide según su situación procesal:
+ Información de Usuario:  Apodo: Su handler, nickname o como quieren aparecer Segunda opción: Si eso llega a estar tomado, como queren aparecer Tercera opción: Ok, si estás en este punto es porque tenés mucha mala suerte.</description>
+    </item>
     
     <item>
       <title>Polémica en /var S04E00</title>
@@ -19,6 +31,7 @@
       <guid>https://sysarmy.com/blog/posts/polemicaenvar-s04e00-noticias/</guid>
       <description>&lt;p&gt;Increíble pero cierto, arrancamos la 5ta temporada de Polémica en /var ! charlamos sobre algunas de las noticias que transcurrieron en el último mes(es).
 Nos adaptamos a los tiempos que corren y cambiamos el formato a una videollamada donde repasamos lo más interesante del mundo de sistemas.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://open.spotify.com/episode/54rOiXC2dyoyKOaBxfw0IB?si=FYKsjR3ETeKWxMihlGlW5g&#34;&gt;Escuchanos en Spotify&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     

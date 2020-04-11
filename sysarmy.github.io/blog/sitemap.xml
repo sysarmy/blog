@@ -1,20 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sysarmy.com/blog/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/podcast/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/polemicaenvar/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <loc>https://sysarmy.com/blog/posts/crear-usuario-en-freenode-para-joinerte-a-sysarmy/</loc>
+    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,57 +13,12 @@
   </url>
   
   <url>
-    <loc>https://sysarmy.com/blog/posts/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/sistemas/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/sysarmy/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/coronavirus/</loc>
-    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/covid19/</loc>
-    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/cuarentena/</loc>
-    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sysarmy.com/blog/posts/cuarentenarmy/</loc>
     <lastmod>2020-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sysarmy.com/blog/tags/encuesta/</loc>
-    <lastmod>2020-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sysarmy.com/blog/posts/resultados-de-la-encuesta-de-sueldos-2020-1/</loc>
-    <lastmod>2020-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sysarmy.com/blog/tags/sueldos/</loc>
     <lastmod>2020-02-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -233,11 +178,6 @@
   </url>
   
   <url>
-    <loc>https://sysarmy.com/blog/tags/nerdearla/</loc>
-    <lastmod>2015-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sysarmy.com/blog/2015/04/13/por-que-baila-el-mono/</loc>
     <lastmod>2015-04-13T00:00:00+00:00</lastmod>
   </url>
@@ -293,17 +233,103 @@
   </url>
   
   <url>
-    <loc>https://sysarmy.com/blog/tags/blog/</loc>
-    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sysarmy.com/blog/2014/10/05/s01e01-pilot/</loc>
     <lastmod>2014-10-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://sysarmy.com/blog/tags/blog/</loc>
+    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://sysarmy.com/blog/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/coronavirus/</loc>
+    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/covid19/</loc>
+    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/cuarentena/</loc>
+    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/</loc>
+    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/encuesta/</loc>
+    <lastmod>2020-02-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/join/</loc>
+    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/nerdearla/</loc>
+    <lastmod>2015-05-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/podcast/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/polemicaenvar/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/posts/</loc>
+    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/sistemas/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/sueldos/</loc>
+    <lastmod>2020-02-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/sysarmy/</loc>
+    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sysarmy.com/blog/tags/</loc>
+    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
