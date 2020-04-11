@@ -32,7 +32,7 @@
         <meta property="og:image" content="{{ .Site.Params.heroImage }}">
         <meta property="twitter:image" content="{{ .Site.Params.heroImage }}">
     {{ end }}
-        <meta property="og:url" content="{{ .Permalink }}">
+        <meta property="og:url" content="{{ .RelPermalink }}">
         <meta property="og:site_name" content="sysarmy">
     {{ if .Params.socialImage }}
             <meta property="og:image" content="{{ .Params.socialImage }}">

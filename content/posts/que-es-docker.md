@@ -96,6 +96,6 @@ Para ejecutar **whalesay** utilizaremos `docker run` de la siguiente forma. La p
 
     sudo docker run docker/whalesay cowsay "Aguanten Docker y sysarmy!"
 
-![Ejecución de whalesay](/assets/docker-whalesay-sysarmy.png)
+![Ejecución de whalesay](assets/docker-whalesay-sysarmy.png)
 
 En próximos artículos describiremos otros comandos para administrar contenedores y crear los nuestros propios. ¡Nos leemos en breve!

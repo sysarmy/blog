@@ -1,12 +1,12 @@
 <article class="post">
-	<a href="{{ .Permalink }}"><img src="{{ .Params.Thumbnail }}" alt="{{ .Title }}"></a>
+	<a href="{{ .RelPermalink }}"><img src="{{ .Params.Thumbnail }}" alt="{{ .Title }}"></a>
     <header>
-      <h2><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a> </h2>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a> </h2>
       <div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} </div>
     </header>
 
     {{ .Summary }}
     <footer>
-        <a href='{{ .Permalink }}'><nobr>Seguir leyendo →</nobr></a>
+        <a href='{{ .RelPermalink }}'><nobr>Seguir leyendo →</nobr></a>
     </footer>
 </article>
