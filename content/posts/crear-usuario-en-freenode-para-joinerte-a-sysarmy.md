@@ -23,9 +23,11 @@ markup: markdown
 date: 2020-04-10
 ---
 
-# Que?
+# Qué?
 
-Simple, vamos a explicar como unirse al chat de sysarmy creando un usuario dentro de freenode con el cliente XChat.
+Simple, vamos a explicar como unirse al chat de sysarmy creando un usuario dentro de freenode con el cliente XChat en Ubuntu.
+
+<!--more-->
 
 ## A la consola
 
@@ -35,13 +37,13 @@ Primero, a descargar el Xchat.
 sudo apt-get install -y xchat
 ```
 
-Después, abrimos el XChat e ingresan lo que le pide según su situación procesal:
+Después, abrimos el [XChat](http://xchat.org/) e ingresan lo que le pide según su situación procesal:
 
 * Información de Usuario:
   - **Apodo**: Su handler, nickname o como quieren aparecer
   - **Segunda opción**: Si eso llega a estar tomado, como queren aparecer
   - **Tercera opción**: Ok, si estás en este punto es porque tenés mucha mala suerte. 
-  - **Nombre se usuario**: Tu username. Es diferente del handler. O sea, no es lo mismo. Me refiero, tu apodo lo podés cambiar, el nombre de usuario no. Si, no es como el tatuaje de tu novia que te hiciste que lo tenés que ir tapando.
+  - **Nombre se usuario**: Tu username. Es diferente del handler. O sea, no es lo mismo. Me refiero, tu apodo lo podés cambiar, el nombre de usuario no. Si, no es como el tatuaje de tu pareja que te hiciste que lo tenés que ir tapando.
   - **Nombre Real**: Eeeh.... obvio no?
 
 ## Creando el usuario en Freenode
@@ -97,6 +99,10 @@ Y listo. La próxima vez que te queiras conectar simplemente ingresá a
 
 Enjoy!
 
+Escrito por [ipf0rw4rd twitter](https://twitter.com/ipf0rw4rd)
+
 [Visit my blog :-)](https://blog.ipforward.co)
 
-[ipf0rw4rd twitter](https://twitter.com/ipf0rw4rd)
+[Artículo Original](https://blog.ipforward.co/2020/04/09/join_sysarmy/)
+
+
