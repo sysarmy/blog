@@ -18,12 +18,17 @@
 
 <section id="main">
   <div>
-      <h1 id="title">{{.Site.Title}}</h1>
-    {{ range first 10 .Site.RegularPages }}
+    <h1 id="title">{{.Site.Title}}</h1>
+    {{ range .Paginator.Pages }}
         {{ .Render "summary"}}
     {{ end }}
   </div>
 </section>
+
+  <div>
+    {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
+    {{ template "_internal/pagination.html" . }}
+  </div>
 
 <aside id="meta"> </aside>
 
