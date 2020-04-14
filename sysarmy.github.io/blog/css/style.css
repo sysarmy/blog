@@ -354,6 +354,18 @@ article>footer {
     -moz-user-select: none
 }
 
+ul.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0 0;
+  padding: 0.5em 0;
+  list-style: none;
+}
+
+ul.pagination li {
+  padding: 0 1em;
+}
+
 #projectmeta {
     padding-bottom: 2em
 }
