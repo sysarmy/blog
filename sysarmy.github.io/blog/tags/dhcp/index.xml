@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dhcp on El blog de quienes dan soporte</title>
+    <link>https://sysarmy.com/blog/tags/dhcp/</link>
+    <description>Recent content in Dhcp on El blog de quienes dan soporte</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sysarmy.com/blog/tags/dhcp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DHCP Starvation</title>
+      <link>https://sysarmy.com/blog/posts/dhcp-starvation/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysarmy.com/blog/posts/dhcp-starvation/</guid>
+      <description>Situación Esto es básicamente agotar las direcciones IP disponibles. Pero no solo eso. El tema es que una vez agotadas las IP, nosotros podemos ser el server DHCP y ser el gateway y que todas las conexiones pasen por nosotros.
+A ver de donde sacamos las IPs que tenemos asignadas Si queremos ver la ip asignada, el tiempo etc
+cat /var/lib/dhcp/dhclient.enp0s3.leases  default-duid &amp;quot;\000\001\000\001%\2465u\010\000&#39;&amp;amp;\354\332&amp;quot;; lease { interface &amp;quot;enp0s3&amp;quot;; fixed-address 10.</description>
+    </item>
+    
+  </channel>
+</rss>

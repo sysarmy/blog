@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sysarmy on El blog de quienes dan soporte</title>
+    <title>Sysarmy on El blog de quienes dan soporte</title>
     <link>https://sysarmy.com/blog/tags/sysarmy/</link>
-    <description>Recent content in sysarmy on El blog de quienes dan soporte</description>
+    <description>Recent content in Sysarmy on El blog de quienes dan soporte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
@@ -18,6 +18,7 @@
       
       <guid>https://sysarmy.com/blog/posts/crear-usuario-en-freenode-para-joinerte-a-sysarmy/</guid>
       <description>&lt;h1 id=&#34;qué&#34;&gt;Qué?&lt;/h1&gt;
+
 &lt;p&gt;Simple, vamos a explicar como unirse al chat de sysarmy creando un usuario dentro de freenode con el cliente XChat en Ubuntu.&lt;/p&gt;</description>
     </item>
     
@@ -29,6 +30,7 @@
       <guid>https://sysarmy.com/blog/posts/polemicaenvar-s04e00-noticias/</guid>
       <description>&lt;p&gt;Increíble pero cierto, arrancamos la 5ta temporada de Polémica en /var ! charlamos sobre algunas de las noticias que transcurrieron en el último mes(es).
 Nos adaptamos a los tiempos que corren y cambiamos el formato a una videollamada donde repasamos lo más interesante del mundo de sistemas.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://open.spotify.com/episode/54rOiXC2dyoyKOaBxfw0IB?si=FYKsjR3ETeKWxMihlGlW5g&#34;&gt;Escuchanos en Spotify&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
