@@ -6,10 +6,20 @@
     <description>Recent content in podcast on El blog de quienes dan soporte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sysarmy.com/blog/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Polémica en /var S04E00 - Cuarentesting</title>
+      <link>https://sysarmy.com/blog/posts/polemicaenvar-s04e00-cuarentesting/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysarmy.com/blog/posts/polemicaenvar-s04e00-cuarentesting/</guid>
+      <description>&lt;p&gt;En este episodio nos metemos en el testing del kernel de linux, herramientas, procesos y otras yerbas.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://open.spotify.com/episode/6jSgQC5d3EYq2yB8Ml7ZQs?si=7k486w3nQsKlfAA2SjLO4A&#34;&gt;Escuchanos en Spotify&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Polémica en /var S04E00</title>
