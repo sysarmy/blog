@@ -1,5 +1,5 @@
 ---
-Description: "Comandos Básicos con Docker - 1era Parte"
+Description: "Comandos Básicos con Docker - 2da Parte"
 Keywords:
 - containers 
 - docker
@@ -14,7 +14,7 @@ Tags:
 Thumbnail: assets/docker-thumbnail.png
 socialImage: assets/docker-thumbnail.png
 featuredImage: assets/docker-thumbnail.png
-Title: Comandos Básicos con Docker - 1era Parte
+Title: Comandos Básicos con Docker - 2da Parte
 Topics:
 - sysarmy
 - docker
@@ -100,3 +100,5 @@ Como próximo paso vamos a hacer es deshacernos de **whalesay** ya que cumplió 
 ![Eliminar contenedores](assets/docker-rm.png)
 
 Siempre podemos ver la lista de imágenes que tenemos descargadas empleando `docker images` para asegurarnos de que no estamos desperdiciando espacio en el sistema de archivos del host con archivos que no empleamos más.
+
+En [el próximo post](posts/docker-comandos-basicos-segunda-parte) de esta serie aprenderemos otras alternativas para realizar las tareas que detallamos en esta oportunidad y otras nuevas. ¡Nos leemos ahí!
