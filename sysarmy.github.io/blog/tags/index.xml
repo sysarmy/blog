@@ -6,24 +6,15 @@
     <description>Recent content in Tags on El blog de quienes dan soporte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sysarmy.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>kernel</title>
-      <link>https://sysarmy.com/blog/tags/kernel/</link>
-      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://sysarmy.com/blog/tags/kernel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>podcast</title>
       <link>https://sysarmy.com/blog/tags/podcast/</link>
-      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://sysarmy.com/blog/tags/podcast/</guid>
       <description></description>
@@ -32,18 +23,36 @@
     <item>
       <title>polemicaenvar</title>
       <link>https://sysarmy.com/blog/tags/polemicaenvar/</link>
-      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://sysarmy.com/blog/tags/polemicaenvar/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>sistemas</title>
+      <link>https://sysarmy.com/blog/tags/sistemas/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysarmy.com/blog/tags/sistemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>sysarmy</title>
       <link>https://sysarmy.com/blog/tags/sysarmy/</link>
-      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://sysarmy.com/blog/tags/sysarmy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kernel</title>
+      <link>https://sysarmy.com/blog/tags/kernel/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysarmy.com/blog/tags/kernel/</guid>
       <description></description>
     </item>
     
@@ -62,15 +71,6 @@
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://sysarmy.com/blog/tags/join/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sistemas</title>
-      <link>https://sysarmy.com/blog/tags/sistemas/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://sysarmy.com/blog/tags/sistemas/</guid>
       <description></description>
     </item>
     

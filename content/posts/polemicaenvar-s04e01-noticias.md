@@ -21,14 +21,13 @@ Topics:
 - noticias
 markup: markdown
 date: 2020-05-05
-draft: true
 ---
 
 Llego el episodio de noticias del mes de Mayo con muchas novedades del COVID-19, Apple, Facebook, Boeing y todas las noticias del mundo de sistemas que estabas esperando.
 
 Participan de este episodio: [Reshi](https://twitter.com/Rhapsody_Girl), [Andrea](https://twitter.com/peorth), [Godlike](https://twitter.com/godlike64), [Jolo](https://twitter.com/ajolo) y [Edu](https://twitter.com/jedux)
 
-[Escuchanos en Spotify](https://open.spotify.com/episode/54rOiXC2dyoyKOaBxfw0IB?si=FYKsjR3ETeKWxMihlGlW5g)
+[Escuchanos en Spotify](https://open.spotify.com/episode/3meTRXrE9jHy1kLS1dzRxX?si=Nmd4owV0RFeszZmr9f-yVA)
 
 <!--more-->
 
@@ -62,7 +61,7 @@ Participan de este episodio: [Reshi](https://twitter.com/Rhapsody_Girl), [Andrea
 ### [-  Pixar pioneers behind Toy Story animation win 'Nobel Prize' of computing](https://www.bbc.co.uk/news/amp/technology-52169444)
 Ed Catmull y Pat Hanrahan, dos de las personas detrás de [la escena de apertura de Toy Story](https://www.youtube.com/watch?v=RvO2Eg-rUG8), recibieron el premio Turing, por sus contribuciones al campo de la informática (considerado el “Premio Nóbel” de las ciencias de la computación). El premio fue otorgado por la Association for Computing Machinery, y recibirán la suma de 1 millón de dólares a dividir entre los ganadores. Esta es la segunda vez que dicho premio se otorga por avances en los gráficos por computadora. La ceremonia oficial para presentar el premio está agendada para Junio de 2020.
 
-
+{{< youtube RvO2Eg-rUG8 >}}
 
 ### [- A hacker has wiped, defaced more than 15,000 Elasticsearch servers](https://www.zdnet.com/article/a-hacker-has-wiped-defaced-more-than-15000-elasticsearch-servers/)
 Durante dos semanas un hacker estuvo infiltrando servidores de Elasticsearch abiertos a la internet tratando de borrar el contenido y dejando la firma de una empresa de seguridad como chivo expiatorio. El ataque parece ser ejecutado con un script automático que escanea en búsqueda de Elastic Search, se conecta para borrar todo y generar un nuevo índice con el nombre de la empresa.

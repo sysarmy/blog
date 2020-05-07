@@ -6,10 +6,21 @@
     <description>Recent content in podcast on El blog de quienes dan soporte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sysarmy.com/blog/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Polémica en /var S04E01</title>
+      <link>https://sysarmy.com/blog/posts/polemicaenvar-s04e01-noticias/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysarmy.com/blog/posts/polemicaenvar-s04e01-noticias/</guid>
+      <description>&lt;p&gt;Llego el episodio de noticias del mes de Mayo con muchas novedades del COVID-19, Apple, Facebook, Boeing y todas las noticias del mundo de sistemas que estabas esperando.&lt;/p&gt;
+&lt;p&gt;Participan de este episodio: &lt;a href=&#34;https://twitter.com/Rhapsody_Girl&#34;&gt;Reshi&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/peorth&#34;&gt;Andrea&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/godlike64&#34;&gt;Godlike&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/ajolo&#34;&gt;Jolo&lt;/a&gt; y &lt;a href=&#34;https://twitter.com/jedux&#34;&gt;Edu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://open.spotify.com/episode/3meTRXrE9jHy1kLS1dzRxX?si=Nmd4owV0RFeszZmr9f-yVA&#34;&gt;Escuchanos en Spotify&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Polémica en /var S04E00 - Cuarentesting</title>
