@@ -1,5 +1,5 @@
 ---
-Description: "Comandos Básicos con Docker - 2da Parte"
+Description: "Comandos Básicos con Docker - 1era Parte"
 Keywords:
 - containers 
 - docker
@@ -14,7 +14,7 @@ Tags:
 Thumbnail: assets/docker-thumbnail.png
 socialImage: assets/docker-thumbnail.png
 featuredImage: assets/docker-thumbnail.png
-Title: Comandos Básicos con Docker - 2da Parte
+Title: Comandos Básicos con Docker - 1era Parte
 Topics:
 - sysarmy
 - docker
