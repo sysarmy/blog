@@ -24,7 +24,7 @@ markup: markdown
 date: 2020-05-15
 ---
 
-Como explicamos en el primer artículo de esta serie, una imagen contiene los binarios de una aplicación, sus dependencias, metadatos e indicaciones para su ejecución. No incluye un sistema operativo completo ni un kernel, ya que esos recursos son provistos por el host mismo donde Docker está corriendo. También es importante aclarar que una imagen puede consistir de una sola aplicación o de un conjunto más robusto como un stack LAMP completo. Hasta este momento hemos utilizado imágenes descargadas del [Hub](https://hub.docker.com/), pero ahora aprenderemos cómo crear una propia de acuerdo a nuestras necesidades.
+Como explicamos en [el primer artículo de esta serie](posts/que-es-docker), una imagen contiene los binarios de una aplicación, sus dependencias, metadatos e indicaciones para su ejecución. No incluye un sistema operativo completo ni un kernel, ya que esos recursos son provistos por el host mismo donde Docker está corriendo. También es importante aclarar que una imagen puede consistir de una sola aplicación o de un conjunto más robusto como un stack LAMP completo. Hasta este momento hemos utilizado imágenes descargadas del [Hub](https://hub.docker.com/), pero ahora aprenderemos cómo crear una propia de acuerdo a nuestras necesidades.
 
 ## El Dockerfile
 
@@ -117,4 +117,4 @@ Al navegar al puerto 8080 del host veremos el archivo index.html que incluimos e
 
 ## Conclusión
 
-En este artículo aprendimos a crear una nueva imagen partiendo de un Dockerfile y creamos un contenedor basado en la misma. Este ejercicio es la base para crear imágenes y contenedores más robustos, tema que abordaremos en nuestro próximo post. ¡Hasta la próxima! 
+En este artículo aprendimos a crear una nueva imagen partiendo de un Dockerfile y creamos un contenedor basado en la misma. Este ejercicio es la base para crear imágenes y contenedores más robustos, tema que abordaremos en [nuestro próximo post](posts/docker-proyecto-primera-parte). ¡Hasta la próxima! 
