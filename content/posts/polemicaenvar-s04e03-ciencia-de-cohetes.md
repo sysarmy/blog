@@ -74,6 +74,12 @@ We're a few of the SpaceX team members who helped develop and deploy software th
 ## [- Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules](https://github.com/chrislgarry/Apollo-11)
 Original Apollo 11 guidance computer (AGC) source code for Command Module (Comanche055) and Lunar Module (Luminary099).
 
+## Nerdearla 2016 - Astronomía vs Astrología
+{{< youtube eY1kAY3C3sw >}}
+
+## Apolo 11: A 50 Años de la llegada del hombre a la Luna - Diego Córdova
+{{< youtube Ahy1EMqMRys >}}
+
 ## Twits varios
 
 {{< tweet 1270471722068848640 >}}
