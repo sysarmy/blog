@@ -15,6 +15,7 @@ Section:
 Slug: configurando-y-usando-informix-en-raspberry-pi
 Tags:
 - sysarmy
+Thumbnail: /blog/assets/raspberrypi4.jpg
 Title: Configurando y usando Informix en Raspberry PI
 Topics:
 - Development
