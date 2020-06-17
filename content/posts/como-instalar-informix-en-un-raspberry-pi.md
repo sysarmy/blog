@@ -15,6 +15,7 @@ Section:
 Slug: como-instalar-informix-en-un-raspberry-pi
 Tags:
 - sysarmy
+Thumbnail: /blog/assets/raspberrypi4.jpg
 Title: Como instalar Informix en un Raspberry PI
 Topics:
 - Development
