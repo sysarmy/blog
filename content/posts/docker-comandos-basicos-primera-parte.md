@@ -85,7 +85,7 @@ Si empezamos a experimentar con las imágenes disponibles en Docker Hub (hasta q
 
 ## Detener y eliminar contenedores e imágenes
 
-En primer lugar, para eliminar un contenedor primero tenemos que asegurarnos de que esté detenido:
+En primer lugar, para eliminar un contenedor primero tenemos que asegurarnos de que esté detenido. En el siguiente ejemplo utilizamos un contenedor cuyo nombre es **silly_tesla** para ilustrar la operación. Como se observa en la primera imagen de la sección anterior, **silly_tesla** es uno de los existentes en nuestro sistema a este punto.
 
     docker stop silly_tesla
 
