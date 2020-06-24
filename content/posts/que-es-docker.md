@@ -100,4 +100,4 @@ Para ejecutar **whalesay** utilizaremos `docker run` de la siguiente forma. La p
 
 ![Ejecución de whalesay](assets/docker-whalesay-sysarmy.png)
 
-En [el próximo artículo](posts/docker-comandos-basicos-primera-parte) comenzaremos a describir otros comandos para administrar contenedores y crear los nuestros propios. ¡Nos leemos en breve!
+En el [el próximo post](posts/docker-comandos-basicos-primera-parte)  comenzaremos a describir otros comandos para administrar contenedores y crear los nuestros propios. ¡Nos leemos en breve!
