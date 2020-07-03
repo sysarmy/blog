@@ -101,4 +101,4 @@ Como próximo paso vamos a hacer es deshacernos de **whalesay** ya que cumplió 
 
 Siempre podemos ver la lista de imágenes que tenemos descargadas empleando `docker images` para asegurarnos de que no estamos desperdiciando espacio en el sistema de archivos del host con archivos que no empleamos más.
 
-En el próximo post de esta serie aprenderemos otras alternativas para realizar las tareas que detallamos en esta oportunidad y otras nuevas. ¡Nos leemos ahí!
+En el [próximo post](posts/docker-comandos-basicos-segunda-parte) de esta serie aprenderemos otras alternativas para realizar las tareas que detallamos en esta oportunidad y otras nuevas. ¡Nos leemos ahí!
