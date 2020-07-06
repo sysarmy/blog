@@ -66,10 +66,10 @@ Lo que hice con este script está basado 90% [en este código](https://github.co
 
 *Requerimientos: Python, librería [Tweepy](https://www.tweepy.org/) 3.7.0*
 
-1. El auth se hace en las primeras linkeas solo con sus Tokens. Es lo único que se usa y no hace falta agregar nada más.
+1. La autenticación se hace en las primeras líneas sólo con sus Tokens. Es lo único que se usa y no hace falta agregar nada más.
 ![](https://miro.medium.com/max/1214/1*yT_gKrhbYt-E35XmKMrUvA.png)
 
-2. Lo único que tienen que hacer es cambiar el max_id con el ID de el tuit que quieren poner como límite y lo que hace el script es borrar todos los tuits empezando con el más viejo. Fácil y simple.
+2. Lo único que tienen que hacer es cambiar el max_id con el ID de el tuit que quieren poner como límite y lo que hace el script es borrar todos los tuits empezando por el más viejo. Fácil y simple.
 
 3. Está limitado a 200 API calls por una cuestión obvia. Borra bastante rápido, a un ritmo de medio segundo por tweet, y no te jode con ninguna limitación o threshold de la cuenta de dev.
 Ahora... si están buscando borrar tweets de hasta hace un año, no van a tener problemas. El inconveniente es que cuando hacen el get de los tweets, la API te va a limitar el get tweets hasta un año, siempre. Lamentablemente esta es una limitación a la que no le pudimos encontrar la vuelta.
@@ -84,11 +84,11 @@ Va a tener posiblemente miles de lineas y no está ordenado cronológicamente (n
 2. Ahora lo que tenemos que hacer es traernos los IDs de los tweets. Si tienen alguna herramienta para parsear json, bárbaro. Sino lo que pueden hacer es una búsqueda con regex usando notepad++ del campo “id_str”. Este [cheatsheet](https://www.launch2success.com/guide/advanced-find-and-replace-in-notepad/) está bastante simplificado para lo que necesitamos. Una búsqueda así sirve (guarda que algunos IDs tienen 18 dígitos, y otros 19)
 ![](https://miro.medium.com/max/1142/1*F3ambA2C_g0A4b7gIjwYuw.png)
 
-Muchos IDs les van a aparecer duplicados, pero lo bueno es que los IDs sí están ordenados numéricamente: ID más bajo es el tweet más viejo y ID más alto es el tweet más nuevo. Removemos duplicados y sorteamos hasta tener un txt así.
+Muchos IDs les van a aparecer duplicados, pero lo bueno es que los IDs sí están ordenados numéricamente: ID más bajo es el tweet más viejo y ID más alto es el tweet más nuevo. Removemos duplicados y ordenamos hasta tener un txt así.
 
 ![](https://miro.medium.com/max/744/1*-f816Y4PcizjYjPTeLD4xg.png)
 
-3. Una vez que tienen el txt listo: ponen el path en el código (línea 100) y va a buscar los IDs y los va a borrar. Si el ID es viejo de un tuit que ya borraron o no existe, lo skippea.
+3. Una vez que tienen el txt listo: ponen el path en el código (línea 100) y va a buscar los IDs y los va a borrar. Si el ID es viejo de un tuit que ya borraron o no existe, lo omite.
 En max_id hay que poner el límite del último tweet que quieren borrar.
 ![](https://miro.medium.com/max/1400/1*BBuNwURXWEhS-oSWkeu9gg.png)
 
