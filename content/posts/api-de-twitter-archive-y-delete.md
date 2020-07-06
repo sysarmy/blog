@@ -57,10 +57,10 @@ Cuidado, esto me pasó a mí y por más que cree la app, no me funcionaba por pr
   ![](https://miro.medium.com/max/1400/1*tL8LxVcFxsnjQ1JlPDlzrA.jpeg)
   - suscribir su app a los Labs de Twitter
 
-Yo porque soy medio bruto le doy todos los permisos a mi app (por las dudas) pero haciendo esto no tendrían que tener ningun problema. En caso de necesitar troubleshooting de autenticación paralos tokens vayan a [este link](https://developer.twitter.com/en/docs/labs/tweets-and-users/quick-start/get-tweets).
+Yo porque soy medio bruto le doy todos los permisos a mi app (por las dudas) pero haciendo esto no tendrían que tener ningun problema. En caso de necesitar troubleshooting de autenticación para los tokens vayan a [este link](https://developer.twitter.com/en/docs/labs/tweets-and-users/quick-start/get-tweets).
 
 # Paso 2: Script para borrar TODOS los tuits de una cuenta
-Lamentablemente no hay forma fácil de hacer un mass delete de tuits, y delas herramientas que hay online, una o dos son confiables, pero tenes que pagar. Lo intenté! Pero oh, el pago es con tarjeta de crédito a través de PayPal, que está bloqueado en el país.
+Lamentablemente no hay forma fácil de hacer un mass delete de tuits, y de las herramientas que hay online, una o dos son confiables, pero tenes que pagar. Lo intenté! Pero oh, el pago es con tarjeta de crédito a través de PayPal, que está bloqueado en el país.
 
 Lo que hice con este script está basado 90% [en este código](https://github.com/ngeor/delete-old-tweets) en Python que encontré en GitHub. Está muy bueno y anda perfecto, gran aporte.
 
