@@ -88,7 +88,7 @@ Muchos IDs les van a aparecer duplicados, pero lo bueno es que los IDs sí está
 max_id pone el límite del último tweet que quieren que borre
 ![](https://miro.medium.com/max/1400/1*BBuNwURXWEhS-oSWkeu9gg.png)
 
-Y listo! Si alguien quiere mejorarlo, adelante :) Acá está el código listo para usar
+Y listo! Si alguien quiere mejorarlo, adelante :) [Acá está el código listo para usar](https://github.com/sysarmy/disneyland/blob/master/misc/api-de-twitter-archive-and-delete/deleteTxt.py)
 Créditos a Pablo Pietro, Edu y Godlike que me dieron una mano pensando e investigando
 
 #### Autor
