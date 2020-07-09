@@ -25,7 +25,7 @@ Topics:
 - argo
 - continous
 markup: markdown
-date: 2020-07-03
+date: 2020-07-09
 ---
 
 La infraestructura evoluciona y al mismo tiempo trae nuevos desafíos. **¿Puede GitOps ser el nuevo factor determinante en la industria?**

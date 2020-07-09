@@ -22,7 +22,7 @@ Topics:
 - polemica
 - noticias
 markup: markdown
-date: 2020-07-09
+date: 2020-07-10
 ---
 
 Llego el episodio de noticias del mes con muchas novedades TikTok, IPOs Falopa, Apple, Facebook, Gaming y todas las noticias del mundo de sistemas que estabas esperando.
