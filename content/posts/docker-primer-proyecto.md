@@ -148,4 +148,4 @@ Como podemos ver arriba, nos ahorramos poco menos que 3 KB. Si bien ese espacio 
 
 ## Conclusión
 
-En este post explicamos dos cuestiones importantes a tener en cuenta a la hora de escribir un Dockerfile (no incluir en la imagen contenidos innecesarios y aprovechar la caché). En la medida que nuestros proyectos se vuelvan más robustos podremos sacarle mayor provecho a lo que aprendimos en esta oportunidad. En el último post de esta serie aprovecharemos todos los contenidos que hemos desarrollado hasta ahora para darle algunos toques finales al proyecto y mostraremos la manera de publicar nuestra imagen en el [Hub](https://hub.docker.com/). ¡No se lo pierdan!
+En este post explicamos dos cuestiones importantes a tener en cuenta a la hora de escribir un Dockerfile (no incluir en la imagen contenidos innecesarios y aprovechar la caché). En la medida que nuestros proyectos se vuelvan más robustos podremos sacarle mayor provecho a lo que aprendimos en esta oportunidad. 
