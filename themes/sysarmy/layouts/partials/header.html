@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <head>
+    {{ partial "head_includes.html" . }}
     <meta charset="utf-8">
     <link rel="shortcut icon" href="https://sysarmy.com/favicon.png" />
     <link rel="apple-touch-icon" href="https://sysarmy.com/favicon.png" />	
@@ -10,5 +11,4 @@
     <link rel="canonical" href="{{ .Permalink }}">
     {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
 
-    {{ partial "head_includes.html" . }}
 </head>

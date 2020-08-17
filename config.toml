@@ -4,7 +4,7 @@ title = "El blog de quienes dan soporte"
 theme = "sysarmy"
 publishDir = "sysarmy.github.io/blog"
 MetaDataFormat = "toml"
-googleAnalytics = "UA-36359098-1"
+#googleAnalytics = "UA-36359098-1"
 
 [author]
     name = "Sysarmy"
