@@ -58,4 +58,3 @@ Al igual que en cada edición, les dejamos algunos quotes que nos regalaron:
 <blockquote><p>Me quiero ir....</p></blockquote>
 <blockquote><p>Send help</p></blockquote>
 <blockquote><p>Its a trap.</p></blockquote>
-<blockquote><p>Sugerencia para futuras encuestas: dejen de romper la pija con las pelotudeces de género, la re concha de sus putas y sidosas madres.</p></blockquote>
