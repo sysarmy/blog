@@ -3,6 +3,8 @@ Description: "Tu empresa todavia usa servidores físicos?"
 Keywords:
 - sysadmin 
 - servers
+- onpremise
+- cloud
 - hardware
 Section: 
 Slug: todavia-se-usan-servers-fisicos
@@ -12,14 +14,16 @@ Title: ¿Tu empresa todavía usa servidores físicos? ¿Por qué?
 Topics:
 - hardware
 - servers
+- onpremise
+- cloud
 - Systems
 Thumbnail: /blog/assets/cse-847beic-r1k28lpb_front_1.jpg
-date: 2020-09-23
+date: 2020-09-24
 markup: markdown
-draft: true
+draft: false
 ---
 
-*Nos cruzamos con [esta pregunta](https://news.ycombinator.com/item?id=23089999) en hacker news "Is your company sticking to on-premise servers? Why?" y nos tomamos el trabajo de compilar algunas respuestas.*
+*Me crucé con [esta pregunta](https://news.ycombinator.com/item?id=23089999) en [hacker news](https://news.ycombinator.com/) "Is your company sticking to on-premise servers? Why?" y me tomé el trabajo de compilar algunas respuestas.*
 
 <!--more-->
 
@@ -76,6 +80,7 @@ O si solo está constantemente iterando en un producto grande con muchos ingenie
 
 *Nota: La traducción se realizó con estandares sysarmy no aprobados por la real academia española.*
 
+Compilación por [Eduardo](https://twitter.com/jedux) y revisión por [Diego](https://twitter.com/SeedVicious)
 
 [^1Drop]: Dropbox (https://techcrunch.com/2017/09/15/why-dropbox-decided-to-drop-aws-and-build-its-own-infrastructure-and-network/)
 
