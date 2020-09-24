@@ -6,5 +6,7 @@ publishDir = "sysarmy.github.io/blog"
 MetaDataFormat = "toml"
 #googleAnalytics = "UA-36359098-1"
 
+footnoteReturnLinkContents = ":leftwards_arrow_with_hook:"
+
 [author]
     name = "Sysarmy"
