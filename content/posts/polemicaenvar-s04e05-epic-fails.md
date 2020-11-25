@@ -23,7 +23,7 @@ Topics:
 - noticias
 - fails
 markup: markdown
-date: 2020-07-27
+date: 2020-07-05
 ---
 
 En este episodio seleccionamos alguno de los fails tecnológicos mas grandes de los últimos tiempo y condimentamos con algunas noticias de ipos falopa.
