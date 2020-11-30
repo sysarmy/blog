@@ -78,9 +78,10 @@ if __name__ == '__main__':
         wks = sh.worksheet(wks_name)
     except gspread.exceptions.WorksheetNotFound:
         logging.error(f'No existe la hoja {wks_name}.')
-    cells = wks.batch_get(['A11:G58'])
+    cells = wks.batch_get([args.range])
     content = ""
     for row in cells[0]:
+        print(row)
         url = row[4].strip().split(' ')[0]
         if row[0] == '1':
             try:
