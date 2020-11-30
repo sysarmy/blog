@@ -81,7 +81,6 @@ if __name__ == '__main__':
     cells = wks.batch_get([args.range])
     content = ""
     for row in cells[0]:
-        print(row)
         url = row[4].strip().split(' ')[0]
         if row[0] == '1':
             try:
