@@ -171,5 +171,5 @@ La versión original de este post se puede encontrar en [TechBeacon.com](https:/
 
 La imagen del header es de [Shahadat Rahman](https://unsplash.com/@hishahadat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) en [Unsplash](https://unsplash.com/s/photos/monitor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-* Traducción [@_jucha](https://twitter.com/_jucha)
+* Traducción [juchita](https://github.com/juchita)
 * Revisión y publicación [@jedux](https://twitter.com/jedux) NdE: Nipegun hicimos lo que pudimos, perdón por tan poco.
