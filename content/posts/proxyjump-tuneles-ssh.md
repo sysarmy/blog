@@ -5,12 +5,14 @@ Keywords:
 - ssh
 - proxy
 - jumphost
+- bastion
 Section: 
 Tags:
 - sysadmin 
 - ssh
 - proxy
 - jumphost
+- bastion
 Thumbnail: assets/proxyjump_5_akrI3NN_Ai7lO1ci.jpg
 socialImage: assets/proxyjump_5_akrI3NN_Ai7lO1ci.jpg
 featuredImage: assets/proxyjump_5_akrI3NN_Ai7lO1ci.jpg
@@ -21,6 +23,7 @@ Topics:
 - proxy
 - jumphost
 - scripts
+- bastion
 markup: markdown
 date: 2020-12-19
 draft: false
