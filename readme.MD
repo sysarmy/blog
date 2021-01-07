@@ -59,9 +59,12 @@ date: 2015-03-15
 {{% img src="/blog/assets/xkcd.png" class="half right" %}}
 ```
 
-Una vez finalizado el post, queda buildear y pushear el directorio creado al /blog del repo sysarmy.github.io.
+Una vez finalizado el post, localmente se puede validar buildeando.
+
 ```bash
 hugo
 ```
+:exclamation: Atención: En este repo solo se debe subir el post porque se buildea automágicamente y luego se podrá ver en https://sysarmy.com/blog
+
 ## Links de utilidad
 [Go Hugo - Quick start](https://gohugo.io/getting-started/quick-start/)
