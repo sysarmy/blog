@@ -1,34 +1,34 @@
----</b></blockquote>
-Description: "Publicamos los resultados de la #encuestaIT 2021.1"</b></blockquote>
-Keywords:</b></blockquote>
-- sysadmin </b></blockquote>
-- sistemas</b></blockquote>
-- desarrollo</b></blockquote>
-- developer</b></blockquote>
-- administración de sistemas</b></blockquote>
-- administrador de sistemas</b></blockquote>
-- linux</b></blockquote>
-- cloud</b></blockquote>
-- docker</b></blockquote>
-- kubernetes</b></blockquote>
-- encuesta</b></blockquote>
-- sueldos</b></blockquote>
-Section: </b></blockquote>
-Tags:</b></blockquote>
-- sysarmy</b></blockquote>
-- encuesta</b></blockquote>
-- sueldos</b></blockquote>
-Thumbnail: /blog/assets/billete1000.png</b></blockquote>
-socialImage: /blog/assets/billete1000.png</b></blockquote>
-featuredImage: /blog/assets/billete1000.png</b></blockquote>
-Title: Resultados de la Encuesta de sueldos 2021.1</b></blockquote>
-Topics:</b></blockquote>
-- Development</b></blockquote>
-- Leadership</b></blockquote>
-- Systems</b></blockquote>
-markup: html</b></blockquote>
-date: 2021-02-23</b></blockquote>
----</b></blockquote>
+---
+Description: "Publicamos los resultados de la #encuestaIT 2021.1"
+Keywords:
+- sysadmin 
+- sistemas
+- desarrollo
+- developer
+- administración de sistemas
+- administrador de sistemas
+- linux
+- cloud
+- docker
+- kubernetes
+- encuesta
+- sueldos
+Section: 
+Tags:
+- sysarmy
+- encuesta
+- sueldos
+Thumbnail: assets/billete1000.png
+socialImage: /assets/billete1000.png
+featuredImage: /assets/billete1000.png
+Title: Resultados de la Encuesta de sueldos 2021.1
+Topics:
+- Development
+- Leadership
+- Systems
+markup: html
+date: 2021-02-23
+---
 <p>&nbsp;</p></b></blockquote>
 </b></blockquote>
 <p>Queremos agradecerle a las <strong>más de 6500 personas</strong> que se tomaron unos minutos para completar la encuesta. Estamos felices de compartir las respuestas con la comunidad para que puedan hacer sus análisis. Al tener más del 90% de las entradas provinientes de Argentina, separamos los archivos en dos: Argentina y resto de los países relevados.</p></b></blockquote>
