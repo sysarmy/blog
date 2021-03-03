@@ -47,7 +47,7 @@ Este artículo surge de un hilo de Reddit, hilo al pie del artículo.
 
 ## ¿Qué debería aprender?
 
-* [Emily Wood's essay](https://crate.io/a/infrastructure-as-code-part-one/) - Porque la infraestructura como código es tan importante hoy en día.
+* [Emily Wood essay](https://crate.io/a/infrastructure-as-code-part-one/) - Porque la infraestructura como código es tan importante hoy en día.
 * [2019 DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap#devops-roadmap) - Son las ideas de un desarrollador de que habilidades son necesarias para el mundo DevOps. Este roadmap es controversial, puede ser de proposito muy particular pero puede servir de punto de partida para entender que herramientas usan las empresas.
 * [This comment by /u/mdaffin](https://www.reddit.com/r/devops/comments/abcyl2/sorry_having_a_midlife_tech_crisis/eczhsu1/) - hay que recordar que, DevOps es un estado mental para resolver problemas. Es menos herramientas y más la forma en la que se encaran los problemas.
 * [This comment by /u/jpswade](https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91) - qué es DevOps y alguna terminología relacionada.
