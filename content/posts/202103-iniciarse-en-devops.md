@@ -40,7 +40,7 @@ Este artículo surge de un hilo de Reddit, hilo al pie del artículo.
 
 * [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290) - uno de los libros originales que entra en la cultura DevOps. La explica por medio de una historia de ficción de una empresa que esta al borde de fallar.
 * [The DevOps Handbook](https://www.amazon.com/dp/1942788002) - Una secuela práctica de "The Phoenix Project"
-* [Google's Site Reliability Engineering](https://landing.google.com/sre/books/) - Los ingenieros de Google explican como construyen, despliegan, monitorean y mantienen sus sistemas.
+* [Google Site Reliability Engineering](https://landing.google.com/sre/books/) - Los ingenieros de Google explican como construyen, despliegan, monitorean y mantienen sus sistemas.
 * [The Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/) - La parte práctica del libro Site Reliability Engineering Book de Google.
 * [The Unicorn Project](https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B07QT9QR41) - La secuela del Phoenix Project.
 * [DevOps for Dummies](https://www.amazon.com/DevOps-Dummies-Computer-Tech-ebook/dp/B07VXMLK3J/) - El título dice todo.
