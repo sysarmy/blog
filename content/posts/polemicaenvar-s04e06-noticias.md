@@ -116,7 +116,7 @@ Fugaku está armada con procesadores Fujitsu de 48-core A64FX SoC, convirtiéndo
 ### [- Driver Vulkan para las GPU de Rpi 0-3 ](https://www.phoronix.com/scan.php?page=news_item&px=RPi-VK-Driver)
 Martin Thomas, un ingeniero de NVIDIA, desarrolló en su tiempo libre un driver Vulkan para las RPi 0-3.  Vulkan es "el nuevo OpenGL" y la última moda en materia gráfica. Si bien la RPi 4 sí tiene un driver Vulkan en desarrollo, Martin lo hizo en su tiempo libre para las GPU de las versiones anteriores. En sus pruebas, puede correr el Quake 3 a 100 FPS.
 
-### [- Apple cambia las macs a ARM este fin de año. ](https://www.theverge.com/2020/6/22/21295475/apple-mac-processors-arm-silicon-chips-wwdc-2020)
+### [- Apple cambia las macs a ARM este fin de año. ](https://iboysoft.com/news/macos-big-sur-update-and-apple-silicon-transition.html)
 Lo que ya veníamos anticipando, van a transicionar a ARM los CPUs de las Macs. macOS Big Sur, también va a incluir una nueva versión de Rosetta. Apple ya utilizó Rosetta en la transición de PowerPC a Intel. Rosetta2 va a traducir aplicaciones en tiempo de instalación. Apple también esta usando virtualización para correr versiones de Linux en estas nuevas Macs.
 
 ### [- Jumbo privacy recaudó 8 millones de dólares en 2020 ](https://www.businessinsider.com/privacy-app-jumbo-raises-8-million-series-a-2020-6)
