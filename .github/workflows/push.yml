@@ -29,7 +29,7 @@ jobs:
           git config user.email github-actions@github.com
           cd blog
           git submodule update --init --recursive
-          git checkout gh-pages
+          git submodule update --remote
           git pull
           cd ..
           git commit -m "Automated deployment to GitHub Pages for commit: ${{ github.sha }}"
