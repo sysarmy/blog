@@ -16,19 +16,3 @@ jobs:
         GITHUB_BRANCH: gh-pages
         GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
         HUGO_VERSION: "0.80.0"
-
-  update-submodule:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - with:
-        repository: sysarmy/sysarmy.github.io
-        ssh-key: ${{ secrets.SYSARMYDEPLOYKEY }}
-    - run: |
-        git config user.name github-actions && \
-        git config user.email github-actions@github.com && \
-        git submodule update --init --recursive && \
-        git submodule update --remote && \
-        git add . && \
-        git commit -m "Automated deployment to GitHub Pages for commit: ${{ github.sha }}" && \
-        git push
