@@ -34,6 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - with:
+        repository: sysarmy/sysarmy.github.io
+        ssh-key: ${{ secrets.SYSARMYDEPLOYKEY }}
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
