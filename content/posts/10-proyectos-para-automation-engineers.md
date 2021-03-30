@@ -42,7 +42,7 @@ Aquí tienes __10 proyectos__ para tu portafolio de automatización de pruebas q
 
 ## 1. Automatización del navegador web
 
-La automatización de la web es, con mucho, la forma más común y buscada de automatización de pruebas. Si estás buscando entrar en la automatización de pruebas, esto es absolutamente imprescindible para tu porfolio.
+La automatización de la web es, la forma más común y buscada de automatización de pruebas. Si estás buscando entrar en la automatización de pruebas, esto es absolutamente imprescindible para tu porfolio.
 
 Asegurate de ir más allá de un flujo de inicio de sesión básico. En su lugar, muestra escenarios completos que requieran que el código interactúe con varias páginas.
 
