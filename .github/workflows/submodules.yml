@@ -3,9 +3,9 @@
 name: update submodule in remote website
 # Controls when the action will run. 
 on:
-  workflows: ["Deploy to GitHub Pages"]
-  types:
-    - completed
+  workflow_run:
+    workflows: ["Deploy to GitHub Pages"]
+    types: [completed]
  
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
