@@ -24,12 +24,11 @@ jobs:
     - with:
         repository: sysarmy/sysarmy.github.io
         ssh-key: ${{ secrets.SYSARMYDEPLOYKEY }}
-        path: sysarmy-web
     - run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git submodule update --init --recursive
-        git submodule update --remote
-        git add .
-        git commit -m "Automated deployment to GitHub Pages for commit: ${{ github.sha }}"
+        git config user.name github-actions && \
+        git config user.email github-actions@github.com && \
+        git submodule update --init --recursive && \
+        git submodule update --remote && \
+        git add . && \
+        git commit -m "Automated deployment to GitHub Pages for commit: ${{ github.sha }}" && \
         git push
