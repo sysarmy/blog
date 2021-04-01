@@ -21,8 +21,6 @@ markup: markdown
 date: 2021-04-01
 draft: false
 ---
-# SQLite no es una base de datos de juguetes
-
 Ya sea que trabajes en desarrollo, analisis de datos, control de calidad, DevOps o producto, [SQLite](https://www.sqlite.org/) es una herramienta perfecta para vos. Aquí contamos por que.
 
 ## Algunos hechos bien conocidos para comenzar:
