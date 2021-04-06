@@ -18,8 +18,6 @@ markup: markdown
 date: 2021-04-05
 draft: false
 ---
-# Entendiendo la fork() Bomb ``` :(){ :|:& };: ``` de Bash
-
 Una fork bomb (bomba fork) es una forma de ataque del tipo _denial-of-service_ (DoS) o [denegación de servicio](https://es.wikipedia.org/wiki/Ataque_de_denegaci%C3%B3n_de_servicio), utilizada contra sistemas basados en Unix. Como su nombre lo indica, utiliza la operación **[fork](https://en.wikipedia.org/wiki/Fork_(system_call))**, donde un proceso crea una copia de sí mismo. 
 
 La conocida cadena ``` :(){ :|:& };: ``` no es nada más que una función de bash, la cual se ejecuta recursivamente. Comúnmente, es utilizada por sysadmins para testear limitaciones sobre usuarios en cuanto a cantidad de procesos que pueden ejecutar en un servidor. 
