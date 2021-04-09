@@ -12,16 +12,14 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: the-missing-introduction-to-containerization
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/0_D6D2UV47p42ACOnu.jpeg
+Thumbnail: assets/0_D6D2UV47p42ACOnu.jpeg
 Title: The missing introduction to containerization
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2019/07/11/the-missing-introduction-to-containerization
 date: 2019-07-11
 markup: html
 draft: true

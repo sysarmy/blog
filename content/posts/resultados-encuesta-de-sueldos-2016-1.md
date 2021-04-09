@@ -15,6 +15,8 @@ Section:
 Slug: resultados-encuesta-de-sueldos-2016-1
 Tags:
 - sysarmy
+- encuesta
+- sueldos
 Thumbnail: /blog/assets/330973_14871194668374_rid13.jpg
 Title: Resultados encuesta de sueldos 2016.1
 Topics:

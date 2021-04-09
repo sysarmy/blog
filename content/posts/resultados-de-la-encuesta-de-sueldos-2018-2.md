@@ -15,6 +15,8 @@ Section:
 Slug: resultados-de-la-encuesta-de-sueldos-2018-2
 Tags:
 - sysarmy
+- encuesta
+- sueldos
 Thumbnail: /blog/assets/argentina-peso_423392900-850x491.jpg
 Title: Resultados de la encuesta de sueldos 2018.2
 Topics:

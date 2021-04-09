@@ -18,9 +18,9 @@ Tags:
 - sysarmy
 - encuesta
 - sueldos
-Thumbnail: https://sysarmy.com/blog/assets/billete500.jpg
-socialImage: https://sysarmy.com/blog/assets/billete500.jpg
-featuredImage: https://sysarmy.com/blog/assets/billete500.jpg
+Thumbnail: assets/billete500.jpg
+socialImage: assets/billete500.jpg
+featuredImage: assets/billete500.jpg
 Title: Resultados de la Encuesta de sueldos 2020.1
 Topics:
 - Development

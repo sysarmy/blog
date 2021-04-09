@@ -12,16 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: resultados-de-la-encuesta-salarial-julio-2016
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/encuesta.png
+- encuesta
+- sueldos
+Thumbnail: assets/encuesta.png
 Title: Resultados de la encuesta salarial – julio 2016
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2016/08/22/resultados-de-la-encuesta-salarial-julio-2016
 date: 2016-08-22
 markup: html
 ---

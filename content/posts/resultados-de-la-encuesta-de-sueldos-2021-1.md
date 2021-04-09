@@ -19,8 +19,8 @@ Tags:
 - encuesta
 - sueldos
 Thumbnail: assets/billete1000.png
-socialImage: /assets/billete1000.png
-featuredImage: /assets/billete1000.png
+socialImage: assets/billete1000.png
+featuredImage: assets/billete1000.png
 Title: Resultados de la Encuesta de sueldos 2021.1
 Topics:
 - Development

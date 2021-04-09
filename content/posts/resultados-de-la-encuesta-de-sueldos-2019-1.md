@@ -15,6 +15,8 @@ Section:
 Slug: resultados-de-la-encuesta-de-sueldos-2019-1
 Tags:
 - sysarmy
+- encuesta
+- sueldos
 Thumbnail: /blog/assets/dyarnaruwaavxs7.jpg
 Title: Resultados de la encuesta de sueldos 2019.1
 Topics:
