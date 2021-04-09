@@ -57,6 +57,9 @@
         <h2>Table of Contents</h2>
         <aside class="table-of-contents">{{ .TableOfContents }}</aside>
       {{ end }}
+      
+      <base href="{{ $.Site.BaseURL }}">
+
       {{ .Content }}
       {{ partial "veeam.html" . }}
     </div>
