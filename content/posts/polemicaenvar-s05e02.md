@@ -53,7 +53,7 @@ Little Bobby Tables ataca de nuevo!
 
 ### [The Agile Manifesto 20 years on: agility in software delivery is still a work in progress](https://www.zdnet.com/article/the-agile-manifesto-20-years-on-agility-in-software-delivery-is-still-a-work-in-progress/)	
 
-### [A AT&T no le gusta el upload, ni la fibra, ni la banda ancha](https://arstechnica.com/tech-policy/2021/03/att-lobbies-against-nationwide-fiber-says-10mbps-uploads-are-good-enough/)
+### [A ATT no le gusta el upload, ni la fibra, ni la banda ancha](https://arstechnica.com/tech-policy/2021/03/att-lobbies-against-nationwide-fiber-says-10mbps-uploads-are-good-enough/)
 
 Todo empezó con un blog post, como empiezan la mayoría de los desastres en el siglo XXI. Joan Marsh, VP de AT&T respondió así tácitamente a una propuesta del Congreso de EEUU para desplegar banda ancha y fibra con 
 velocidades de download Y upload de 100Mbps a zonas rurales que actualmente no tienen servicio. Para AT&T, la definición de banda ancha de la FCC, que tiene ya 6 años y la define como 25/3, está perfecto para trabajar por Zoom y aprendizaje remoto (cuando hablamos de una sola persona), y le parece que está bien cumplir con estas necesidades con VDSL, una tecnología que tiene 14 años. 
