@@ -43,12 +43,10 @@ Participan de este episodio: [Edu](https://twitter.com/jedux), [Godlike](https:/
 
 {{< youtube EX_ORKWr6IY >}}
 
-# Noticias
-
-### [A person whose last name is ´True has been locked out of iCloud for 6 months](https://twitter.com/NGKabra/status/1368069088124149760)
-Me fascinan las historias de data mal parseada. Sera porque tuve que renegar mucho tiempo con cosas muy bizarras en estos veintipico de aÃ±os que llevo programando. 
-La cuestión es que una persona llamada Rachel True (si, True, como verdad en ingles) desde hace meses que no puede usar su cuenta de iCloud, porque al tratar de loguearse, le da un error diciendo "Imposible parsear el valor 'true' en el campo 'lastName'. 
-Apellido, True, campo True... ya ven para que lado va esto, no? Si, probablemente Apple esta usando algun JSON con los datos de la persona, y al tratar de meter el apellido TRUE, le esta dando un error, porque lastName espera una palabra, pero no un 'true'. Probablemente lo mismo pase si se llama Richard False. Fallara también si alguien se llama Juan Carlos NULL? 
+### [A person whose last name is ´True´ has been locked out of iCloud for 6 months](https://twitter.com/NGKabra/status/1368069088124149760)
+Me fascinan las historias de data mal parseada. Será porque tuve que renegar mucho tiempo con cosas muy bizarras en estos veintipico de años que llevo programando. 
+La cuestión es que una persona llamada Rachel True (si, True, como verdad en inglés) desde hace meses que no puede usar su cuenta de iCloud, porque al tratar de loguearse, le da un error diciendo "Imposible parsear el valor 'true' en el campo 'lastName'. 
+Apellido, True, campo True... ya ven para que lado va esto, no? Si, probablemente Apple está usando algún JSON con los datos de la persona, y al tratar de meter el apellido TRUE, le está dando un error, porque lastName espera una palabra, pero no un 'true'. Probablemente lo mismo pase si se llama Richard False. Fallará también si alguien se llama Juan Carlos NULL? 
 Little Bobby Tables ataca de nuevo!
 
 ### [The Agile Manifesto 20 years on: agility in software delivery is still a work in progress](https://www.zdnet.com/article/the-agile-manifesto-20-years-on-agility-in-software-delivery-is-still-a-work-in-progress/)	
@@ -62,9 +60,9 @@ como desplegar su cobertura en una zona en donde ya hay un ISP. Lo que sucede es
 que ya ofrece en beta 100/20 con latencias de alrededor de 30ms (un chiste de latencia para los que vivimos del otro lado del Ecuador), e incluso promete reducir la latencia y 300Mbps de bajada para este año.
 
 ### [Microsoft in talks with Discord over $10 billion-plus acquisition](https://www.theverge.com/2021/3/22/22345792/microsoft-discord-acquisition-report-10-billion)	
-Esta noticia es medio ipo-falopa, pero como es de jueguitos, me toco a mi. Microsoft esta en avanzadas tratativas de comprar DISCORD. Si, el programita que usan para charlar con su grupo de amigos, juegos, comunidades, etc.  Discord fue valuado recientemente en 7 billones de dolares, y Microsoft, que se nota que anda con ganas de gastar un poquito de plata, hizo una generosa 
-oferta por un poco mas de 10 billones de dolares. Todavia al dia de hoy es un rumor, pero parece que Discord tuvo varias reuniones con distintas empresas, y ya firmo un contrato con una empresa (hint hint) y que se daria a conocer en cualquier momento quien es. Discord tiene mas de 140 millones de usuarios mensuales y reporto mas de 130 millones de dolares en ganancias. 
-La mayoria de las funcionalidades son gratuitas, pero pagando 9.99 dolares por mes, tenes acceso a NITRO, que le da algunas funcionalidades mas copadas a tu comunidad. 
+Esta noticia es medio ipo-falopa, pero como es de jueguitos, me toco a mi. Microsoft esta en avanzadas tratativas de comprar DISCORD. Si, el programita que usan para charlar con su grupo de amigos, juegos, comunidades, etc.  Discord fue valuado recientemente en 7 billones de dólares, y Microsoft, que se nota que anda con ganas de gastar un poquito de plata, hizo una generosa 
+oferta por un poco más de 10 billones de dolares. Todavía al día de hoy es un rumor, pero parece que Discord tuvo varias reuniones con distintas empresas, y ya firmó un contrato con una empresa (hint hint) y que se daría a conocer en cualquier momento quien es. Discord tiene más de 140 millones de usuarios mensuales y reportó más de 130 millones de dólares en ganancias. 
+La mayoría de las funcionalidades son gratuitas, pero pagando 9.99 dólares por mes, tenes acceso a NITRO, que le da algunas funcionalidades más copadas a tu comunidad. 
 Recuerden que tenemos nuestro propio [discord](https://sysar.my/discord), que esta conectado a [Slack](https://sysar.my/slack) y también conectado a la red maestra del mundo mundial, IRC!
  
 ### [WhatsApp for work: Slack is turning into a full-on messaging app](https://www.protocol.com/slack-messaging-connect)
@@ -74,7 +72,7 @@ Después de más de 10 años entrando y saliendo de los juzgados, parece que ter
 (que no se note tanto, chicos) demandó a Google por violación de patentes y copyright de Java en el sistema operativo Android. Para Oracle, Google desarrolló Android sin una licencia de Java y copió sus APIs. 
 Ya en 2012 la cuestión de patentes fue desestimada por la justicia, y quedaba solo la parte de copyright, que siguió hasta hoy. Recordemos también que Google hizo una versión cleanroom (ingeniería inversa y recrear desde cero, sin violar copyright) de Java, sin acceso al código de Sun, que terminó transformándose en Dalvik. Parte de Dalvik incluía 37 llamadas de API y 11500 
 líneas de código tomadas de Apache Harmony, otra implementación cleanroom de Java. Después de muchas idas y vueltas, el lunes 5 de abril SCOTUS (la Corte Suprema de Justicia de EEUU) falló a favor de Google, concluyendo que las APIs son significativamente diferentes de otros tipos de programas, y catalogó el accionar de Google como 'fair use' (el famoso "permitido" del copyright). 
-Oracle, mal perdedor, sigue sosteniendo que Google se robó Java (sic). La pregunta que nos hacemos todos es: si Oracle compró Sun para demandar a Google por Android, qué va a hacer ahora?
+Oracle, mal perdedor, sigue sosteniendo que Google se robó Java (sic). La pregunta que nos hacemos todos es: si Oracle compró Sun para demandar a Google por Android, ¿qué va a hacer ahora?
 
 ### Discusión: [NFT](https://www.cnn.com/2021/03/23/tech/jack-dorsey-nft-tweet-sold/index.html)
 
