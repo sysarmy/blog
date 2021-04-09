@@ -12,18 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: resultados-encuesta-de-sueldos-2016-1
 Tags:
 - sysarmy
 - encuesta
 - sueldos
-Thumbnail: /blog/assets/330973_14871194668374_rid13.jpg
+featuredImage: assets/330973_14871194668374_rid13.jpg
 Title: Resultados encuesta de sueldos 2016.1
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2016/03/01/resultados-encuesta-de-sueldos-2016-1
 date: 2016-03-01
 markup: html
 ---

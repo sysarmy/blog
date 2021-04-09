@@ -12,18 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: resultados-de-la-encuesta-de-sueldos-2017-2
 Tags:
 - sysarmy
 - encuesta
 - sueldos
-Thumbnail: /blog/assets/floyd-mayweather1.jpg
+featuredImage: assets/floyd-mayweather1.jpg
 Title: Resultados de la encuesta de sueldos 2017.2
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2017/09/11/resultados-de-la-encuesta-de-sueldos-2017-2
 date: 2017-09-11
 markup: html
 ---
