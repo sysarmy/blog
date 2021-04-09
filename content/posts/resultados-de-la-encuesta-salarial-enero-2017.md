@@ -12,18 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: resultados-de-la-encuesta-salarial-enero-2017
 Tags:
 - sysarmy
 - encuesta
 - sueldos
-Thumbnail: /blog/assets/330973_14871194668374_rid13.jpg
+Thumbnail: assets/330973_14871194668374_rid13.jpg
 Title: Resultados de la encuesta salarial – enero 2017
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2017/02/15/resultados-de-la-encuesta-salarial-enero-2017
 date: 2017-02-15
 markup: html
 ---
