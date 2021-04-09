@@ -103,7 +103,7 @@ En max_id hay que poner el límite del último tweet que quieren borrar.
 
 ![](https://miro.medium.com/max/1400/1*BBuNwURXWEhS-oSWkeu9gg.png)
 
-Y listo! Si alguien quiere mejorarlo, adelante :) [Acá está el código listo para usar](https://github.com/sysarmy/disneyland/blob/master/misc/api-de-twitter-archive-and-delete/delete_tweets_from_text_file.py)
+Y listo! Si alguien quiere mejorarlo, adelante :) [Acá está el código listo para usar](assets/delete_tweets_from_text_file.py)
 
 *Créditos a Pablo Pietro, [Edu](https://twitter.com/jedux) y [Godlike](https://twitter.com/godlike64) que me dieron una mano pensando e investigando*
 
