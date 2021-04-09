@@ -15,6 +15,8 @@ Section:
 Slug: resultados-de-la-encuesta-de-sueldos-2018-1
 Tags:
 - sysarmy
+- encuesta
+- sueldos
 Thumbnail: /blog/assets/onetrillion-e1520234146371.jpeg
 Title: Resultados de la encuesta de sueldos 2018.1
 Topics:

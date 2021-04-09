@@ -15,6 +15,8 @@ Section:
 Slug: resultados-de-la-encuesta-de-sueldos-2017-2
 Tags:
 - sysarmy
+- encuesta
+- sueldos
 Thumbnail: /blog/assets/floyd-mayweather1.jpg
 Title: Resultados de la encuesta de sueldos 2017.2
 Topics:
