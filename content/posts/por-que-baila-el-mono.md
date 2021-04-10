@@ -12,16 +12,17 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: por-que-baila-el-mono
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/adminfest.png
+- adminfest
+Thumbnail: assets/adminfest.png
+socialImage: assets/adminfest.png
+featuredImage: assets/adminfest.png
 Title: Por qué baila el mono?
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/04/13/por-que-baila-el-mono
 date: 2015-04-13
 markup: html
 ---

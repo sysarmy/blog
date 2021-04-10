@@ -12,16 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: s01e02-encuesta-de-insatisfaccion-laboral
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/office-space.png
+- encuesta
+- sueldos
+Thumbnail: assets/office-space.png
+featuredImage: assets/office-space.png
+socialImage: assets/office-space.png
 Title: S01E02 – Encuesta de (in)satisfacción laboral
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2014/11/14/s01e02-encuesta-de-insatisfaccion-laboral
 date: 2014-11-14
 markup: html
 ---

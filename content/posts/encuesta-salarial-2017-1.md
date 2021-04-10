@@ -12,16 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: encuesta-salarial-2017-1
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/billete200-docker1.jpg
+- encuesta
+- sueldos
+Thumbnail: assets/billete200-docker1.jpg
+socialImage: assets/billete200-docker1.jpg
+featuredImage: assets/billete200-docker1.jpg
 Title: Encuesta salarial – 2017.1
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2016/12/26/encuesta-salarial-2017-1
 date: 2016-12-26
 markup: html
 ---

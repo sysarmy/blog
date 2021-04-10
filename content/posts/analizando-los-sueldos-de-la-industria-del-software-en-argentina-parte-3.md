@@ -12,16 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-3
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/1-0yjdyv9xusf8w3_g7zdf-q.png
+- encuesta
+- sueldos
+Thumbnail: assets/1-0yjdyv9xusf8w3_g7zdf-q.png
+socialImage: assets/1-0yjdyv9xusf8w3_g7zdf-q.png
+featuredImage: assets/1-0yjdyv9xusf8w3_g7zdf-q.png
 Title: Analizando los sueldos de la industria del software en Argentina (Parte 3)
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2016/10/12/analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-3
 date: 2016-10-12
 markup: html
 ---

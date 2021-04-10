@@ -12,16 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: encuesta-salarial-segundo-semestre
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/billete200-docker1.jpg
+- encuesta
+- sueldos
+Thumbnail: assets/billete200-docker1.jpg
+socialImage: assets/billete200-docker1.jpg
+featuredImage: assets/billete200-docker1.jpg
 Title: Encuesta salarial – segundo semestre
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2016/07/11/encuesta-salarial-segundo-semestre
 date: 2016-07-11
 markup: html
 ---

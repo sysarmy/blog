@@ -7,7 +7,6 @@ Keywords:
 - cloud
 - hardware
 Section: 
-Slug: todavia-se-usan-servers-fisicos
 Tags:
 - sysarmy
 Title: ¿Tu empresa todavía usa servidores físicos? ¿Por qué?
@@ -17,7 +16,9 @@ Topics:
 - onpremise
 - cloud
 - Systems
-Thumbnail: /blog/assets/cse-847beic-r1k28lpb_front_1.jpg
+Thumbnail: assets/cse-847beic-r1k28lpb_front_1.jpg
+socialImage: assets/cse-847beic-r1k28lpb_front_1.jpg
+featuredImage: assets/cse-847beic-r1k28lpb_front_1.jpg
 date: 2020-09-24
 markup: markdown
 draft: false

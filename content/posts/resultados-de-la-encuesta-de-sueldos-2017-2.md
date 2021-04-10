@@ -16,6 +16,8 @@ Tags:
 - sysarmy
 - encuesta
 - sueldos
+Thumbnail: assets/floyd-mayweather1.jpg
+socialImage: assets/floyd-mayweather1.jpg
 featuredImage: assets/floyd-mayweather1.jpg
 Title: Resultados de la encuesta de sueldos 2017.2
 Topics:

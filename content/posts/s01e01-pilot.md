@@ -12,16 +12,17 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: s01e01-pilot
 Tags:
+- sysarmy
 - blog
-Thumbnail: /blog/assets/logo.png
+Thumbnail: assets/logo.png
+featuredImage: assets/logo.png
+socialImage: assets/logo.png
 Title: S01E01 – Pilot
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2014/10/05/s01e01-pilot
 date: 2014-10-05
 markup: html
 ---

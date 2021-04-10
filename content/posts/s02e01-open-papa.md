@@ -12,16 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: s02e01-open-papa
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/shutup.png
+- encuesta
+- sueldos
+Thumbnail: assets/shutup.png
+socialImage: assets/shutup.png
+featuredImage: assets/shutup.png
 Title: S02E01 – Open papa
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/01/09/s02e01-open-papa
 date: 2015-01-09
 markup: html
 ---

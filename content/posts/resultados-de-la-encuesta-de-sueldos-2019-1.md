@@ -12,18 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: resultados-de-la-encuesta-de-sueldos-2019-1
 Tags:
 - sysarmy
 - encuesta
 - sueldos
-Thumbnail: /blog/assets/dyarnaruwaavxs7.jpg
+Thumbnail: assets/dyarnaruwaavxs7.jpg
+socialImage: assets/dyarnaruwaavxs7.jpg
+featuredImage: assets/dyarnaruwaavxs7.jpg
 Title: Resultados de la encuesta de sueldos 2019.1
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2019/02/22/resultados-de-la-encuesta-de-sueldos-2019-1
 date: 2019-02-22
 markup: html
 ---

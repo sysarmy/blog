@@ -12,16 +12,17 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: s02e02-nerdear-la-2015
 Tags:
+- sysarmy
 - nerdearla
-Thumbnail: /blog/assets/nerdearla.jpg
+Thumbnail: assets/nerdearla.jpg
+socialImage: assets/nerdearla.jpg
+featuredImage: assets/nerdearla.jpg
 Title: S02E02 – Nerdear.la 2015 !
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/01/21/s02e02-nerdear-la-2015
 date: 2015-01-21
 markup: html
 ---

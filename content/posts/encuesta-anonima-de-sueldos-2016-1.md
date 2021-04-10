@@ -12,16 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: encuesta-anonima-de-sueldos-2016-1
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/stallman.jpg
+- encuesta
+- sueldos
+Thumbnail: assets/stallman.jpg
+socialImage: assets/stallman.jpg
+featuredImage: assets/stallman.jpg
 Title: Encuesta anónima de sueldos 2016.1
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2016/01/11/encuesta-anonima-de-sueldos-2016-1
 date: 2016-01-11
 markup: html
 ---

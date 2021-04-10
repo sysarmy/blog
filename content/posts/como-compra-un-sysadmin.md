@@ -12,16 +12,17 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: como-compra-un-sysadmin
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/chownealo.png
+- chownealo
+Thumbnail: assets/chownealo.png
+socialImage: assets/chownealo.png
+featuredImage: assets/chownealo.png
 Title: Cómo compra un sysadmin
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/04/06/como-compra-un-sysadmin
 date: 2015-04-06
 markup: html
 ---
@@ -37,10 +38,12 @@ markup: html
 <p>&nbsp;</p>
 <p><em>P.D.: Agradecimiento especial a <a href="https://twitter.com/ar_jorge1987" target="_blank">@ar_jorge1987</a> por su colaboración en el proyecto !<br />
 </em></p>
-<pre>NAME
+```bash
+NAME
 chown - change file owner and group
 
 SYNOPSIS
 chown [OPTION]... [OWNER][:[GROUP]] FILE...
 chown [OPTION]... --reference=RFILE FILE...
-</pre>
+```
+

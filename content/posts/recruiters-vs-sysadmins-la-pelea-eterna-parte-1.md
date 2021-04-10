@@ -12,16 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: recruiters-vs-sysadmins-la-pelea-eterna-parte-1
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/tbbt.jpg
+Thumbnail: assets/tbbt.jpg
+socialImage: assets/tbbt.jpg
+featuredImage: assets/tbbt.jpg
 Title: Recruiters vs Sysadmins - la pelea eterna (Parte 1)
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2016/02/15/recruiters-vs-sysadmins-la-pelea-eterna-parte-1
 date: 2016-02-15
 markup: html
 ---

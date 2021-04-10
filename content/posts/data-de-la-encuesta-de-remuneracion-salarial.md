@@ -12,16 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: data-de-la-encuesta-de-remuneracion-salarial
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/shutup.png
+- encuesta
+- sueldos
+Thumbnail: assets/shutup.png
+socialImage: assets/shutup.png
+featuredImage: assets/shutup.png
 Title: Data de la encuesta de remuneración salarial
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/09/30/data-de-la-encuesta-de-remuneracion-salarial
 date: 2015-09-30
 markup: html
 ---

@@ -12,16 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: vos-de-que-trabajabas
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/xkcd.png
+Thumbnail: assets/xkcd.png
+socialImage: assets/xkcd.png
+featuredImage: assets/xkcd.png
 Title: Vos, de qué trabajabas?
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/03/15/vos-de-que-trabajabas
 date: 2015-03-15
 markup: html
 ---

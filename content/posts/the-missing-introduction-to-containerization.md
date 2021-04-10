@@ -15,6 +15,8 @@ Section:
 Tags:
 - sysarmy
 Thumbnail: assets/0_D6D2UV47p42ACOnu.jpeg
+socialImage: assets/0_D6D2UV47p42ACOnu.jpeg
+featuredImage: assets/0_D6D2UV47p42ACOnu.jpeg
 Title: The missing introduction to containerization
 Topics:
 - Development
