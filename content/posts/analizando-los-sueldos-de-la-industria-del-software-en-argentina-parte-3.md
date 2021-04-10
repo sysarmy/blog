@@ -34,7 +34,7 @@ markup: html
 <div class="section-inner layoutSingleColumn">
 <h3 class="graf graf--h3">Analizando los sueldos de la industria del software en Argentina (Parte 3)</h3>
 <blockquote class="graf graf--blockquote"><p>hay una diferencia significativa entre la proporción de hombres y mujeres en el decil mejor pago (top 10%) de la industria del software en Argentina.</p></blockquote>
-<p class="graf graf--p"><a class="markup--anchor markup--p-anchor" href="2016/09/06/analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-2/">En el post anterior</a> concluimos que efectivamente había una diferencia en el salario medio dependiendo del género. En este tercer análisis intentaremos rechazar la siguiente hipótesis:</p>
+<p class="graf graf--p"><a class="markup--anchor markup--p-anchor" href="posts/analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-2">En el post anterior</a> concluimos que efectivamente había una diferencia en el salario medio dependiendo del género. En este tercer análisis intentaremos rechazar la siguiente hipótesis:</p>
 <blockquote class="graf graf--pullquote"><p>Los cargos con sueldos más altos son ocupados equitativamente por hombres y mujeres.</p></blockquote>
 <p class="graf graf--p">Para responder esta pregunta debemos primero obtener algunos datos de nuestro dataset:</p>
 <ul class="postList">
