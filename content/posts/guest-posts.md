@@ -12,16 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: guest-posts
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/player2.jpg
+Thumbnail: assets/player2.jpg
+socialImage: assets/player2.jpg
+featuredImage: assets/player2.jpg
 Title: Guest posts
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/06/26/guest-posts
 date: 2015-06-26
 markup: html
 ---

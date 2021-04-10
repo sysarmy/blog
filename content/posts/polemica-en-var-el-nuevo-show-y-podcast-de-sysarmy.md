@@ -12,16 +12,19 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: polemica-en-var-el-nuevo-show-y-podcast-de-sysarmy
+Tags:
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/logo-tv.png
+- podcast
+- polemicaenvar
+Thumbnail: assets/logo-tv.png
+socialImage: assets/logo-tv.png
+featuredImage: assets/logo-tv.png
 Title: Polémica en /var el nuevo show y podcast de sysarmy
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2017/03/20/polemica-en-var-el-nuevo-show-y-podcast-de-sysarmy
 date: 2017-03-20
 markup: html
 ---

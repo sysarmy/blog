@@ -11,9 +11,10 @@ Section:
 Tags:
 - sysarmy
 - join
-Thumbnail: https://i.etsystatic.com/15770998/r/il/3fe54c/1314770713/il_794xN.1314770713_n3sd.jpg
-socialImage: https://i.etsystatic.com/15770998/r/il/3fe54c/1314770713/il_794xN.1314770713_n3sd.jpg
-featuredImage: https://i.etsystatic.com/15770998/r/il/3fe54c/1314770713/il_794xN.1314770713_n3sd.jpg
+- freenode
+Thumbnail: assets/il_794xN.1314770713_n3sd.jpg
+socialImage: assets/il_794xN.1314770713_n3sd.jpg
+featuredImage: assets/il_794xN.1314770713_n3sd.jpg
 Title: How to Join sysarmy 
 Topics:
 - sysarmy

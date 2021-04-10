@@ -12,16 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: de-que-trabajas
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/titc.jpg
+Thumbnail: assets/titc.jpg
+socialImage: assets/titc.jpg
+featuredImage: assets/titc.jpg
 Title: De qué trabajás?
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/02/20/de-que-trabajas
 date: 2015-02-20
 markup: html
 ---

@@ -12,16 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: multiples-vulnerabilidades-en-openssl-esto-es-lo-que-hay-que-hacer
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/drown-1.png
+Thumbnail: assets/drown-1.png
+socialImage: assets/drown-1.png
+featuredImage: assets/drown-1.png
 Title: Múltiples Vulnerabilidades en OpenSSL – Esto es lo que hay que hacer
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2016/03/17/multiples-vulnerabilidades-en-openssl-esto-es-lo-que-hay-que-hacer
 date: 2016-03-17
 markup: html
 ---

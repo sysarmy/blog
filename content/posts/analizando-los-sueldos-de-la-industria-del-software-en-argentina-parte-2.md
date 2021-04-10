@@ -12,21 +12,23 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-2
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/1-p-i0_gpvcdhpg_uokpnayq.png
+- encuesta
+- sueldos
+Thumbnail: assets/1-p-i0_gpvcdhpg_uokpnayq.png
+socialImage: assets/1-p-i0_gpvcdhpg_uokpnayq.png
+featuredImage: assets/1-p-i0_gpvcdhpg_uokpnayq.png
 Title: Analizando los sueldos de la industria del software en Argentina (Parte 2)
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2016/09/06/analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-2
 date: 2016-09-06
 markup: html
 ---
 
-<p class="graf--p">En el <a class="markup--anchor markup--p-anchor" href="2016/08/29/analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-1/">primer post</a> hicimos un <strong class="markup--strong markup--p-strong">análisis exploratorio</strong> general de los sueldos, en este vamos a realizar una <strong class="markup--strong markup--p-strong">inferencia estadística</strong>. Otra vez, todo el código se encuentra <a class="markup--anchor markup--p-anchor" href="https://github.com/fernandezpablo85/sysarmy-salaries-data-2016" target="_blank">disponible acá</a>.</p>
+<p class="graf--p">En el <a class="markup--anchor markup--p-anchor" href="analizando-los-sueldos-de-la-industria-del-software-en-argentina-parte-1/">primer post</a> hicimos un <strong class="markup--strong markup--p-strong">análisis exploratorio</strong> general de los sueldos, en este vamos a realizar una <strong class="markup--strong markup--p-strong">inferencia estadística</strong>. Otra vez, todo el código se encuentra <a class="markup--anchor markup--p-anchor" href="https://github.com/fernandezpablo85/sysarmy-salaries-data-2016" target="_blank">disponible acá</a>.</p>
 <h4 class="graf--h4">Hipótesis</h4>
 <p class="graf--p">Primero formulamos una hipótesis:</p>
 <blockquote class="graf--blockquote"><p>Los salarios varían significativamente según el género</p></blockquote>

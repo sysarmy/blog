@@ -12,16 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: irc-sysarmy-r-en-freenode
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/screen-shot-2018-08-06-at-17-19-19.png
+Thumbnail: assets/screen-shot-2018-08-06-at-17-19-19.png
+socialImage: assets/screen-shot-2018-08-06-at-17-19-19.png
+featuredImage: assets/screen-shot-2018-08-06-at-17-19-19.png
 Title: IRC - sysarmy +r en freenode
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2018/08/06/irc-sysarmy-r-en-freenode
 date: 2018-08-06
 markup: html
 ---

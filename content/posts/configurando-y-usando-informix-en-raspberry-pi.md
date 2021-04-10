@@ -12,16 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: configurando-y-usando-informix-en-raspberry-pi
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/raspberrypi4.jpg
+- raspberry
+- informix
+Thumbnail: assets/raspberrypi4.jpg
+socialImage: assets/raspberrypi4.jpg
+featuredImage: assets/raspberrypi4.jpg
 Title: Configurando y usando Informix en Raspberry PI
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/09/16/configurando-y-usando-informix-en-raspberry-pi
 date: 2015-09-16
 markup: html
 ---

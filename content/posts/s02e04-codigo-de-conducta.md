@@ -12,16 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: s02e04-codigo-de-conducta
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/hay-tabla.jpg
+- conducta
+- coc
+Thumbnail: assets/hay-tabla.jpg
+socialImage: assets/hay-tabla.jpg
+featuredImage: assets/hay-tabla.jpg
 Title: S02E04 – Código de Conducta
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/02/09/s02e04-codigo-de-conducta
 date: 2015-02-09
 markup: html
 ---

@@ -12,16 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: como-levante-un-viejo-proliant-o-la-espada-del-rey-arturo
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/img_20170703_201217_766.jpg
+Thumbnail: assets/img_20170703_201217_766.jpg
+socialImage: assets/img_20170703_201217_766.jpg
+featuredImage: assets/img_20170703_201217_766.jpg
 Title: Como levanté un viejo Proliant (O la espada del Rey Arturo)
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2017/08/15/como-levante-un-viejo-proliant-o-la-espada-del-rey-arturo
 date: 2017-08-15
 markup: html
 ---

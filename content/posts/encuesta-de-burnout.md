@@ -12,17 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: encuesta-de-burnout
 Tags:
 - sysarmy
 - encuesta
-Thumbnail: /blog/assets/gettyimages-175268984.jpg
+- burnout
+Thumbnail: assets/gettyimages-175268984.jpg
+socialImage: assets/gettyimages-175268984.jpg
+featuredImage: assets/gettyimages-175268984.jpg
 Title: Encuesta de burnout
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2019/04/04/encuesta-de-burnout
 date: 2019-04-04
 markup: html
 ---

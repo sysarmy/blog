@@ -17,6 +17,8 @@ Tags:
 - encuesta
 - sueldos
 Thumbnail: assets/330973_14871194668374_rid13.jpg
+socialImage: assets/330973_14871194668374_rid13.jpg
+featuredImage: assets/330973_14871194668374_rid13.jpg
 Title: Resultados de la encuesta salarial – enero 2017
 Topics:
 - Development

@@ -17,6 +17,8 @@ Tags:
 - encuesta
 - sueldos
 Thumbnail: assets/encuesta.png
+socialImage: assets/encuesta.png
+featuredImage: assets/encuesta.png
 Title: Resultados de la encuesta salarial – julio 2016
 Topics:
 - Development

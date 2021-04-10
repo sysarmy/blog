@@ -12,16 +12,17 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: feliz-dia-del-admin
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/adminfest.png
+- adminfest
+Thumbnail: assets/adminfest.png
+socialImage: assets/adminfest.png
+featuredImage: assets/adminfest.png
 Title: Feliz día del Admin !
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/07/31/feliz-dia-del-admin
 date: 2015-07-31
 markup: html
 ---

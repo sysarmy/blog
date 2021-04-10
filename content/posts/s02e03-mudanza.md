@@ -12,16 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: s02e03-mudanza
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/mudanza.jpg
+Thumbnail: assets/mudanza.jpg
+socialImage: assets/mudanza.jpg
+featuredImage: assets/mudanza.jpg
 Title: S02E03 – Mudanza
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/02/01/s02e03-mudanza
 date: 2015-02-01
 markup: html
 ---

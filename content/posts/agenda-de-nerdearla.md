@@ -12,16 +12,17 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: agenda-de-nerdearla
 Tags:
+- sysarmy
 - nerdearla
-Thumbnail: /blog/assets/nerdearla9.jpg
+Thumbnail: assets/nerdearla9.jpg
+socialImage: assets/nerdearla9.jpg
+featuredImage: assets/nerdearla9.jpg
 Title: Agenda de nerdear.la 2015
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/05/07/agenda-de-nerdearla
 date: 2015-05-07
 markup: html
 ---

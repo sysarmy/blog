@@ -12,16 +12,16 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: armando-a-ramon
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/12184149_920268121343011_5167075062998985260_o.jpg
+Thumbnail: assets/12184149_920268121343011_5167075062998985260_o.jpg
+socialImage: assets/12184149_920268121343011_5167075062998985260_o.jpg
+featuredImage: assets/12184149_920268121343011_5167075062998985260_o.jpg
 Title: Armando a Ramón
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/12/14/armando-a-ramon
 date: 2015-12-14
 markup: html
 ---

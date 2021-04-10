@@ -12,16 +12,18 @@ Keywords:
 - docker
 - kubernetes
 Section: 
-Slug: como-instalar-informix-en-un-raspberry-pi
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/raspberrypi4.jpg
+- raspberrypi
+- raspberry
+Thumbnail: assets/raspberrypi4.jpg
+socialImage: assets/raspberrypi4.jpg
+featuredImage: assets/raspberrypi4.jpg
 Title: Como instalar Informix en un Raspberry PI
 Topics:
 - Development
 - Leadership
 - Systems
-Url: 2015/09/07/como-instalar-informix-en-un-raspberry-pi
 date: 2015-09-07
 markup: html
 ---
