@@ -12,7 +12,7 @@ paginate = 10
   contentTypeName = "posts"
 
   # "light" or "dark"
-  defaultTheme = "light"
+  defaultTheme = "dark"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
