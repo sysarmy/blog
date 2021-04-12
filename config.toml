@@ -55,13 +55,13 @@ paginate = 10
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        #identifier = "about"
-        #name = "About"
-        #url = "/about"
+        identifier = "Youtube"
+        name = "Youtube"
+        url = "https://www.youtube.com/channel/UCPE3EUzO58EBHzrJp2Fv7_A"
       [[languages.en.menu.main]]
-        #identifier = "showcase"
-        #name = "Showcase"
-        #url = "/showcase"
+        identifier = "Tienda"
+        name = "Tienda"
+        url = "https://tienda.sysarmy.com/"
 
 footnoteReturnLinkContents = ":leftwards_arrow_with_hook:"
 
