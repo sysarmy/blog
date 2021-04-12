@@ -47,7 +47,7 @@ paginate = 10
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "syarmy:~ blog$"
+      logoText = "sysarmy:~ blog$"
       logoHomeLink = "/blog"
     # or
       #path = "/blog/assets/logo.png"
