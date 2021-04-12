@@ -1,0 +1,27 @@
+description = "A simple theme for Hugo. That's it."
+features = ["blog", "shortcode", "syntax Highlighting"]
+homepage = "https://github.com/panr/hugo-theme-hello-friend/"
+license = "MIT"
+licenselink = "https://github.com/panr/hugo-theme-hello-friend/blob/master/LICENSE.md"
+min_version = 0.74
+name = "hello-friend"
+tags = [
+  "blog",
+  "clean",
+  "customizable",
+  "dark",
+  "highlighting",
+  "light",
+  "minimal",
+  "monochromatic",
+  "multilingual",
+  "personal",
+  "responsive",
+  "simple",
+  "technical",
+]
+
+[author]
+homepage = "https://radoslawkoziel.pl"
+name = "panr"
+twitter = "https://twitter.com/panr"

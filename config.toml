@@ -1,10 +1,67 @@
 baseURL = "https://sysarmy.com/blog/"
 languageCode = "en-us"
-title = "El blog de quienes dan soporte"
-theme = "sysarmy"
+theme = "hello-friend"
 publishDir = "/"
 MetaDataFormat = "toml"
 #googleAnalytics = "UA-36359098-1"
+paginate = 10
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # Show reading time in minutes for posts
+  showReadingTime = true
+
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  # toc = true
+
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  # rssFullText = true
+
+[languages]
+  [languages.en]
+    title = "Sysarmy"
+    subtitle = "El blog de quienes dan soporte"
+    keywords = ""
+    copyright = ""
+    menuMore = "Mostrar mas"
+    writtenBy = "Escrito por"
+    readMore = "Seguir leyendo"
+    readOtherPosts = "Leer otros posts"
+    newerPosts = "Nuevos posts"
+    olderPosts = "Viejos posts"
+    minuteReadingTime = "minutos de lectura aprox."
+    dateFormatSingle = "January 2, 2006"
+    dateFormatList = "January 2, 2006"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
+
+    [languages.en.params.logo]
+      logoText = "sysarmy:~ blog$"
+      logoHomeLink = "/blog"
+    # or
+      #path = "/blog/assets/logo.png"
+      #alt = "Sysarmy"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "Youtube"
+        name = "Youtube"
+        url = "https://www.youtube.com/channel/UCPE3EUzO58EBHzrJp2Fv7_A"
+      [[languages.en.menu.main]]
+        identifier = "Tienda"
+        name = "Tienda"
+        url = "https://tienda.sysarmy.com/"
 
 footnoteReturnLinkContents = ":leftwards_arrow_with_hook:"
 
