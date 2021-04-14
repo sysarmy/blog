@@ -22,7 +22,7 @@ Topics:
 - sre
 - documentacion
 markup: markdown
-date: 2021-04-11
+date: 2021-04-13
 draft: false
 ---
 Si hay algo que a quienes desarrollan les gusta menos que escribir documentación, es responder llamados de la guardia innecesarios.
@@ -125,5 +125,5 @@ Dejamos el episodio de on-call y el episodio de postmortem donde hablamos sobre 
 
 {{< youtube 6d-Fb9R1-k4 >}}
 
-* Traducción, revisión y publicación @jedux
+* Traducción, revisión y publicación colaborativa de @jedux, [nicolas17](https://github.com/nicolas17), [Daniel-DZ](https://github.com/Daniel-DZ) y [efsl](https://github.com/efsbl)
 
