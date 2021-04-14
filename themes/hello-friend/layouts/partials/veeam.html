@@ -1,23 +1,37 @@
 <div class="ve-desktop">
-<ins class='dcmads' style='display:inline-block;width:728px;height:90px'
-    data-dcm-placement='N410401.3634809SYSARMY.COMBLOG/B10464038.251052924'
-    data-dcm-rendering-mode='iframe'
-    data-dcm-https-only
-    data-dcm-resettable-device-id=''
-    data-dcm-app-id=''>
-  <script src='https://www.googletagservices.com/dcm/dcmads.js'></script>
-</ins>
-</div>
-
-<!--
-<div class="ve-mobile">
-<ins class='dcmads' style='display:inline-block;width:320px;height:50px'
-      data-dcm-placement='N410401.3634809SYSARMY.COMBLOG/B10464038.250920272'
+  <ins class='dcmads' style='display:inline-block;width:728px;height:90px'
+      data-dcm-placement='N410401.3634809SYSARMY.COMBLOG/B10464038.251052924'
       data-dcm-rendering-mode='iframe'
       data-dcm-https-only
       data-dcm-resettable-device-id=''
       data-dcm-app-id=''>
-  <script src='https://www.googletagservices.com/dcm/dcmads.js'></script>
-</ins>
-</div>
--->
+    <script src='https://www.googletagservices.com/dcm/dcmads.js'></script>
+  </ins>
+  </div>
+  
+  <div class="ve-mobile">
+  <ins class='dcmads' style='display:inline-block;width:320px;height:50px'
+        data-dcm-placement='N410401.3634809SYSARMY.COMBLOG/B10464038.250920272'
+        data-dcm-rendering-mode='iframe'
+        data-dcm-https-only
+        data-dcm-resettable-device-id=''
+        data-dcm-app-id=''>
+    <script src='https://www.googletagservices.com/dcm/dcmads.js'></script>
+  </ins>
+  </div>
+
+<script>
+if (window.innerWidth < 960) {
+  var divsToHide = document.getElementsByClassName("ve-desktop");
+    for(var i = 0; i < divsToHide.length; i++){
+        divsToHide[i].style.visibility = "hidden"; // or
+        divsToHide[i].style.display = "none";
+    }
+} else {
+  var divsToHide = document.getElementsByClassName("ve-mobile");
+    for(var i = 0; i < divsToHide.length; i++){
+        divsToHide[i].style.visibility = "hidden";
+        divsToHide[i].style.display = "none";
+    }
+}
+</script>
