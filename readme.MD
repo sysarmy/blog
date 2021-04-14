@@ -4,23 +4,23 @@ El blog de Sysarmy fue migrado desde Wordpress hacia [Go Hugo](https://gohugo.io
 
 # ¿Como contribuir?
 
-Las contribuciones siempre son bienvenidas, la idea es que cuando mas contenido afin tengamos en el blog, mayor beneficio para la comunidad. El unico requisito es que el contenido este en español.
+Las contribuciones siempre son bienvenidas! La idea es que, cuanto más contenido afín tengamos en el blog, mayor será el beneficio para la comunidad. El único requisito es que el contenido esté en español.
 
 La forma mas práctica para contribuir cortita y al pie:
 
 - Forkear el repo
 - git clone
 - git checkout new-post
-- copiar content/posts/template-post.md a el nuevo post
-- sacar todo los placeholders y escribir el post per se.
+- Copiar content/posts/template-post.md a el nuevo post
+- Sacar todo los placeholders y escribir el post per se.
 - commit a tu fork/new-post <- IMPORTANTE
-- hacer pull request a blog/new-post <- IMPORTANTE
-- algun admin del post va a revisar el pull request, quizas iterar con comentarios.
-- finalmente el pull request se acepta.
+- Hacer pull request a blog/new-post <- IMPORTANTE
+- Algún admin del post va a revisar el pull request, quizás iterar con comentarios.
+- Finalmente el pull request se acepta.
 - Probablemente se hagan ajustes finales.
-- se mergea a master y se publica en internet
+- Se mergea a master y se publica en internet.
 
-## Instalación y configuracion de Go Hugo
+## Instalación y configuración de Go Hugo
 Utilizando brew se debe correr el siguiente comando
 ```bash
 brew install hugo
