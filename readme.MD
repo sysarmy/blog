@@ -44,37 +44,39 @@ Se puede utilizar el siguiente comando para generarlo. El archivo se encontrará
 ```bash
 hugo new posts/nombre-del-post.md
 ```
-La metadata que se está cargando en los todos los posts es: Slug, Tags, Thumbnail, Title, Url, date y la imagen (mismo valor que Thumbnail)
+La metadata que se está cargando en todos los posts es: Description, Keywords, Tags, Thumbnail/socialImage/featuredImage (los 3 tienen el mismo valor), Title, Topics, markup (markdown/html según corresponda) y date.
 Ejemplo: 
 ```md
 ---
-Description: "Sysarmy - Comunidad de sistemas"
+Description: "10 proyectos de portfolio para aspirantes a automation engineer"
 Keywords:
-- sysadmin
-- sistemas
-- desarrollo
-- developer
-- administración de sistemas
-- administrador de sistemas
-- linux
-- cloud
-- docker
-- kubernetes
-Section:
-Slug: vos-de-que-trabajabas
+- devops 
+- engineer
+- tools
+- jr
+- aprender
+Section: 
 Tags:
 - sysarmy
-Thumbnail: /blog/assets/xkcd.png
-Title: Vos, de qué trabajabas?
+- devops 
+- engineer
+- tools
+- jr
+- aprender
+Thumbnail: assets/202103-iniciarse-en-devops.png
+socialImage: assets/202103-iniciarse-en-devops.png
+featuredImage: assets/202103-iniciarse-en-devops.png
+Title: "Como entrar a DevOps, un hilo robado"
 Topics:
-- Development
-- Leadership
-- Systems
-Url: 2015/03/15/vos-de-que-trabajabas
-date: 2015-03-15
+- devops 
+- engineer
+- tools
+- jr
+- aprender
+markup: markdown
+date: 2021-03-02
+draft: false
 ---
-
-{{% img src="/blog/assets/xkcd.png" class="half right" %}}
 ```
 
 Una vez finalizado el post, localmente se puede validar buildeando.
