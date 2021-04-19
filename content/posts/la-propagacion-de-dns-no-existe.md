@@ -4,11 +4,13 @@ keywords:
     - dns
 tags:
     - dns
+topics:
+    - dns
 thumbnail: assets/la-propagacion-de-dns-no-existe.png
 socialImage: assets/la-propagacion-de-dns-no-existe.png
 featuredImage: assets/la-propagacion-de-dns-no-existe.png
-date: 2021-04-18T20:32:43-03:00
-draft: true
+date: 2021-04-19
+draft: false
 ---
 
 La propagación del DNS no existe
@@ -23,7 +25,9 @@ Un [artículo](https://www.nslookup.io/blog/dns-propagation-does-not-exist/) de 
 
 Cuando se solicitan registros DNS al servidor que es autoritativo para ese dominio (es decir, a quien le "pertenece"), éste acompañará esos registros con un TTL (time to live, tiempo de vida). Esto indica cuánto tiempo puede seguir utilizando esos valores antes de que deba solicitar una nueva copia. Los registros se almacenan en una caché en tu dispositivo. Eliminar la necesidad de consultar el servidor DNS cada vez acelera las cosas y descarga los servidores DNS.
 
-Muchos proveedores de servicios de Internet proporcionan servidores de caché DNS a sus abonados. También hay algunos servidores DNS públicos, ofrecidos por [Google](https://developers.google.com/speed/public-dns, [Cloudflare](https://www.cloudflare.com/es-es/learning/dns/what-is-1.1.1.1/) y otros. Todos ellos se denominan servidores DNS recursivos/resolutivos. Pueden proporcionarle una respuesta consultando al servidor DNS autoritativo. Estos servidores recursivos utilizan el TTL para almacenar en caché los registros en su lado. Así que *hay varias capas de caché*: en estos servidores y en tu dispositivo.
+Muchos proveedores de servicios de Internet proporcionan servidores de caché de DNS a sus abonados. También hay algunos servidores DNS públicos, ofrecidos por [Google](https://developers.google.com/speed/public-dns, [Cloudflare](https://www.cloudflare.com/es-es/learning/dns/what-is-1.1.1.1/) y otros. Todos ellos se denominan servidores DNS recursivos/resolutivos. Pueden proporcionarle una respuesta consultando al servidor DNS autoritativo. Estos servidores recursivos utilizan el TTL para almacenar en caché los registros en su lado. Así que *hay varias capas de caché*: en estos servidores y en tu dispositivo.
+
+Muchos proveedores de servicios de Internet proporcionan servidores de caché DNS a sus abonados. También hay algunos servidores DNS públicos, ofrecidos por Google, Cloudflare y otros. Todos ellos se denominan servidores DNS recursivos/resolutivos. Pueden proporcionarle una respuesta consultando al servidor DNS autoritativo. Estos servidores recursivos utilizan el TTL para almacenar en caché los registros en su lado. Así que hay varias capas de caché: en estos servidores y en tu dispositivo.
 
 Por supuesto, es posible que los registros hayan sido modificados, y que obtengas una versión antigua de los registros que todavía estaba en la caché. Se dice que estos registros son obsoletos. Por lo tanto, cuando esto ocurre, no se debe a que los registros no se hayan propagado todavía, sino a que la caché está obsoleta.
 
@@ -41,5 +45,5 @@ Así que eliminemos esta falacia y hablemos de expiración de la caché en lugar
 
 ![Meme Ohlala señor francés](assets/la-propagacion-de-dns-no-existe-meme.jpg)
 
-* Traducción, revisión y publicación @jedux.
+* Traducción, revisión y publicación colaborativa de @jedux y [Daniel-DZ](https://github.com/Daniel-DZ).
 
