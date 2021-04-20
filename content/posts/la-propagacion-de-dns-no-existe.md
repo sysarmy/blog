@@ -10,6 +10,7 @@ thumbnail: assets/la-propagacion-de-dns-no-existe.png
 socialImage: assets/la-propagacion-de-dns-no-existe.png
 featuredImage: assets/la-propagacion-de-dns-no-existe.png
 date: 2021-04-19
+markup: Markdown
 draft: false
 ---
 
@@ -19,7 +20,7 @@ Una falacia muy extendida entre los profesionales de la informática es que el [
 
 <!--more-->
 
-Un [artículo](https://www.nslookup.io/blog/dns-propagation-does-not-exist/) de [Ruurtjan Pul](https://twitter.com/Ruurtjan)
+Un {{< canonical href="https://www.nslookup.io/blog/dns-propagation-does-not-exist/" text="artículo" >}} de [Ruurtjan Pul](https://twitter.com/Ruurtjan)
 
 # Entonces, ¿cómo funciona?
 
