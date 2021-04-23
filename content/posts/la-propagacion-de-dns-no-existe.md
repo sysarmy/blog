@@ -10,7 +10,7 @@ thumbnail: assets/la-propagacion-de-dns-no-existe.png
 socialImage: assets/la-propagacion-de-dns-no-existe.png
 featuredImage: assets/la-propagacion-de-dns-no-existe.png
 externalPermlink: "https://www.nslookup.io/blog/dns-propagation-does-not-exist/"
-date: 2021-04-19
+date: 2021-04-20
 markup: Markdown
 draft: false
 ---
