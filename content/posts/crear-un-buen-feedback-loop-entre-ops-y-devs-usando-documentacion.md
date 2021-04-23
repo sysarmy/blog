@@ -21,6 +21,7 @@ Topics:
 - engineer
 - sre
 - documentacion
+externalPermlink: "https://stackoverflow.blog/2021/03/18/creating-a-good-feedback-loop-between-ops-and-devs-using-documentation/"
 markup: markdown
 date: 2021-04-13
 draft: false

@@ -9,7 +9,14 @@
   content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"
 />
 <meta name="robots" content="noodp" />
+
+<!--<link rel="canonical" href="{{ .Permalink }}" /> -->
+<!-- This is to handle canonical refs to external sites where we took the article for example -->
+{{ if isset .Params "externalpermlink" }}
+<link rel="canonical" href="{{ .Params.externalPermlink }}" />
+{{ else}}
 <link rel="canonical" href="{{ .Permalink }}" />
+{{ end }}
 
 <!-- head custom -->
 {{- partial "prepended_head.html" . }}

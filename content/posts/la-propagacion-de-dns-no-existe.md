@@ -9,11 +9,11 @@ topics:
 thumbnail: assets/la-propagacion-de-dns-no-existe.png
 socialImage: assets/la-propagacion-de-dns-no-existe.png
 featuredImage: assets/la-propagacion-de-dns-no-existe.png
+externalPermlink: "https://www.nslookup.io/blog/dns-propagation-does-not-exist/"
 date: 2021-04-19
 markup: Markdown
 draft: false
 ---
-
 La propagación del DNS no existe
 
 Una falacia muy extendida entre los profesionales de la informática es que el [DNS](https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio) se propaga por alguna red. Tan extendida, de hecho, que hay un par de sitios dedicados a visualizar la propagación geográfica de los registros DNS. Pero la propagación del DNS no existe.
