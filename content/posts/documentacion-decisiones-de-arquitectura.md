@@ -1,17 +1,18 @@
 ---
-draft: true
+draft: false
 title: "Documentación De Decisiones De Arquitectura"
-date: 2021-04-25
+description: "Una de las cosas más difíciles de seguir durante la vida de un proyecto es la motivación que hay detrás de ciertas decisiones. Una persona nueva que llega a un proyecto puede estar perpleja, desconcertada, encantada o enfurecida por alguna decisión anterior. Sin entender los motivos ni las consecuencias, esta persona sólo tiene dos opciones."
+date: 2021-04-26
 
 keywords:
     - arquitectura
-    - documentación
+    - documentacion
 tags:
     - arquitectura
-    - documentación
+    - documentacion
 topics:
     - arquitectura
-    - documentación
+    - documentacion
 thumbnail: assets/documentacion-decisiones-de-arquitectura.jpg
 socialImage: assets/documentacion-decisiones-de-arquitectura.jpg
 featuredImage: assets/documentacion-decisiones-de-arquitectura.jpg
@@ -44,7 +45,7 @@ Es mejor evitar tanto la aceptación ciega como la revocación ciega.
 
 # DECISIÓN
 
-Mantendremos una colección de registros para las decisiones "arquitectónicamente significativas": las que afectan a la estructura, los requerimientos no funcionales, las dependencias, las interfaces o las técnicas de construcción.
+Mantendremos una **colección de registros** para las decisiones *"arquitectónicamente significativas"*: las que afectan a la estructura, los requerimientos no funcionales, las dependencias, las interfaces o las técnicas de construcción.
 
 Un registro de decisiones de arquitectura (ADR) es un breve archivo de texto en un formato similar a un patrón [alejandrino](https://es.wikipedia.org/wiki/Alejandrino). (Aunque las decisiones en sí mismas no son necesariamente patrones, comparten el equilibrio de fuerzas característico). Cada registro describe un conjunto de fuerzas y una única decisión en respuesta a esas fuerzas. Tenga en cuenta que la decisión es la pieza central aquí, por lo que las fuerzas específicas pueden aparecer en múltiples ADR`[^1].
 
@@ -76,7 +77,7 @@ Aceptado.
 
 # CONSECUENCIAS
 
-Una ADR describe una decisión significativa para un proyecto concreto. Debe ser algo que repercuta en el desarrollo del resto del proyecto.
+Una ADR describe una ***decisión significativa para un proyecto concreto***. Debe ser algo que repercuta en el desarrollo del resto del proyecto.
 
 Es muy probable que las consecuencias de una ADR se conviertan en el contexto de las siguientes ADR. Esto también es similar a la idea de Alexander de un lenguaje de patrones: las respuestas a gran escala crean espacios en los que las de escala mas pequeña encajan.
 
@@ -88,7 +89,7 @@ La motivación de las decisiones anteriores es visible para todos, presentes y f
 
 # INFORME DE EXPERIENCIAS
 
-Habrás notado que este post tiene el formato de un ADR propiamente dicho. Llevamos utilizando este formato en algunos de nuestros proyectos desde principios de agosto. No es mucho tiempo en el sentido global, pero los primeros comentarios, tanto de clientes como de promotores, han sido bastante positivos. En ese tiempo, hemos tenido entre seis y diez promotores que han rotado por los proyectos utilizando las ADR. Todos ellos han declarado que aprecian el grado de contexto que recibieron al leerlos.
+Habrás notado que este post tiene el formato de un ADR propiamente dicho. Llevamos utilizando este formato en algunos de nuestros proyectos desde principios de agosto (NdE: este artículo es de 2011, asi que esto lleva bastante más tiempo activo). No es mucho tiempo en el sentido global, pero los primeros comentarios, tanto de clientes como de promotores, han sido bastante positivos. En ese tiempo, hemos tenido entre seis y diez promotores que han rotado por los proyectos utilizando las ADR. Todos ellos han declarado que aprecian el grado de contexto que recibieron al leerlos.
 
 Las ADR han sido especialmente útiles para **captar las intenciones a largo plazo.** Tenemos varios clientes que están estabilizando sus sistemas actuales, pero que están pensando en una reestructuración mayor en un futuro no muy lejano. Al anotar estas intenciones, no dificultamos inadvertidamente esos cambios futuros.
 
@@ -110,3 +111,5 @@ Gracias a Philipe Kruchten por hablar de la importancia de las decisiones de arq
 - [A Definition of Done for Architectural Decision Making](https://www.ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html)
 
 [^1]: ADR, architecture decision record.
+
+Ref [#42](https://github.com/sysarmy/blog/pull/42)
