@@ -1,9 +1,8 @@
 ---
 title: "Como Acelerar El Proceso De Aprobación de los Pull Request"
-date: 2021-05-02T21:20:38-03:00
+date: 2021-05-06
 description: "A la hora de agregar nuevo código GitHub introdujo el concepto de Pull Request (PR). Donde, uno o más humanos (Requester), avisan a otros humanos (Reviewer) que están tratando de incorporar nuevos cambios al repositorio. La idea es que el Reviewer revise esos cambios y devuelva la revisión en forma de feedback. Está feature es sumamente útil a la hora de hacer code review, pero por razones de la vida, a veces este proceso se hace muy largo."
-
-draft: true
+draft: false
 
 keywords:
     - code review
@@ -149,7 +148,9 @@ No concluir y dejar pendiente el PR , deja en un limbo los cambios.
 Los PRs son solo una parte del proceso del code review. El code review es lo que aporta valor, el PR, es una forma fancy de poder hacer code review.
 No hay soluciones mágicas. Y todo se reduce a personas cooperando con buena voluntad.
 
-[Artículo original](https://medium.com/@m_vicent/como-acelerar-el-proceso-de-aprobaci%C3%B3n-en-los-pull-request-5eb6303cf761 de), revisó @jedux.
+[Artculo original](https://medium.com/@m_vicent/como-acelerar-el-proceso-de-aprobaci%C3%B3n-en-los-pull-request-5eb6303cf761).
+
+Edición colaborativa de @jedux, [@vmariano](https://github.com/vmariano), [@nicolas17](https://github.com/nicolas17), [@qlixed](https://github.com/qlixed) y [@fmochetti](https://github.com/fmocchetti).
 
 # Links y Referencias.
 
