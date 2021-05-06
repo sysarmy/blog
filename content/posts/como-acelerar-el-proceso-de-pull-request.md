@@ -59,7 +59,7 @@ Podés considerar bloquear el ticket relacionado como para especificar que hasta
 
 ## Evita discusiones largas (o chat). 💬
 
-Especialmente las que no tienen una relación con lo que representa ese PR, Si la discusión se empieza a ir fuera del scope del pr, ticket etc, Quizás sea momento de hacer una llamada, poner una reunión o hablarlo con el equipo.
+Especialmente las que no tienen una relación con lo que representa ese PR. Si la discusión se empieza a ir fuera del scope del PR, ticket etc. Quizás sea momento de hacer una llamada, poner una reunión o hablarlo con el equipo. Tomando el cuidado de no caer en la clásica situación ["pudo ser un email"](https://psicologia-online.cl/pudoserunmail/)
 
 ## Asegurarse que el PR, Tiene los reviewers correctos,(o tiene reviewers).
 
