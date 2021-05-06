@@ -68,63 +68,63 @@ También, un poco obvia, pero es la mejor manera de notificar que “tienes un p
 ## Usar GitHub teams.
 
 Esta feature esta hace rato, pero básicamente son groups de personas que cuentan como si fuera 1 reviewer, cualquiera de ese grupo que deje un review, cuenta como reviewer.
-Se puede configurar de mil maneras, Incluso se puede setupear que un mínimo de 2 reviewers por team, haciendo round robin para no enganchar a las mismas 2 personas.
+Se puede configurar de mil maneras. Incluso se puede configurar un mínimo de 2 reviewers por team, haciendo round robin para no enganchar siempre a las mismas 2 personas.
 
 ## Algunas cosas no requieren aprobación de PR.
-Esto no quiere decir que no se haga, el PR, pero tal vez no hace falta que se firme o que lo revise alguien. Puede ser una emergencia o hot fix, o simplemente es tan trivial que no vale la pena molestar a otra persona.
+Esto no quiere decir que no se haga el PR, pero tal vez no hace falta que se firme o que lo revise alguien. Puede ser una emergencia, un hot fix, o simplemente es tan trivial que no vale la pena molestar a otra persona.
 
-## Considerar donde esta el cierre
-Medir niveles de urgencia, entender que se esta tratando de cumplir, y considerar que algunas cosas , algunos cambios se puede seguir en otro PR. No hace falta que se entregue algo prístino en el primer intento.
+## Considerar dónde está el cierre
+Medir niveles de urgencia, entender que se está tratando de cumplir y considerar que algunas cosas y algunos cambios se pueden seguir en otro PR. No hace falta que se entregue algo prístino en el primer intento.
 La idea de hacer PRs, es que el código lo mire mas de una persona, algunos autores recomiendan que si hacemos algo así como pair programming, podemos hacer un PR y mergearlo, no necesitamos approve. (Hay unos [plugins](https://github.com/kejadlen/git-together) de git re copados para eso).
 
 # Consejos para Requesters.
 ## Auto review
-Primero que nada. Limpia toda la mugre que haya quedado o que no sea consistente con lo que tenes que enviar.
+Primero que nada. Limpia toda la mugre que haya quedado o que no sea consistente con lo que tenés que enviar.
 
 Deja comentarios propios, si algo no queda claro, contar un poco porque lo resolviste de esa forma, o explica un poco mejor que estas haciendo. Si lo amerita dejar comentarios en el código también.
 
 Recordar que, si bien github es bueno para mostrar lo que se ve, también es muy bueno para ocultar otras que no se vean.
 
-## Escribir una buena descripcion en el pr:
-La explicación en la portada de del ticket es clave. Screenshots, gifs, bulletpoints, memes, cualquier cosa que ayude a entender el concepto que estamos armando y por que necesitamos ese cambio.
+## Escribir una buena descripción en el PR:
+La explicación en la portada del ticket es clave. Screenshots, gifs, bullet points, memes, cualquier cosa que ayude a entender el concepto que estamos armando y por que necesitamos ese cambio.
 
 ## Clasificar tus PR.
-Comprimilos en pequeños unidades de información. De la misma manera que haces commits atómicos, trata de enviar pull request atómicos.
-Esto genera que el reviewer tenga menos trabajo y tiempo de review donde se vea claro el objetivo. La idea seria que cambios mas chicos, menos esfuerzo cognitivo al reviewver y por lo tanto son mas fáciles de revisar / aprobar.
+Comprimilos en pequeñas unidades de información. De la misma manera que haces commits atómicos, trata de enviar pull request atómicos.
+Esto genera que el reviewer tenga menos trabajo y tiempo de review y que se vea claro el objetivo. La idea sería que con cambios más chicos haya menos esfuerzo cognitivo del reviewer, por lo tanto los PR serián más fáciles de revisar / aprobar.
 Hay una [guía mas detallada](https://sergeyzhuk.me/2018/12/29/code_review) de esto.
 
 ## Encadena tus Prs
 
-Si tenes dependencias entre PRs, uni las referencias, para que queden encadenadas. ej: abro branch de develop a my-feature-part-1 y luego abro un my-feature-part2 que sale de my-feature-part-1.
+Si tenes dependencias entre PRs, uni las referencias para que queden encadenadas. Ej: abro branch de develop a my-feature-part-1 y luego abro un my-feature-part2 que sale de my-feature-part-1.
 
 ## Se perseverante
-Quizás mas de X días sea buen momento para pinguear a los reviewvers, pregunta porque nadie lo reviso, empuja para que salga adelante. Los prs (A diferencia del Whisky) no mejoran con el tiempo.
+Quizás más de X días sea buen momento para pinguear a los reviewers, pregunta porque nadie lo revisó, empuja para que salga adelante. Los PRs (A diferencia del Whisky) no mejoran con el tiempo.
 
-## Las tareas no son siempre son 1 pr : 1ticket.
-Considera que 1 ticket puede ser N pull request, salvo regla explicita, no es necesario resolver todo un ticket en 1 PR. podes hacer mas de 1 para la misma tarea. Vas a tener mas tiempo de review, pero vas a tener fragmentos mas consistentes a la hora de mandar un cambio.
+## Las tareas no son siempre son 1 PR : 1 ticket
+Considera que 1 ticket puede ser N pull request, salvo regla explícita, no es necesario resolver todo un ticket en 1 PR. podes hacer mas de 1 para la misma tarea. Vas a tener más tiempo de review, pero vas a tener fragmentos más consistentes a la hora de mandar un cambio.
 
-## Mandar un early preview del PR,
-Puede ayudar a ejemplificar el angulo que tomaste, no te olvides de poner un `wip`, Hay que tener en cuenta que esto también puede agregar ruido a la hora de “revisar” cosas.
-Esto es mas bien para validar diseños, ángulos y tener una visibilidad de progreso.
+## Mandar un early preview del PR.
+Puede ayudar a ejemplificar el enfoque que tomaste, no te olvides de poner un `wip`. Hay que tener en cuenta que esto también puede agregar ruido a la hora de “revisar” cosas.
+Esto es más bien para validar diseños, enfoques y tener una visibilidad de progreso.
 Actualmente github tiene una función “draft” para tener una early version.
 
 # Consejos para Reviewers.
-## Mantené los comentarios sobre el código que se esta discutiendo en el momento.
+## Mantené los comentarios sobre el código que se está discutiendo en el momento.
 Deja el estilo y la forma para los linters, las herramientas, o impulsa por tener y mantener una convención.
-Si ves cosas mal hechas, que ya estaban, no esta mal arreglarlas solo que quizás no en ese contexto.
+Si ves cosas mal hechas que ya estaban, no está mal arreglarlas, sólo que quizás no en ese contexto.
 
 ## Prioridades
-El código en PR, es el más cercano a prod, por lo tanto trata de darle prioridad, que el que no se escribió o esta por escribir.
+El código en PR es el más cercano a prod, por lo tanto, trata de darle más prioridad que al que no se escribió o a el que se está por escribir.
 
 ## Decidí
-Si no ves nada malo o raro, no dudes en aprobar, no procrastines o dejes “para mas tarde”. Si no estas seguro, llama a otro reviewer que te ayude a revisar.
-Quizás hay cosas que no entendés o sabes de alguien mas interesado en revisar eso.
+Si no ves nada malo o raro, no dudes en aprobar, no procrastines o dejes “para más tarde”. Si no estas seguro, llama a otro reviewer que te ayude a revisar.
+Quizás hay cosas que no entendés o sabes de alguien más interesado en revisar eso.
 
 ## TL;DR
-Si es muy largo, deja una nota hasta donde revisaste, y que es lo que entendiste, si bien no completaste el objetivo, mínimamente hiciste un repaso, y eso le va a dar una pauta al próximo reviewer por donde seguir.
+Si es muy largo, deja una nota hasta donde revisaste y que es lo que entendiste. Si bien no completaste el objetivo, mínimamente hiciste un repaso, y eso le va a dar una pauta al próximo reviewer de por donde seguir.
 
 ## De atrás para adelante
-Una buena forma de empezar es mirar los tests que se esta agregando. Eso puede dar una buena pista de que funcionalidad se trata de testear.
+Una buena forma de empezar es mirar los tests que se están agregando. Eso puede dar una buena pista de que funcionalidad se trata de testear.
 
 ## Usa los ☑️ de los files.
 los checks de los files de arriba a la derecha, dan 3 ventajas:
@@ -133,20 +133,20 @@ los checks de los files de arriba a la derecha, dan 3 ventajas:
 - Se te avisa cuando el Requester mando nuevos cambios desde que vos revisaste, re abriendo esos files. Usalos.
 
 ## Sugerí código
-Dan mucha velocidad al requester. (Cuidado con el identado o dependencias).
+Dan mucha velocidad al requester. (Cuidado con el indentado o dependencias).
 
 ## Identifica y clasifica tu feedback
-* Comment & Approve: Viste algo que es menor, no es bloquearte o no podría generar nuevos errores. ✅ . Es valido dejar coments por: cambios chicos, cosas que podrian hacerse mejor, pero no son bloqueantes.
-* Request changes: Viste algo que no debería llegar a prod, hay algo que no te cierra como esta hecho, viste algo que rompe retrocompatiblidad. ❌
+* Comment & Approve: Viste algo que es menor, no es bloqueante o no podría generar nuevos errores. ✅ . Es válido dejar comentarios por cambios chicos o cosas que podrían hacerse mejor pero que no son bloqueantes.
+* Request changes: Viste algo que no debería llegar a prod, hay algo que no te cierra como esta hecho, viste algo que rompe retrocompatibilidad. ❌
 También se puede usar una [convención de tipos de mensajes](https://conventionalcomments.org).
 
 ## Dar un veredicto
 En general hacer una revisión y dejar feedback en un PR es correcto, pero también se busca una conclusión, y/o dictamen de parte del Requester.
-Esto a veces no se da si hay muchas dudas o falta de conocimiento/contexto, respecto al cambio que se esta aplicando. Esto puede ser un buen indicador para dejar este mismo feedback en la review, y pedir por otro reviewer, con mayor conocimiento.
+Esto a veces no se da si hay muchas dudas o falta de conocimiento/contexto respecto al cambio que se está aplicando. Esto puede ser un buen indicador para dejar este mismo feedback en la review y pedir por otro reviewer, con mayor conocimiento.
 No concluir y dejar pendiente el PR , deja en un limbo los cambios.
 
 # Conclusión
-Los Prs, son solo una parte del proceso de code review. El code review es lo que aporta valor, el PR, es una forma fancy de poder hacer code review.
+Los PRs son solo una parte del proceso del code review. El code review es lo que aporta valor, el PR, es una forma fancy de poder hacer code review.
 No hay soluciones mágicas. Y todo se reduce a personas cooperando con buena voluntad.
 
 [Artículo original](https://medium.com/@m_vicent/como-acelerar-el-proceso-de-aprobaci%C3%B3n-en-los-pull-request-5eb6303cf761 de), revisó @jedux.
