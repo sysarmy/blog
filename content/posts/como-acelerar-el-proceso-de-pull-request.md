@@ -30,7 +30,7 @@ Estos son algunos consejos y trucos que aprendí y encontré por ahí y que pode
 
 ## Disclaimer:
 Esto no es una guía de cómo hacer code review. Para eso existen [libros y papers enteros sobre eso.](https://github.com/joho/awesome-code-review)
-Esto es mas bien son consideraciones para reducir el trabajo entre ambas partes, centrado en el flow de github y solo pensando para enviar y recibir pull requests.
+Esto más bien son consideraciones para reducir el trabajo entre ambas partes, centrado en el flow de github y solo pensando para enviar y recibir pull requests.
 
 # Consejos para cualquiera de las partes
 
