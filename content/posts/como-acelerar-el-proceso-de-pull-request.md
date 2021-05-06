@@ -48,7 +48,7 @@ Un reminder en el calendar, mientras tomas el café de la mañana, o terminaste 
 
 ## Involucrar al equipo. 👨‍👩‍👧‍👧👩‍👩‍👧‍👧
 
-Una sola persona no puede estar haciendo las reviews, Esto a veces se complicado porque muchas veces los reviews recaen sobre la misma persona, hay que evitar que eso pase, porque sino el conocimiento no se comparte. Una buena practica podria ser, no tener mas de X cosas en status “review”.
+Una sola persona no puede estar haciendo las reviews. Esto a veces es complicado porque muchas veces los reviews recaen sobre la misma persona, hay que evitar que eso pase, sino el conocimiento no se comparte. Una buena práctica podría ser, no tener más de X cosas en status “review”.
 
 ## Darse por vencido.
 
