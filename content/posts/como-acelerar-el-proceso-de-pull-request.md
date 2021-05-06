@@ -74,7 +74,7 @@ Esto no quiere decir que no se haga, el PR, pero tal vez no hace falta que se fi
 
 ## Considerar donde esta el cierre
 Medir niveles de urgencia, entender que se esta tratando de cumplir, y considerar que algunas cosas , algunos cambios se puede seguir en otro PR. No hace falta que se entregue algo prístino en el primer intento.
-La idea de hacer PRs, es que el código lo mire mas de una persona, algunos autores recomiendan que si hacemos algo así como pair programmig, podemos hacer un PR y mergearlo, no necesitamos approve. (Hay unos [plugins](https://github.com/kejadlen/git-together) de git re copados para eso).
+La idea de hacer PRs, es que el código lo mire mas de una persona, algunos autores recomiendan que si hacemos algo así como pair programming, podemos hacer un PR y mergearlo, no necesitamos approve. (Hay unos [plugins](https://github.com/kejadlen/git-together) de git re copados para eso).
 
 # Consejos para Requesters.
 ## Auto review
