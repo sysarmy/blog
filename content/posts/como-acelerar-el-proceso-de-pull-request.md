@@ -1,7 +1,8 @@
 ---
 title: "Como Acelerar El Proceso De Aprobación de los Pull Request"
 date: 2021-05-02T21:20:38-03:00
-description: "A la hora de agregar nuevo código, GitHub introdujo el concepto de Pull Request (PR), donde uno o mas humanos(Requester), le avisa a otros humanos (Reviewer), que estan tratando de incorporar nuevos cambios al repositorio. La idea es que el Reviewer revise esos cambios, y devuelva en forma de feedback. Esta feature es sumamente útil a la hora de hacer code review, pero por razones de la vida a veces este proceso se hace muy largo."
+description: "A la hora de agregar nuevo código GitHub introdujo el concepto de Pull Request (PR). Donde, uno o más humanos (Requester), avisan a otros humanos (Reviewer) que están tratando de incorporar nuevos cambios al repositorio. La idea es que el Reviewer revise esos cambios y devuelva la revisión en forma de feedback. Está feature es sumamente útil a la hora de hacer code review, pero por razones de la vida, a veces este proceso se hace muy largo."
+
 draft: true
 
 keywords:
@@ -24,9 +25,9 @@ externalPermlink: "https://medium.com/@m_vicent/como-acelerar-el-proceso-de-apro
 
 # Code reviews mas rápidos
 
-[Git](https://git-scm.com/) y [GitHub](https://github.com/) tomaron la delantera en versionado de código, hoy prácticamente todas las empresas medianas/chicas/grandes lo usan para mantener y versionar su código.
-A la hora de agregar nuevo código, GitHub introdujo el concepto de [Pull Request (PR)](https://docs.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests), donde uno o mas humanos(Requester), le avisa a otros humanos (Reviewer), que están tratando de incorporar nuevos cambios al repositorio. La idea es que el Reviewer revise esos cambios, y devuelva en forma de feedback. Esta funcionalidad es sumamente útil a la hora de hacer code review, pero por razones de la vida a veces este proceso se hace muy largo.
-Estos son algunos consejos y trucos que aprendí y encontré por ahí y que podes agregar a tu flow de trabajo para acelerar el proceso desde que mandás un PR hasta que se aprueba/mergea.
+[Git](https://git-scm.com/) y [GitHub](https://github.com/) tomaron la delantera en el versionado de código, hoy prácticamente todas las empresas chicas/medianas/grandes lo usan para mantener y versionar su código.
+A la hora de agregar nuevo código GitHub introdujo el concepto de [Pull Request (PR)](https://docs.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests). Donde, uno o más humanos (Requester), avisan a otros humanos (Reviewer) que están tratando de incorporar nuevos cambios al repositorio. La idea es que el Reviewer revise esos cambios y devuelva la revisión en forma de feedback. Está funcionalidad es sumamente útil a la hora de hacer code review, pero por razones de la vida, a veces este proceso se hace muy largo.
+Estos son algunos consejos y trucos que aprendí y encontré por ahí y que podes agregar a tu flow de trabajo para acelerar el proceso, desde que mandás un PR hasta que se aprueba/mergea.
 
 ## Disclaimer:
 Esto no es una guía de cómo hacer code review. Para eso existen [libros y papers enteros sobre eso.](https://github.com/joho/awesome-code-review)
@@ -36,15 +37,15 @@ Esto más bien son consideraciones para reducir el trabajo entre ambas partes, c
 
 ## Configurar las notificaciones. 🔔
 
-Parece un poco obvio, pero asegurarse de tener prendidas las notificaciones por el medio que mas te guste, es algo que debemos hacer para enterarnos que tenemos que hacer algo con un pull request.
+Parece un poco obvio, pero asegurarse de tener prendidas las notificaciones, por el medio que más te guste, es algo que debemos hacer para enterarnos que tenemos que hacer algo con un pull request.
 
-La notificaciones pueden ser por email, por web, por push notifications o incluso hay unos plugins re piolas para Slack etc. La casa recomienda fuerte: [pullreminders](https://pullreminders.com)
+Las notificaciones pueden ser por email, web, push notifications o incluso unos plugins re piolas para Slack, etc. La casa recomienda fuerte: [pullreminders](https://pullreminders.com)
 
-Si no querés mirar las notificaciones, al menos entra un par de veces al día al [menú](https://github.com/pulls/review-requested) de GitHub. Ahí esta toda la información sobre los pull request que requieren una acción tuya.
+Si no querés mirar las notificaciones, al menos entra un par de veces al día al [menú](https://github.com/pulls/review-requested) de GitHub. Ahí está toda la información sobre los pull request que requieren una acción tuya.
 
 ## Guarda un poco de tiempo en tu agenda/dia a dia. 📅
 
-Un reminder en el calendar, mientras tomas el café de la mañana, o terminaste con la maratónica meeting party, pero que ese tiempo este y este bloqueado, para que te puedas concentrar en eso.
+Un reminder en el calendar, mientras tomas el café de la mañana, o terminaste con la maratónica meeting party, pero que ese tiempo esté y esté bloqueado, para que puedas concéntrarte en eso.
 
 ## Involucrar al equipo. 👨‍👩‍👧‍👧👩‍👩‍👧‍👧
 
@@ -52,9 +53,9 @@ Una sola persona no puede estar haciendo las reviews. Esto a veces es complicado
 
 ## Darse por vencido.
 
-Si ya paso mucho tiempo, y no tomaste ninguna acción, fíjate si alguien te puede ayudar con eso, y si sigue siendo valido el PR.
+Si ya pasó mucho tiempo y no tomaste ninguna acción, fíjate si alguien te puede ayudar con eso, y si sigue siendo válido el PR.
 
-Podes considerar bloquear el ticket relacionado como para especificar que hasta que no hagan el review, el ticket se encuentra bloqueado porque necesitas eso para seguir.
+Podés considerar bloquear el ticket relacionado como para especificar que hasta que no hagan el review, el ticket se encuentra bloqueado, ya que necesitas eso para seguir.
 
 ## Evita discusiones largas (o chat). 💬
 
