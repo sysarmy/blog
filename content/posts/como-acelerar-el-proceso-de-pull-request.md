@@ -22,7 +22,7 @@ featuredImage: assets/como-acelerar-el-proceso-de-pull-request.png
 externalPermlink: "https://medium.com/@m_vicent/como-acelerar-el-proceso-de-aprobaci%C3%B3n-en-los-pull-request-5eb6303cf761"
 ---
 
-# Code review mas rápidos
+# Code reviews mas rápidos
 
 [Git](https://git-scm.com/) y [GitHub](https://github.com/) tomaron la delantera en versionado de código, hoy prácticamente todas las empresas medianas/chicas/grandes lo usan para mantener y versionar su código.
 A la hora de agregar nuevo código, GitHub introdujo el concepto de [Pull Request (PR)](https://docs.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests), donde uno o mas humanos(Requester), le avisa a otros humanos (Reviewer), que están tratando de incorporar nuevos cambios al repositorio. La idea es que el Reviewer revise esos cambios, y devuelva en forma de feedback. Esta funcionalidad es sumamente útil a la hora de hacer code review, pero por razones de la vida a veces este proceso se hace muy largo.
