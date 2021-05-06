@@ -131,7 +131,7 @@ los checks de los files de arriba a la derecha, dan 3 ventajas:
 - Esconden files que “no te interesan” ej: yarn.lock.
 - Se te avisa cuando el Requester mando nuevos cambios desde que vos revisaste, re abriendo esos files. Usalos.
 
-## Sugeri codigo
+## Sugerí código
 Dan mucha velocidad al requester. (Cuidado con el identado o dependencias).
 
 ## Identifica y clasifica tu feedback
