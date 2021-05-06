@@ -129,7 +129,7 @@ Una buena forma de empezar es mirar los tests que se esta agregando. Eso puede d
 los checks de los files de arriba a la derecha, dan 3 ventajas:
 - Esconden código que ya revisaste.
 - Esconden files que “no te interesan” ej: yarn.lock.
--Se te avisa cuando el Requester mando nuevos cambios desde que vos revisaste, re abriendo esos files. Usalos.
+- Se te avisa cuando el Requester mando nuevos cambios desde que vos revisaste, re abriendo esos files. Usalos.
 
 ## Sugeri codigo
 Dan mucha velocidad al requester. (Cuidado con el identado o dependencias).
