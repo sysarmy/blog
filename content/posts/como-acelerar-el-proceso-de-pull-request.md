@@ -66,7 +66,7 @@ También, un poco obvia, pero es la mejor manera de notificar que “tienes un p
 
 ## Usar GitHub teams.
 
-Esta feature esta hace rato, pero básicamente son groups de personas que cuentan como si fuera 1 reviewer, cualquiera de ese grupo que deje un review, cuenta como reviewver.
+Esta feature esta hace rato, pero básicamente son groups de personas que cuentan como si fuera 1 reviewer, cualquiera de ese grupo que deje un review, cuenta como reviewer.
 Se puede configurar de mil maneras, Incluso se puede setupear que un mínimo de 2 reviewers por team, haciendo round robin para no enganchar a las mismas 2 personas.
 
 ## Algunas cosas no requieren aprobación de PR.
