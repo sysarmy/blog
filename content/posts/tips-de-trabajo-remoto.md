@@ -1,22 +1,26 @@
 ---
 title: "Tips De Trabajo Remoto"
-date: 2021-05-10T20:02:42-03:00
+date: 2021-05-14
 description: "Unos cuantos consejos para trabajo remoto de veinte expertos con más de 100 años de experiencia trabajando remotamente."
-draft: true
+draft: false
 
 keywords:
     - remote work
     - trabajo remoto
+    - tips
+    - piques
+    - consejos
 tags:
     - remote work
     - trabajo remoto
     - tips
+    - piques
+    - consejos
 topics:
     - trabajo remoto
-#thumbnail: assets/como-acelerar-el-proceso-de-pull-request.png
-#socialImage: assets/como-acelerar-el-proceso-de-pull-request.png
-#featuredImage: assets/como-acelerar-el-proceso-de-pull-request.png
-#externalPermlink: "https://medium.com/@m_vicent/como-acelerar-el-proceso-de-aprobaci%C3%B3n-en-los-pull-request-5eb6303cf761"
+thumbnail: assets/tips-de-trabajo-remoto.jpg
+socialImage: assets/tips-de-trabajo-remoto.jpg
+featuredImage: assets/tips-de-trabajo-remoto.jpg
 ---
 
 Traemos al español este [hilo original](https://twitter.com/chris_herd/status/1391021349318111233) de twitter con tips para trabajores remotos.
@@ -135,7 +139,7 @@ Encuentra tiempo para reunirte con una cadencia que te permita tener la mejor co
 
 A menudo vemos que los equipos remotos tienen unas relaciones mucho mejores que los equipos de oficina 
 
-##🏝 Recuerda hacer descansos
+## 🏝 Recuerda hacer descansos
 
 No hay que preocuparse por no hacer suficiente trabajo: los trabajadores remotos son mucho más productivos; el verdadero problema es el agotamiento
 
@@ -149,4 +153,10 @@ El tono y los matices son casi imposibles de captar todo el tiempo en la comunic
 
 Asume siempre una intención positiva al leer los mensajes y haz una llamada rápida si no tienes nada claro 
 
-¿Quieres una [gran experiencia de trabajo híbrido o remoto](https://www.firstbasehq.com/) para ti o tu equipo?
+---
+
+NdE: Si trabajas en una empresa remote first y el onboarding es medio flojo, podes mirar la empresa que postearon al final de hilo. [FirstbaseHQ](https://www.firstbasehq.com/)
+
+NdE: [link a la foto del thumb](https://www.flickr.com/photos/81654918@N00/562112223)
+
+[#49](https://github.com/sysarmy/blog/pull/49)
