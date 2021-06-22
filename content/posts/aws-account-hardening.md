@@ -1,8 +1,24 @@
 ---
 title: "AWS Account Hardening"
-date: 2021-06-02T00:06:00-03:00
-draft: true
+date: 2021-06-21
+draft: false
 description: "Unos cuantos consejos para reforzar la seguridad de tus cuentas en AWS."
+
+keywords:
+    - aws
+    - seguridad
+    - tips
+    - piques
+    - consejos
+tags:
+    - aws
+    - seguridad
+    - tips
+    - piques
+    - consejos
+topics:
+    - aws hardening
+
 thumbnail: assets/aws-account-hardening.png
 socialImage: assets/aws-account-hardening.png
 featuredImage: assets/aws-account-hardening.png
@@ -21,7 +37,7 @@ Un [artículo original](https://github.com/sercasti/aws-hardening) de [sercasti]
 
 - [Habilita la autenticación multifactor (MFA) en el usuario root](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html#id_root-user_manage_mfa) y en [cualquier usuario de IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html) con acceso a la consola. Habilitar MFA puede ayudar a asegurar las cuentas y evitar que usuarios no autorizados inicien sesión en las cuentas sin un token de seguridad.
 
-- [Elimina todas las llaves programáticas de IAM de la cuenta root,](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#lock-away-credentials) no deberías usarlas en absoluto. Si de alguna manera esas llaves de acceso se filtran, se tiene acceso sin restricciones para hacer cualquier cosa.
+- [Elimina todas las llaves programáticas(keys) de IAM de la cuenta root,](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#lock-away-credentials) no deberías usarlas en absoluto. Si de alguna manera esas llaves de acceso se filtran, se tiene acceso sin restricciones para hacer cualquier cosa.
 
 - [Habilitar los servicios de registro de AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail.html) - Crear un nuevo rastro [NT: Trail], sólo para las escrituras, y habilita la vista [NT: insight] del rastro. Esto generará 50 centavos de dólar de cargo mensual, aunque ayudará a detectar y prevenir incidentes de seguridad.
 
@@ -123,3 +139,5 @@ Prowler es una herramienta de seguridad para realizar evaluaciones de las mejore
 ![](assets/aws-account-hardening-prowler-1.png)
 ![](assets/aws-account-hardening-prowler-2.png)
 ![](assets/aws-account-hardening-prowler-3.png)
+
+Colaboraron en este artículo: sercasti, jedux, mabeett.
