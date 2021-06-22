@@ -160,3 +160,5 @@ NdE: Si trabajas en una empresa remote first y el onboarding es medio flojo, pod
 NdE: [link a la foto del thumb](https://www.flickr.com/photos/81654918@N00/562112223)
 
 [#49](https://github.com/sysarmy/blog/pull/49)
+[Raw en Github](https://github.com/sysarmy/blog/blob/master/content/posts/tips-de-trabajo-remoto.md)
+Revised-by: edux, [modri](https://github.com/GeekBeardLinks), [ezecavallo](https://github.com/ezecavallo)
