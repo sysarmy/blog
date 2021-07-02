@@ -41,7 +41,7 @@ Si.
 
 Las primeras búsquedas de Google apuntan a una herramienta `apt-undo` en [esta pregunta de StackOverflow](https://askubuntu.com/questions/247549/is-it-possible-to-undo-an-apt-get-install-command). Pero el ppa no esta más.
 
-Sin embargo buscando mas a fondo aparece [esta respuesta en Stackoverflow](https://serverfault.com/questions/380856/how-to-undo-apt-get-remove) con un snippet de 4 lineas de bash salvador que dejamos a continuación. 
+Sin embargo, buscando más a fondo aparece [esta respuesta en Stackoverflow](https://serverfault.com/questions/380856/how-to-undo-apt-get-remove) con un snippet de 4 lineas de bash salvador que dejamos a continuación. 
 
 Simple y elegante busca en dpkg.log todo lo que fue Removido y arma la linea para volver a instalarlo con apt-get.
 
