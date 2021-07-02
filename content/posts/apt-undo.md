@@ -23,7 +23,7 @@ socialImage: assets/apt-undo-cover.jpg
 featuredImage: assets/apt-undo-cover.jpg
 ---
 
-Te llega un ticket: "No me puedo loguear al server", siendo hábiles operadores consultamos "hiciste algún cambio?" a lo que nos responden "solo desinstale un paquete".
+Te llega un ticket: "No me puedo loguear al server", siendo hábiles operadores consultamos "hiciste algún cambio?" a lo que nos responden "solo desinstalé un paquete".
 
 ![](https://media.giphy.com/media/TEHn0Ly4cyvPBXPAjR/giphy.gif)
 
