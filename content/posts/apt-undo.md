@@ -27,7 +27,7 @@ Te llega un ticket: "No me puedo loguear al server", siendo hábiles operadores 
 
 ![](https://media.giphy.com/media/TEHn0Ly4cyvPBXPAjR/giphy.gif)
 
-El paquete desinstalado fue `python3` en un server con Ubuntu 20.04 que esta conectado a un Freeipa. La desintalacion se llevo puestos todos los paquetes del servicio sssd y además netplan por lo que al reiniciar el server (acción cuestionable pero necesaria) también perdimos conectividad.
+El paquete desinstalado fue `python3` en un server con Ubuntu 20.04 que está conectado a un Freeipa. La desintalación se llevó puestos todos los paquetes del servicio sssd y además netplan por lo que al reiniciar el server (acción cuestionable pero necesaria) también perdimos conectividad.
 
 El comando en cuestión `sudo apt autoremove python3`... 
 
