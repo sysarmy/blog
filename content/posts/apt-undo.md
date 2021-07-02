@@ -52,6 +52,6 @@ Simple y elegante busca en dpkg.log todo lo que fue Removido y arma la linea par
     chmod +x restore 
     ./restore
 
-Es una solución final? probablemente no porque resta verificar si se removieron configuraciones u otros archivos locales, sin embargo al tener por lo menos los paquetes restaurados estamos mas cerca del punto de llegada.
+Es una solución final? probablemente no, porque resta verificar si se removieron configuraciones u otros archivos locales, sin embargo al tener por lo menos los paquetes restaurados estamos más cerca del punto de llegada.
 
 Y por si no quedó claro, desinstalar paquetes como `python3` no es una buena idea.
