@@ -39,7 +39,7 @@ En el log se puede observar el efecto devastador:
 
 Si.
 
-Las primeras búsquedas de Google apuntan a una herramienta `apt-undo` en [esta pregunta de StackOverflow](https://askubuntu.com/questions/247549/is-it-possible-to-undo-an-apt-get-install-command). Pero el ppa no esta más.
+Las primeras búsquedas de Google apuntan a una herramienta `apt-undo` en [esta pregunta de StackOverflow](https://askubuntu.com/questions/247549/is-it-possible-to-undo-an-apt-get-install-command). Pero el ppa no está más.
 
 Sin embargo, buscando más a fondo aparece [esta respuesta en Stackoverflow](https://serverfault.com/questions/380856/how-to-undo-apt-get-remove) con un snippet de 4 lineas de bash salvador que dejamos a continuación. 
 
