@@ -43,7 +43,7 @@ Las primeras búsquedas de Google apuntan a una herramienta `apt-undo` en [esta 
 
 Sin embargo, buscando más a fondo aparece [esta respuesta en Stackoverflow](https://serverfault.com/questions/380856/how-to-undo-apt-get-remove) con un snippet de 4 lineas de bash salvador que dejamos a continuación. 
 
-Simple y elegante busca en dpkg.log todo lo que fue Removido y arma la linea para volver a instalarlo con apt-get.
+Simple y elegante busca en history.log todo lo que fue removido y arma la linea para volver a instalarlo con apt-get.
 
 ![](https://media.giphy.com/media/ugOMVsKh9pMWxji7w4/giphy.gif)
 
