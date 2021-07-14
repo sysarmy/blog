@@ -47,7 +47,7 @@ Es mejor evitar tanto la aceptación ciega como la revocación ciega.
 
 Mantendremos una **colección de registros** para las decisiones *"arquitectónicamente significativas"*: las que afectan a la estructura, los requerimientos no funcionales, las dependencias, las interfaces o las técnicas de construcción.
 
-Un registro de decisiones de arquitectura (ADR) es un breve archivo de texto en un formato similar a un patrón [alejandrino](https://es.wikipedia.org/wiki/Alejandrino). (Aunque las decisiones en sí mismas no son necesariamente patrones, comparten el equilibrio de fuerzas característico). Cada registro describe un conjunto de fuerzas y una única decisión en respuesta a esas fuerzas. Tenga en cuenta que la decisión es la pieza central aquí, por lo que las fuerzas específicas pueden aparecer en múltiples ADR`[^1].
+Un registro de decisiones de arquitectura (ADR) es un breve archivo de texto en un formato similar a un patrón [alejandrino](https://es.wikipedia.org/wiki/Alejandrino). (Aunque las decisiones en sí mismas no son necesariamente patrones, comparten el equilibrio de fuerzas característico). Cada registro describe un conjunto de fuerzas y una única decisión en respuesta a esas fuerzas. Tenga en cuenta que la decisión es la pieza central aquí, por lo que las fuerzas específicas pueden aparecer en múltiples ADR (architecture decision record).
 
 Mantendremos los ADR en el repositorio del proyecto bajo `doc/arch/adr-NNN.md`
 
@@ -109,7 +109,5 @@ Gracias a Philipe Kruchten por hablar de la importancia de las decisiones de arq
 - [ADR in Github](https://adr.github.io/)
 - [Sustainable Architectural Design Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions/)
 - [A Definition of Done for Architectural Decision Making](https://www.ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html)
-
-[^1]: ADR, architecture decision record.
 
 Ref [#42](https://github.com/sysarmy/blog/pull/42)
