@@ -1,11 +1,30 @@
 ---
 title: "Como Ser Parte De Sysarmy"
-date: 2021-07-13T22:59:22-03:00
-draft: true
-description: "¿Qué son las comunidades? ¿Cómo me sumo?"
+date: 2021-07-13
+draft: false
+description: "¿Qué son las comunidades? ¿Cómo hacer para ser parte de Sysarmy? ¿Por qué tendrías que ser parte de Sysarmy?"
+
+keywords:
+    - sysarmy
+    - comunidades
+    - tips
+    - consejos
+tags:
+    - sysarmy
+    - comunidades
+    - tips
+    - consejos
+topics:
+    - comunidades
+
+thumbnail: assets/como-ser-parte-de-sysarmy-3.jpeg
+socialImage: assets/como-ser-parte-de-sysarmy-3.jpeg
+featuredImage: assets/como-ser-parte-de-sysarmy-3.jpeg
 ---
 
-![](assets/como-ser-parte-de-sysarmy-1.png) Hola!!! Mi nombre es Matías, más conocido en algunas comunidades como “el profe”, y justamente de esto quiero escribir en este primer artículo, de las comunidades, en particular de `sysarmy`
+![](assets/como-ser-parte-de-sysarmy-0.png#floatleft)
+
+ Hola!!! Mi nombre es Matías, más conocido en algunas comunidades como “el profe”, y justamente de esto quiero escribir en este primer artículo, de las comunidades, en particular de `sysarmy`
 
 Los humanos nos hemos agrupado en _«manadas»_ desde el inicio de nuestra especie y con la llegada de Internet, esta necesidad de formar tribus migró al ciberespacio. 
 
@@ -20,7 +39,7 @@ Soy miembro de Sysarmy hace unos años, no recuerdo puntualmente cuando fue, per
 
 Sysarmy se inició como la comunidad argentina de sistemas que nuclea a los profesionales del sector para favorecer el contacto y el intercambio de conocimiento, pero entre nos, la conocemos como **<<El soporte de quienes dan soporte>>**. Hoy es una comunidad abierta que incluye gente de desarrollo, infraestructura, bases de datos, geeks y nerds, profesionales, recién iniciados, estudiantes y gente que le interesa la tecnología en general, sin discriminación alguna. Se extendió a otros países donde se generaron nuevas comunidades, chapters y más amistades para compartir conocimiento, gustos, experiencias, etc.
 
-![](assets/como-ser-parte-de-sysarmy-2.png)
+![](assets/como-ser-parte-de-sysarmy-2.jpg)
 
 ## ¿Cómo hacer para ser parte de Sysarmy?
 Primero tenés que conocer cuáles son los medios, los lugares de participación y así poder decidir dónde y cómo sumarte. Podés hacerlo activamente en las conversaciones dentro de la comunidad, aportando tu conocimiento o tus opiniones, dejando preguntas para el grupo, calificando los comentarios de otras personas. Podés “mirar de lejos” y aunque no interactúes poder aprovechar de todo lo que se genera. Lo que sí te recomiendo antes es leer el [Código de Conducta](https://nerdear.la/codigo-de-conducta), algunas normas para que formemos una comunidad sana.
@@ -46,6 +65,4 @@ Y por último, tenemos una tradición que es real, física, juntarnos a tomar un
 
 Porque te permite interactuar con otras personas a las que les gusta lo mismo que a vos, porque podés aprender, podés enseñar o brindar tu conocimiento, podés pedir un salvavidas cuando no te sale algo en el laburo o buscar una recomendación en tecnologías, podés conocer gente, hacer amistades, compartir buenas y malas experiencias en IT, divertirte, pasar el rato, en definitiva podés ser parte.
 
-Además es **gratis**.
-
-![](assets/como-ser-parte-de-sysarmy-3.png)
+Además es **gratis**. Te esperamos!!
