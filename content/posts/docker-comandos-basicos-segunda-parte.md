@@ -91,6 +91,8 @@ También podemos ver los logs del contenedor (la opción `-f` nos permite ver la
 
     docker container logs sysarmy-nginx -f
 
+![Inspeccionar los logs del contenedor](assets/docker-container-logs.png)
+
 En la imagen de arriba podemos ver que aparte de nosotros, alguien desde la IP 116.197.128.47 accedió a la raíz del sitio utilizando una versión muy antigua de Google Chrome (¡o quizás también falsearon ese dato, como probablemente lo hicieron con la dirección!). Para quedarnos tranquilos, podemos detener **sysarmy-nginx** por el momento con:
 
     docker container stop sysarmy-nginx
