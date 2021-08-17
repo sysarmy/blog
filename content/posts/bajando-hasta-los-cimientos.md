@@ -23,9 +23,9 @@ tags:
 topics:
     - sistemas
 
-thumbnail: assets/bajando-hasta-los-cimientos3.png
-socialImage: assets/bajando-hasta-los-cimientos3.png
-featuredImage: assets/bajando-hasta-los-cimientos3.png
+thumbnail: assets/bajando-hasta-los-cimientos4.jpg
+socialImage: assets/bajando-hasta-los-cimientos4.jpg
+featuredImage: assets/bajando-hasta-los-cimientos4.jpg
 ---
 En esta oportunidad estoy escribiendo para aquellos que están llegando a este Mundo IT y quizás se preguntan ¿cómo es que funciona este programa? ¿Qué hace por dentro el CPU para ejecutarlo?
 O quizás ya estas laburando y te seguís preguntando ¿cómo hace la compu para entender el código que escribí? ¿Cómo viaja mi push hasta GitHub?
