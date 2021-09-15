@@ -56,7 +56,7 @@ Estas combinaciones se logran a partir del uso de las compuertas lógicas que ut
 
 A su vez los datos son representados por diferentes códigos que utilizando combinaciones de 0s y 1s pueden diferenciar símbolos, estructuras, operaciones, etc. Por ejemplo en el código ASCII el 01000001 representa la “A” y en parte es lo que transmite tu teclado por el cable al presionar esa tecla transformándola a impulsos eléctricos.
 
-De esta forma también hay códigos en binario para transmitir desde tu celular la imagen que vas a postear en IG, viajando en pulsos eléctricos transformados en ondas electromagnéticas que llegan hasta el router Wi-Fi de tu casa para convertirse en pulsos de luz y ser enviados por fibra óptica hasta el router de tu empresa proveedora de Internet que se encargara de enviarla hasta el server de IG utilizando diferentes medios.
+De esta forma también hay códigos en binario para transmitir desde tu celular la imagen que vas a postear en IG, viajando en pulsos eléctricos transformados en ondas electromagnéticas que llegan hasta el router Wi-Fi de tu casa para convertirse en pulsos de lúz y ser enviados por fibra óptica hasta el router de tu empresa proveedora de Internet que se encargara de enviarla hasta el server de IG utilizando diferentes medios.
 
 Ahora si, ya sabes que no son 0s y 1s corriendo de un lado para el otro de la computadora, es la electricidad lo que hace que la **Matrix** funcione, por eso seremos baterías…
 
