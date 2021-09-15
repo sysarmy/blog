@@ -27,7 +27,7 @@ thumbnail: assets/bajando-hasta-los-cimientos4.jpg
 socialImage: assets/bajando-hasta-los-cimientos4.jpg
 featuredImage: assets/bajando-hasta-los-cimientos4.jpg
 ---
-En esta oportunidad estoy escribiendo para aquellos que están llegando a este Mundo IT y quizás se preguntan ¿cómo es que funciona este programa? ¿Qué hace por dentro el CPU para ejecutarlo?
+En esta oportunidad estoy escribiendo para aquellas personas que están llegando a este Mundo IT y quizás se preguntan ¿cómo es que funciona este programa? ¿Qué hace por dentro el CPU para ejecutarlo?
 O quizás ya estas laburando y te seguís preguntando ¿cómo hace la compu para entender el código que escribí? ¿Cómo viaja mi push hasta GitHub?
 
 La realidad que hay muchísimas cosas para explicar pero quiero bajar hasta los mismísimos cimientos, a la base de todo, porque es la mejor forma de arrancar a entender…
