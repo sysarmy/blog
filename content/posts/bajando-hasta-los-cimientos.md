@@ -1,6 +1,6 @@
 ---
 title: "Bajando Hasta Los Cimientos De Las Computadoras Y Los Programas"
-date: 2021-08-17
+date: 2021-09-15
 draft: false
 description: "¿Cómo es que funciona este programa? ¿Qué hace por dentro el CPU para ejecutarlo?  ¿Cómo hace la compu para entender el código que escribí? ¿Cómo viaja mi push hasta GitHub?"
 

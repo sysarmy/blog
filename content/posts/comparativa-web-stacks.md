@@ -2,7 +2,7 @@
 title: "Stack or not Stack? that is the question. 
 Una comparativa breve sobre las tecnologías de desarrollo de aplicaciones web."
 date: 2021-09-10T19:32:41-03:00
-draft: false
+draft: true
 description: "¿Qué quiere decir Full Stack? ¿Qué es un stack? - MEAN vs MERN vs MEVN ¿Cuál es mejor?"
 
 keywords:
@@ -39,7 +39,7 @@ Ya te decidiste por el camino del *desarrollo web* y entonces empiezan a aparece
 
 **Full Stack**: obviamente una aplicación web esta compuesta por el Frontend y el Backend que trabajan juntos para el objetivo de la aplicación. Existen desarrolladores especializados en una u otra de estas partes, ya que requiere de saber programar en una cantidad importante de lenguajes y tecnologías. Existen unos pocos que pueden desarrollar ambas partes utilizando algún Stack, los desarrolladores Full Stack.
 
-## Pero qué es un Stack? 
+## Pero qué es un Stack?
 Una tech stack, *pila de tecnologías* en español, es un conjunto de lenguajes de programación, herramientas, componentes y tecnologías que trabajan juntos para producir una aplicación que satisface las necesidades de los usuarios y las empresas. Una pila de tecnologías asegura un procedimiento de desarrollo integrado e ininterrumpido, agregando un equilibrio perfecto y flexibilidad a cualquier proyecto.
 El término Stack en el desarrollo web surgió durante el inicio del Stack **LAMP**, que fue el primer paquete Full Stack de desarrollo  de código abierto que comprende las capacidades de GNU/Linux OS, MySQL DB, PHP y Apache Web Server.
 Dentro del ecosistema de las aplicaciones web desarrolladas utilizando **JavaScript**, una aplicación en particular constará de una combinación de tecnologías, el Stack. Las pilas **MEAN**, **MERN** y **MEVN** (otra vez estas abreviaturas inentendibles!!!) se encuentran entre las pilas de tecnología más populares que los desarrolladores utilizan para crear sitios web y aplicaciones móviles. Pero, ¿cuáles son las principales diferencias entre estas pilas? Y, ¿los desarrolladores prefieren una sobre otra?
@@ -57,7 +57,7 @@ MEAN, MERN y MEVN son pilas de tecnología que ayudan a los desarrolladores a cr
 
 Una gran similitud entre MERN, MEVN y MEAN es que todos están compuestos por tecnologías de *código abierto open source*. También ofrecen protección contra ataques de *Cross-Site Scripting* (XSS), soporte activo y documentación útil, y componentes de interfaz de usuario para crear partes reutilizables de una aplicación web. 
 
-## ¿cuál es la diferencia entre Angular, React y Vue? 
+## ¿cuál es la diferencia entre Angular, React y Vue?
 
 * **Angular** es un framework para desarrollar UI interfaz de usuario dirigido por el equipo de Angular en *Google*. Está basado en TypeScript de forma predeterminada y se utiliza para el desarrollo web, web móvil, móvil nativo y escritorio nativo. Angular es popular en el mundo empresarial y a menudo lo utilizan organizaciones tradicionales, como hospitales y bancos.  Su principal característica distintiva es la capacidad de interactuar con la aplicación web sin recargar la página, lo que reduce el ancho de banda del sitio y mejora el rendimiento. Angular es un framework más rígido en el sentido de que no es tan personalizable como React o Vue. 
 
@@ -81,4 +81,4 @@ Sea cual sea el stack al cual te vayas a especializar ademas tendrás como Full 
 
 Normalmente, el desarrollador web Full Stack es responsable de administrar la estructura de diseño del proyecto. Según los requisitos del proyecto, el desarrollador puede cambiar los roles de desarrollo. Además, dado que los desarrolladores tienen conocimientos técnicos, pueden identificar rápidamente errores y ofrecer soluciones en diferentes flujos de la arquitectura web. 
 
-### Estas listo para actualizar tu LinkedIn a *Expert Full Stack Wizard Dev for Amazing Web*? 
+### Estas listo para actualizar tu LinkedIn a *Expert Full Stack Wizard Dev for Amazing Web*?
