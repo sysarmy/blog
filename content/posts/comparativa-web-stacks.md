@@ -1,8 +1,8 @@
 ---
 title: "Stack or not Stack? that is the question. 
 Una comparativa breve sobre las tecnologías de desarrollo de aplicaciones web."
-date: 2021-09-10T19:32:41-03:00
-draft: true
+date: 2021-09-26
+draft: false
 description: "¿Qué quiere decir Full Stack? ¿Qué es un stack? - MEAN vs MERN vs MEVN ¿Cuál es mejor?"
 
 keywords:
