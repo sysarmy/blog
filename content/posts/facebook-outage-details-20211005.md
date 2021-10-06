@@ -1,6 +1,6 @@
 ---
 title: "Más detalles sobre la falla del 4 de Octubre de Facebook."
-date: 2021-10-05T19:12:18-03:00
+date: 2021-10-05
 draft: false
 
 description: "Más detalles sobre la falla del 4 de Octubre de Facebook."
