@@ -1,6 +1,6 @@
 ---
 title: "20 Cosas Que Aprendi en Mis 20 años Como Ingeniero de Software"
-date: 2021-10-17T12:49:35-03:00
+date: 2021-10-25
 draft: false
 Description: "Estás a punto de leer una entrada de blog con un montón de consejos. Aprender de los que nos precedieron es fundamental para el éxito, pero a menudo olvidamos una advertencia importante. Casi todos los consejos son contextuales, sin embargo, rara vez se dan en cualquier contexto."
 Keywords:
