@@ -1,6 +1,6 @@
 ---
 title: "Certificaciones en IT - Caras, pero lo valen"
-date: 2021-12-06
+date: 2021-12-09
 draft: false
 description: "¿Por qué deberia realizar una certificación? ¿Qúe diferencia hay entre un curso y una certificación? ¿Son caras? ¿Todas son en ingles? ¿Sirven para trabajar en el exterior?"
 
@@ -86,7 +86,7 @@ Normalmente, la nota se conoce en el momento de finalizar el examen. Ya que en l
 En conclusión, certificarse equivale a obtener **una credencial de validez mundial** que permite más posibilidades de ubicación laboral nacional e internacionalmente, con respecto a otros profesionales de la misma área. Con la certificación, la empresa proveedora de dicha tecnología lo respalda y lo incluye en un selecto grupo de profesionales a nivel global.
 
 
-# Listados que reúnen las certificaciones IT mejor recompensadas en el mercado laboral. 
+# Listados que reúnen las certificaciones IT mejor recompensadas en el mercado laboral.
 La lista fue realizada con información del [IT Skills & Salary Report de Global Knowledge](  https://www.globalknowledge.com/us-en/resources/resource-library/articles/top-paying-certifications/) y 
 [La guía 2020 de salarios IT de Robert Half](https://www.roberthalf.com/blog/salaries-and-skuills/which-it-certifications-are-most-valuable)
 
@@ -209,7 +209,7 @@ https://trailhead.salesforce.com/credentials/developeroverview
 * Esta certificación debes tenerla si eres es un desarrollador con experiencia en el análisis y diseño de software de solución empresarial con lenguajes y herramientas de desarrollo de Microsoft. Un candidato con MCSD es miembro de Microsoft Certified Professionals y los MCPs tienen un gran valor en el mercado de trabajo. \
 https://docs.microsoft.com/en-us/learn/certifications/
 
-### SAP Certified Application Associate 
+### SAP Certified Application Associate
 * El examen de certificación valida que el candidato posee los conocimientos básicos y fundamentales requeridos del perfil de Consultor de soluciones de sistemas de proyectos SAP ERP. Esta certificación demuestra que el candidato tiene una comprensión general y habilidades técnicas profundas para participar como miembro de un equipo de proyecto en un rol de mentor. \
 https://training.sap.com/certification/
 
