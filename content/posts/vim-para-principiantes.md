@@ -22,8 +22,6 @@ Topics:
   - herramientas
   - editor
   - sistemas
-Section:
-  - section1
 
 Thumbnail: assets/vim-beginner-guide-thumbnail.webp
 socialImage: assets/vim-beginner-guide-thumbnail.webp
