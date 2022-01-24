@@ -481,4 +481,4 @@ Incluso si todavía no te gusta usar Vim, al menos lo intentaste. Vas a poder us
 Si no te convertiste en un _Vim Hater_, ahora estás en el camino para convertirte en un _Vim Master_.
 
 - La versión original de este post se puede encontrar en [The Valuable Dev](https://thevaluable.dev/vim-commands-beginner/) (inglés).
-- Traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@jedux](https://twitter.com/jedux).
+- Traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@?](https://twitter.com/?).
