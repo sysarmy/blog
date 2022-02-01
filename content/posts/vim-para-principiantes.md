@@ -1,6 +1,6 @@
 ---
 Title: "¿Estás list@ para Vim? Una guía para principiantes"
-date: 2022-01-24
+date: 2022-02-01
 draft: false
 Description: "Después de leer esta guia definitiva, vas a querer usar [esta remera](https://tienda.sysarmy.com/productos/wq/) y [esta birome](https://tienda.sysarmy.com/productos/vi-rome/) todos los días."
 markup: markdown
@@ -26,7 +26,9 @@ Topics:
 Thumbnail: assets/vim-beginner-guide-thumbnail.webp
 socialImage: assets/vim-beginner-guide-thumbnail.webp
 featuredImage: assets/vim-beginner-guide-thumbnail.webp
+externalPermlink: "https://thevaluable.dev/vim-commands-beginner/"
 ---
+_La versión original de este post se puede encontrar en [The Valuable Dev](https://thevaluable.dev/vim-commands-beginner/) (inglés)._
 
 _"¡Vim no es para mí!"_ gritó David, mi compañero desarrollador.
 
@@ -481,4 +483,4 @@ Incluso si todavía no te gusta usar Vim, al menos lo intentaste. Vas a poder us
 Si no te convertiste en un _Vim Hater_, ahora estás en el camino para convertirte en un _Vim Master_.
 
 - La versión original de este post se puede encontrar en [The Valuable Dev](https://thevaluable.dev/vim-commands-beginner/) (inglés).
-- Traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@?](https://twitter.com/?).
+- Traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@jedux](https://twitter.com/jedux).
