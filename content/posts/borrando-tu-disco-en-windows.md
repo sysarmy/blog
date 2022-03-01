@@ -1,6 +1,6 @@
 ---
 Title: "Cómo borrar tu disco por completo en Windows"
-date: 2022-02-28
+date: 2022-03-01
 draft: false
 Description: "¿Sacándote de encima una compu? Te contamos cómo cuidar tu privacidad borrando toda la información de tu disco."
 markup: markdown
@@ -138,4 +138,4 @@ Al final, todavía seguimos sosteniendo que la forma más segura de destruir un 
 ¿Todavía tenés preguntas sobre cómo borrar o destruir de forma segura tus discos? Contanos en los comentarios. Y si tenés curiosidad por cómo borrar un HDD o SSD desde Mac, leé nuestra guía [acá](https://www.backblaze.com/blog/how-to-wipe-a-mac-hard-drive/) (en inglés).
 
 - La versión original de este post se puede encontrar en [Backblaze](https://www.backblaze.com/blog/how-to-wipe-pc-ssd-or-hard-drive/) (inglés).
-- Autoría de [Molly Clancy](https://www.backblaze.com/blog/author/molly/), traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@?](https://twitter.com/?).
+- Autoría de [Molly Clancy](https://www.backblaze.com/blog/author/molly/), traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@jedux](https://twitter.com/jedux).
