@@ -82,11 +82,11 @@ Original Apollo 11 guidance computer (AGC) source code for Command Module (Coman
 
 ## Twits varios
 
-{{< tweet 1270471722068848640 >}}
+{{< tweet user="aalmiray" id="1270471722068848640" >}}
 
-{{< tweet 1266778858285457411 >}}
+{{< tweet user="MigOnMars" id="1266778858285457411" >}}
 
-{{< tweet 1271626848565440514 >}}
+{{< tweet user="PatricioZain" id="1271626848565440514" >}}
 
 ## [Space Force](https://www.netflix.com/title/81021929)
 {{< youtube l4mY2asIjWk >}}
