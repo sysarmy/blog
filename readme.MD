@@ -10,6 +10,7 @@ La forma mas práctica para contribuir cortita y al pie:
 
 - Forkear el repo. [911 que es git?](https://teloexplicocongatitos.com/poster/tlecg04)
 - git clone
+- git branch new-post
 - git checkout new-post
 - Copiar content/posts/template-post.md a el nuevo post
 - Sacar todo los placeholders y escribir el post per se.
