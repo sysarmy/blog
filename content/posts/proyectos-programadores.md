@@ -1,6 +1,6 @@
 ---
 title: "¿Qué proyectos hago para crecer como programador/a?"
-date: 2022-03-11
+date: 2022-03-22
 draft: false
 description: "Algunas ideas y tips para que tu portfolio sea vistoso y consigas el trabajo que querés."
 
