@@ -24,7 +24,6 @@ Si querés darle el formato vos, en [este artículo](https://github.com/firstcon
 10. Probablemente se hagan ajustes finales.
 11. Se mergea a master y se publica en :sparkles:Internet:sparkles:.
 
-
 ## Instalación y configuración de Go Hugo
 
 [En este link](https://gohugo.io/getting-started/installing/) podés encontrar la documentación oficial para instalar Go Hugo (en inglés). De todas maneras te dejamos algunas alternativas de instalación:
