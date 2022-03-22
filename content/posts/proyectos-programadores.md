@@ -78,3 +78,4 @@ Sin embargo, ***los recursos y las soluciones son limitadas***. Y aquí es dónd
 
 **El quinto paso A PROGRAMAR!!!**
 
+Autoría de [El Profe Matías](https://twitter.com/profmatiasg), revisión por [@nachichuri](https://twitter.com/nachichuri), [@jedux](https://twitter.com/jedux).
