@@ -12,7 +12,7 @@ Title: "Sitios De Trabajo Remoto"
 Topics:
 - trabajo remoto
 markup: markdown
-date: 2022-04-04
+date: 2022-04-06
 draft: false
 ---
 
