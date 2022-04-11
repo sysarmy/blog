@@ -32,5 +32,6 @@ Este post, sale de [este hilo de twitter](https://twitter.com/Insharamin/status/
 - [Engineer Friendly](https://Engineerfriendly.com )
 - [Grazly](https://Grazily.com )
 - [Terminal](https://terminal.io/engineers)
+- [RemotoJob](https://remotojob.com/)
 
 Pueden sumar mas links abriendo un [issue en Disneyland](https://github.com/sysarmy/disneyland/issues/new).
