@@ -1,6 +1,6 @@
 ---
 Title: "Guardias para empresas sin impresoras de dinero"
-date: 2022-03-24
+date: 2022-04-19
 draft: false
 Description: "En este post te compartimos algunos tips para rotaciones de guardia en empresas sin el presupuesto de Google. Lo importante es [siempre usar antitranspirante](https://sysarmy.com/sudo/)."
 markup: markdown
@@ -88,4 +88,4 @@ Las acciones deberían crearse cada vez que una alerta se active más de una vez
 Estas fueron algunas ideas para gestionar de manera sostenible las rotaciones de guardia. Cada una de estas ideas tiene muchos niveles de complejidad y los problemas correspondientes podrían abordarse de múltiples maneras. Por ejemplo, dado que la gerencia es responsable en última instancia de la sostenibilidad de la guardia, es posible que haya algunos gerentes que quieran estar en la rotación (podés leer más sobre esto [acá](https://awspyker.medium.com/why-as-a-netflix-infrastructure-manager-am-i-on-call-bdc551ac01fe), en inglés). Con suerte, esta publicación te fue útil y te dio algo en qué pensar. 
 
 - La versión original de este post se puede encontrar en [Software at Scale](https://www.softwareatscale.dev/p/manageable-on-call-for-companies) (en inglés).
-- Traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@?](https://twitter.com/?).
+- Traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@jedux](https://twitter.com/jedux).
