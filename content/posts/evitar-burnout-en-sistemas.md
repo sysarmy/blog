@@ -1,6 +1,6 @@
 ---
 Title: "Evitar y recuperarse del _burnout_ trabajando en sistemas"
-date: 2022-04-17
+date: 2022-04-25
 draft: false
 Description: "El _burnout_ es un estado de agotamiento emocional, físico y mental causado por un estrés excesivo y prolongado. En este post te damos algunos tips para evitarlo."
 markup: markdown
@@ -33,7 +33,7 @@ Trabajar en tecnología significa trabajar con tu cerebro. Arreglar un _bug_ en 
 
 Con suerte, esta no es una descripción de tu rutina semanal. Todo el mundo tiene un mal día o dos de vez en cuando. Pero si te identificás con la descripción anterior para tu situación de vida, y no solo para un mal día, es posible que tengas un mayor riesgo de **_burnout_**. 
 
-### Advertencia 
+### Advertencia
 
 Si estás leyendo esto mientras sentís agotamiento o depresión, tenés que hablar con un/a profesional.
 Por supuesto, sos libre de leer más e intentar encontrar algo que pueda ayudarte. Sin embargo, no deberías confiar en los consejos de una persona aleatoria en Internet.
@@ -174,4 +174,4 @@ Encontrá el coraje para cambiar tu vida y proteger tu salud si es necesario. **
 
 
 - La versión original de este post se puede encontrar en [DEV](https://dev.to/bascodes/avoiding-and-recovering-from-burnout-as-a-tech-worker-3pam) (inglés).
-- Autoría de [Bas Steins](https://bas.codes/pages/about), traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@?](https://twitter.com/?).
+- Autoría de [Bas Steins](https://bas.codes/pages/about), traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@jedux?](https://twitter.com/jedux).
