@@ -1,6 +1,6 @@
 ---
 Title: "Escritura para ingenier@s"
-date: 2022-05-24
+date: 2022-07-31
 draft: false
 Description: "La escritura es clave para tener impacto en las grandes organizaciones. Como ingeniero/a de software, escribir probablemente es la habilidad más importante que tenés que adquirir para aumentar tu alcance más allá de tu equipo y avanzar en tu carrera."
 markup: markdown
@@ -216,4 +216,4 @@ Sugerencia: no te olvides agradecer a tus revisores/as en una sección de "Agrad
 
 
 - La versión original de este post se puede encontrar en [HeinrichHartmann.com](https://www.heinrichhartmann.com/posts/writing/) (inglés).
-- Autoría de [Heinrich Hartmann](https://twitter.com/HeinrichHartman), traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@?](https://twitter.com/?). 
+- Autoría de [Heinrich Hartmann](https://twitter.com/HeinrichHartman), traducción por [@nachichuri](https://twitter.com/Nachichuri), revisión por [@jedux](https://twitter.com/jedux). 
