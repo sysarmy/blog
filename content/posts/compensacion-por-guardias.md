@@ -223,7 +223,7 @@ _Compañías sin una cultura de ofrecer tiempo libre por las guardias._
 
 Durante mi investigación, me encontré con algunos ejemplos de malas prácticas respecto de las guardias.
 
-**Twilio** es una compañía sobre la que recibí un número inusual de quejas al respecto. Todos los contribuyentes tuvieron una mirada negativa sobre cómo actualmente se llevan a cabo guardias en la misma.
+**Twilio** es una compañía sobre la que recibí un número inusual de quejas al respecto. Todos los contribuyentes tuvieron una mirada negativa sobre cómo se llevan a cabo guardias allí actualmente.
 
 Así es como un ingeniero de software que trabaja en la empresa detalla las expectativas de Twilio:
 
