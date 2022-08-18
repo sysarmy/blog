@@ -44,7 +44,7 @@ En esta nota, analizaremos más de 80 puntos de datos sobre cómo diferentes emp
 
 ![](assets/oncall_comp_1.png)
 
-# 1. Filosofías de guardia en la industria
+## 1. Filosofías de guardia en la industria
 
    Mirando toda la industria, hay varias filosofías diferentes.
 
