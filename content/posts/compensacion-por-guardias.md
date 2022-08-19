@@ -14,9 +14,9 @@ Tags:
 - guardias
 - mejores-practicas
 
-Thumbnail: assets/template.jpg
-socialImage: assets/template.jpg
-featuredImage: assets/template.jpg
+Thumbnail: assets/blog-oncall.jpg
+socialImage: assets/blog-oncall.jpg
+featuredImage: assets/blog-oncall.jpg
 
 Topics:
 - guardias
@@ -26,7 +26,7 @@ Topics:
 - remuneracion
 
 markup: markdown
-date: 2022-08-22
+date: 2022-08-18
 draft: false
 ---
 
