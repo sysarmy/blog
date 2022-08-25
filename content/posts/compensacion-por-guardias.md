@@ -26,7 +26,7 @@ Topics:
 - remuneracion
 
 markup: markdown
-date: 2022-08-22
+date: 2022-08-25
 draft: false
 ---
 
