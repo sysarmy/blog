@@ -36,7 +36,7 @@ _La versión original de este post se puede encontrar en [amcqueue](https://queu
 
 ¿Alguna vez te sentiste super entusiasmado sobre comenzar un proyecto, pero a medida que pasó el tiempo tu entusiasmo (y tu motivación) empezaron a menguar?
 
-Desafortunadamente, no todos los trabajos son creados iguales.Generalmente la mayor parte del trabajo de un proyecto no se recuerda o no se reconoce.
+Desafortunadamente, no todos los trabajos son creados iguales. Generalmente la mayor parte del trabajo de un proyecto no se recuerda o no se reconoce.
 
 El trabajo que se tiende a recordar de un proyecto es el trabajo que se realizó al final. Es el paso final en lo que la mayoría de la gente piensa, porque pasó más recientemente.Esto es especialmente cierto para las personas que más poder tienen sobre tus ascenso y futuras oportunidades, que no ven lo que llevas a cabo día a día. Solo ven los resultados.
 
@@ -47,7 +47,7 @@ He trabajado con cientos de ingenieros durante mi carrera, y he visto pasar esto
 Tenés que terminar fuerte, siempre. Acá te vamos a explicar cómo mantener el momentum, y realizar las acciones correctas para ser un contribuyente visible para el éxito final de todo proyecto.
 
 
-### La Psicología de un un Final Fuerte
+### La Psicología de un Final Fuerte
 
 Los humanos tienden a recordar el final de las cosas mucho más claramente que cualquier otra parte - Incluso si otras partes fueron más significativas o importantes. ¿Por qué pasa eso?
 
