@@ -38,7 +38,7 @@ _La versión original de este post se puede encontrar en [amcqueue](https://queu
 
 Desafortunadamente, no todos los trabajos son creados iguales. Generalmente la mayor parte del trabajo de un proyecto no se recuerda o no se reconoce.
 
-El trabajo que se tiende a recordar de un proyecto es el trabajo que se realizó al final. Es el paso final en lo que la mayoría de la gente piensa, porque pasó más recientemente. Esto es especialmente cierto para las personas que más poder tienen sobre tus ascensos y futuras oportunidades, que no ven lo que llevás a cabo día a día. Sólo ven los resultados.
+El trabajo que se tiende a recordar de un proyecto es el trabajo que se realizó al final. Es el paso final en lo que la mayoría de la gente piensa, porque pasó más recientemente. Esto es especialmente cierto para las personas que más poder tienen sobre tus ascensos y futuras oportunidades, que no ven lo que llevás a cabo día a día. Solo ven los resultados.
 
 He trabajado con cientos de ingenieros durante mi carrera, y he visto pasar esto una y otra vez. Los proyectos comienzan con una explosión y terminan con un gemidito, y la gente del equipo se sorprende de que su duro trabajo no es visto de la manera positiva que ellos piensan que debería ser considerado.
 
@@ -75,7 +75,7 @@ El trabajo menos elegante no es tan divertido para hacer, por lo que la gente re
 
 Nuestros cerebros se resisten a trabajar en tareas que no parecen ofrecer algún tipo de recompensa. Parecen demasiado pequeñas, o muy tediosas. Puede ser mental, o incluso físicamente agotador gastar tiempo en un trabajo que no querés hacer o que sabés que no va a ser recompensado.
 
-Estas tareas mundanas, cuando son hechas correctamente, invisibilizan los problemas que están solucionando. Sólo hubieras notado ese trabajo si *no* lo hubieras hecho, porque tendrías un producto fallado. Cuando estos detalles están bien trabajados parecen perfectos y te olvidás de cuánto trabajo te tomó para terminarlos.
+Estas tareas mundanas, cuando son hechas correctamente, invisibilizan los problemas que están solucionando. Solo hubieras notado ese trabajo si *no* lo hubieras hecho, porque tendrías un producto fallado. Cuando estos detalles están bien trabajados parecen perfectos y te olvidás de cuánto trabajo te tomó para terminarlos.
 
 Desafortunadamente, dejar pasar estos detalles aburridos es lo mismo que deshacer todo el trabajo emocionante que ya le has metido al proyecto. Si querés que esta cosa hermosa que creaste se mantenga en pie, tenés que terminarlo bien.
 
@@ -99,7 +99,7 @@ Cuando estés eligiendo en qué trabajar y dónde aplicar tu mejor esfuerzo, tom
 
 Si no estás seguro, preguntá. Andá con tu jefe y decile: “Estoy pensando en trabajar en A o B. ¿Cuál es más importante? ¿O debería ocuparme de alguna otra cosa?
 
-Puede ser contraintuitivo —podrías preocuparte porque preguntar por prioridades te pueden hacer lucir tonto— pero, en realidad, preguntarle a tu jefe es inteligente. No sólo te asegurás de que estás trabajando en lo realmente prioritario, si no que además es una buena manera de mantener al tanto a tu jefe de tus contribuciones y mostrar que estás enfocado en los objetivos generales que más le importan a la gerencia.
+Puede ser contraintuitivo —podrías preocuparte porque preguntar por prioridades te pueden hacer lucir tonto— pero, en realidad, preguntarle a tu jefe es inteligente. No solo te asegurás de que estás trabajando en lo realmente prioritario, si no que además es una buena manera de mantener al tanto a tu jefe de tus contribuciones y mostrar que estás enfocado en los objetivos generales que más le importan a la gerencia.
 
 
 2. **Hacé de lo no glamoroso una prioridad**
@@ -117,7 +117,7 @@ Aunque este trabajo no sea visible, es importante. Recordá que “una marea alt
 
 ¿Alguna vez escuchaste la historia sobre la madre que levantó un auto para salvar a su hijo? ¿O de los corredores de maratón que hablan de que “no tienen nada más” que terminar la carrera?
 
-Todos tenemos fuerza extrema en nuestro interior; simplemente no la vemos porque sale sólo con circunstancias extremas.
+Todos tenemos fuerza extrema en nuestro interior; simplemente no la vemos porque sale solo con circunstancias extremas.
 
 En la vida normal, tu cerebro se comunica con tu cuerpo sobre lo que puede o no hacer. Tu cerebro dice: “ey, eso va a doler”, y tu cuerpo baja un cambio. En la mayoría de las situaciones, esto sirve su propósito. No podés levantar un auto todos los días, y tampoco querrías intentarlo.
 
