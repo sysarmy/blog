@@ -78,7 +78,7 @@ En este sistema, cada computadora tiene un archivo que lista los nodos que conoc
 
 ![](assets/historia-url-6.jpg)
 
-Esta dirección no sólo formaría un método de enviar archivos o conectarte con mi computadora directamente, también sería mi dirección de correo electrónico. En esta era anterior a los ‘servidores de correo’, si mi computadora estaba apagada no me podías mandar un email.
+Esta dirección no sólo serviría para enviarme archivos o conectarte con mi computadora directamente, también sería mi dirección de correo electrónico. En esta era anterior a los ‘servidores de correo’, si mi computadora estaba apagada no me podías mandar un email.
 
 Mientras que el uso de ARPANET estaba restringido a universidades de primera, UUCP creó una Internet pirata para el resto de nosotros. Formó la base tanto para la [Usenet](https://en.wikipedia.org/wiki/Usenet) como la [BBS](https://en.wikipedia.org/wiki/Bulletin_board_system).
 
