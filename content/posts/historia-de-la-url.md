@@ -54,7 +54,7 @@ Es importante eliminar cualquier ilusión de que estas decisiones fueron tomadas
 
 ![](assets/historia-url-4.gif)
 
-\
+
 ## UUCP y la Explosión de las Rutas
 
 >Se ha dicho que la función principal de un sistema operativo es definir un número de diferentes nombres para el mismo objeto, para que se pueda ocupar de mantener el rastro de la relación entre todos los nombres diferentes. Los protocolos de red parecen tener de alguna manera la misma característica.
