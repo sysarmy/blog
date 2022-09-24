@@ -30,7 +30,6 @@ draft: false
 
 _La versión original de este post se puede encontrar en [The Cloudflare Blog](https://blog.cloudflare.com/the-history-of-the-url/) (inglés)._
 
-# La Historia de la URL
 
 El [11 de enero de 1982](https://www.rfc-editor.org/rfc/rfc805.txt) veintidós científicos de la computación se reunieron para discutir un problema con el “correo por computadora” (ahora conocido como email). Entre los presentes estaba [el tipo que fundaría Sun Microsystems](https://en.wikipedia.org/wiki/Bill_Joy), [el tipo que creó Zork](https://en.wikipedia.org/wiki/Dave_Lebling), [el tipo del NTP](https://en.wikipedia.org/wiki/David_L._Mills) y [el tipo que convenció al gobierno de pagar por Unix](https://en.wikipedia.org/wiki/Bob_Fabry). El problema era simple: había 455 nodos en la ARPANET y la situación se estaba saliendo de control.
 
@@ -55,6 +54,7 @@ Es importante eliminar cualquier ilusión de que estas decisiones fueron tomadas
 
 ![](assets/historia-url-4.gif)
 
+
 ## UUCP y la Explosión de las Rutas
 
 >Se ha dicho que la función principal de un sistema operativo es definir un número de diferentes nombres para el mismo objeto, para que se pueda ocupar de mantener el rastro de la relación entre todos los nombres diferentes. Los protocolos de red parecen tener de alguna manera la misma característica.
@@ -75,11 +75,13 @@ En este sistema, cada computadora tiene un archivo que lista los nodos que conoc
 
 `sw-hosts!digital-lobby!zack`
 
+
 ![](assets/historia-url-6.jpg)
 
 Esta dirección no sólo formaría un método de enviar archivos o conectarte con mi computadora directamente, también sería mi dirección de correo electrónico. En esta era anterior a los ‘servidores de correo’, si mi computadora estaba apagada no me podías mandar un email.
 
 Mientras que el uso de ARPANET estaba restringido a universidades de primera, UUCP creó una Internet pirata para el resto de nosotros. Formó la base tanto para la [Usenet](https://en.wikipedia.org/wiki/Usenet) como la [BBS](https://en.wikipedia.org/wiki/Bulletin_board_system).
+
 
 ## DNS
 En definitiva, el sistema de DNS que todavía usamos actualmente sería [propuesto](https://www.rfc-editor.org/rfc/rfc882.txt) en 1983. Si corres una consulta de DNS hoy, por ejemplo usando la herramienta `dig`, probablemente veas una respuesta que luce como esto:
@@ -90,6 +92,7 @@ En definitiva, el sistema de DNS que todavía usamos actualmente sería [propues
 Esto nos informa que google.com se encuentra en `172.217.4.206`. Como ya debes saber, la `A` nos informa que esto es un registro de dirección (‘address’), mapeando un dominio a una dirección IPv4. El `299` es el ‘tiempo de vida’, haciéndonos saber cuantos segundos de validez le quedan a este valor, antes de que requiera ser consultado nuevamente. ¿Pero qué significa el `IN`?
 
 `IN` significa ‘Internet’. Como mucho de esto, este campo se remonta a la era cuando había varias redes de computadoras distintas que necesitaban interoperar. Otros valores potenciales eran `CH` para [CHAOSNET](https://en.wikipedia.org/wiki/Chaosnet) o `HS` para Hesiod que era el nombre para el servicio del [sistema Athena](https://en.wikipedia.org/wiki/Project_Athena). CHAOSNET murió hace mucho tiempo, pero una versión muy evolucionada de Athena todavía es utilizada por los estudiantes del MIT hasta hoy en día. Podés encontrar la lista de [clases de DNS](https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml) en el sitio de IANA, pero no debería sorprenderte que solo uno de los valores posibles es de uso común hoy en día.
+
 
 ## TLDs (Top Level Domains)
 
@@ -220,6 +223,7 @@ En un formato no comprimido, eso sería almacenado como tres caracteres: `[1620,
 Punycode entonces codifica (muy) eficientemente esos enteros en caracteres permitidos en nombres de dominio, e inserta `xn–` al principio para informar a los consumidores que este es un dominio codificado. Notarás que todos los caracteres Unicode se ubican juntos al final del dominio. No solo codifican su valor, también codifican dónde deberían ser insertados dentro de la porción ASCII del dominio. Para poner un ejemplo, el sitio 熱狗sales.com se convierte en `xn–sales-r651m0e.com`. Cada vez que tipeás un nombre de dominio basado en Unicode en la barra de direcciones de tu navegador, es codificado de esta manera.
 Esta transformación podría ser transparente, pero introduce un problema de seguridad importante. Toda clase de caracteres Unicode se imprimen como caracteres ASCII existentes. Por ejemplo, posiblemente no puedas ver la diferencia entre la letra a (“а”) minúscula cirílica y la letra a (“a”) latina. Si registro amazon.com en cirílico (xn-mazon-3ve.com), y me las arreglo para que lo visites, va a ser difícil para vos darte cuenta que estas en el sitio equivocado. Por esa razón, cuando visitás [🍕💩.ws](http://xn--vi8hiv.ws/), tu navegador muestra la versión aburrida `xn–vi8hiv.ws` en la barra de direcciones.
 
+
 ## Protocolo
 La primera parte del URL es el protocolo que debería usarse para accederlo. El protocolo más común es el `http`, que es el simple protocolo de transferencia de documentos inventado por Tim Berners-Lee específicamente para la web. No era la única opción. [Algunas personas](http://1997.webhistory.org/www.lists/www-talk.1993q2/0339.html) creen que simplemente deberíamos haber usado Gopher. En lugar de ser de propósito general, Gopher está específicamente diseñado para enviar datos estructurados de manera similar a un árbol de archivos..
 Por ejemplo si pedís el montaje `/Cars`, te podría devolver:
@@ -236,8 +240,9 @@ que identifica dos autos, junto con metadatos sobre ellos y dónde te podés con
 
 El primer protocolo popular fue el FTP, que fue creado en 1971, como una manera de listar y descargar archivos de computadoras remotas. Gopher era una extensión lógica de esto,  que proveía un listado similar, pero incluía facilidades para leer también los metadatos de las entradas. Esto significaba que podía ser usado con propósitos más liberales como noticias o una simple base de datos. No tenía, sin embargo, la libertad y simplicidad que caracteriza al HTTP y el HTML.
 HTTP es un protocolo muy simple, particularmente comparado con alternativas como el FTP o incluso el protocolo [HTTP/3](https://blog.cloudflare.com/http3-the-past-present-and-future/), que está aumentando en popularidad actualmente. Primero, el HTTP está completamente basado en texto, en lugar de estar compuesto por conjuros binarios a medida (que lo habrían hecho significativamente más eficiente). Tim Berners-Lee intuyó correctamente que usar un formato basado en texto haría más fácil el desarrollo y la solución de problemas en aplicaciones basadas en HTTP para generaciones de programadores.
-El HTTP tampoco hace casi ninguna suposición respecto de lo que estás transmitiendo. A pesar de que fue inventado explícitamente para acompañar el lenguaje HTML, te permite especificar que tu contenido es de cualquier tipo (usando el MIME `Content-Type`, que era una nueva invención en ese momento). El protocolo en sí es bastante simple:
-Un requerimiento:
+El HTTP tampoco hace casi ninguna suposición respecto de lo que estás transmitiendo. A pesar de que fue inventado explícitamente para acompañar el lenguaje HTML, te permite especificar que tu contenido es de cualquier tipo (usando el MIME `Content-Type`, que era una nueva invención en ese momento). El protocolo en sí es bastante simple.
+
+Una cosulta así:
 
 	GET /index.html HTTP/1.1
 	Host: www.example.com
@@ -269,12 +274,13 @@ En otras palabras, el TCP/IP manda un conjunto de bytes a otra computadora, el p
 Podes armar tu propio protocolo si querés, acomodar los bytes en tus mensajes TCP como quieras. El único requerimiento es que quien sea con quien estés hablando tiene que hacerlo en el mismo idioma. Por esta razón es común estandarizar estos protocolos.
 Hay, por supuesto, protocolos menos importantes para jugar. Por ejemplo el protocolo [“Cita del día”](https://www.rfc-editor.org/rfc/rfc865.txt) (puerto 17), y el protocolo de [Caracteres Aleatorios](https://www.rfc-editor.org/rfc/rfc864.txt) (puerto 19). Parecen tontos hoy, pero también muestran cuán importante era un protocolo general de transmisión de documentos como el HTTP.
 
-## Puerto
 
+## Puerto
 El lugar en la historia de Gopher y HTTP puede ser evidenciado por sus puertos por defecto. Gopher es el 70, HTTP el 80. El puerto HTTP fue asignado (probablemente por [Jon Postel](https://en.wikipedia.org/wiki/Jon_Postel) en la IANA) a pedido de Tim Berners-Lee en algún momento entre [1990](https://tools.ietf.org/html/rfc1060) y [1992](https://tools.ietf.org/html/rfc1340).
 Este concepto de registrar ‘números de puerto’ predata incluso a Internet. El protocolo original NCP que usaban ARPANET las direcciones remotas eran identificadas por 40 bits. Los primeros 32 identificaban al nodo remoto, de manera similar a cómo funciona una dirección IP hoy en día. Los últimos 8 eran conocidos como los [AEN](https://tools.ietf.org/html/rfc433) (significaba “Otros Ocho Dígitos” por su sigla en inglés), y eran utilizados por la máquina remota de la manera que nosotros usamos un número de puerto, para separar mensajes destinados a diferentes procesos. En otras palabras, la dirección especifica a qué máquina debería ir el mensaje, y el AEN (o número de puerto) le dice a la máquina remota qué aplicación debe recibirlo.
 Rápidamente [pidieron](https://tools.ietf.org/html/rfc322) que los usuarios registren estos ‘números de socket’ para limitar posibles colisiones. Cuando los números de puerto fueron expandidos a 16 bits por TCP/IP, el proceso de registración continuó.
 Mientras que los protocolos tienen un puerto por defecto, tiene sentido permitir que se especifique un puerto manualmente para permitir desarrollos locales y la posibilidad de correr múltiples servicios en la misma máquina. Esa misma lógica fue la [base](http://1997.webhistory.org/www.lists/www-talk.1992/0335.html) para los prefijos de los sitios `www.`. En ese momento, era poco probable que alguien estuviera accediendo a la raíz del dominio, simplemente por correr un sitio web experimental. Pero si le das a los usuarios el nombre de nodo de tu máquina específica (`dx3.cern.ch`) estarías en problemas cuando necesites reemplazar esa máquina. Al usar un subdominio común (`www.cern.ch`) podes cambiar a qué apunta según lo requieras..
+
 
 ## El pedacito del medio
 Como probablemente sabés, la sintaxis del URL pone una doble barra (`//`) entre el protocolo y el resto de la URL:
@@ -329,8 +335,8 @@ Fue oficialmente definida por primera vez en un [RFC](https://www.ietf.org/rfc/r
 
 Este sistema permitió referenciar diferentes sistemas desde dentro del Hipertexto, pero ahora que casi todo el contenido está publicado sobre HTTP, tal vez ya no sea necesario. Ya en [1996](https://lists.w3.org/Archives/Public/www-talk/1996JanFeb/0075.html) los navegadores estaban agregando `http://` y `www.` a sus usuarios automaticamente (convirtiendo cualquier anuncio que todavía los tenga en algo realmente ridículo).
 
-## Ruta
 
+## Ruta
 > No creo que la pregunta sea sobre si las personas pueden aprender el significado del URL, simplemente me parece moralmente despreciable forzar a la abuela o al abuelo a entender lo que, en definitiva, son convenciones del sistema de archivos de UNIX.
 
 — Israel del Rio, [1996](https://lists.w3.org/Archives/Public/www-talk/1996JanFeb/0041.html)
@@ -340,8 +346,8 @@ MULTICS usaba el símbolo “mayor que” (\>) para separar los componentes de l
 `\>usr\>bin\>local\>awk`
 Esto era perfectamente lógico, pero desgraciadamente la gente de Unix [decidió](https://www.bell-labs.com/usr/dmr/www/cacm.html) usar '\>' para representar la redirección, delegando la separación de la ruta a la barra hacia adelante ('/', barra de dividir).
 
-## Snapchateá a la Corte Suprema
 
+## Snapchateá a la Corte Suprema
 >Estás equivocado. Estamos, ahora lo veo claramente, \* en desacuerdo \*. Vos y yo. 
 >
 >...
@@ -363,6 +369,7 @@ Dado el poder de los motores de búsqueda hoy en día, posiblemente, el mejor fo
     <!-- On http://zack.is/history →
     <link rel="past-url" href="http://zackbloom.com/history.html">
     <link rel="past-url" href="http://zack.is/history.html">
+
 
 ##  Parámetros de consulta
 >El formato "application/x-www-form-urlencoded" es de muchas maneras una monstruosidad aberrante, el resultado de muchos años de accidentes de implementación y adaptaciones que llevaron a un conjunto de requerimientos necesarios para la interoperabilidad, pero que de ninguna manera representa las buenas prácticas del diseño.
@@ -419,6 +426,7 @@ Solo [dos meses después](http://1997.webhistory.org/www.lists/www-talk.1993q4/0
 
 Por supuesto, fue también la compañía de Marc Andreessen [Netscape](https://web.archive.org/web/19990421025406/http://home.mcom.com/newsref/std/cookie_spec.html) la que crearía el formato de las cookies (usando un separador diferente). Su propuesta fue dolorosamente miope, llevó al intento de introducir el encabezado [`Set-Cookie2`](https://www.ietf.org/rfc/rfc2965.txt), e introdujo problemas estructurales con los que lidiamos en Cloudflare al día de hoy.
 
+
 ##Fragmentos
 La porción de la URL que sigue al ‘#’ es conocida como fragmento. Los fragmentos fueron parte de las URLs desde su [especificación inicial](https://www.w3.org/History/19921103-hypertext/hypertext/WWW/Addressing/Addressing.html), usados para vincular a una ubicación específica en la página que se estaba cargando. Por ejemplo, si tengo un texto ancla en mi sitio:
 
@@ -440,6 +448,7 @@ Resulta que el [sistema original de Hipertexto](https://en.wikipedia.org/wiki/NL
 
 Los fragmentos no están explícitamente incluídos en los requerimientos HTTP, lo que significa que solo viven dentro del navegador. Este concepto probó ser muy valioso cuando fue momento de implementar la navegación del lado del cliente (antes de que [pushState](https://developer.mozilla.org/en-US/docs/Web/API/History_API) fuera introducido). Los fragmentos fueron también muy valiosos cuando llegó el momento de pensar sobre cómo podemos almacenar estados en las URLs sin enviarlos al servidor. ¿Qué podría significar eso? Explorémoslo:
 
+
 ## Granos de arena y Montañas
 >Hay todo un estándar, tan asqueroso como el SGML, sobre Electronic data Intercahnge \[sic\] (intercambio electrónico de datos): formularios y envío de formularios. No sé nada al respecto, excepto que luce como fortran al revés, sin espacios.
 
@@ -453,6 +462,8 @@ httpRange14 buscaba responder la pregunta fundamental de qué es una URL. ¿Una 
 No intentaron responder esa pregunta de ninguna manera satisfactoria. En su lugar hicieron foco en cómo y cuándo podemos usar redirecciones 303 para apuntar usuarios desde vínculos que no son documentos a los que sí lo son, y en cuándo podemos usar fragmentos URL (la parte después del ‘#’) para [apuntar usuarios a datos vinculados](http://blog.iandavis.com/2010/11/a-guide-to-publishing-linked-data-without-redirects/).
 Para la mente pragmática de hoy en día, esto parecería ser una pregunta tonta. Para muchos de nosotros, podés usar una URL para lo que se te ocurra, y la gente usará tu “cosa” o no lo hará. Pero a la Web Semántica le importa solo la semántica, así que se armó.
 Este tema en particular fue discutido el [1ro de julio de 2002](https://www.w3.org/2002/07/01-tag-summary#arch-doc), [15 de julio de 2002](https://www.w3.org/2002/07/15-tag-summary#L3330), [22 de julio de 2022](https://www.w3.org/2002/07/22-tag-summary#L3974), [29 de julio de 2002](https://www.w3.org/2002/07/29-tag-summary#httpRange-14), [16 de septiembre de 2002](https://lists.w3.org/Archives/Public/www-tag/2002Sep/0127), y en al menos otras 20 ocasiones en 2005. Fue resuelto por la gran [resolución httpRange-14](https://lists.w3.org/Archives/Public/www-tag/2005Jun/0039.html) de 2005, luego reabierta en [2007] y [2011] y [un nuevo llamado para nuevas soluciones] en 2012. La pregunta fue duramente discutida por el [pedante grupo](https://groups.google.com/forum/#!searchin/pedantic-web/httprange-14/pedantic-web/iLY6VFvN-H0/SXQwc-lOpM8J), que está muy bien nombrado. Lo único que no pasó fue que todos esos datos semánticos fueran puestos en la web detrás de una URL.
+
+
 ##Autenticación
 Como ya sabrás, podés incluir nombre de usuario y contraseña en las URLs:
 `http://zack:shhhhhh@zack.is`
@@ -464,6 +475,7 @@ El navegador luego codifica esos datos de autenticación en [Base64](https://en.
 La única razón para el codificado en Base64 es para permitir caracteres que pueden no ser válidos en un encabezado, no provee protección a los valores de usuario y contraseña.
 Particularmente en la Internet anterior al SSL, esto era muy problemático. Cualquiera que pudiera pispear tu conexión podía fácilmente ver tu contraseña. [Muchas alternativas](http://1997.webhistory.org/www.lists/www-talk.1993q3/0297.html) fueron propuestas incluido [Kerberos](https://en.wikipedia.org/wiki/Kerberos_(protocol)) que era un protocolo de seguridad muy usado tanto entonces como ahora.
 Como con tantos ejemplos, sin embargo, la [propuesta de autenticación básica](http://1997.webhistory.org/www.lists/www-talk.1993q3/0882.html) fue la más fácil de implementar para los desarrolladores de navegadores (Mosaic). Esto la hizo la primera, y en definitiva la única, solución hasta que se le brindaron herramientas a los desarrolladores para crear sus propios sistemas de autenticación.
+
 
 ## La Aplicación Web
 En el mundo de las aplicaciones web, es un poco raro pensar que la base de la web es el hipervínculo. Es un método para vincular un documento con otro que fue gradualmente mejorado con estilos, ejecución de código, sesiones, autenticación y en última instancia se convirtió en la experiencia social compartida de la informática que tantos investigadores de los 70s estaban tratando (y fallando) de crear. Al final, esa conclusión es válida para cualquier proyecto y startup de hoy o ayer: lo único que importa es la adopción. Si lográs que la gente lo use, sin importar la porquería que sea, te ayudarán a convertirlo en algo que necesitan.
