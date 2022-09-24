@@ -19,9 +19,9 @@ socialImage: assets/historia-url-thumbnail.jpg
 featuredImage: assets/historia-url-thumbnail.jpg
 
 Topics:
--historia
--internet
--url
+- historia
+- internet
+- url
 
 markup: markdown
 date: 2022-08-25
