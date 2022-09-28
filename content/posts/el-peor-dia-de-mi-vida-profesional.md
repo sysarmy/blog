@@ -1,6 +1,6 @@
 ---
 Title: "El peor día de mi vida (profesional)"
-date: 2022-09-17
+date: 2022-09-28
 draft: false
 Description: "Todos tuvimos un día malo en el trabajo, no importa a que te dediques. En este post, Javier V M Bruno te cuenta el suyo y nos deja una valiosa enseñanza."
 markup: markdown
