@@ -71,14 +71,14 @@ ARPANET fue introducida en 1969, y rápidamente se convirtió en una herramienta
 
 En la era anterior a la Internet, el método general de comunicación entre computadoras era con una conexión telefónica directa punto a punto.Por ejemplo, si querías mandarme un archivo, harías que tu modem llame a mi modem, y transferiríamos el archivo. Para convertir esto en un red, por así decirlo, nació UUCP.
 
-En este sistema, cada computadora tiene un archivo que lista los nodos que conoce, sus números de teléfono y un usuario y contraseña en cada nodo. Entonces creas un ‘camino’, desde tu computadora actual a la de destino, a través de nodos, los cuales sólo sabían cómo conectarse al próximo salto:
+En este sistema, cada computadora tiene un archivo que lista los nodos que conoce, sus números de teléfono y un usuario y contraseña en cada nodo. Entonces creas un ‘camino’, desde tu computadora actual a la de destino, a través de nodos, los cuales solo sabían cómo conectarse al próximo salto:
 
 `sw-hosts!digital-lobby!zack`
 
 
 ![](assets/historia-url-6.jpg)
 
-Esta dirección no sólo serviría para enviarme archivos o conectarte con mi computadora directamente, también sería mi dirección de correo electrónico. En esta era anterior a los ‘servidores de correo’, si mi computadora estaba apagada no me podías mandar un email.
+Esta dirección no solo serviría para enviarme archivos o conectarte con mi computadora directamente, también sería mi dirección de correo electrónico. En esta era anterior a los ‘servidores de correo’, si mi computadora estaba apagada no me podías mandar un email.
 
 Mientras que el uso de ARPANET estaba restringido a universidades de primera, UUCP creó una Internet pirata para el resto de nosotros. Formó la base tanto para la [Usenet](https://en.wikipedia.org/wiki/Usenet) como la [BBS](https://en.wikipedia.org/wiki/Bulletin_board_system).
 
