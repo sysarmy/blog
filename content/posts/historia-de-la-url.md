@@ -69,7 +69,7 @@ ARPANET fue introducida en 1969, y rápidamente se convirtió en una herramienta
 
 ![](assets/historia-url-5.jpg)
 
-En la era anterior a la Internet, el método general de comunicación entre computadoras era con una conexión telefónica directa punto a punto. Por ejemplo, si querías mandarme un archivo, harías que tu modem llame a mi modem, y transferiríamos el archivo. Para convertir esto en un red, por así decirlo, nació UUCP.
+En la era anterior a la Internet, el método general de comunicación entre computadoras era con una conexión telefónica directa punto a punto. Por ejemplo, si querías mandarme un archivo, harías que tu módem llame a mi módem, y transferiríamos el archivo. Para convertir esto en un red, por así decirlo, nació UUCP.
 
 En este sistema, cada computadora tiene un archivo que lista los nodos que conoce, sus números de teléfono y un usuario y contraseña en cada nodo. Entonces creas un ‘camino’, desde tu computadora actual a la de destino, a través de nodos, los cuales sólo sabían cómo conectarse al próximo salto:
 
