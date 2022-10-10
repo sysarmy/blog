@@ -23,7 +23,7 @@ Topics:
 - mejores-practicas
 
 markup: markdown
-date: 2022-09-19
+date: 2022-10-10
 draft: false
 ---
 
