@@ -31,7 +31,7 @@ draft: false
 
 _La versión original de este post se puede encontrar en [DEV Community](https://dev.to/wesen/dont-be-arrogantly-ignorant-dont-flame-814) (inglés)._
 
-Hay una tendencia generalizada en tecnología de discutir sobre lenguajes específicos de programación abiertamente con [desprecio](https://blog.aurynn.com/2015/12/16-contempt-culture). ¿Quién no ha oido gente quejarse de lo estúpido que es [PHP](https://the.scapegoat.dev/why-i-love-php-and-javascript/), cuán retrógrados son los programadores de Java, y lo criminalmente miopes que son los usuarios de C++?
+Hay una tendencia generalizada en tecnología de discutir sobre lenguajes específicos de programación abiertamente con [desprecio](https://blog.aurynn.com/2015/12/16-contempt-culture). ¿Quién no ha oído gente quejarse de lo estúpido que es [PHP](https://the.scapegoat.dev/why-i-love-php-and-javascript/), cuán retrógrados son los programadores de Java, y lo criminalmente miopes que son los usuarios de C++?
 Nada me enoja más que esta vigilantismo abierto, este bullying activo. Hablar mal de la gente no es una crítica técnica válida: su único objetivo es posicionar a uno mismo como parte de un grupo elite. Es descaradamente excluyente.
 Hablar de tecnología debería ser un diálogo movido por la compasión y el respeto. No esforzarse por comprender por qué la gente tomó una decisión particular, qué restricciones las llevaron a ellas, y más importante, qué podés aprender de ellos. Tomando prestada una expresión de un amigo, estás siendo arrogantemente ignorante.
 
