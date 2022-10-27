@@ -14,9 +14,9 @@ Tags:
 - dev
 - traduccion
 
-Thumbnail: assets/no-seas-arrogante.jpg
-socialImage: assets/no-seas-arrogante.jpg
-featuredImage: assets/no-seas-arrogante.jpg
+Thumbnail: assets/no-seas-arrogante.png
+socialImage: assets/no-seas-arrogante.png
+featuredImage: assets/no-seas-arrogante.png
 
 Topics:
 - desarrolladores
