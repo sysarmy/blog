@@ -27,7 +27,7 @@ Topics:
 
 
 markup: markdown
-date: 2022-08-25
+date: 2022-10-29
 draft: false
 ---
 
@@ -50,7 +50,7 @@ Durante los 5 años de mi carrera en desarrollo de software, pensé que el dise�
 Después leí [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code), de [Robert C. Martin](https://cleancoders.com/). Este libro te motiva a que te interese el diseño de software y contiene ejemplos y muchas heurísticas técnicas. La conclusión más conceptual es el dicho “la única manera de hacerlo rápido es hacerlo bien”. En otras palabras, [si haces una chanchada, te va a demorar](https://martinfowler.com/articles/is-quality-worth-cost.html). Ver también: [TradableQualityHypothesis](https://martinfowler.com/bliki/TradableQualityHypothesis.html), [DesignStaminaHypothesis](https://martinfowler.com/bliki/DesignStaminaHypothesis.html).
 Aprender cómo escribir código limpio y bien diseñado lleva tiempo y esfuerzo, por supuesto. Y cuando empieces, vas a ser lento y cometer errores. [Simple no es Fácil](https://www.entropywins.wtf/blog/2017/01/02/simple-is-not-easy/).
 
-### 3. Usa BUENAS Prácticas
+### 3. Usá BUENAS Prácticas
 Escribir pruebas tiende a ser beneficioso. Hay algunas excepciones, pero la mayoría de las veces, tiene mucho sentido escribir pruebas automáticas. Escribir pruebas es un ejemplo de una buena práctica.
 Si sos nuevo escribiendo pruebas, simplemente seguí las buenas prácticas y escribí pruebas para todo. Cuando estás arrancando, seguir ciegamente las buenas prácticas va a ser mejor que seguir tu propio juicio subdesarrollado. Con el tiempo aprenderás cómo escribir pruebas efectivamente, y darte cuenta de la diferencia de meter la pata, y situaciones en las que escribir una prueba no vale la pena. También empezarás a entender el valor que traen las pruebas a un nivel más visceral, experimentando la disminución de las sesiones de búsqueda de errores en el código y la posibilidad de rehacer tu código sin preocupaciones que te permiten tus pruebas. Después de desarrollar tu juicio, podrás trascender la buena práctica. Este consejo aplica para mejores prácticas de cualquier área en la que estés arrancando. Las pruebas automáticas son solo un ejemplo.
 Un gran problema es que no es fácil diferenciar entre una prueba sensata o algo insensato o incluso contraproductivo. Esto se complica aún más con el lío que es la mayoría del código existente, y por el hecho de que la mayoría de los desarrolladores, incluyendo los “experimentados” y “senior”, que no saben lo básico del diseño de software. Esto hace que tener un buen mentor sea algo extremadamente valioso. Dejando eso de lado, un consejo basado en mi propia experiencia es tener cuidado con las buenas prácticas específicas a la comunidad de tu lenguaje de programación o framework. Buscá consejos perennes que han estado dando vueltas por décadas.
@@ -125,3 +125,6 @@ Ver también: [Recommended Reading for Developers](https://blog.codinghorror.com
 
 ### Sobre Jeroen
 [Jeroen De Dauw](https://www.entropywins.wtf/) es el CEO de [Professional Wiki](https://professional.wiki/), que provee servicios de [hosting de wikis](https://www.pro.wiki/). Ocasionalmente escribe en su [blog de diseño de software](https://www.entropywins.wtf/blog/). Podés [seguir a Jeroen en Twitter](https://twitter.com/JeroenDeDauw).
+
+* La versión original de este post se puede encontrar en [DEV Community](https://dev.to/jeroendedauw/advice-for-junior-developers-30am)(inglés).
+* Traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por []().
