@@ -59,7 +59,9 @@ Un gran problema es que no es fácil diferenciar entre una prueba sensata o algo
 Nuestro enfoque será en tópicos técnicos. Muchas otras áreas son importantes, como la salud, la felicidad,la carrera, las habilidades blandas. Saber cómo esquivar una caída técnica no te va a ayudar si estás sin dormir y trabajando en el problema incorrecto para un jefe tóxico que te paga mal.
 
 ### 4. Escribí Pruebas
-Escribí pruebas automatizadas. Tal vez escribi pruebas antes de escribir código, como en el [Desarrollo Guiado por Pruebas](https://en.wikipedia.org/wiki/Test-driven_development). Esto simplifica la tarea de verificar si tu código es correcto en una manera repetible, salvándote de de muchas pruebas manuales y de sesiones de búsqueda de errores. ¿Pensás que probar antes es difícil? Tratá de encontrar errores después.
+Escribí pruebas automatizadas. Tal vez escribi pruebas antes de escribir código, como en el [Desarrollo Guiado por Pruebas](https://en.wikipedia.org/wiki/Test-driven_development). Esto simplifica la tarea de verificar si tu código es correcto en una manera repetible, salvándote de de muchas pruebas manuales y de sesiones de búsqueda de errores.
+>¿Pensás que probar antes es difícil? Tratá de encontrar errores después.
+
 Algo que es tal vez más importante, las pruebas te dan una red de seguridad para refactorizar tu código Una refactorización continua es necesaria para mantener tu código limpio. Sin un conjunto de pruebas confiables, es más probable que tu código se pudra.
 Escribir pruebas es difícil si el diseño de tu código es pobre, como cuando usas código reutilizado heredado, o cuando usas funciones estáticas. Si, por otro lado, tenés clases [SOLID](https://en.wikipedia.org/wiki/SOLID), sin dependencias globales, entonces escribir buenas pruebas no es tan difícil.
 El diseño de pruebas importa porque las pruebas mal escritas te van a retrasar.  Evitá vincular tus pruebas a detalles de implementación del código que todavía están a prueba o a la estructura del sistema. Evitá sobreutilizar Mocks y [escribí mejores Dobles de Prueba](https://www.entropywins.wtf/blog/2016/05/13/5-ways-to-write-better-mocks/).
