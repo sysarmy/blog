@@ -96,7 +96,7 @@ Para escribir código autodocumentado:
   - [“Extraé hasta el hartazgo”](https://verraes.net/2013/09/extract-till-you-drop/): Si podés extraer una función, entonces deberías. No le tengas miedo a las funciones chiquitas.
   - [Separación de comandos y consultas, CommandQuerySeparation](https://martinfowler.com/bliki/CommandQuerySeparation.html)
   - Similar al [Principio de responsabilidad única](https://en.wikipedia.org/wiki/Single-responsibility_principle) para las clases (La S en SOLID)
-+ [Minimiza los estados](https://www.entropywins.wtf/blog/2018/10/24/readable-functions-minimize-state/)
++ [Minimizá los estados](https://www.entropywins.wtf/blog/2018/10/24/readable-functions-minimize-state/)
 + Usa tipos. Junto con el conjunto de pruebas que ejecutan el código, podés confiar en los tipos para decirte la verdad.
 + Evitá tipos mezclados. Evitá parámetros o valores de retorno que pueden ser un entero, un valor binario, o una cadena de texto. Esto sucede naturalmente si escribís funciones enfocadas que hacen solo una tarea.
 + Escribí pruebas: Un buen conjunto de tareas bien escrito y comprensivo te muestra como puede ser utilizado el código de producción, y como se comporta.
