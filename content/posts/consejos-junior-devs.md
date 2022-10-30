@@ -113,7 +113,7 @@ Para escribir código autodocumentado:
 
 ### Blogs
 
-+ [MartinFowler.com](https://martinfowler.com/) - Mchísimos articulos de alta calidad sobre todo lo relacionado con el desarrollo de software
++ [MartinFowler.com](https://martinfowler.com/) - Muchísimos artículos de alta calidad sobre todo lo relacionado con el desarrollo de software
 + [EntropyWins.wtf](https://www.entropywins.wtf/) - Cláramente el mejor blog de internet :)
 Ver también: [Recommended Reading for Developers](https://blog.codinghorror.com/recommended-reading-for-developers/) de Jeff Atwood
 
