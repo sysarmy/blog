@@ -31,6 +31,7 @@ date: 2022-10-29
 draft: false
 ---
 
+_La versión original de este post se puede encontrar en [DEV Community](https://dev.to/jeroendedauw/advice-for-junior-developers-30am)(inglés)._
 
 Esta publicación menciona y vincula con muchos conceptos valiosos que podés explorar en mayor detalle según creas necesario. Tiene tres secciones:
 
