@@ -33,6 +33,7 @@ draft: false
 _La versión original de este post se puede encontrar en [The Transcript](https://www.loom.com/blog/toxic-work-environment) (inglés)._
 
 ¿Sabías que el estrés relacionado al ambiente laboral está entre las [principales causas de depresión mental](https://www.healthline.com/health/depression/work-depression) en los Estados Unidos? ¿Sabés qué es lo que está causando todo este estrés? Un ambiente laboral tóxico.
+
 De acuerdo a un reciente [estudio del MIT](), la cultura laboral tóxica es la razón principal por la que la gente renuncia a sus trabajos sin importar lo satisfechos que están con sus remuneraciones.
 Así que, si odiás cada segundo que pasás en el trabajo, tenés que arrastrarte de la cama cada mañana, y te sentís increíblemente estresado por tu trabajo, podés ser uno de los miles de profesionales corporativos atrapados en un ambiente laboral tóxico.
 En este artículo, te vamos a mostrar cómo reconocer un ambiente laboral tóxico y compartir consejos para que puedas sobrellevar estos desafíos.
