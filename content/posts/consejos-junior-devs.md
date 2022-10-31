@@ -1,5 +1,5 @@
 ---
-Title: "Consejos para Desarrolladores Junior"
+Title: "Consejos para desarrolladores junior"
 Description: "Este artículo menciona y vincula a muchos conceptos muy valiosos para aquellos que están arrancando a programar."
 Keywords:
 - principiantes
