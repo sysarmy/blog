@@ -547,4 +547,4 @@ El corolario es, por supuesto, nadie lo está usando, no importa cuán bueno es 
 *Esto fue adaptado de una publicación que originalmente apareció en el blog Eager. En 2016 Eager se convirtió en [Cloudflare Apps](https://www.cloudflare.com/apps).
 
 * La versión original de este post se puede encontrar en [The Cloudflare Blog](https://blog.cloudflare.com/the-history-of-the-url/) (inglés).
-* Traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por [@nachichuri](https://twitter.com/nachichuri).
+* Autoría de [Zack Bloom](https://blog.cloudflare.com/author/zack-bloom/), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por [@nachichuri](https://twitter.com/nachichuri).
