@@ -16,6 +16,7 @@ featuredImage: assets/bbs-11.png
 Topics:
 
 - historia
+- nerds
 
 markup: markdown
 date: 2023-01-01
@@ -24,16 +25,13 @@ draft: false
 
 _La versión original de este post se puede encontrar en [Ars Technica](https://arstechnica.com/information-technology/2022/12/my-secret-life-as-an-11-year-old-bbs-sysop/) (inglés)._
 
-
-#Mi vida secreta como un operador de BBS de 11 años de edad
-
 ![](assets/bbs-1.jpg)
 |:--:|
 | <b>La computadora de Benj Edwards corriendo The Cave BBS en 1994.</b>|
 
 Treinta años atrás –el 25 de noviembre de 1992– mi BBS [se conectó](https://www.vintagecomputing.com/index.php/archives/914/retro-scan-of-the-week-the-cave-bbs-turns-20) por primera vez. Solo tenía 11 años de edad, trabajaba desde la laptop Tandy 1800HD de mi papá y un módem de 2400 baudios (nota del traductor: 2.4 kbps). La BBS The Cave rápidamente creció hasta convertirse en un bullicioso sistema de 24 horas con más de 1000 usuarios. Luego de una pausa de siete años entre 1998 y 2005, la he estado corriendo [de nuevo](https://www.howtogeek.com/686600/remember-bbses-heres-how-you-can-visit-one-today/). Acá está la historia de cómo empezó y los desafíos que enfrenté en el camino.
 
-##Le damos la bienvenida al módem
+## Le damos la bienvenida al módem
 
 En enero de 1992, mi papá trajo a casa una puerta a un mundo paralelo: una caja chiquita de plexiglass etiquetada “ZOOM” que se conectaba al puerto serie de la PC. Este módem te daba el poder de conectarte a otras computadoras y compartir información mediante la línea telefónica.
 Mientras que servicios comerciales de conectividad como [CompuServe](https://www.vintagecomputing.com/index.php/archives/1059/retro-scan-of-the-week-my-compuserve-password) y [Prodigy](https://www.theatlantic.com/technology/archive/2014/07/where-online-services-go-when-they-die/374099/) existían en ese momento, muchos entusiastas corrian sus propios servicios online miniatura llamados sistemas BBS. (Nota del traductor: La traducción de Bulletin Board System sería “Sistema de Tablón de anuncios” pero nadie la conoce como tal, por esta razón voy a usar el acrónimo en inglés por el que es conocido). Internet existía, pero no era muy conocida fuera de los círculos académicos.
@@ -57,7 +55,7 @@ Tengo un claro recuerdo de la primera vez que me di cuenta de lo que era una BBS
 “¿Podés descargar juegos gratis? Recuerdo haber pensado. I noté un archivo llamado “RAMPAGE.ZIP” que pesaba cien kilobytes–o “100K” como aparecía listado. Pensando que era _Rampage_ de la NES, que era uno de mis juegos favoritos en ese momento, le pedí a mi hermano que lo descargue. Se rehusó porque habría tomado más de cinco minutos para transferirlo en nuestro módem de 2400 bps. Cualquier archivo de alrededor de un megabyte tardaría cerca de una hora en descargarse.
 El tiempo en línea era precioso en ese momento. Debido a que la mayoría de las BBSs solo tenían una sola línea telefónica, no querías acaparar la línea por mucho tiempo o el sysop podía echarte. Y había otro peligro también. Ya que usábamos la línea telefónica de nuestra casa para conectarnos, las posibilidades de que mi mamá levantara el tubo y tratara de marcar –y así arruinar la transferencia en el proceso– eran muy altas. Pero, sin importar los riesgos, la emoción de la proyección remota por computadora se me metió adentro y nunca se fue.
 
-##La diversión de BBSear
+## La diversión de BBSear
 
 Aunque mi hermano empezó a llamar a BBSs en enero de 1992, la novedad pareció desaparecer rápidamente para él para marzo, según los registros de llamadas que tengo. Nunca las llamó demasiado de nuevo. Pero mi historia recién estaba comenzando. Durante agosto de 1992 (el 2 de agosto, si puedo confiar en mis registros), justo después de terminar quinto grado, empecé a visitar BBSs locales en serio.
 
@@ -79,7 +77,7 @@ Había un problema, sin embargo: Medieval House of Horror estaba en Smithfield, 
 
 Una factura telefónica de $200 dólares que llegó no mucho tiempo después enojó mucho a mi papá. Primero trabó mi computadora, lo cual deshabilitaba el teclado, pero encontré una llave de repuesto. Entonces directamente me sacó el teclado. Luego de que me devolvieron los privilegios, lo hice de nuevo–y llegó otra factura telefónica de $200. Llamé a esa BBS cientos de veces. El sysop era mi mejor amigo–o al menos eso creía.
 
-##Creando mi propia BBS
+## Creando mi propia BBS
 Mis recuerdos son vagos 30 años después, pero por alguna razón, decidí que quería crear mi propia BBS en noviembre de 1992. Le dije a mi papá, y pidió a su compañero de trabajo que le había dado el módem Zoom algunos consejos. También le pregunté a los sysops locales con los que chateaba, y me dieron consejos contradictorios. No sabía por dónde empezar. También era complicado porque tenía 11 años.
 
 De acuerdo a las anotaciones que sobrevivieron de esa época (mencionaba haber perdido diente en una de ellas) e impresiones al azar (de una impresora conectada que al presionar la tecla de Print Screen escupía el contenido de la pantalla en un pedazo de papel), exploré varias alternativas de software de BBS. Siguiendo los consejos de mi papá o Doug, probé el modo servidor incluido en Procomm Plus, que era muy pelado y poco interesante. También usé un programa llamado “Minihost”, que era un paquete de BBS minimalista.
@@ -124,7 +122,7 @@ Eran vísperas de Año Nuevo de 1992, y me senté a ver como un troyano llamado 
 
 Apreté Print Screen y lloré. Tenía 11 años, y no tenía backups. Gracias a mi mejor amigo.
 
-##Rebotando
+## Rebotando
 
 Aunque la experiencia fue devastadora, volví a levantar la BBS con una nueva instalación durante enero de 1993, aunque perdí los datos como la base de datos de usuarios, mensajes, archivos, y juegos que había armado el mes antes. Le dije a Bc lo que había pasado, y me ayudó a levantar los pedazos y arrancar de nuevo.
 
