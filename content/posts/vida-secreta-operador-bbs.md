@@ -7,19 +7,22 @@ Tags:
 - sysarmy
 - history
 - vintage
+- historia
 
-Thumbnail: assets/bbs-11.jpg
-socialImage: assets/bbs-11.jpg
-featuredImage: assets/bbs-11.jpg
+Thumbnail: assets/bbs-11.png
+socialImage: assets/bbs-11.png
+featuredImage: assets/bbs-11.png
 
 Topics:
+
+- historia
 
 markup: markdown
 date: 2023-01-01
 draft: false
 ---
 
-_La versión original de este post se puede encontrar en [arsTECHNICA](https://arstechnica.com/information-technology/2022/12/my-secret-life-as-an-11-year-old-bbs-sysop/) (inglés)._
+_La versión original de este post se puede encontrar en [Ars Technica](https://arstechnica.com/information-technology/2022/12/my-secret-life-as-an-11-year-old-bbs-sysop/) (inglés)._
 
 
 #Mi vida secreta como un operador de BBS de 11 años de edad
@@ -30,10 +33,10 @@ _La versión original de este post se puede encontrar en [arsTECHNICA](https://a
 
 Treinta años atrás –el 25 de noviembre de 1992– mi BBS [se conectó](https://www.vintagecomputing.com/index.php/archives/914/retro-scan-of-the-week-the-cave-bbs-turns-20) por primera vez. Solo tenía 11 años de edad, trabajaba desde la laptop Tandy 1800HD de mi papá y un módem de 2400 baudios (nota del traductor: 2.4 kbps). La BBS The Cave rápidamente creció hasta convertirse en un bullicioso sistema de 24 horas con más de 1000 usuarios. Luego de una pausa de siete años entre 1998 y 2005, la he estado corriendo [de nuevo](https://www.howtogeek.com/686600/remember-bbses-heres-how-you-can-visit-one-today/). Acá está la historia de cómo empezó y los desafíos que enfrenté en el camino.
 
-##Bienvenido el módem
+##Le damos la bienvenida al módem
 
 En enero de 1992, mi papá trajo a casa una puerta a un mundo paralelo: una caja chiquita de plexiglass etiquetada “ZOOM” que se conectaba al puerto serie de la PC. Este módem te daba el poder de conectarte a otras computadoras y compartir información mediante la línea telefónica.
-Mientras que servicios comerciales de conectividad como [CompuServe](https://www.vintagecomputing.com/index.php/archives/1059/retro-scan-of-the-week-my-compuserve-password) y [Prodigy](https://www.theatlantic.com/technology/archive/2014/07/where-online-services-go-when-they-die/374099/) existían en ese momento, muchos entusiastas corrian sus propios servicios online miniatura llamados sistemas BBS. (Nota del traductor: La traducción de Bulletin Board System sería “Sistema de Tablón de anuncios” pero nadie la conoce como tal, por esta razón voy a usar el acrónimo en inglés por el que es conocido). Internet existía, pero no era ampliamente conocida fuera de los círculos académicos.
+Mientras que servicios comerciales de conectividad como [CompuServe](https://www.vintagecomputing.com/index.php/archives/1059/retro-scan-of-the-week-my-compuserve-password) y [Prodigy](https://www.theatlantic.com/technology/archive/2014/07/where-online-services-go-when-they-die/374099/) existían en ese momento, muchos entusiastas corrian sus propios servicios online miniatura llamados sistemas BBS. (Nota del traductor: La traducción de Bulletin Board System sería “Sistema de Tablón de anuncios” pero nadie la conoce como tal, por esta razón voy a usar el acrónimo en inglés por el que es conocido). Internet existía, pero no era muy conocida fuera de los círculos académicos.
 
 ![](assets/bbs-2.jpg)
 |:--:|
@@ -153,7 +156,7 @@ Por si no lo han notado por las fotos y las impresiones, tengo una predilección
 
 En 2005, empecé a revisitar mi pasado de BBS en Internet con publicaciones en [Vintage Computing and Gaming](https://www.vintagecomputing.com/index.php/archives/161/the-dial-up-bbs-revisited) un blog que fundé. Fue allí donde [revelé por primera vez](https://www.vintagecomputing.com/index.php/archives/21/my-bbs-alter-ego-turns-45) como “Red Wolf” el sysop (24 en ese momento). Sorprendentemente, recibí dos emails de ex usuarios de The Cave BBS que estaban sorprendidos de enterarse de esto. Uno de ellos era incluso un amigo cercano que usualmente jugaba Duke Nukem 3D cooperativo conmigo. No tenían ni idea de que era un chico en ese momento.
 
-![](assets/bbs-11.jpg)
+![](assets/bbs-11.png)
 |:--:|
 | <b>Menú principal de la versión Telnet de Cave BBS, 2005-presente.</b>|
 
@@ -162,3 +165,6 @@ Por ese entonces, instalé una versión telnet de The Cave BBS usando el [softwa
 La Cave BBS original corrió por solo cinco años, pero la versión Telnet ha estado corriendo por 17 años–mucho más que mis días de dial-up. ¿Es una simulación o la verdera? ¿Dónde termina la nostalgia y dónde comienza el presente? Resulta que el velo entre el pasado y el futuro es más permeable de lo que yo pensaba.
 
 Y para mí, mi identidad de sysop de BBS está ahora completamente integrada a mi vida en general. Ya no es un secreto o un rol separado, es algo que puedo aceptar con orgullo, reviendo juntos esa era formativa. En esa época, nosotros los BBSers éramos los nerds, los raritos. Ahora todo el mundo está usando servicios en línea muy parecidos a una BBS, y ni siquiera se dan cuenta.
+
+* La versión original de este post se puede encontrar en [Ars Technica](https://arstechnica.com/information-technology/2022/12/my-secret-life-as-an-11-year-old-bbs-sysop/) (inglés).
+* Autoría por [Benj Edwards](https://twitter.com/benjedwards), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por []().
