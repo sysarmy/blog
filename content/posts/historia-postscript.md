@@ -114,9 +114,12 @@ La versión del código fuente de PostScript publicada por el Computer History M
 Gracias a Doug Brotz y Bill Paxton por sus útiles comentarios sobre el borrador de este ensayo. Gracias a Adobe Inc. y Doug Mendez por el permiso para usar varias imágenes.
 Este ensayo está basado en historia oral y entrevistas llevadas a cabo por el Computer History Museum, y varias importantes fuentes publicadas:
 
-J. E. Warnock, "The Origins of PostScript," in IEEE Annals of the History of Computing, vol. 40, no. 3, pp. 68-76, Jul.-Sep. 2018, doi: 10.1109/MAHC.2018.033841112.
-WARNOCK, JOHN E. “Simple Ideas That Changed Printing and Publishing.” Proceedings of the American Philosophical Society, vol. 156, no. 4, 2012, pp. 363–78. JSTOR, http://www.jstor.org/stable/23558230. Accessed 13 Oct. 2022.
-J. E. Warnock and C. Geschke, "Founding and Growing Adobe Systems, Inc.," in IEEE Annals of the History of Computing, vol. 41, no. 3, pp. 24-34, 1 July-Sept. 2019, doi: 10.1109/MAHC.2019.2923397.
+- J. E. Warnock, "The Origins of PostScript," in IEEE Annals of the History of Computing, vol. 40, no. 3, pp. 68-76, Jul.-Sep. 2018, doi: 10.1109/MAHC.2018.033841112.
+
+- WARNOCK, JOHN E. “Simple Ideas That Changed Printing and Publishing.” Proceedings of the American Philosophical Society, vol. 156, no. 4, 2012, pp. 363–78. JSTOR, http://www.jstor.org/stable/23558230. Accessed 13 Oct. 2022.
+
+- J. E. Warnock and C. Geschke, "Founding and Growing Adobe Systems, Inc.," in IEEE Annals of the History of Computing, vol. 41, no. 3, pp. 24-34, 1 July-Sept. 2019, doi: 10.1109/MAHC.2019.2923397.
+
 Legalmente, PostScript® es una marca registrada de Adobe, Inc. usada para identificar su lenguaje e intérprete. Para facilidad de lectura, usamos la forma más común “PostScript” para denotar ambos el lenguaje PostScript® y el intérprete de PostScript®.
 
 * La versión original de este post se puede encontrar en [Computer History Museum](https://computerhistory.org/blog/postscript-a-digital-printing-press/) (inglés).
