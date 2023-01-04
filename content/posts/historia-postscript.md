@@ -74,7 +74,7 @@ En 1978, Chuck Geschke había recientemente armado una nueva organización en el
 Desde 1979 a 1981, JaM se convirtió en un componente importante en el nuevo trabajo del laboratorio de Geschke. Esto consistía en un esfuerzo para desarrollar un lenguaje de impresión que pudiera comercializarse, para ser usado en la versión productiva de las computadoras experimentales de PARC llamadas Xerox Star, y más ampliamente usada en toda la linea de impresoras de Xerox. Un grupo de seis desarrolladores de Xerox—Chuck Geschke, Butler Lampson, Jerry Mendelson, Brian Reid, Bob Sproull, y John Warnock—fusionó el enfoque de JaM con técnicas de protocolos más establecidos. El resultado fue llamado Interpress.
 La gerencia de Xerox se convenció rápidamente del potencial de Interpress, y decidió que sería incluido en el el estandar de impresión de la compañía. Sin embargo, migrar a este estandar tomaría varios años durante los cuales Interpress se mantendría en secreto. Este retraso en el refinamiento de Interpress que podía generar uso y desafío de una base de usuarios más amplia por fuera de Xerox hizo que Geschke y Warnock se fueran. Se irían de PARC para crear una startup en la cual crearían un rival de Interpress, pero armado más en son del enfoque del lenguaje procedural geométrico que Warnock creía tan poderoso. Pero para que la nueva startup pudiera convertir este nuevo lenguaje, PostScript, en la nueva imprenta digital iba a requerir un equipo brillante.
 
-{{< youtube id="FI3LA6wV1g" >}}
+{{< youtube id="_FI3LA6wV1g" >}}
 |:--:|
 | <b>Chuck Geschke cuenta las motivaciones para la formación de Adobe. https://www.computerhistory.org/collections/catalog/102738493</b>|
 
