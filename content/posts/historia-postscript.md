@@ -44,7 +44,7 @@ La impresión ha sido siempre una tecnología con consecuencias culturales profu
 
 Desde el inicio de Adobe Systems Incorporated (ahora Adobe, Inc.) exactamente cuarenta años atrás en diciembre de 1982, los cofundadores de la firma imaginaron un nuevo tipo de imprenta—una que era fundamentalmente digital, usando los últimos avances en informática. Las discusiones iniciales entre los cofundadores Chuck Geschke y John Warnock con armadores de computadoras como Digital Equipment Corporation (DEC) y Apple los convencieron de que el software era la clave para la nueva imprenta digital. Su visión: Cualquier computadora podría conectarse con impresoras y tipógrafos mediante un lenguaje común para imprimir palabras e imágenes con la más alta fidelidad. Liderado por Warnock, ADobe armó un equipo de programadores habilidosos y creativos para crear este nuevo lenguaje. Además de los dos cofundadores, el equipo incluía a Doug Brotz, Bill Paxton y Ed Taft. El lenguaje que crearon fue en efecto un lenguaje de programación completo, llamado PostScript, y fue lanzado por Adobe en 1984.
 
-{{< youtube id="5xB_w5Nuwvg” >}}
+{{< youtube id="5xB_w5Nuwvg" >}}
 |:--:|
 | <b>Chuck Geschke cuenta cómo Adobe se enfocó en PostScript como su negocio inicial</b>|
 
@@ -74,12 +74,12 @@ En 1978, Chuck Geschke había recientemente armado una nueva organización en el
 Desde 1979 a 1981, JaM se convirtió en un componente importante en el nuevo trabajo del laboratorio de Geschke. Esto consistía en un esfuerzo para desarrollar un lenguaje de impresión que pudiera comercializarse, para ser usado en la versión productiva de las computadoras experimentales de PARC llamadas Xerox Star, y más ampliamente usada en toda la linea de impresoras de Xerox. Un grupo de seis desarrolladores de Xerox—Chuck Geschke, Butler Lampson, Jerry Mendelson, Brian Reid, Bob Sproull, y John Warnock—fusionó el enfoque de JaM con técnicas de protocolos más establecidos. El resultado fue llamado Interpress.
 La gerencia de Xerox se convenció rápidamente del potencial de Interpress, y decidió que sería incluido en el el estandar de impresión de la compañía. Sin embargo, migrar a este estandar tomaría varios años durante los cuales Interpress se mantendría en secreto. Este retraso en el refinamiento de Interpress que podía generar uso y desafío de una base de usuarios más amplia por fuera de Xerox hizo que Geschke y Warnock se fueran. Se irían de PARC para crear una startup en la cual crearían un rival de Interpress, pero armado más en son del enfoque del lenguaje procedural geométrico que Warnock creía tan poderoso. Pero para que la nueva startup pudiera convertir este nuevo lenguaje, PostScript, en la nueva imprenta digital iba a requerir un equipo brillante.
 
-{{< youtube id="FI3LA6wV1g” >}}
+{{< youtube id="FI3LA6wV1g" >}}
 |:--:|
 | <b>Chuck Geschke cuenta las motivaciones para la formación de Adobe. https://www.computerhistory.org/collections/catalog/102738493</b>|
 
 
-{{< youtube id="9S64_MgF_lQ” >}}
+{{< youtube id="9S64_MgF_lQ" >}}
 |:--:|
 | <b>Warnock cuenta los primeros pasos clave para fundar Adobe</b>|
 
@@ -105,7 +105,7 @@ Fue John Warnock a quien se le ocurrió la solución de Adobe, convirtiendo el p
 
 La versión del código fuente de PostScript publicada por el Computer History Museum es una versión muy temprana, fechada a fines de febrero de 1984. Mientras que esta versión contiene una primera versión de los procedimientos de “sugerencias de fuentes” luego mantenidos como secreto comercial, estos enfoques fueron completamente reescritos, expandidos y refinados por Bill Paxton en los meses subsecuentes. Estos cambios fueron críticos para el éxito de PostScript cuando salió al mercado.
 
-{{< youtube id="ry3nmWzsomQ” >}}
+{{< youtube id="ry3nmWzsomQ" >}}
 |:--:|
 | <b>Chuck Geschke habla sobre los secretos comerciales en el código fuente de PostScript.</b>|
 
