@@ -36,7 +36,7 @@ El Computer History Museum está emocionado por publicar, por primera vez, el c�
 
 ## El panorama
 
-La impresión ha sido siempre una tecnología con consecuencias culturales profundas. Los tipos móviles aparecieron primero en el este asiático, y luego, tecnología de las prensas vitivinícolas y aceiteras europeas del siglo XV fueron combinadas con nuevas técnicas para producir tipos en masa usando fundición metalúrgica para evolucionar la imprenta, y con ello, generar una revolución en la alfabetización humana. Los libros se hicieron más baratos y más rápidos de producir, y como resultado aparecieron en mayor cantidad. Los lectores y las bibliotecas se expandieron. El mayor acceso a la información transformó el aprendizaje, la investigación, el gobierno, el comercio, y las artes
+La impresión ha sido siempre una tecnología con consecuencias culturales profundas. Los tipos móviles aparecieron primero en el Este Asiático, y luego, tecnología de las prensas vitivinícolas y aceiteras europeas del siglo XV fueron combinadas con nuevas técnicas para producir tipos en masa usando fundición metalúrgica para evolucionar la imprenta, y con ello, generar una revolución en la alfabetización humana. Los libros se hicieron más baratos y más rápidos de producir, y como resultado aparecieron en mayor cantidad. Los lectores y las bibliotecas se expandieron. El mayor acceso a la información transformó el aprendizaje, la investigación, el gobierno, el comercio, y las artes
 
 ![](assets/historia-postscript-1.jpg)
 |:--:|
