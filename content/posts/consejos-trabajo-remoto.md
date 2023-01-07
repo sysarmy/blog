@@ -7,12 +7,14 @@ Keywords:
 - novato
 - aprendizaje
 - mejores-practicas
+- remoto
 
 Tags:
 - sysarmy
 - dev
 - desarrolladores
 - mejores-practicas
+- remoto
 
 Thumbnail: assets/consejos-trabajo-remoto.jpg
 socialImage: assets/consejos-trabajo-remoto.jpg
@@ -23,6 +25,8 @@ Topics:
 - desarrollo
 - software
 - mejores-practicas
+- remoto
+- homeoffice
 
 
 markup: markdown
@@ -30,8 +34,11 @@ date: 2023-01-05
 draft: false
 ---
 
+_La versión original de este hilo se puede encontrar en [Twitter](https://twitter.com/chris_herd/status/1391021349318111233) (inglés)._
+_Se trató de mantener la estructura original_
+
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 Algunos consejos para trabajar de forma remota de 20 expertos con más de 100 anos de experiencia haciéndolo. 
 
@@ -42,7 +49,7 @@ Algunos consejos para trabajar de forma remota de 20 expertos con más de 100 an
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🪑conseguite una buena silla y un buen escritorio
 
@@ -55,7 +62,7 @@ Nadie quiere dolor de espalda y es imposible trabajar bien por mucho tiempo sin 
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🗣 entendé sobre el trabajo asíncrono
 
@@ -67,7 +74,7 @@ Esto te permite maximizar los beneficios del remoto, tener más control sobre tu
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 ✍️siempre sobrecomunicá 
 
@@ -80,7 +87,7 @@ La sobrecomunucación mantiene a todos en la misma sintonía
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🆘 pedí ayuda regularmente
 
@@ -93,7 +100,7 @@ Tirale un ping a un companero de equipo siempre que necesites algo, especialment
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🥗 salí a almorzar con gente
 
@@ -106,7 +113,7 @@ El tiempo social es crítico, somos animales sociales, y si trabajas remotamente
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🏃‍♂️conseguite una actividad recreativa activa
 
@@ -119,7 +126,7 @@ Nada te permite escaparte de las preocupaciones laborales mas que el ejercicio d
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 ✈️viajá todo lo que puedas
 
@@ -132,7 +139,7 @@ Vacaciones trabajando en las que continúas produciendo lo que esperan de vos, m
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 💻tené un equipo para trabajar buenísimo 
 
@@ -145,7 +152,7 @@ Conseguite un buen teclado, un buen monitor y ponelos a la altura correcta para 
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 ⏰aprendé a finalizar el día 
 
@@ -158,7 +165,7 @@ Generate un hábito que te marque el final del día laboral, incluso algo simple
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 ❤️más tiempo para familia y amigos
 
@@ -171,7 +178,7 @@ Aprovechalo y mejorá tu calidad de vida
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🎧conseguite auriculares con cancelación de ruido
 
@@ -184,7 +191,7 @@ Te permite que cualquier lugar sea tu 'oficina'
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🗓️reserva tiempo libre en tu calendario  
 
@@ -197,11 +204,11 @@ Almuerzo, trabajo duro, ejercicio, etc. todos tienen un lugar y tratalos como cu
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 ⚡️tené una actividad de transición
 
-Para mí, mi trabajo comienza cuando me pongo los zapatos. Otros comienza con una caminata de 10-15 minutos por el barrio
+Para mí, mi trabajo comienza cuando me pongo los zapatos. Otros comienzan con una caminata de 10-15 minutos por el barrio
 
 Encontrá qué funciona para vos
 
@@ -210,7 +217,7 @@ Encontrá qué funciona para vos
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 ✍️documentá todo lo que hacés
 
@@ -223,7 +230,7 @@ La documentación es otro super poder de los equipos remotos. Permite que el con
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🚧separá los espacios de trabajo y esparcimiento
 
@@ -238,7 +245,7 @@ Usar "espacios de tercertos" también es clave como ser cafeterías
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🚶‍♂️tené reuniones caminando
 
@@ -251,20 +258,20 @@ Las reuniones caminando son la mejor manera de hacer esto
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🎥participá solamente de las reuniones esenciales
 
-Los mejores equipos remotos que he conocido nunca sienten la necesidad de ir a una reunion simplemente porque está agendada
+Los mejores equipos remotos que he conocido nunca sienten la necesidad de ir a una reunión simplemente porque está agendada
 
-Esto es algo que más compañias deberian adoptar
+Esto es algo que más compañias deberían adoptar
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021374605561862)
 
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 👯‍♂️juntate con tus colegas 
 
@@ -279,7 +286,7 @@ Por lo general vemos que los equipos remotos tienen mejores relaciones que los e
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 🏝acordate de tener recreos
 
@@ -292,7 +299,7 @@ El bienestar y la salud mental son increíblemente importantes. Asegurate de tom
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 😃siempre asumí positividad
 
@@ -307,7 +314,7 @@ Siempre asumí intención positiva cuando leés un mensaje y llamá rápidamente
 ---
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
+Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 
 ¿Querés una gran experiencia de trabajo híbrida o remota para vos y tu equipo?
 
