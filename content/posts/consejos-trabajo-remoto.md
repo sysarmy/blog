@@ -14,9 +14,9 @@ Tags:
 - desarrolladores
 - mejores-practicas
 
-Thumbnail: assets/consejos-junior-devs.jpg
-socialImage: assets/consejos-junior-devs.jpg
-featuredImage: assets/consejos-junior-devs.jpg
+Thumbnail: assets/consejos-trabajo-remoto.jpg
+socialImage: assets/consejos-trabajo-remoto.jpg
+featuredImage: assets/consejos-trabajo-remoto.jpg
 
 Topics:
 - dev
@@ -30,7 +30,7 @@ date: 2023-01-05
 draft: false
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
 Algunos consejos para trabajar de forma remota de 20 expertos con más de 100 anos de experiencia haciéndolo. 
@@ -41,35 +41,37 @@ Algunos consejos para trabajar de forma remota de 20 expertos con más de 100 an
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
 🪑conseguite una buena silla y un buen escritorio
 
-Una silla ergonómica y un escritorio con motor, común y para trabajar parado, son esenciales.
-Nadie quiere dolor de espaldas y es imposible trabajar bien por mucho tiempo sin ellos 
+Una silla ergonómica y un escritorio con motor, para poder trabajar sentado y parado, son esenciales.
+
+Nadie quiere dolor de espalda y es imposible trabajar bien por mucho tiempo sin ellos 
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021351792779264)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-🗣 entendé sobre trabajo asíncrono
+🗣 entendé sobre el trabajo asíncrono
 
 El trabajo asíncrono es el super poder del trabajo remoto. Le da a todos el poder de trabajar de forma enfocada sin distracciones.
+
 Esto te permite maximizar los beneficios del remoto, tener más control sobre tu vida, y lograr el mejor trabajo que alguna vez hayas hecho.
 [Tweet link](https://twitter.com/chris_herd/status/1391021353126481924)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
 ✍️siempre sobrecomunicá 
 
-Asegurarse de que todos saben lo que está pasando y en qué estado estan las cosas toma un esfuerzo extra remotamente 
+Asegurarse de que todos saben lo que está pasando y en qué estado están las cosas toma un esfuerzo extra remotamente 
 
 La sobrecomunucación mantiene a todos en la misma sintonía
 
@@ -77,7 +79,7 @@ La sobrecomunucación mantiene a todos en la misma sintonía
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
 🆘 pedí ayuda regularmente
@@ -90,7 +92,7 @@ Tirale un ping a un companero de equipo siempre que necesites algo, especialment
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
 🥗 salí a almorzar con gente
@@ -103,211 +105,211 @@ El tiempo social es crítico, somos animales sociales, y si trabajas remotamente
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-🏃‍♂️conseguite un compapick up an active hobby
+🏃‍♂️conseguite una actividad recreativa activa
 
-Get out, keep fit and healthy, and get some fresh air
+Salí, mantenete en forma y sano, y tomá aire fresco
 
-Nothing enables you to break away from the grind of work more than planned daily excercise
+Nada te permite escaparte de las preocupaciones laborales mas que el ejercicio diario planificado
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021359770243073)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-✈️travel as much as you can
+✈️viajá todo lo que puedas
 
-You’re no longer handcuffed to an office in a fixed location so take advantage of it 
+No estás mas esposado a una oficina en un lugar fijo así que aprovechate de eso 
 
-Working holidays where I continue to produce what is expected while also vacationing are priceless
+Vacaciones trabajando en las que continúas produciendo lo que esperan de vos, mientras estás vacacionando son impagables
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021361011769347)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-💻have a great work setup
+💻tené un equipo para trabajar buenísimo 
 
-Being as safe, comfortable and productive at home as in an office means you need the same tools and equipment
+Estar tan seguro, cómodo y productivo en casa como lo estás en la oficina significa que necesitás herramientas y equipamiento
 
-Get a good keyboard + monitor and setup at the proper heights to prevent neck, arm and back pain
+Conseguite un buen teclado, un buen monitor y ponelos a la altura correcta para prevenit dolores de cuello, brazos y espalda
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021362341371907)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-⏰learn when to finish the day 
+⏰aprendé a finalizar el día 
 
-Work is never done as there is always something else to do
+El trabajo nunca se termina, siempre hay algo para hacer
 
-Build a habit that marks the end of the work day, even if it’s as simple as closing the laptop lid when you’re done
+Generate un hábito que te marque el final del día laboral, incluso algo simple, como cerrar la tapa de laptop cuando terminás
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021363612291072)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-❤️more time for family & friends
+❤️más tiempo para familia y amigos
 
-Remote work allows you to spend more time with the people you care about most 
+El trabajo remoto te permite pasar más tiempo con la gente que más querés 
 
-Take advantage of it and improve your quality of life
+Aprovechalo y mejorá tu calidad de vida
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021364832874499)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-🎧get a noise-cancelling headset 
+🎧conseguite auriculares con cancelación de ruido
 
-Critical when working in areas where you have no control over the surrounding environment like a coffee shop
+Crítico cuando trabajas en áreas donde no tenes control del ambiente que te rodea como una cafetería
 
-Allows anywhere to be your ‘office’
+Te permite que cualquier lugar sea tu 'oficina'
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021366107906048)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-🗓️block off time in your calendar  
+🗓️reserva tiempo libre en tu calendario  
 
-Use your calendar to schedule your day – and then be ruthless in defending those blocks of time
+Usa tu calendario para agendar tu día - y se despiadado al defender esos tiempos libres
 
-Lunch, deep work, excercise, etc. all have a place and treat them the same way you do other events: don’t cancel them
+Almuerzo, trabajo duro, ejercicio, etc. todos tienen un lugar y tratalos como cualqueir otro evento: no los canceles
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021367735341058)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-⚡️tave a ‘transition’ activity
+⚡️tené una actividad de transición
 
-For me, my work day starts when I put my shoes on. Others start their day with a 10-15 minute walk in their neighborhood
+Para mí, mi trabajo comienza cuando me pongo los zapatos. Otros comienza con una caminata de 10-15 minutos por el barrio
 
-Find what works for you
+Encontrá qué funciona para vos
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021369455005704)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-✍️document everything you do 
+✍️documentá todo lo que hacés
 
-Documentation is another super power of remote teams. It ensures knowledge is always growing inside companies instead of getting lost when people leave
+La documentación es otro super poder de los equipos remotos. Permite que el conocimiento siempre crezca dentro de las compañías en lugar de perderse cuando la gente se va
 
-Make it shareable + accessible! This lets other people get value as well
+¡Hacela compartible y accesible! Esto le permite a la gente aprovecharse de ella
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021370730065922)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-🚧separate work & living space
+🚧separá los espacios de trabajo y esparcimiento
 
-It’s important to acknowledge the privilege in this, not everyone is fortunate to have it
+Es importante entender el privilegio que es esto, no todos tienen la suerte de tenerlo
 
-At times in my life when I wasn’t, I split spaces psychologically, i.e. a rug on the floor in my room
+En los momentos de mi vida en los que no tenia la suerte de tenerlo, separaba los espacios psicológicamente, por ejemplo con una alfombra en mi habitación
 
-Using a ‘third space’ is also key like coffee shops
+Usar "espacios de tercertos" también es clave como ser cafeterías
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021371996651521)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-🚶‍♂️take walking meetings 
+🚶‍♂️tené reuniones caminando
 
-Every meeting doesn’t have to be a Zoom call. Get out and go for a walk while you chat
+No toda reunión tiene que ser una llamada de Zoom. Salí y andá a caminar mientras charlas
 
-Walking meetings are the best way to do this
+Las reuniones caminando son la mejor manera de hacer esto
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021373376577538)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-🎥only attend essential meetings
+🎥participá solamente de las reuniones esenciales
 
-The best remote teams I’ve ever known never feel the need to attend a meeting just because it’s scheduled
+Los mejores equipos remotos que he conocido nunca sienten la necesidad de ir a una reunion simplemente porque está agendada
 
-This is something more companies should adopt
+Esto es algo que más compañias deberian adoptar
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021374605561862)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-👯‍♂️still see your colleagues 
+👯‍♂️juntate con tus colegas 
 
-Working remotely does not mean you never see your team mates!
+Trabajar remotamente no significa que nunca mas vayas a ver a tus compañeros de equipor!
 
-Find time to meet up on a cadence that enables you to have the best possible communication and collaboration 
+Buscate el tiempo para reunirte con una regularidad que te permita tener la mejor comunicación y colaboración posible
 
-We often see remote teams having far better relationships than office teams
+Por lo general vemos que los equipos remotos tienen mejores relaciones que los equipos presenciales
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021375914184707)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-🏝remember to take breaks
+🏝acordate de tener recreos
 
-Not getting enough work done isn’t a concern – remote workers are far more productive – burning out is the real problem
+No trabajar lo suficiente no es un problema - los trabajadores remotos son más productivos - quemarse la cabeza es el verdadero problema
 
-Well-being and mental health are incredibly important. Make sure you take regular breaks and vacations that improve them
+El bienestar y la salud mental son increíblemente importantes. Asegurate de tomar recreos regulares y vacaciones para mejorar tu vida
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021377281478656)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-😃always assume positive intent
+😃siempre asumí positividad
 
-The most important thing
+Lo más importante
 
-Tone and nuance are almost impossible to pick up all the time in written communication 
+El tono y la intención son casi imposibles de discernir en comunicaciones escritas
 
-Always assume positive intent when reading messages and jump on a quick call if you are unclear on anything
+Siempre asumí intención positiva cuando leés un mensaje y llamá rápidamente si algo no quedó claro
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021378950815749)
 
 ---
 
-![chris_herd](https://pbs.twimg.com/profile_images/1602382663125434369/qikn0xL5_normal.jpg)
+![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - May 8, 2021, 10:25 AM
 
-Want a great hybrid or remote work experience for you or your team?
+¿Querés una gran experiencia de trabajo híbrida o remota para vos y tu equipo?
 
 [FirstbaseHQ.com](http://FirstbaseHQ.com)
 
