@@ -35,6 +35,7 @@ draft: false
 ---
 
 _La versión original de este hilo se puede encontrar en [Twitter](https://twitter.com/chris_herd/status/1391021349318111233) (inglés)._
+
 _Se trató de mantener la estructura original del post._
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
