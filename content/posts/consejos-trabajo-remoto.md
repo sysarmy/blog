@@ -38,12 +38,14 @@ _La versión original de este hilo se puede encontrar en [Twitter](https://twitt
 
 _Se trató de mantener la estructura original del post._
 
-![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
-Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
+***
 
-Algunos consejos para trabajar de forma remota de 20 expertos con más de 100 anos de experiencia haciéndolo. 
+>![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
+>Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
+>
+>Algunos consejos para trabajar de forma remota de 20 expertos con más de 100 anos de experiencia haciéndolo. 
 
-👇🧵
+>👇🧵
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021349318111233)
 
