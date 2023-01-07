@@ -35,7 +35,7 @@ draft: false
 ---
 
 _La versión original de este hilo se puede encontrar en [Twitter](https://twitter.com/chris_herd/status/1391021349318111233) (inglés)._
-_Se trató de mantener la estructura original_
+_Se trató de mantener la estructura original del post._
 
 ![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
@@ -321,3 +321,7 @@ Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10
 [FirstbaseHQ.com](http://FirstbaseHQ.com)
 
 [Tweet link](https://twitter.com/chris_herd/status/1391021380234317829)
+
+* La versión original de este hilo se puede encontrar en [Twitter](https://twitter.com/chris_herd/status/1391021349318111233) (inglés).
+* Para tratar de mantener la estructura original del post se utilizó [Tweet-to-Markdown](https://github.com/kbravh/tweet-to-markdown) para expotar el hilo.
+* Autoría por [Chris Herd](https://twitter.com/chris_herd), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por []().
