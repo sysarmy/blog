@@ -209,10 +209,10 @@ _Se trató de mantener la estructura original del post._
 >🚧separá los espacios de trabajo y esparcimiento
 >
 >Es importante entender el privilegio que significa esto, no todos tienen la suerte de tenerlo
-
+>
 >En los momentos de mi vida en los que no tenia la suerte de tenerlo, separaba los espacios psicológicamente, por ejemplo con una alfombra en mi habitación
-
->Usar "espacios de tercertos" también es clave como ser cafeterías
+>
+>Usar "espacios de terceros" también es clave, como ser cafeterías
 
 ---
 
