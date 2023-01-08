@@ -43,7 +43,7 @@ _Se trató de mantener la estructura original del post._
 >![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 >Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 >
->Algunos consejos para trabajar de forma remota de 20 expertos con más de 100 años de experiencia trabajando remotamente.
+>Algunos consejos para trabajar de forma remota de 20 expertos con más de 100 años de experiencia trabajando remotamente
 >
 >👇🧵
 
@@ -54,7 +54,7 @@ _Se trató de mantener la estructura original del post._
 >
 >🪑conseguite una buena silla y un buen escritorio
 >
->Una silla ergonómica y un escritorio con motor, para poder trabajar sentado y parado, son esenciales.
+>Una silla ergonómica y un escritorio con motor, para poder trabajar sentado y parado, son esenciales
 >
 >Nadie quiere dolor de espalda y es imposible trabajar bien por mucho tiempo sin ellos 
 
@@ -65,9 +65,9 @@ _Se trató de mantener la estructura original del post._
 >
 >🗣 entendé sobre el trabajo asíncrono
 >
->El trabajo asíncrono es el super poder del trabajo remoto. Le da a todos el poder de trabajar de forma enfocada sin distracciones.
+>El trabajo asíncrono es el super poder del trabajo remoto. Le da a todos el poder de trabajar de forma enfocada sin distracciones
 >
->Esto te permite maximizar los beneficios del remoto, tener más control sobre tu vida, y lograr el mejor trabajo que alguna vez hayas hecho.
+>Esto te permite maximizar los beneficios del remoto, tener más control sobre tu vida, y lograr el mejor trabajo que alguna vez hayas hecho
 
 ---
 
@@ -254,7 +254,7 @@ _Se trató de mantener la estructura original del post._
 >![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 >Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 >
->🏝acordate de tener recreos
+>🏝acordate de tomarte recreos
 >
 >No trabajar lo suficiente no es un problema - los trabajadores remotos son más productivos - quemarse la cabeza es el verdadero problema
 >
