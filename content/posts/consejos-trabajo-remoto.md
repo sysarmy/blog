@@ -1,5 +1,5 @@
 ---
-Title: "Consejor para trabajo remoto"
+Title: "Consejos para el trabajo remoto"
 Description: "yara yara yara"
 Keywords:
 - principiantes
