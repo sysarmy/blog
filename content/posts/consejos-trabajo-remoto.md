@@ -1,6 +1,6 @@
 ---
 Title: "Consejos para el trabajo remoto"
-Description: "yara yara yara"
+Description: "Algunos consejos de expertos en trabajo remoto para que no tengas que volver a la oficina."
 Keywords:
 - principiantes
 - productidad
