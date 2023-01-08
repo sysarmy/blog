@@ -43,7 +43,7 @@ _Se trató de mantener la estructura original del post._
 >![chris_herd](assets/consejos-trabajo-remoto-avatar.jpg)
 >Chris Herd ([@chris_herd](https://twitter.com/chris_herd)) - 8 de mayo, 2021, 10:25 AM
 >
->Algunos consejos para trabajar de forma remota de 20 expertos con más de 100 anos de experiencia haciéndolo. 
+>Algunos consejos para trabajar de forma remota de 20 expertos con más de 100 años de experiencia trabajando remotamente.
 >
 >👇🧵
 
