@@ -284,5 +284,5 @@ _Se trató de mantener la estructura original del post._
 
 
 * La versión original de este hilo se puede encontrar en [Twitter](https://twitter.com/chris_herd/status/1391021349318111233) (inglés).
-* Para tratar de mantener la estructura original del post se utilizó [Tweet-to-Markdown](https://github.com/kbravh/tweet-to-markdown) para expotar el hilo.
+* Para tratar de mantener la estructura original del post se utilizó [Tweet-to-Markdown](https://github.com/kbravh/tweet-to-markdown) para exportar el hilo.
 * Autoría por [Chris Herd](https://twitter.com/chris_herd), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por []().
