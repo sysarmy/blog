@@ -87,7 +87,7 @@ _Se trató de mantener la estructura original del post._
 >
 >🆘 pedí ayuda regularmente
 >
->Sin tener la posibilidad de darte vuelta y pedir consejos u opiniones de un compañero de equipo como lo harías en la oficina generalmente hace que los nuevos trabajadores remotos no lo hagan
+>No tener la posibilidad de darte vuelta y pedir consejos u opiniones de un compañero de equipo como lo harías en la oficina, generalmente, hace que los nuevos trabajadores remotos no lo hagan
 >
 >Tirale un ping a un compañero de equipo siempre que necesites algo, especialmente si no hay documentación que pueda resolver tu problema
 
@@ -100,7 +100,7 @@ _Se trató de mantener la estructura original del post._
 >
 >Voy seguido a almorzar con amigos, familiares y colegas
 >
->El tiempo social es crítico, somos animales sociales, y si trabajas remotamente de la manera correcta podes tener mucho más de él y de mejor calidad también
+>El tiempo social es crítico, somos animales sociales, y si trabajás remotamente de la manera correcta podés tener mucho más de él y de mejor calidad también
 
 ---
 
@@ -133,7 +133,7 @@ _Se trató de mantener la estructura original del post._
 >
 >Estar tan seguro, cómodo y productivo en casa como lo estás en la oficina significa que necesitás herramientas y equipamiento
 >
->Conseguite un buen teclado, un buen monitor y ponelos a la altura correcta para prevenit dolores de cuello, brazos y espalda
+>Conseguite un buen teclado, un buen monitor y ponelos a la altura correcta para prevenir dolores de cuello, brazos y espalda
 
 ---
 
@@ -164,9 +164,9 @@ _Se trató de mantener la estructura original del post._
 >
 >🎧conseguite auriculares con cancelación de ruido
 >
->Crítico cuando trabajas en áreas donde no tenes control del ambiente que te rodea como una cafetería
+>Crítico cuando trabajas en áreas donde no tenés control del ambiente que te rodea como una cafetería
 >
->Te permite que cualquier lugar sea tu 'oficina'
+>Permite que cualquier lugar sea tu 'oficina'
 
 ---
 
@@ -175,7 +175,7 @@ _Se trató de mantener la estructura original del post._
 >
 >🗓️reserva tiempo libre en tu calendario  
 >
->Usá tu calendario para agendar tu día - y se despiadado al defender esos tiempos libres
+>Usá tu calendario para planificar tu día - y sé despiadado al defender esos tiempos libres
 >
 >Almuerzo, trabajo duro, ejercicio, etc. todos tienen un lugar y tratalos como cualquier otro evento: no los canceles
 
@@ -210,7 +210,7 @@ _Se trató de mantener la estructura original del post._
 >
 >Es importante entender el privilegio que significa esto, no todos tienen la suerte de tenerlo
 >
->En los momentos de mi vida en los que no tenia la suerte de tenerlo, separaba los espacios psicológicamente, por ejemplo con una alfombra en mi habitación
+>En los momentos de mi vida en los que no tenía la suerte de tenerlo, separaba los espacios psicológicamente, por ejemplo con una alfombra en mi habitación
 >
 >Usar "espacios de terceros" también es clave, como ser cafeterías
 
@@ -243,7 +243,7 @@ _Se trató de mantener la estructura original del post._
 >
 >👯‍♂️juntate con tus colegas 
 >
->Trabajar remotamente no significa que nunca mas vayas a ver a tus compañeros de equipor!
+>¡Trabajar remotamente no significa que nunca mas vayas a ver a tus compañeros de equipor!
 >
 >Buscate el tiempo para reunirte con una regularidad que te permita tener la mejor comunicación y colaboración posible
 >
