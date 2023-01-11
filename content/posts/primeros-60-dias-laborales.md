@@ -48,10 +48,10 @@ Generalmente se te asigna un tema pequeño semi trivial, hacé tu *mejor esfuerz
 Cuando conozcas a otros integrantes del equipo, siempre preguntales *qué hacen* y cómo sus tareas *encajan en el panorama general*. Eventualmente querés entender quién es quién en la organización, cómo está estructurada y en qué consiste el negocio. Procurate un organigrama. Averiguá cuáles son las metas de tu equipo como así también los objetivos y metas de la compañía. Entendé el itinerario y encontrarte en él.
 
 ## Lográ un impacto que sume
-En tus primeros 60 días queres tener un *impacto que contribuya*. Esto usualmente significa sacar producción una función que tenga efecto real en los clientes. Para lograr esto siempre tenés que progresar y nunca trabarte en algo trivial. Cuando lo necesites, no dudes en *hacer preguntas*.
-Más allá de eso, una buena razón por la cual es bueno contratar ingenieros junior es que vienen sin arruinar por varios años de rutina [“Dilbertesca”](https://es.wikipedia.org/wiki/Dilbert) o puede que sea una nueva generación de humanos, con ideas nuevas y frescas. Siempre *desafiá las asunciones* y decí lo que pensás. Dicho esto, pensalo como *ganar crédito*, y después como *gastar crédito* - primero hacé algo y después desafía el status quo.
+En tus primeros 60 días querés tener un *impacto que contribuya*. Esto usualmente significa sacar a producción una función que tenga efecto real en los clientes. Para lograr esto siempre tenés que progresar y nunca trabarte en algo trivial. Cuando lo necesites, no dudes en *hacer preguntas*.
+Más allá de eso, una buena razón por la cual es bueno contratar ingenieros junior es que vienen sin arruinar por varios años de rutina [“Dilbertesca”](https://es.wikipedia.org/wiki/Dilbert) o puede que sea una nueva generación de humanos, con ideas nuevas y frescas. Siempre *desafiá las asunciones* y decí lo que pensás. Dicho esto, pensalo como *ganar crédito*, y después como *gastar crédito* - primero hacé algo y después desafiá el status quo.
 
-Recordá que es más fácil meterte en algo que salirte. Si tomás una iniciativa vas a estar pegado a ella pase lo que pase. Hacé una cosa a la vez.
+Recordá que es más fácil meterte en algo que salirte. Si tomás una iniciativa vas a estar pegado a ella hasta el final, pase lo que pase. Hacé una cosa a la vez.
 
 Si tu *trabajo no es criticado*, si tus PR (contribuciones al código) son mergeados (sumados) sin comentarios, si parece demasiado fácil, *lo estás haciendo mal*. Los ingenieros con más experiencia siempre van a encontrar algo malo en tu código y querés sus opiniones. Si no te las están dando, o es que ya no les interesa, o tienen miedo de herir tus sentimientos. Pedíselas y acordate que escribir código malo no te hace una mala persona, sus críticas son solo sobre tu trabajo, y su objetivo es ayudarte a mejorar como ingeniero.
 
@@ -65,7 +65,7 @@ No te olvides de que trabajás para alguien más. Te van a felicitar por tus log
 Tratá de no *quejarte sobre la gente* a menos que sea de manera directa y en privado. Si tenés algo malo para decir sobre alguien, decíselo a ellos, no a tu jefe o, peor, su jefe. También considerá el viejo proverbio ruso que reza que criticar a la gerencia es como hacer pis contra el viento - siempre te pega a vos.
 
 ## Charla
-Hace poco presenté esto en la Flatiron school, [link con las diapositivas](https://www.slideshare.net/dblockdotorg/howto-developer-thriving-in-your-first-60-days-at-work)
+Hace poco presenté esto en la Flatiron school, [link con las diapositivas](https://www.slideshare.net/dblockdotorg/howto-developer-thriving-in-your-first-60-days-at-work).
 
 * La versión original de este post se puede encontrar en [dB.dblock.org](https://code.dblock.org/2015/04/23/your-first-60-days-at-an-engineering-job.html) (inglés).
 * Autoría por [Daniel Doubrovkine](https://code.dblock.org/about/), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por []().
