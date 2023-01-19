@@ -46,7 +46,7 @@ Pero no te queda otra, ya es tarde para volver atrás y elegir otra carrera. Ya 
 
 Necesitas estar en todos lados y al mismo tiempo agregar papel a la impresora de Carla, del segundo piso, que estaba eufórica que no podia imprimir.
 
-Lamentablemente no hay software para hacer que Carla lea el mensaje de error antes de llamarte. Pero si hay software para poder revisar que los parches han sido aplicados. Tengas o no un WSUS. Yo uso EventSentry. Por ejemplo, con los validation scripts puedo ver rápidamente que equipo de la red no esta corriendo el último build (patch):
+Lamentablemente no hay software para hacer que Carla lea el mensaje de error antes de llamarte. Pero si hay software para poder revisar que los parches han sido aplicados. Tengas o no un WSUS. Yo uso [EventSentry](https://www.eventsentry.com/). Por ejemplo, con los validation scripts puedo ver rápidamente que equipo de la red no esta corriendo el último build (patch):
 
 ![](assets/la-vida-del-sysadmin-1.png)
 Demo Link [Aquí](http://demo.eventsentry.com/softwareinventory?search.type=detailed&search.refresh=&search.group=&search.agg=&search.union=&report=&pageDefault=&search.query=&search.fromDate=&hour=&minute=&meridian=&search.fromTime=&search.toDate=&hour=&minute=&meridian=&search.toTime=&search.limit=50&search.order=application.name&search.sort=asc&columns=recorddate&columns=group&columns=computer&columns=application&columns=version&columns=update&columns=check&columns=downloadurl&columns=endoflife&search.page=1&refresh=).
@@ -70,7 +70,7 @@ Tambien puedo revisar si la impresora esta sin papel, o se quedo sin toner, ante
 
 ![](assets/la-vida-del-sysadmin-5.png)
 
-Lo mejor de todo esto, es que absolutamente todo lo publicado aca, viene por defecto en EventSentry. No hay que pasar horas configurando o activando opciones. Con el deploy por defecto ya tenemos todo esto.
+Lo mejor de todo esto, es que absolutamente todo lo publicado aca, viene por defecto en [EventSentry](https://www.eventsentry.com/). No hay que pasar horas configurando o activando opciones. Con el deploy por defecto ya tenemos todo esto.
 
 Hay algunas cosas del día a día del que no podes tener control. Pero definitivamente podes tener control sobre la red, los dispositivos y, lo mas importante, los parches.
 
