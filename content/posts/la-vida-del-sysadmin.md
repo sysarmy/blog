@@ -49,7 +49,7 @@ Necesitas estar en todos lados y al mismo tiempo agregar papel a la impresora de
 Lamentablemente no hay software para hacer que Carla lea el mensaje de error antes de llamarte. Pero si hay software para poder revisar que los parches han sido aplicados. Tengas o no un WSUS. Yo uso EventSentry. Por ejemplo, con los validation scripts puedo ver rápidamente que equipo de la red no esta corriendo el último build (patch):
 
 ![](assets/la-vida-del-sysadmin-1.png)
-<p style="text-align: center;">Demo Link [Aquí](http://demo.eventsentry.com/softwareinventory?search.type=detailed&search.refresh=&search.group=&search.agg=&search.union=&report=&pageDefault=&search.query=&search.fromDate=&hour=&minute=&meridian=&search.fromTime=&search.toDate=&hour=&minute=&meridian=&search.toTime=&search.limit=50&search.order=application.name&search.sort=asc&columns=recorddate&columns=group&columns=computer&columns=application&columns=version&columns=update&columns=check&columns=downloadurl&columns=endoflife&search.page=1&refresh=).</p>
+Demo Link [Aquí](http://demo.eventsentry.com/softwareinventory?search.type=detailed&search.refresh=&search.group=&search.agg=&search.union=&report=&pageDefault=&search.query=&search.fromDate=&hour=&minute=&meridian=&search.fromTime=&search.toDate=&hour=&minute=&meridian=&search.toTime=&search.limit=50&search.order=application.name&search.sort=asc&columns=recorddate&columns=group&columns=computer&columns=application&columns=version&columns=update&columns=check&columns=downloadurl&columns=endoflife&search.page=1&refresh=).
 
 O, si quisiera, también podría revisar que se haya aplicado un parche especifico:
 
