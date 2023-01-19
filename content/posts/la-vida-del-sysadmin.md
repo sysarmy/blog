@@ -15,9 +15,9 @@ Tags:
 - updates
 - herramientas
 
-Thumbnail: assets/la-vida-del-sysadmin-000.jpg
-socialImage: assets/la-vida-del-sysadmin-000.jpg
-featuredImage: assets/la-vida-del-sysadmin-000.jpg
+Thumbnail: assets/la-vida-del-sysadmin-000.png
+socialImage: assets/la-vida-del-sysadmin-000.png
+featuredImage: assets/la-vida-del-sysadmin-000.png
 externalPermlink: "https://medium.com/@jvmbruno-es/la-vida-del-sysadmin-una-historia-de-patch-tuesdays-4641bfc1aac"
 
 Topics:
@@ -74,5 +74,4 @@ Lo mejor de todo esto, es que absolutamente todo lo publicado aca, viene por def
 
 Hay algunas cosas del día a día del que no podes tener control. Pero definitivamente podes tener control sobre la red, los dispositivos y, lo mas importante, los parches.
 
-* La versión original de este post se puede encontrar en [Medium](https://medium.com/@jvmbruno-es/la-vida-del-sysadmin-una-historia-de-patch-tuesdays-4641bfc1aac).
-* Autoría de [Javier V M Bruno](https://medium.com/@jvmbruno-es).
+- Autoría de [Javier V M Bruno](https://medium.com/@jvmbruno-es), publicado originalmente en [Medium](https://medium.com/@jvmbruno-es/la-vida-del-sysadmin-una-historia-de-patch-tuesdays-4641bfc1aac).
