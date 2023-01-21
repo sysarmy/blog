@@ -1,6 +1,6 @@
 ---
 Title: "La Vida del Sysadmin"
-Description: "Una historia de Patch Tuesdays"
+Description: "Una historia de Patch Tuesdays."
 Keywords:
 - sysarmy
 - sysadmin
