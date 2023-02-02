@@ -1,5 +1,5 @@
 ---
-Title: "Mi vida secreta como operador de BBS de 11 años de edad"
+Title: "Mi vida secreta como operador de BBS con 11 años"
 Description: "Recordando las maravillas y las traiciones de la vida online allá por 1992"
 Keywords:
 
@@ -14,7 +14,6 @@ socialImage: assets/bbs-11.png
 featuredImage: assets/bbs-11.png
 
 Topics:
-
 - historia
 - nerds
 
@@ -42,11 +41,11 @@ Mientras que servicios comerciales de conectividad como [CompuServe](https://www
 
 Mientras que Internet es una enorme red de sistemas conectados con billones de usuarios, la mayoría de las BBS eran pequeños feudos de aficionados con una sola línea telefónica, solo una persona podía llamar y usarla a la vez. Aunque los mensajes entre BBSs eran algo común, cada sistema se sentía como su propia isla cultural con un dictador de pacotilla (el operador del sistema – o “sysop”) que regía sobre cualquier visitante.
 
-No mucho tiempo después de que mi papá trajera a casa el módem, me dió una lista fotocopiada que incluía cientos de números de BBS de nuestro código de área 909 en Carolina del Norte. En esa época, la compañía telefónica cobraba bastante por las llamadas de larga distancia (lo que también podía incluir subrepticiamente partes de tu código de área), así que nos limitaríamos a BBSs en nuestra región. Esto convirtió a las BBS en un fenómeno más que nada local en los Estados Unidos.
+No mucho tiempo después de que mi papá trajera a casa el módem, me dió una lista fotocopiada que incluía cientos de números de BBS de nuestro código de área 909 en Carolina del Norte. En esa época, la compañía telefónica cobraba bastante por las llamadas de larga distancia (lo que también podía incluir subrepticiamente partes de tu código de área), así que nos limitábamos a BBSs en nuestra región. Esto convirtió a las BBS en un fenómeno más que nada local en los Estados Unidos.
 
 ![](assets/bbs-3.jpg)
 |:--:|
-| <b>**Mi lista original de las BBS del área de Raleigh de 1992, fechada 9 de diciembre de 1991.**</b>|
+| <b>**Mi lista original de las BBS del área de Raleigh de 1992, fechada el 9 de diciembre de 1991.**</b>|
 
 Con el modem conectado, mi hermano mayor –unos cinco años mayor que yo– se tomó el trabajo de llamar a las BBSs primero (lo llamábamos “BBSsear”). Completó su directorio de discado de [Procomm Plus](https://www.vintagecomputing.com/index.php/archives/696/retro-scan-of-the-week-procomm-plus-for-windows) con las BBSs locales favoritas como “The Octopus’s Garden”, “The Body Shop”, y “Chalkboard”. Cada sistema tenía su propio “sabor” definido por el sysop, que lo decoraba con gráficos [ANSI](https://www.howtogeek.com/781276/what-is-ansi-art-and-why-was-it-popular-in-the-1990s/) o menúes especiales y también tomaba el papel de maestro de ceremonias y moderador de las conversaciones del sistema.
 
@@ -67,7 +66,7 @@ Eventualmente, convencí a mis padres para que contraten una segunda línea tele
 
 ![](assets/bbs-4.jpg)
 |:--:|
-| <b>**El directorio de discado de original de mi hermano en Procomm Plus, de 1992.**</b>|
+| <b>**El directorio de discado original de mi hermano en Procomm Plus, de 1992.**</b>|
 
 Al igual que mi hermano, yo usaba Procomm Plus (o “PCPLUS” como le decíamos), que soportaba colores IBM PC ANSI y códigos de terminal y proveía un lindo directorio de discado automático. Para llamar a una BBS, apretabas Alt+D, seleccionabas el nombre de la BBS en la lista con las teclas del cursor, y presionabas enter. Tu modem hacía la llamada (oh, el [ruido glorioso](https://www.howtogeek.com/670455/why-did-dial-up-modems-screech-and-make-funny-noises/), y si la línea daba ocupada, intentaría llamar a la BBS una y otra vez hasta que conectara. Entonces esperabas sentado.
 Una vez que el otro modem atendía y se establecía una conexión exitosa, Procomm Plus reproduciría una melodía de 3 notas en el parlante interno de la PC, la pantalla se borraría y mostraría los gráficos de bienvenida de la BBS, luego la pantalla de inicio de sesión donde ponías tu usuario y contraseña. Era todo un viaje.
@@ -76,7 +75,7 @@ Me pasé cientos de horas ese verano y otoño en las BBSs locales con nombres cr
 
 Había un problema, sin embargo: Medieval House of Horror estaba en Smithfield, Carolina del Norte. Era una llamada de larga distancia desde Raleigh aun compartiendo el código de área, lo que estaba sujeto a cargos extra (algo así como un dólar el minuto en ese momento–era exorbitante).
 
-Una factura telefónica de $200 dólares que llegó no mucho tiempo después enojó mucho a mi papá. Primero trabó mi computadora con llave (nota del traductor _viejo_: en esa época las PCs venian con una [cerradura tubular](https://es.frwiki.wiki/wiki/Serrure_tubulaire) para poder trabarlas), lo que deshabilitaba el teclado, pero encontré una llave de repuesto. Entonces directamente me sacó el teclado. Luego de que me devolvieran los privilegios, lo hice de nuevo—y llegó otra factura telefónica de $200. Llamé a esa BBS cientos de veces. El sysop era mi mejor amigo—o al menos eso creía.
+Una factura telefónica de $200 dólares que llegó no mucho tiempo después enojó mucho a mi papá. Primero trabó mi computadora con llave (nota del traductor _viejo_: en esa época las PCs venían con una [cerradura tubular](https://es.frwiki.wiki/wiki/Serrure_tubulaire) para poder trabarlas), lo que deshabilitaba el teclado, pero encontré una llave de repuesto. Entonces directamente me sacó el teclado. Luego de que me devolvieran los privilegios, lo hice de nuevo—y llegó otra factura telefónica de $200. Llamé a esa BBS cientos de veces. El sysop era mi mejor amigo—o al menos eso creía.
 
 ## Creando mi propia BBS
 Mis recuerdos son vagos 30 años después, pero por alguna razón, decidí que quería crear mi propia BBS en noviembre de 1992. Le dije a mi papá, y pidió a su compañero de trabajo que le había dado el módem Zoom algunos consejos. También le pregunté a los sysops locales con los que chateaba, y me dieron consejos contradictorios. No sabía por dónde empezar. También era complicado porque tenía 11 años.
@@ -103,7 +102,7 @@ Una noche, la segunda línea sonó y mi mamá atendió. El que llamó la oyó ha
 
 Para ese entonces, muchos de los usuarios y sysops con los que hablaba eran adolescentes, más que nada en edad de secundaria. Pero al poco tiempo me hice amigo de un sysop local llamado David Cothran, alias “Bc”, que era el sysop de Baxter, una de mis BBSs favoritas. Con 26 años, era mucho más arrugado y maduro que muchos de los sysops que conocía. Se sentía como un adulto hecho y derecho. Empezamos a hablar por “voz” (como le decíamos) por teléfono ocasionalmente así me podía ayudar mientras hacía configuraciones, y recuerdo que mi mamá habló con él para asegurarse de que era buena gente. Realmente lo era, y en retrospectiva, lo considero un valioso mentor.
 
-Bc se dió cuenta que estaba usando VBBS y me llevó para el lado de [WWIV](https://en.wikipedia.org/wiki/WWIV), un software de BBS mucho mas popular localmente que él usaba en su BBS. Así que con su ayuda, y la ayuda de otros tantos, armé mi versión de The Cave en WWIV el 12 de diciembre de 1992 (el registro más antiguo que tengo). Bc también me ayudó a entrar a una red de mensajería local llamada FIITAnet, que intercambiaba publicaciones entre diferentes sistemas con discados automáticos durante las horas no pico.
+Bc se dió cuenta que estaba usando VBBS y me llevó para el lado de [WWIV](https://en.wikipedia.org/wiki/WWIV), un software de BBS mucho más popular localmente que él usaba en su BBS. Así que con su ayuda, y la ayuda de otros tantos, armé mi versión de The Cave en WWIV el 12 de diciembre de 1992 (el registro más antiguo que tengo). Bc también me ayudó a entrar a una red de mensajería local llamada FIITAnet, que intercambiaba publicaciones entre diferentes sistemas con discados automáticos durante las horas no pico.
 
 Pero entonces golpeó el desastre. Ese mismo mes, luego de que anuncié a todo el mundo BBS (todos los sysops que conocía) que estaba arrancando mi propia BBS, algunos de los adolescentes locales se pusieron celosos. Tal como notó Bc, yo era el sysop más joven de la zona, y esa reputación se extendió rápidamente. El sysop más joven anterior era mi amigo de larga distancia, que aparentemente se molestó. Por ese entonces, gente que yo no conocía empezó a llamar, intentando hackear mi nueva BBS.
 
@@ -153,17 +152,17 @@ Coda: La era del telnet
 
 Por si no lo han notado por las fotos y las impresiones, tengo una predilección innata por la historia y la documentación de las cosas. Incluso cuando tenía 11 años, trataba de ver hacia adelante y predecir qué artefactos serían importantes en el futuro. Fue en ese momento que [empecé a coleccionar](https://www.pcmag.com/news/gear-envy-my-collection-of-500-plus-pieces-of-computer-and-gaming-hardware) computadoras antiguas y consolas de juego (con la idea de crear un museo, lo que nunca se dió).
 
-En 2005, empecé a revisitar mi pasado de BBS en Internet con publicaciones en [Vintage Computing and Gaming](https://www.vintagecomputing.com/index.php/archives/161/the-dial-up-bbs-revisited) un blog que fundé. Fue allí donde [revelé por primera vez](https://www.vintagecomputing.com/index.php/archives/21/my-bbs-alter-ego-turns-45) como “Red Wolf” el sysop (24 en ese momento). Sorprendentemente, recibí dos emails de ex usuarios de The Cave BBS que estaban sorprendidos de enterarse de esto. Uno de ellos era incluso un amigo cercano que usualmente jugaba Duke Nukem 3D cooperativo conmigo. No tenían ni idea de que era un chico en ese momento.
+En 2005, empecé a revisitar mi pasado de BBS en Internet con publicaciones en [Vintage Computing and Gaming](https://www.vintagecomputing.com/index.php/archives/161/the-dial-up-bbs-revisited), un blog que fundé. Fue allí donde [revelé por primera vez](https://www.vintagecomputing.com/index.php/archives/21/my-bbs-alter-ego-turns-45) como “Red Wolf” el sysop (24 en ese momento). Sorprendentemente, recibí dos emails de ex usuarios de The Cave BBS que estaban sorprendidos de enterarse de esto. Uno de ellos era incluso un amigo cercano que usualmente jugaba Duke Nukem 3D cooperativo conmigo. No tenían ni idea de que era un chico en ese momento.
 
 ![](assets/bbs-11.png)
 |:--:|
 | <b>**Menú principal de la versión Telnet de Cave BBS, 2005-presente.**</b>|
 
-Por ese entonces, instalé una versión telnet de The Cave BBS usando el [software Syncronet](https://www.synchro.net/), que era compatible con Internet y muy fácil de usar. Hoy, todavía corro esa version de The Cave BBS, y escribí una útil guía de [cómo conectarse](https://www.howtogeek.com/686600/remember-bbses-heres-how-you-can-visit-one-today/).
+Por ese entonces, instalé una versión telnet de The Cave BBS usando el [software Syncronet](https://www.synchro.net/), que era compatible con Internet y muy fácil de usar. Hoy, todavía corro esa versión de The Cave BBS, y escribí una útil guía de [cómo conectarse](https://www.howtogeek.com/686600/remember-bbses-heres-how-you-can-visit-one-today/).
 
 La Cave BBS original corrió por solo cinco años, pero la versión Telnet ha estado corriendo por 17 años–mucho más que mis días de dial-up. ¿Es una simulación o la verdera? ¿Dónde termina la nostalgia y dónde comienza el presente? Resulta que el velo entre el pasado y el futuro es más permeable de lo que yo pensaba.
 
 Y para mí, mi identidad de sysop de BBS está ahora completamente integrada a mi vida en general. Ya no es un secreto o un rol separado, es algo que puedo aceptar con orgullo, reviendo juntos esa era formativa. En esa época, nosotros los BBSers éramos los nerds, los raritos. Ahora todo el mundo está usando servicios en línea muy parecidos a una BBS, y ni siquiera se dan cuenta.
 
 * La versión original de este post se puede encontrar en [Ars Technica](https://arstechnica.com/information-technology/2022/12/my-secret-life-as-an-11-year-old-bbs-sysop/) (inglés).
-* Autoría por [Benj Edwards](https://twitter.com/benjedwards), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por []().
+* Autoría por [Benj Edwards](https://twitter.com/benjedwards), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por [@nachichuri](https://twitter.com/nachichuri).
