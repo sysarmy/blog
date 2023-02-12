@@ -11,7 +11,7 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Build
       uses: khanhicetea/gh-actions-hugo-deploy-gh-pages@master
       env:
@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Push
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         clean: true
         repository: sysarmy/sysarmy.github.io
