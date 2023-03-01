@@ -28,7 +28,7 @@ Topics:
 - herramientas
 
 markup: markdown
-date: 2023-01-18
+date: 2023-03-01
 draft: false
 ---
 
@@ -48,23 +48,28 @@ Necesitás estar en todos lados y al mismo tiempo agregar papel a la impresora d
 
 Lamentablemente no hay software para hacer que Carla lea el mensaje de error antes de llamarte. Pero sí hay software para poder revisar que los parches han sido aplicados. Tengas o no un WSUS. Yo uso [EventSentry](https://www.eventsentry.com/). Por ejemplo, con los validation scripts puedo ver rápidamente que equipo de la red no está corriendo el último build (patch):
 
-![](assets/la-vida-del-sysadmin-1.png)
-Demo Link [Aquí](http://demo.eventsentry.com/softwareinventory?search.type=detailed&search.refresh=&search.group=&search.agg=&search.union=&report=&pageDefault=&search.query=&search.fromDate=&hour=&minute=&meridian=&search.fromTime=&search.toDate=&hour=&minute=&meridian=&search.toTime=&search.limit=50&search.order=application.name&search.sort=asc&columns=recorddate&columns=group&columns=computer&columns=application&columns=version&columns=update&columns=check&columns=downloadurl&columns=endoflife&search.page=1&refresh=).
+| ![](assets/la-vida-del-sysadmin-1.png) |
+| :------------------------------------: |
+| Demo Link [Aquí](https://demo.eventsentry.com/validationscripts?search.query=%20script%3A%22Windows%20OS%3F%20Build%20Version%20Check%20%3FOS%20Updated%3F%22%20&search.dateRange=Last%203%20days&search.group=&search.order=&search.sort=desc&search.refresh=&search.page=1&search.limit=25&search.type=detailed&report=). |
 
 O, si quisiera, también podría revisar que se haya aplicado un parche específico:
 
-![](assets/la-vida-del-sysadmin-2.png)
-Demo Link [Aquí](http://demo.eventsentry.com/softwareinventory?search.type=detailed&search.refresh=&search.group=&search.agg=&search.union=&report=&pageDefault=&search.query=&search.fromDate=&hour=&minute=&meridian=&search.fromTime=&search.toDate=&hour=&minute=&meridian=&search.toTime=&search.limit=50&search.order=application.name&search.sort=asc&columns=recorddate&columns=group&columns=computer&columns=application&columns=version&columns=update&columns=check&columns=downloadurl&columns=endoflife&search.page=1&refresh=).
+| ![](assets/la-vida-del-sysadmin-2.png) |
+| :------------------------------------: |
+| Demo Link [Aquí](https://demo.eventsentry.com/patchinventory?search.query=&search.dateRange=undefined&search.group=&search.order=&search.sort=desc&search.refresh=&search.page=1&search.limit=25&search.type=detailed&report=). |
+
 
 Y usando la búsqueda puedo buscar, por ejemplo, si el parche para el CVE-2023–21674 (KB5022282) (Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability) fue aplicado en la computadora del CEO:
 
-![](assets/la-vida-del-sysadmin-3.png)
-Demo Link [Aquí](http://demo.eventsentry.com/softwareinventory?search.type=detailed&search.refresh=&search.group=&search.agg=&search.union=&report=&pageDefault=&search.query=&search.fromDate=&hour=&minute=&meridian=&search.fromTime=&search.toDate=&hour=&minute=&meridian=&search.toTime=&search.limit=50&search.order=application.name&search.sort=asc&columns=recorddate&columns=group&columns=computer&columns=application&columns=version&columns=update&columns=check&columns=downloadurl&columns=endoflife&search.page=1&refresh=).
+| ![](assets/la-vida-del-sysadmin-3.png) |
+| :------------------------------------: |
+| Demo Link [Aquí](https://demo.eventsentry.com/patchinventory?search.type=detailed&search.refresh=&search.group=&search.agg=&search.union=&report=&pageDefault=&search.query=application%3A*KB5022282*+AND+computer%3ADESKTOP03+&search.fromDate=&hour=&minute=&meridian=&search.fromTime=&search.toDate=&hour=&minute=&meridian=&search.toTime=&search.limit=2500&search.order=recorddate&search.sort=desc&columns=recorddate&columns=group&columns=computer&columns=publisher&columns=application&columns=version&columns=installdir&columns=installdate&search.page=1&refresh=). |
 
 Pero no solo de Windows, también puedo saber si algún software de alguna de las computadoras esta desactualizado:
 
-![](assets/la-vida-del-sysadmin-4.png)
-Demo Link [Aquí](http://demo.eventsentry.com/softwareinventory?search.type=detailed&search.refresh=&search.group=&search.agg=&search.union=&report=&pageDefault=&search.query=&search.fromDate=&hour=&minute=&meridian=&search.fromTime=&search.toDate=&hour=&minute=&meridian=&search.toTime=&search.limit=50&search.order=application.name&search.sort=asc&columns=recorddate&columns=group&columns=computer&columns=application&columns=version&columns=update&columns=check&columns=downloadurl&columns=endoflife&search.page=1&refresh=).
+| ![](assets/la-vida-del-sysadmin-4.png) |
+| :------------------------------------: |
+| Demo Link [Aquí](http://demo.eventsentry.com/softwareinventory?search.type=detailed&search.refresh=&search.group=&search.agg=&search.union=&report=&pageDefault=&search.query=&search.fromDate=&hour=&minute=&meridian=&search.fromTime=&search.toDate=&hour=&minute=&meridian=&search.toTime=&search.limit=50&search.order=application.name&search.sort=asc&columns=recorddate&columns=group&columns=computer&columns=application&columns=version&columns=update&columns=check&columns=downloadurl&columns=endoflife&search.page=1&refresh=). |
 
 También puedo revisar si la impresora está sin papel, o se quedó sin toner, antes de ir hasta la oficina de Carla:
 
