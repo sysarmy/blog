@@ -58,7 +58,7 @@ Por que, justamente, el ping (software) se desarrolló en la división de inform
 
 El Ping tiene mi edad, 39 años. Se inventó en diciembre de 1983. Su propósito fue inspirado en el sonar submarino.  
   
-Ping utiliza el protocolo ICMP (Internet Control Message Protocol) sobre IP. Es decir, puede enviar una solicitud ICMP echo a un host objetivo cualquiera y luego cuando el host recibe la solicitud y la responde automáticamente con un ICMP echo, el programa la recibe y, fundamentalmente calcula el tiempo que tardó en enviar y recibir, si han habiod perdidas de paquetes y luego un promedio de lo que ha tardado el ida y vuelta de las solicitudes y respuestas recibidas.  
+Ping utiliza el protocolo ICMP (Internet Control Message Protocol) sobre IP. Es decir, puede enviar una solicitud ICMP echo a un host objetivo cualquiera y luego cuando el host recibe la solicitud y la responde automáticamente con un ICMP echo, el programa la recibe y, fundamentalmente calcula el tiempo que tardó en enviar y recibir, si han habido perdidas de paquetes y luego un promedio de lo que ha tardado el ida y vuelta de las solicitudes y respuestas recibidas.  
   
 el PING puede diagnosticar latencia pero no es muy eficaz en muchos casos por que no siempre una latencia en un resultado ping es un indicador del estado de la red, ya que nada nos garantiza que el software del otro lado este funcionando correctamente, esté respondiendo en forma instantanea, o no esté ignorando ICMP echo requests.
 
