@@ -36,7 +36,7 @@ externalPermlink: "https://www.linkedin.com/pulse/5-things-founders-recruiters-s
 
 {{< youtube eipEPh6SpU8 >}}
 
-_La versión original de este post de Marc van Neerven se puede encontrar en [Linkedin](hhttps://www.linkedin.com/pulse/5-things-founders-recruiters-should-know-cto-role-neerventure-com/) (en inglés)._
+_La versión original de este post de Marc van Neerven se puede encontrar en [Linkedin](https://www.linkedin.com/pulse/5-things-founders-recruiters-should-know-cto-role-neerventure-com/) (en inglés)._
 
 Desde hace unos diez años, mi cargo es el de director de tecnología.
 
