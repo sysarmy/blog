@@ -49,7 +49,7 @@ En parte, esto puede tener que ver con el auge del llamado "startup-CTO", un nom
 
 Vamos a intentar aclarar un poco las cosas, respondiendo a las 5 preguntas que más me hacen sobre esta función.
 
-## 1️⃣ ¿Cuál es el trabajo principal del director de tecnología?
+## 1️ ¿Cuál es el trabajo principal del director de tecnología?
 💡 Respuesta corta:
 
 > "El trabajo principal del CTO es asegurarse de que la estrategia tecnológica de la empresa esté al servicio de su estrategia de negocio" - Eric Ries.
@@ -75,7 +75,7 @@ Esta es importante, así que hagamos un análisis exhaustivo de qué objetivos e
 5. Gestión del coste total de propiedad ([TCO](https://es.wikipedia.org/wiki/Coste_total_de_propiedad))
 6. Gobernanza del software: cumplimiento, seguridad, control de la deuda tecnológica, etc.
 
-## 2️⃣ ¿Puede un director de tecnología ser director de operaciones?
+## 2️ ¿Puede un director de tecnología ser director de operaciones?
 💡 Respuesta corta: no
 
 📖 Respuesta larga:
@@ -90,7 +90,7 @@ Los directores de ingeniería, e incluso los jefes de ingeniería, son líderes 
 
 Ahora también sabes por qué un CTO no puede asumir también tareas de gestión operativa: conflicto de intereses.
 
-## 3️⃣ ¿Un CTO codea?
+## 3️ ¿Un CTO codea?
 💡 Respuesta corta: sí, pero solo PoCs y prototipos.
 
 📖 Respuesta larga:
@@ -113,7 +113,7 @@ Así que, si, después de todo, un CTO a veces puede codear (y probablemente sig
 4. Poner los puntos sobre las íes es extremadamente caro para un director de tecnología, ya que la realidad es que el último 10% de los esfuerzos de software representa el 90% del tiempo de desarrollo.
 5. Es una estrategia de crecimiento mucho más sostenible potenciar a los equipos de desarrollo utilizando tus propias habilidades y experiencia, que seguir haciendo tú mismo la producción.
 
-## 4️⃣ ¿Puede un ingeniero de software crecer hasta el rol de director de tecnología?
+## 4️ ¿Puede un ingeniero de software crecer hasta el rol de director de tecnología?
 💡 Respuesta corta: sí, pero prepárate para un cambio drástico.
 
 📖 Respuesta larga:
@@ -132,7 +132,7 @@ Además, hay tantas cosas que un director de tecnología debe conocer (y de las 
 
 Tené cuidado con lo que deseas....
 
-## 5️⃣ ¿Necesitan realmente las startups un director de tecnología?
+## 5️ ¿Necesitan realmente las startups un director de tecnología?
 💡 Respuesta corta: sí, pero no a tiempo completo y permanente.
 
 📖 Respuesta larga:
