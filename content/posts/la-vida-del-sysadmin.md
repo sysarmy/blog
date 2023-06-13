@@ -28,7 +28,7 @@ Topics:
 - herramientas
 
 markup: markdown
-date: 2023-03-01
+date: 2023-06-13
 draft: false
 ---
 
@@ -80,4 +80,4 @@ Lo mejor de todo esto, es que absolutamente todo lo publicado acá, viene por de
 Hay algunas cosas del día a día del que no podés tener control. Pero definitivamente podés tener control sobre la red, los dispositivos y, lo más importante, los parches.
 
 - Autoría de [Javier V M Bruno](https://medium.com/@jvmbruno-es), publicado originalmente en [Medium](https://medium.com/@jvmbruno-es/la-vida-del-sysadmin-una-historia-de-patch-tuesdays-4641bfc1aac).
-- La thumbnail de este artículo fue generada por Midjourney en el canal de Discord de [Sysarmy](https://sysar.my/discord). Gracias a la integración de [Jassu](https://twitter.com/jassu).
+- La thumbnail de este artículo fue generada por Midjourney en el [canal de Discord de Sysarmy](https://sysar.my/discord). Gracias a la integración de [Jassu](https://twitter.com/jassu).
