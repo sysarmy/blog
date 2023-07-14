@@ -39,6 +39,11 @@ Como siempre, nos encuentran en nuestro [Discord](https://sysar.my/discord), [Sl
 | [Análisis de Openqube](https://openqube.io/sueldos) |
 | :-------------------------------------------------: |
 
+Adicionalmente, podés acceder al dataset con toda la información utilizada para el análisis:
+
+| [Dataset 2023.02](https://sysar.my/sueldos20232arg) |
+| :-------------------------------------------------: |
+
 Algunos datos rápidos:
 
 > 💸 **34%** tiene sueldo dolarizado
