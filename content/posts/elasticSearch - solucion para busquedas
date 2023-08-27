@@ -38,4 +38,34 @@ Elasticsearch es un motor de búsqueda de texto completo para nuestros propios d
 - Visualización de datos con Kibana
 
 
+## Clúster
+
+Un clúster de Elasticsearch es una colección distribuida de nodos que realizan una o más operaciones de clúster. Cada nodo ejecuta una instancia de la aplicación ES. El clúster es escalable horizontalmente. Al agregar nodos adicionales al clúster, podemos aumentar la capacidad del clúster de manera lineal manteniendo un rendimiento similar. Los nodos se agregan creando y usando un token de inscripción.
+
+Los nodos en el clúster pueden diferenciarse según el tipo específico de operaciones que realizan. En clústeres altamente disponibles, designamos diferentes conjuntos de nodos para diferentes funciones del clúster. Para definir los roles de los nodos, podemos configurar la configuración de esta manera: node.roles: [maestro | datos | ingesta]
+Nodo maestro
+
+Cada clúster tiene un solo nodo maestro en cualquier momento y sus responsabilidades incluyen mantener la salud y el estado del clúster. Los nodos maestros funcionan como coordinadores para crear, eliminar, administrar índices y asignar índices y los fragmentos subyacentes a los nodos apropiados en el clúster.
+
+## Nodo elegible para maestro
+
+Los nodos elegibles para maestro son aquellos que son candidatos para ser nodos maestros.
+Nodo de datos
+
+Los nodos de datos contienen los datos reales del índice y manejan la búsqueda y agregación de datos.
+
+## Nodo solo de coordinación
+
+Estos nodos transmiten solicitudes de consulta a todos los fragmentos relevantes y agregan sus respuestas en un conjunto ordenado global, que se devuelve al cliente. Estos nodos actúan como equilibradores de carga.
+
+## Nodo de ingesta
+
+Los nodos de ingesta se pueden configurar para preprocesar los datos antes de su ingestión. Dado que algunos de los procesadores, como el procesador de grok, pueden ser intensivos en recursos, es beneficioso dedicar nodos separados para el canal de ingestión, ya que las operaciones de búsqueda no se verán afectadas por el procesamiento de ingestión. De lo contrario, los nodos de datos realizarán esta tarea.
+
+En clústeres en la nube grandes, tendremos un nodo maestro dedicado, 2 o más nodos de ingestión, 2 o más nodos de coordinación y varios nodos de datos.
+
+Dado que los nodos de datos almacenan los datos, deben tener discos adjuntos. SSD para datos cálidos y HDD para datos fríos. También necesitamos una gran cantidad de memoria (RAM) para los nodos de datos, ya que almacenan en búfer los datos.
+
+
+
 * Traducción, revisión y publicación colaborativa de @vmariano,b,c.
