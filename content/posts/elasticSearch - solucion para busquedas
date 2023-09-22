@@ -47,7 +47,7 @@ Nodo maestro
 
 Cada clúster tiene un solo nodo maestro en cualquier momento y sus responsabilidades incluyen mantener la salud y el estado del clúster. Los nodos maestros funcionan como coordinadores para crear, eliminar, administrar índices y asignar índices y los fragmentos subyacentes a los nodos apropiados en el clúster.
 
-## Nodo elegible para maestro
+## Nodo elegible para
 
 Los nodos elegibles para maestro son aquellos que son candidatos para ser nodos maestros.
 Nodo de datos
@@ -65,6 +65,85 @@ Los nodos de ingesta se pueden configurar para preprocesar los datos antes de su
 En clústeres en la nube grandes, tendremos un nodo maestro dedicado, 2 o más nodos de ingestión, 2 o más nodos de coordinación y varios nodos de datos.
 
 Dado que los nodos de datos almacenan los datos, deben tener discos adjuntos. SSD para datos cálidos y HDD para datos fríos. También necesitamos una gran cantidad de memoria (RAM) para los nodos de datos, ya que almacenan en búfer los datos.
+
+
+Elasticsearch está escrito en Java y ejecuta procesos en la JVM. Utiliza grupos de hilos para procesos diferentes.
+
+GET /_cat/thread_pool/search?v&h=host,name,active,rejected,completed
+
+## Índice
+
+Un índice es una colección de documentos de tipo similar. Es una entidad lógica. Físicamente, se asigna a fragmentos. El índice está asociado con configuraciones, asignaciones, alias y plantillas.
+Alias de índice
+
+Un alias es un nombre de índice virtual que puede apuntar a uno o más índices. Esto elimina la necesidad de llevar un registro del índice específico al que consultar, en caso de que los datos estén distribuidos en varios índices.
+
+
+```
+```
+
+Los alias de índice también ayudan en la migración de índices sin tiempo de inactividad.
+
+## Fragmentos (shards)
+
+Los índices se dividen horizontalmente en fragmentos. Los fragmentos son índices independientes de Lucene. Son los componentes básicos del índice.
+
+Elasticsearch recomienda que cada fragmento tenga menos de 65 GB (AWS recomienda que sean menos de 50 GB), por lo que podríamos crear índices basados en el tiempo donde cada índice contenga entre 16 y 20 GB de datos, dando un margen para el crecimiento de los datos.
+
+## Fragmentos primarios y de replicación
+
+Para obtener los fragmentos de un índice, use GET _cat/shards/index
+
+Ciclo de vida de un fragmento: Inicialización → Iniciado → Trasladado → No asignado
+
+Translog / Memoria intermedia
+
+Las confirmaciones de Lucene son demasiado costosas para realizarse en cada cambio individual, por lo que cada copia de fragmento también escribe operaciones en su registro de transacciones conocido como translog. Cada fragmento tiene un translog. Los datos en el translog solo se persisten en un disco con la confirmación de Lucene. En caso de fallo, esto se reproduce para confirmar los cambios no guardados. Durante una confirmación, todos los segmentos en memoria se fusionan en un solo segmento y se guardan en disco.
+
+css
+
+Actualización (Refresh) — el contenido del búfer de memoria se copia a un segmento recién creado en la memoria y se borra el translog. Ocurre cada segundo.
+
+Flushing (Flush) — los segmentos en memoria se escriben en disco. Los segmentos más pequeños se combinan en segmentos más grandes.
+
+Segmentos
+
+El índice de Lucene se divide en archivos más pequeños llamados segmentos. Los segmentos son índices invertidos. Los segmentos son inmutables. Lucene busca en todos los segmentos secuencialmente. Por lo tanto, tener muchos segmentos puede afectar el rendimiento. Elasticsearch fusiona los segmentos para crear nuevos segmentos eliminando documentos eliminados. La fusión también ayuda a combinar segmentos más pequeños en segmentos más grandes, ya que los segmentos más pequeños tienen un rendimiento de búsqueda deficiente.
+
+Documentos
+
+Un documento es una unidad de información transmitida a Elasticsearch para su almacenamiento. Los documentos son archivos JSON que se almacenan dentro de un índice de Elasticsearch y se consideran la unidad básica de almacenamiento. Los documentos son inmutables. En caso de una actualización, el archivo más antiguo se reemplaza por el nuevo. El campo _version en la respuesta del documento es algo del pasado y ya no tiene importancia.
+
+Campos
+
+Tipos de datos como binario, booleano, palabra clave (keyword), números, fechas, texto, geo_shape, búsqueda_a_medida (search_as_you_type).
+
+Meta campos
+
+python
+
+_index — nombre del índice
+_type
+_id — identificador único del documento
+_source — documento JSON original antes de aplicar analizadores/transformaciones.
+_all — contiene todos los demás campos de su documento
+
+Mapeo indicativo del objeto ES con la base de datos:
+
+javascript
+
+MySQL => Bases de datos => Tablas => Fila => Columna => Índice
+Elasticsearch => Índices => Tipos => Documentos => Propiedades => Mapeo
+
+Estructuras de datos internas utilizadas por ES
+
+Índice invertido — para datos de texto
+Árbol BKD — datos numéricos, de fecha y geoespaciales
+doc_values — ordenamiento y agregaciones
+
+Analizadores
+
+Elasticsearch proporciona analizadores que definen cómo debe indexarse y buscarse el texto. Los analizadores se utilizan durante la indexación para analizar frases y expresiones en sus términos constituyentes. Definido dentro de un índice, un analizador consta de un único tokenizador y cualquier cantidad de filtros de tokens.
 
 
 
