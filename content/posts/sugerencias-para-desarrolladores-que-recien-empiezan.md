@@ -1,4 +1,33 @@
-# Sugerencias para desarrolladores que recien empieza que ya leyeron todas las otras sugerencias 
+---
+Title: "Sugerencias para desarrolladores que recién empiezan y que ya leyeron todas las otras sugerencias"
+Description: "Arrancamos el año con un conjunto de sugerencias para personas que estén empezando a dar sus primeros pasos en el mundo del desarrollo"
+Keywords:
+- sysarmy
+- development
+- career
+- advice
+
+Tags:
+- sysarmy
+- development
+- career
+- advice
+
+Thumbnail: assets/sugerencias-desarrolladores-recien-empiezan.webp
+socialImage: assets/sugerencias-desarrolladores-recien-empiezan.webp
+featuredImage: assets/sugerencias-desarrolladores-recien-empiezan.webp
+externalPermlink: "https://buttondown.email/hillelwayne/archive/advice-for-new-software-devs-whove-read-all-those/"
+
+Topics:
+- sysarmy
+- development
+- career
+- advice
+
+markup: markdown
+date: 2024-01-12
+draft: false
+---
 
 Alguien me preguntó si tendría algún consejo para personas que recién arrancan programación. 
 Al principio, pensé que era una pregunta tonta. Solo hace 10 años que soy programador, muchos de los lectores de mi newsletter llevan programando mas tiempo del que yo llevo vivo!
