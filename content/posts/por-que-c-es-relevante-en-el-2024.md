@@ -23,7 +23,7 @@ Topics:
 - programacion
 
 markup: markdown
-date: 2024-01-09
+date: 2024-02-06
 draft: false
 ---
 
