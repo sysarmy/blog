@@ -1,8 +1,8 @@
 ---
 Description: "Bananaaaaa!"
 Keywords:
-- keyword1 
-- keyword2
+- elasticsearch 
+- elk
 - keyword3
 Section: 
 - section1
@@ -39,8 +39,7 @@ Elasticsearch es un motor de búsqueda de texto completo para nuestros propios d
 
 ## Grupo
 
-<pic1>
-
+![Esquema de elastic](assets/cluster.png)
 
 Un clúster de Elasticsearch es una colección distribuida de nodos en los que cada uno realiza una o más operaciones de clúster. Cada nodo ejecuta una instancia de la aplicación ES. El clúster es escalable horizontalmente. Al agregar nodos adicionales al clúster, podemos escalar la capacidad del clúster de manera lineal mientras mantenemos un rendimiento similar. Los nodos se agregan creando y usando un token de inscripción.
 
@@ -76,11 +75,12 @@ Dado que los nodos de datos almacenan los datos, deberían tener discos adjuntos
 ## Índice
 
 El índice es una colección de tipos similares de documentos. Es una entidad lógica. Físicamente está asignado a fragmentos. El índice está asociado con configuraciones, asignaciones, alias y plantillas.
-Alias ​​de índice
+
+## Alias ​​de índice
 
 Un alias es un nombre de índice virtual que puede apuntar a uno o más índices. Esto elimina la necesidad de realizar un seguimiento de qué índice específico consultar, en caso de que los datos estén distribuidos entre índices.
 
-<pic2>
+![Como se compone un indice](assets/index-aliases.png)
 
 ```
 GET _cat/aliases?v 
@@ -99,7 +99,7 @@ POST _aliases
 
 Los alias de índice también ayudan en la migración de índices sin tiempo de inactividad.
 
-## fragmentos
+## Fragmentos
 
 Los índices se dividen horizontalmente en partes llamadas fragmentos . Los fragmentos son un índice de Lucene independiente. Son los componentes básicos del índice.
 
@@ -125,8 +125,8 @@ Ciclo de vida del fragmento: Inicializando → Iniciado → Reubicación → No 
 
 Las confirmaciones de Lucene son demasiado costosas para realizar en cada cambio individual, por lo que cada copia de fragmento también escribe operaciones en su registro de transacciones conocido como translog. Cada fragmento tiene un translog. Los datos del translog solo se conservan en un disco con la confirmación de Lucene. En caso de error, esto se repite para confirmar los cambios no guardados. Durante una confirmación, todos los segmentos en la memoria se fusionan en un solo segmento y se guardan en el disco.
 
-<pic>
-<pic>
+![Modelo de persistencia](assets/elasticsearch-persis-model.png)
+![Ciclo de vida de un documento](assets/elasticsearch-persis-model2.png)
 
     > Actualizar: el contenido del búfer de memoria se copia en un segmento recién creado en la memoria y se borra el translog. Sucede cada segundo.
 
@@ -139,6 +139,7 @@ El índice de Lucene se divide en archivos más pequeños llamados segmentos. Lo
 ## Documentos
 
 Un documento es una unidad de información que se pasa a Elasticsearch para su almacenamiento. Los documentos son archivos JSON que se almacenan dentro de un índice de Elasticsearch y se consideran la unidad base de almacenamiento. Los documentos son inmutables. En caso de una actualización, el archivo anterior se reemplaza por el nuevo. El campo _version en la respuesta del documento es cosa del pasado y ya no tiene significado.
+
 ## Archivos
 
 tipos de datos como binario, booleano, palabra clave, números, fechas, texto, geo_shape, search_as_you_type
@@ -167,7 +168,7 @@ Mapeo indicativo del objeto ES con la base de datos:
 
 Elasticsearch proporciona analizadores que definen cómo se debe indexar y buscar el texto. Los analizadores se utilizan durante la indexación para analizar frases y expresiones en sus términos constituyentes. Definido dentro de un índice, un analizador consta de un único tokenizador y cualquier número de filtros de tokens.
 
-<pic>
+![Analizadores](assets/analyzers.png)
 
 El analizador tiene tres componentes:
 
@@ -200,7 +201,8 @@ Una plantilla de índice es un esqueleto mediante el cual se crea un nuevo índi
 
 Cada índice pasa por diferentes fases (caliente → tibio → frío → eliminado). Según una configuración predefinida, ILM modelará los índices de una fase a otra.
 
-<pic>
+![ciclo de un indice](assets/index-lifecycle.png)
+
 
 ## Canalización de ingesta
 
@@ -253,7 +255,9 @@ POST _reindex
    } 
 }
 
-Replicación de datos
+## Replicación de datos
+
+![Replicacion de datos](assets/data-replication.png)
 
 Elasticsearch tiene conceptos de fragmento primario y fragmento de réplica .
 
@@ -432,19 +436,23 @@ es.indices.delete(index= 'películas' )
 La configuración incluye propiedades específicas del índice, como la cantidad de fragmentos, analizadores, etc. El mapeo se utiliza para definir cómo se supone que se almacenan e indexan los documentos y sus campos. Definimos los tipos de datos para cada campo o utilizamos mapeo dinámico para campos desconocidos.
 
 Nota: Para las API masivas, mientras trabaja con cURL utilice elContent-Type: application/x-ndjson
-Indexación por niveles
+
+## Indexación por niveles
 
 Elasticsearch nos permite tener diferentes niveles y, por tanto, diferentes perfiles de hardware para los nodos de datos. Lo hacemos estableciendo el node.roleatributo en el elasticsearch.ymlarchivo de configuración.
 
-    Caliente — data_hot
-    Tibio — data_warm
-    Frío — data_cold
-    Congelado — data_frozen
+    > Caliente — data_hot
+    > Tibio — data_warm
+    > Frío — data_cold
+    > Congelado — data_frozen
 
-API básicas
+![organizacion de los indices](assets/tiered-indexing.png)
 
+## API básicas
+
+```
 POST <index-name>/_search?explain= true
- GET <index1>,<index2>,<index3>/_search 
+GET <index1>,<index2>,<index3>/_search 
 GET /_cluster/health 
 GET /_cat/indices?h=index 
 GET index/_settings 
@@ -452,7 +460,7 @@ GET index/_mapping
 DELETE / índice-documento/_doc/id 
 POST índice-documento/_delete_by_query?conflicts=proceed 
 { 
- "consulta" : { 
+ "query" : { 
  "match_all" : {} 
 } 
 } 
@@ -461,9 +469,11 @@ GET /_analyze
   "analyzer" : "estándar" , 
   "texto" : "Hola, de Búsqueda elástica."
  }
+```
 
-Interactuando con chispa
+## Interactuando con spark
 
+```
 # vía paquete
  --packages org.elasticsearch:elasticsearch-hadoop:7.10.1 
 # o vía pip
@@ -482,9 +492,10 @@ df.write
     .option( "es.write. operación" , "upsert" ) 
     .save( "índice/tipo" )
 
-Herramientas de administración de Elasticsearch
+## Herramientas de administración de Elasticsearch
 
-cerebro
+(cerebro)[https://github.com/lmenezes/cerebro]
+
 Personalización de Elasticsearch con complementos
 
 Elasticsearch tiene una arquitectura de complemento basada en interfaz que permite ampliar y personalizar la funcionalidad de ES. Los complementos son generalmente archivos de artefactos empaquetados (jar, zip, rpm) que se guardan en una ubicación específica. Podemos utilizar elasticsearch-pluginla herramienta de línea de comandos para instalar, enumerar y eliminar complementos. Algunas categorías de complementos comunes son:
@@ -495,13 +506,13 @@ Elasticsearch tiene una arquitectura de complemento basada en interfaz que permi
     de mapeador
     Complemento de integración
 
-OBTENER _cat/complementos
+GET _cat/complements
 
-Empresas que utilizan Elasticsearch
+## Empresas que utilizan Elasticsearch
 
     Swiggy, Quora, AutoDesk, Adobe, Walmart, Grab, Tinder, Uber, Visa, Compass, Pearson, Pinterest, Wikimedia, Netflix
 
-Cuellos de botella
+## Cuellos de botella
 
     Administrador de clústeres : a medida que el número de nodos supera los 300, el sistema se vuelve lento y el reinicio del clúster se vuelve lento.
     Asignador de fragmentos
@@ -510,9 +521,9 @@ Cuellos de botella
     Acoplamiento directo entre complemento y núcleo , sin segmentación de recursos
     Elasticsearch no permite la instalación en múltiples centros de datos.
 
-Oferta de nube en AWS
+## Oferta de nube en AWS
 
-AWS ofrece el servicio OpenSearch, que es una bifurcación de Elasticsearch. Hay dos ofertas en este servicio: administrado y sin servidor. La oferta de AWS tiene las siguientes ventajas:
+AWS ofrece el servicio OpenSearch, que es un fork de Elasticsearch. Hay dos ofertas en este servicio: administrado y serverless. La oferta de AWS tiene las siguientes ventajas:
 
 
     Alertas de seguridad mejoradas
@@ -521,13 +532,13 @@ AWS ofrece el servicio OpenSearch, que es una bifurcación de Elasticsearch. Hay
     Gestión de índices
     Búsqueda de vecino k-más cercano
 
-Trabajos futuros en proceso para OpenSearch
+## Trabajos futuros en proceso para OpenSearch
 
     Almacenamiento remoto
     Almacenamiento en caché inteligente
     Replicación cruzada y completa del clúster
 
-Resumen
+## Resumen
 
 En pocas palabras, la indexación de ES se puede resumir en los siguientes pasos
 
@@ -539,4 +550,4 @@ En pocas palabras, la indexación de ES se puede resumir en los siguientes pasos
 
 Gracias por leer !!
 
-* Traducción, revisión y publicación colaborativa de @vmariano,b,c.
+* Traducción, revisión y publicación colaborativa de @vmariano, @nachichurri.
