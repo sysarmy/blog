@@ -1,9 +1,8 @@
 ---
-Description: "Bananaaaaa!"
+Description: "Elasticsearch solucion para la busqueda"
 Keywords:
 - elasticsearch 
 - elk
-- keyword3
 Section: 
 - section1
 Tags:
@@ -13,21 +12,17 @@ Tags:
 Thumbnail: assets/template.jpg
 socialImage: assets/template.jpg
 featuredImage: assets/template.jpg
-Title: “Bananaaaaa!"
+Title: "Elasticsearch solucion para la busqueda"
 Topics:
-- topic1 
-- topic2
-- topic3
+- elastisearch 
 markup: markdown
-date: 2021-04-13
+date: 2024-02-21
 draft: true
 ---
-[Minions](https://www.minionsipsum.com/) ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. Bappleees poopayee tulaliloo pepete belloo! Wiiiii. Baboiii hana dul sae bappleees pepete hana dul sae po kass po kass baboiii. Belloo! hahaha baboiii poopayee hahaha belloo! La bodaaa bee do bee do bee do chasy. Pepete poopayee tank yuuu! Butt la bodaaa wiiiii aaaaaah ti aamoo! Poulet tikka masala. Tatata bala tu daa ti aamoo! Poulet tikka masala poopayee wiiiii bappleees hana dul sae ti aamoo! Jeje belloo!
-
-<!--more-->
-Un motor de búsqueda y análisis de nivel empresarial
+# Un motor de búsqueda y análisis de nivel empresarial
 
 Elasticsearch es un motor de búsqueda de texto completo para nuestros propios datos. Indexa nuestros datos y permite buscarlos a través de una interfaz HTTP. Es un motor de búsqueda distribuido basado en Lucene. Puede escalar a petabytes de datos. Admite multiinquilino y alta concurrencia. Ofrece resultados de búsqueda casi en tiempo real. Elasticsearch también es un componente de un conjunto de herramientas de código abierto conocido como ELK Stack.
+<!--more-->
 
 ## Casos de uso de Elasticsearch
 
@@ -491,12 +486,13 @@ df.write
     .option( "es.nodes" , "http://localhost:9200" ) 
     .option( "es.write. operación" , "upsert" ) 
     .save( "índice/tipo" )
+```
 
 ## Herramientas de administración de Elasticsearch
 
 (cerebro)[https://github.com/lmenezes/cerebro]
 
-Personalización de Elasticsearch con complementos
+## Personalización de Elasticsearch con complementos
 
 Elasticsearch tiene una arquitectura de complemento basada en interfaz que permite ampliar y personalizar la funcionalidad de ES. Los complementos son generalmente archivos de artefactos empaquetados (jar, zip, rpm) que se guardan en una ubicación específica. Podemos utilizar elasticsearch-pluginla herramienta de línea de comandos para instalar, enumerar y eliminar complementos. Algunas categorías de complementos comunes son:
 
