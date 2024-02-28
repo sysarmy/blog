@@ -167,7 +167,7 @@ Elasticsearch proporciona analizadores que definen cómo se debe indexar y busca
 
 El analizador tiene tres componentes:
 
-    - Filtros de personajes(html_strip)
+    - Filtros de caracteres(html_strip)
     - Tokenizador(standard)
     - Filtro de tokens(lowercase)
 
@@ -203,6 +203,7 @@ Cada índice pasa por diferentes fases (caliente → tibio → frío → elimina
 
 Los canales de ingesta nos permiten aplicar transformaciones como eliminación de campos , extracción de información o incluso enriquecimiento de datos antes de indexar un documento. Una canalización consta de varias tareas configurables conocidas como procesadores . Elasticsearch almacena las canalizaciones como una estructura de datos interna en el estado del clúster.
 
+```
 GET _nodes/ingest?filter_path=nodes.*.ingest.processors 
 PUT _ingest/pipeline/blog-demo-pipeline 
 { 
@@ -249,184 +250,194 @@ POST _reindex
     "pipeline" : "blog-demo-pipeline"
    } 
 }
-
+```
 ## Replicación de datos
 
 ![Replicacion de datos](assets/data-replication.png)
 
 Elasticsearch tiene conceptos de fragmento primario y fragmento de réplica .
 
-El proceso de replicar datos del primario al fragmento de réplica se llama replicación de datos . La consideración principal de la replicación de datos es el retraso ( retraso ) de la réplica y el primario. Si Lag es siempre 0, entonces se trata de una replicación en tiempo real con la mayor confiabilidad. Elasticsearch implementa la replicación de datos con la ayuda de la replicación de documentos y la replicación de segmentos .
-Indexación de documentos
+El proceso de replicar datos del fragmento primario al fragmento de réplica se llama replicación de datos. La consideración principal de la replicación de datos es el retraso ( lag ) de la réplica y el primario. Si Lag es siempre 0, entonces se trata de una replicación en tiempo real con la mayor confiabilidad. Elasticsearch implementa la replicación de datos con la ayuda de la replicación de documentos y la replicación de segmentos .
 
-Los datos de entrada a Elasticsearch se analizan y tokenizan antes de almacenarlos. Normalmente, la biblioteca de Lucene solo almacena los tokens analizados. Elasticsearch también almacena el documento original tal como se recibió en un campo especial llamado _source. Aunque consume espacio de almacenamiento adicional, el campo _source es fundamental para proporcionar la funcionalidad de actualización de documentos y también es necesario para las operaciones de reindexación.
-Enrutamiento de documentos
+## Indexación de documentos
+
+Los datos de entrada a Elasticsearch se analizan y tokenizan antes de almacenarlos. Normalmente, la biblioteca de Lucene solo almacena los tokens analizados. Elasticsearch también almacena el documento original tal como se recibió en un campo especial llamado `_source`. Aunque consume espacio de almacenamiento adicional, el campo `_source` es fundamental para proporcionar la funcionalidad de actualización de documentos y también es necesario para las operaciones de reindexación.
+
+## Enrutamiento de documentos
 
 Elasticsearch utiliza un algoritmo de enrutamiento para distribuir nuestros documentos a los fragmentos subyacentes durante la indexación. Cada uno de los documentos se indexará en un solo fragmento primario. Los documentos están distribuidos uniformemente, por lo que no hay posibilidad de que uno de los fragmentos se sobrecargue.
 
 El algoritmo de enrutamiento es una fórmula simple en la que Elasticsearch deduce el fragmento de un documento durante la indexación o la búsqueda:
 
-fragmento = hash ( id ) % número_de_fragmentos
+```
+shard = hash ( id ) % número_de_fragmentos
+```
 
 La función hash espera una identificación única, generalmente una identificación de documento o incluso una identificación personalizada proporcionada por el usuario.
 
 Nota: Los documentos no se recuperan del fragmento principal, pero ES aprovecha la Selección de réplica adaptable (ARS) para seleccionar un fragmento del grupo de replicación.
-El flujo de solicitudes de índice en ES
 
-    La solicitud es recibida por un nodo coordinador.
-    El nodo enruta documentos a sus índices y fragmentos.
-    Los fragmentos primarios y de réplica escriben (en paralelo) los documentos en translog.
-    Los documentos se normalizan (mapeo y análisis) y se almacenan en un búfer en memoria.
-    Los índices se actualizan para que se puedan realizar búsquedas.
-    Lucene confirma nuevos segmentos en los discos.
+## El flujo de solicitudes de índice en ES
 
-Búsqueda de documentos
+1.La solicitud es recibida por un nodo coordinador.
+2.El nodo enruta documentos a sus índices y fragmentos.
+3.Los fragmentos primarios y de réplica escriben (en paralelo) los documentos en translog.
+4.Los documentos se normalizan (mapeo y análisis) y se almacenan en un búfer en memoria.
+5.Los índices se actualizan para que se puedan realizar búsquedas.
+6.Lucene confirma nuevos segmentos en los discos.
 
-    Fase de consulta : el nodo coordinador enruta la solicitud a todos los fragmentos del índice. Los fragmentos, de forma independiente, realizan búsquedas y crean una cola de prioridad de los resultados ordenados por puntuación de relevancia. Todos los fragmentos devuelven los ID de los documentos coincidentes y las puntuaciones relevantes al nodo coordinador. El nodo coordinador crea una nueva cola de prioridad y ordena los resultados globalmente. El nodo coordinador crea una cola de prioridad que ordena los resultados de todos los fragmentos y devuelve los 10 resultados principales.
-    Fase de recuperación : los nodos coordinadores solicitan los documentos originales de los fragmentos. Los fragmentos enriquecen los documentos y los devuelven al nodo coordinador.
-    Puntuación de documentos : frecuencia de plazo (TF), frecuencia inversa de documento (IDF), norma. relevance_score = TF * IDF. Podemos adjuntar un indices_boost objeto al mismo nivel que el objeto de consulta. Esto aumentará la precedencia del índice impulsado. Ahora ES utiliza el algoritmo Okapi BM25 para calcular la relevancia.
+## Búsqueda de documentos
+
+> Fase de consulta : el nodo coordinador enruta la solicitud a todos los fragmentos del índice. Los fragmentos, de forma independiente, realizan búsquedas y crean una cola de prioridad de los resultados ordenados por puntuación de relevancia. Todos los fragmentos devuelven los ID de los documentos coincidentes y las puntuaciones relevantes al nodo coordinador. El nodo coordinador crea una nueva cola de prioridad y ordena los resultados globalmente. El nodo coordinador crea una cola de prioridad que ordena los resultados de todos los fragmentos y devuelve los 10 resultados principales.
+> Fase de recuperación : los nodos coordinadores solicitan los documentos originales de los fragmentos. Los fragmentos enriquecen los documentos y los devuelven al nodo coordinador.
+> Guardado de documentos : frecuencia de plazo (TF), frecuencia inversa de documento (IDF), norma. relevance_score = TF * IDF. Podemos adjuntar un indices_boost objeto al mismo nivel que el objeto de consulta. Esto aumentará la precedencia del índice impulsado. Ahora ES utiliza el algoritmo Okapi BM25 para calcular la relevancia.
 
 Existen varios tipos de predicados de consultas de búsqueda:
 
-    Término,
-    Los identificadores de términos
-    existen comodines
-    de rango Prefijo expresión regular match_phrasse, multi_match, match_all sinónimos difusos
+> Término,
+> Los identificadores de términos
+> existen comodines
+de rango Prefijo expresión regular match_phrasse, multi_match, match_all sinónimos difusos
 
-
-
-
-
-Filtro vs contexto de consulta
+## Filtro vs contexto de consulta
 
 El contexto del filtro proporciona una respuesta Sí/No en la coincidencia con la consulta proporcionada. Los filtros se almacenan en caché de forma predeterminada y no contribuyen a la puntuación de relevancia del documento. Sin embargo, el contexto de consulta muestra qué tan bien coincide cada documento con la consulta. Hace uso de analizadores para tomar una decisión. Los resultados incluyen una puntuación de relevancia.
 
 A menos que sea una búsqueda de texto completo o un tipo de búsqueda de puntuación de relevancia, se recomienda la búsqueda de contexto de filtro. Los filtros son generalmente más rápidos en comparación con las consultas.
-Enfoques de paginación
 
-    from / size : el fromparámetro define la cantidad de elementos que queremos omitir desde el principio. El sizeparámetro es el número máximo de visitas que se devolverán.
-    API _scroll : se utiliza para recuperar una gran cantidad de resultados. Se parece a los cursores de las bases de datos SQL. No recomendado para solicitudes de usuarios. Debe usarse en modo por lotes.
-    buscar_después
-    Punto en el tiempo (PIT)
+## Enfoques de paginación
 
-Agregación
+- from / size : el fromparámetro define la cantidad de elementos que queremos omitir desde el principio. El sizeparámetro es el número máximo de visitas que se devolverán.
+- API _scroll : se utiliza para recuperar una gran cantidad de resultados. Se parece a los cursores de las bases de datos SQL. No recomendado para solicitudes de usuarios. Debe usarse en modo por lotes.
+- buscar_después
+- Punto en el tiempo (PIT)
 
-    Agregación de métricas: suma, mín., máx., promedio.
-    Agregados de métricas numéricas/no numéricas.
-    Agregados de depósitos: ordena los resultados de la consulta en un grupo.
-    Agregados de canalización: canaliza el agregado de una etapa a otra.
+## Agregación
 
-Flujo de datos
+> Agregación de métricas: suma, mín., máx., promedio.
+> Agregados de métricas numéricas/no numéricas.
+> Agregados de depósitos: ordena los resultados de la consulta en un grupo.
+> Agregados de canalización: canaliza el agregado de una etapa a otra.
+
+## Flujo de datos
 
 Los flujos de datos simplifican el manejo de datos de series temporales. Maneja alias de índice de sustitución e índices, y define asignaciones y configuraciones comunes para los índices de respaldo. Aprovecha las políticas de Index Statement Management (ISM).
-Configuraciones
 
-    Flush_threshold_size
-    índice_buffer_size
-    actualizar_intervalo
-    threadpool.bulk.queue_size
+## Configuraciones
 
-Instalación en K8
+> Flush_threshold_size
+> índice_buffer_size
+> actualizar_intervalo
+> threadpool.bulk.queue_size
 
-repositorio de timón agregar bitnami https://charts.bitnami.com/bitnami 
-# repositorio de timón agregar elástico https://helm.elastic.co
- instalar timón elasticsearch -- set master.replicas=3,coordinating.service.type=LoadBalancer bitnami/ elasticsearch 
-kubectl svc de reenvío de puertos/elasticsearch-master 9200 
+## Instalación en K8
+
+```
+helm repo add bitnami https://charts.bitnami.com/bitnami
+# helm repo add elastic https://helm.elastic.co
+helm install elasticsearch --set master.replicas=3,coordinating.service.type=LoadBalancer bitnami/elasticsearch
+kubectl port-forward svc/elasticsearch-master 9200
 curl localhost:9200
+```
 
 Nota: ES utiliza 9200 para API y búsqueda, 9300 para comunicación entre nodos.
-Operadores de K8
 
+## Operadores de K8
+
+```
 # Elastic
- kubectl create -f https://download.elastic.co/downloads/eck/2.5.0/crds.yaml 
-kubectl apply -f https://download.elastic.co/downloads/eck/2.5.0/operator .yaml 
+kubectl create -f https://download.elastic.co/downloads/eck/2.5.0/crds.yaml
+kubectl apply -f https://download.elastic.co/downloads/eck/2.5.0/operator.yaml
 
-#
- repositorio de helm de opensearch agregar opensearch-operator https://opster.github.io/opensearch-k8s-operator/ 
-helm instalar opensearch-operator opensearch-operator/opensearch-operator
+# opensearch
+helm repo add opensearch-operator https://opster.github.io/opensearch-k8s-operator/
+helm install opensearch-operator opensearch-operator/opensearch-operator
+```
 
 Trabajando con Python
 
-# pip install elasticsearch 
+```
+# pip install elasticsearch
 # pip install opensearch-py 
 
-de elasticsearch import Elasticsearch 
-de elasticsearch ayudantes de importación 
-importar pandas como pd 
+from elasticsearch import Elasticsearch 
+from elasticsearch import helpers
+import pandas as pd
 
-df = ( 
-    pd.read_csv( "wiki_movie_plots_deduped.csv" ) 
-    .dropna() 
-    .sample( 5000 , random_state= 42 ) 
-    .reset_index () 
-) 
+df = (
+    pd.read_csv("wiki_movie_plots_deduped.csv")
+    .dropna()
+    .sample(5000, random_state=42)
+    .reset_index()
+)
  
 url = 'http://root:root@localhost:9200'  
- es = Elasticsearch(url)   
+es = Elasticsearch(url)  
 # es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 
- mapeos = { 
-        "propiedades" : { 
-            "título" : { "tipo" : "texto" , "analizador" : "inglés" }, 
-            "etnicidad" : { "tipo" : "texto" , "analizador" : "estándar" }, 
-            " director" : { "tipo" : "texto" , "analizador" : "estándar" }, 
-            "elenco" : { "tipo" : "texto" , "analizador" : "estándar" }, 
-            "género" : { "tipo " : "texto" , "analizador" : "estándar" }, 
-            "trama" : { "tipo" : "texto" , "analizador" : "inglés" }, 
-            "año" : { "tipo" : "entero" } , 
-            "wiki_page" : { "tipo" : "palabra clave" } 
-    } 
-} 
+mappings = {
+        "properties": {
+            "title": {"type": "text", "analyzer": "english"},
+            "ethnicity": {"type": "text", "analyzer": "standard"},
+            "director": {"type": "text", "analyzer": "standard"},
+            "cast": {"type": "text", "analyzer": "standard"},
+            "genre": {"type": "text", "analyzer": "standard"},
+            "plot": {"type": "text", "analyzer": "english"},
+            "year": {"type": "integer"},
+            "wiki_page": {"type": "keyword"}
+    }
+}
 
-index_name = "películas"
+index_name = "movies"
 
 
- index_exists = es.indices.exists(index = index_name) 
+index_exists = es.indices.exists(index = index_name)
 
-si  no index_exists:   
-  es.indices.create(index = index_name, mapeos = mapeo , ignorar = 400 ) 
+if not index_exists:  
+  es.indices.create(index = index_name, mappings = mapping, ignore=400)
 
 # curl -XGET [http://localhost:9200/retail_store]
- docs = [] 
-para i, fila en df.iterrows(): 
-    doc = { 
-        "título" :fila[ "Título" ], 
-        "etnicidad" : fila[ "Origen/Etnia" ], 
-        "director" : fila[ "Director" ], 
-        "elenco" : fila[ "Elenco" ], 
-        "género" : fila["Género" ], 
-        "trama" : fila[ "Trama" ], 
-        "año" : fila[ "Año de lanzamiento" ], 
-        "wiki_page" : fila[ "Página Wiki" ] 
-    } 
-    docs.append(doc) 
+docs = []
+for i, row in df.iterrows():
+    doc = {
+        "title": row["Title"],
+        "ethnicity": row["Origin/Ethnicity"],
+        "director": row["Director"],
+        "cast": row["Cast"],
+        "genre": row["Genre"],
+        "plot": row["Plot"],
+        "year": row["Release Year"],
+        "wiki_page": row["Wiki Page"]
+    }
+    docs.append(doc)
             
-helpers.bulk( es, docs, index=index_name, doc_type= '_doc' ) 
+helpers.bulk(es, docs, index=index_name, doc_type='_doc')
 
-consulta = {   
-  "consulta" : {   
-    "bool" : {   
-      "must" : {   
-         "match_phrase" : {   
-            "cast" : "jack nicholson" , 
-         }   
-      }, 
-      " filter" : { "bool" : { "must_not" : { "match_phrase" : { "director" : "roman polanski" }}}},   
-    }   
-  }   
-} 
+query = {  
+  "query" : {  
+    "bool" : {  
+      "must" : {  
+         "match_phrase" : {  
+            "cast" : "jack nicholson",
+         }  
+      },
+      "filter": {"bool": {"must_not": {"match_phrase": {"director": "roman polanski"}}}},  
+    }  
+  }  
+}
 
-resultados = es.search(index=index_name, body=query, size = 20 ) 
+results = es.search(index=index_name, body=query, size = 20)
 
-# obtener todos los resultados 
-# helpers.scan(client=es, query=query, index=index_name)
+# get all hits
+# helpers.scan(client=es, query=query, index=index_name) 
 
- es.delete(index = index_name, id = doc_id) 
+es.delete(index = index_name, id = doc_id)
 # es.delete_by_query(index = index_name, query = query)
 
- es .indices.put_settings(index=index_name, body={ "clave" : "valor" }) 
+es.indices.put_settings(index=index_name, body={"key": "value"})
 
-es.indices.delete(index= 'películas' )
+es.indices.delete(index='movies')
+```
 
 La configuración incluye propiedades específicas del índice, como la cantidad de fragmentos, analizadores, etc. El mapeo se utiliza para definir cómo se supone que se almacenan e indexan los documentos y sus campos. Definimos los tipos de datos para cada campo o utilizamos mapeo dinámico para campos desconocidos.
 
@@ -446,46 +457,46 @@ Elasticsearch nos permite tener diferentes niveles y, por tanto, diferentes perf
 ## API básicas
 
 ```
-POST <index-name>/_search?explain= true
+POST <index-name>/_search?explain=true
 GET <index1>,<index2>,<index3>/_search 
-GET /_cluster/health 
-GET /_cat/indices?h=index 
-GET index/_settings 
-GET index/_mapping 
-DELETE / índice-documento/_doc/id 
-POST índice-documento/_delete_by_query?conflicts=proceed 
-{ 
- "query" : { 
- "match_all" : {} 
-} 
-} 
-GET /_analyze 
-{ 
-  "analyzer" : "estándar" , 
-  "texto" : "Hola, de Búsqueda elástica."
+GET /_cluster/health
+GET /_cat/indices?h=index
+GET index/_settings
+GET index/_mapping
+DELETE /document-index/_doc/id
+POST document-index/_delete_by_query?conflicts=proceed
+{
+ "query": {
+ "match_all": {}
  }
+}
+GET /_analyze
+{
+  "analyzer" : "standard",
+  "text" : "Hello, from Elastic Search."
+}
 ```
 
 ## Interactuando con spark
 
 ```
-# vía paquete
- --packages org.elasticsearch:elasticsearch-hadoop:7.10.1 
-# o vía pip
- !pip install elasticsearch-hadoop 
+# via package
+--packages org.elasticsearch:elasticsearch-hadoop:7.10.1
+# or via pip
+!pip install elasticsearch-hadoop
 
-df = spark.read 
-    .format( "org.elasticsearch.spark.sql" ) 
-    .option( "es .nodes" , "http://host:9200" ) 
-    .option( "es.read.metadata" , "true" ) 
-    .option( "es.read.field.include" , "texto,usuario" ) 
-    .load ( "index/type" ) 
+df = spark.read
+    .format("org.elasticsearch.spark.sql")
+    .option("es.nodes","http://host:9200")
+    .option("es.read.metadata", "true")
+    .option("es.read.field.include", "text,user")
+    .load("index/type")
 
-df.write 
-    .format( "org.elasticsearch.spark.sql" ) 
-    .option( "es.nodes" , "http://localhost:9200" ) 
-    .option( "es.write. operación" , "upsert" ) 
-    .save( "índice/tipo" )
+df.write
+    .format("org.elasticsearch.spark.sql")
+    .option("es.nodes","http://localhost:9200")
+    .option("es.write.operation", "upsert")
+    .save("index/type")
 ```
 
 ## Herramientas de administración de Elasticsearch
@@ -494,15 +505,15 @@ df.write
 
 ## Personalización de Elasticsearch con complementos
 
-Elasticsearch tiene una arquitectura de complemento basada en interfaz que permite ampliar y personalizar la funcionalidad de ES. Los complementos son generalmente archivos de artefactos empaquetados (jar, zip, rpm) que se guardan en una ubicación específica. Podemos utilizar elasticsearch-pluginla herramienta de línea de comandos para instalar, enumerar y eliminar complementos. Algunas categorías de complementos comunes son:
+Elasticsearch tiene una arquitectura de complemento que permite ampliar y personalizar la funcionalidad. Los complementos son generalmente archivos de artefactos empaquetados (jar, zip, rpm) que se guardan en una ubicación específica. Podemos utilizar elasticsearch-pluginla herramienta de línea de comandos para instalar, enumerar y eliminar complementos. Algunas categorías de complementos comunes son:
 
-    Complemento de extensión API Complemento
-    de instantánea Complemento
-    de descubrimiento Complemento
-    de mapeador
-    Complemento de integración
+> Complemento de extensión API 
+> Complemento de snapshots 
+> Complemento de discovery 
+> Complemento de mapeo
+> Complemento de integración
 
-GET _cat/complements
+`GET _cat/complements`
 
 ## Empresas que utilizan Elasticsearch
 
@@ -510,40 +521,38 @@ GET _cat/complements
 
 ## Cuellos de botella
 
-    Administrador de clústeres : a medida que el número de nodos supera los 300, el sistema se vuelve lento y el reinicio del clúster se vuelve lento.
-    Asignador de fragmentos
-    Sin controlador de admisión para consultas incorrectas : sin prevención proactiva para consultas incorrectas
-    El costo de almacenamiento se vuelve alto para una mayor retención de datos
-    Acoplamiento directo entre complemento y núcleo , sin segmentación de recursos
-    Elasticsearch no permite la instalación en múltiples centros de datos.
+- Administrador de clústeres : a medida que el número de nodos supera los 300, el sistema se vuelve lento y el reinicio del clúster se vuelve lento.
+- Asignador de fragmentos
+- Sin controlador de admisión para consultas incorrectas : sin prevención proactiva para consultas incorrectas
+- El costo de almacenamiento se vuelve alto para una mayor retención de datos
+- Acoplamiento directo entre complemento y núcleo , sin segmentación de recursos
+- Elasticsearch no permite la instalación en múltiples centros de datos.
 
 ## Oferta de nube en AWS
 
 AWS ofrece el servicio OpenSearch, que es un fork de Elasticsearch. Hay dos ofertas en este servicio: administrado y serverless. La oferta de AWS tiene las siguientes ventajas:
-
-
-    Alertas de seguridad mejoradas
-    Analizador de rendimiento
-    Compatibilidad con consultas SQL
-    Gestión de índices
-    Búsqueda de vecino k-más cercano
+> Alertas de seguridad mejoradas
+> Analizador de rendimiento
+> Compatibilidad con consultas SQL
+> Gestión de índices
+> Búsqueda de vecino k-más cercano
 
 ## Trabajos futuros en proceso para OpenSearch
-
-    Almacenamiento remoto
-    Almacenamiento en caché inteligente
-    Replicación cruzada y completa del clúster
+> Almacenamiento remoto
+> Almacenamiento en caché inteligente
+> Replicación cruzada y completa del clúster
 
 ## Resumen
 
 En pocas palabras, la indexación de ES se puede resumir en los siguientes pasos
 
-    Envío de datos a API
-    Los datos se enrutan al índice, al nodo y al fragmento
-    Mapeo, normalización y análisis
-    Persistencia al disco
-    Datos disponibles para buscar
+- Envío de datos a API
+- Los datos se enrutan al índice, al nodo y al fragmento
+- Mapeo, normalización y análisis
+- Persistencia al disco
+- Datos disponibles para buscar
 
 Gracias por leer !!
 
 * Traducción, revisión y publicación colaborativa de @vmariano, @nachichurri.
+* articulo original: https://blog.devgenius.io/elasticsearch-solution-to-searching-71116220c82f
