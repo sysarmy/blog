@@ -21,32 +21,32 @@ draft: true
 ---
 # Un motor de búsqueda y análisis de nivel empresarial
 
-Elasticsearch es un motor de búsqueda de texto completo para nuestros propios datos. Indexa nuestros datos y permite buscarlos a través de una interfaz HTTP. Es un motor de búsqueda distribuido basado en Lucene. Puede escalar a petabytes de datos. Admite multiinquilino y alta concurrencia. Ofrece resultados de búsqueda casi en tiempo real. Elasticsearch también es un componente de un conjunto de herramientas de código abierto conocido como ELK Stack.
+Elasticsearch es un motor de búsqueda de texto completo para nuestros propios datos. Indexa y permite buscarlos a través de una interfaz HTTP. Es un motor de búsqueda distribuido basado en Lucene. Puede escalar a petabytes de datos. Admite multiples usuarios y alta concurrencia. Ofrece resultados de búsqueda casi en tiempo real. Elasticsearch también es un componente de un conjunto de herramientas de código abierto conocido como ELK Stack.
 <!--more-->
 
 ## Casos de uso de Elasticsearch
 
-    Registro operativo y análisis de registros (ELK)
-    Contenido del sitio y búsqueda de medios
-    Búsqueda de texto completo
-    Datos y métricas de eventos
-    Visualización de datos con Kibana
+- Log operativo y análisis de logs (ELK)
+- Contenido de un sitio y búsqueda de media
+- Búsqueda de texto completo
+- Datos y métricas de eventos
+- Visualización de datos con Kibana
 
-## Grupo
+## Clúster
 
 ![Esquema de elastic](assets/cluster.png)
 
-Un clúster de Elasticsearch es una colección distribuida de nodos en los que cada uno realiza una o más operaciones de clúster. Cada nodo ejecuta una instancia de la aplicación ES. El clúster es escalable horizontalmente. Al agregar nodos adicionales al clúster, podemos escalar la capacidad del clúster de manera lineal mientras mantenemos un rendimiento similar. Los nodos se agregan creando y usando un token de inscripción.
+Un clúster de Elasticsearch es una colección distribuida de nodos en los que cada uno realiza una o más operaciones. Cada nodo ejecuta una instancia de Elasticsearch. El clúster es escalable horizontalmente. Al agregar nodos adicionales al clúster, podemos escalar la capacidad del clúster de manera lineal mientras mantenemos un rendimiento similar. Los nodos se agregan creando y usando un token de enrolamiento.
 
-Los nodos del clúster se pueden diferenciar según el tipo específico de operaciones que realizan. En los clústeres de alta disponibilidad, designamos diferentes conjuntos de nodos para diferentes funciones del clúster. Para definir roles de nodo, podemos establecer la configuración de esta manera:node.roles: [ master | data | ingest ]
+Los nodos del clúster se pueden diferenciar según el tipo específico de operaciones que realizan. En los clústeres de alta disponibilidad, designamos diferentes conjuntos de nodos para diferentes funciones del clúster. Para definir roles de nodo, podemos establecer la configuración de esta ``` manera:node.roles: [ master | data | ingest ] ```
 
-## Nodo maestro
+## Nodo amo
 
-Cada clúster tiene un único nodo maestro en cualquier momento y sus responsabilidades incluyen mantener la salud y el estado del clúster. Los nodos maestros funcionan como coordinadores para crear, eliminar, administrar índices y asignar índices y fragmentos subyacentes a los nodos apropiados del clúster.
+Cada clúster tiene un único nodo amo en cualquier momento y sus responsabilidades incluyen mantener la salud y el estado del clúster. Los nodos amos funcionan como coordinadores para crear, eliminar, administrar índices y asignar índices y fragmentos subyacentes a los nodos apropiados del clúster.
 
-## Nodo elegible maestro
+## Nodo elegible-amo
 
-Los nodos elegibles para maestros son aquellos candidatos a ser nodos maestros.
+Los nodos elegibles para amos son aquellos candidatos a ser nodos amos.
 
 ## Nodo de datos
 
@@ -55,11 +55,12 @@ Los nodos de datos contienen los datos del índice real y manejan la búsqueda y
 ## Nodo solo coordinador
 
 Estos nodos transmiten solicitudes de consulta a todos los fragmentos relevantes y agregan sus respuestas en un conjunto ordenado globalmente, que se devuelve al cliente. Estos nodos actúan como equilibrador de carga.
-Nodo de ingesta
+
+## Nodo de ingesta
 
 Los nodos de ingesta se pueden configurar para preprocesar datos antes de que se ingieran. Como algunos de los procesadores, como el procesador grok, pueden consumir muchos recursos, es beneficioso dedicar nodos separados para la canalización de ingesta, ya que las operaciones de búsqueda no se verán afectadas por el procesamiento de ingesta. De lo contrario, los nodos de datos realizarán esta tarea.
 
-En grandes clústeres de nubes, tendremos un nodo maestro dedicado, 2 o más nodos de ingesta, 2 o más nodos de coordinación y múltiples nodos de datos.
+En grandes clústeres de nubes, tendremos un nodo amo dedicado, 2 o más nodos de ingesta, 2 o más nodos de coordinación y múltiples nodos de datos.
 
 Dado que los nodos de datos almacenan los datos, deberían tener discos adjuntos. SSD para datos cálidos y HDD para datos fríos. También necesitamos una gran memoria (RAM) para los nodos de datos, ya que almacenan datos en el buffer.
 
@@ -98,7 +99,7 @@ Los alias de índice también ayudan en la migración de índices sin tiempo de 
 
 Los índices se dividen horizontalmente en partes llamadas fragmentos . Los fragmentos son un índice de Lucene independiente. Son los componentes básicos del índice.
 
-Elasticsearch recomienda que cada fragmento tenga menos de 65 GB (AWS recomienda que tengan menos de 50 GB), por lo que podríamos crear índices basados ​​en el tiempo en los que cada índice contenga entre 16 y 20 GB de datos, lo que proporciona algo de amortiguación para el crecimiento de los datos.
+Elasticsearch [recomienda](https://www.elastic.co/guide/en/elasticsearch/reference/current/size-your-shards.html#shard-size-recommendation) que cada fragmento tenga menos de 65 GB (AWS [recomienda](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/sizing-domains.html) que tengan menos de 50 GB), por lo que podríamos crear índices basados ​​en el tiempo en los que cada índice contenga entre 16 y 20 GB de datos, lo que proporciona algo de espacio para el crecimiento de los datos.
 
     > Fragmentos primarios y de replicación
 
@@ -123,13 +124,13 @@ Las confirmaciones de Lucene son demasiado costosas para realizar en cada cambio
 ![Modelo de persistencia](assets/elasticsearch-persis-model.png)
 ![Ciclo de vida de un documento](assets/elasticsearch-persis-model2.png)
 
-    > Actualizar: el contenido del búfer de memoria se copia en un segmento recién creado en la memoria y se borra el translog. Sucede cada segundo.
+    > Actualizacion: el contenido del búfer de memoria se copia en un segmento recién creado en la memoria y se borra el translog. Sucede cada segundo.
 
-    > Vaciar: los segmentos en memoria se escriben en el disco. Los segmentos más pequeños se fusionan en segmentos más grandes.
+    > Tirado: los segmentos en memoria se escriben en el disco. Los segmentos más pequeños se fusionan en segmentos más grandes.
 
 ## Segmentos
 
-El índice de Lucene se divide en archivos más pequeños llamados segmentos. Los segmentos son índice invertido. Los segmentos son inmutables. Lucene busca en todos los segmentos de forma secuencial. Por lo tanto, tener muchos segmentos puede afectar el rendimiento. Elasticsearch fusiona los segmentos para crear nuevos segmentos eliminando documentos eliminados. La fusión también ayuda a combinar segmentos más pequeños en segmentos más grandes, ya que los segmentos más pequeños tienen un rendimiento de búsqueda deficiente.
+El índice de Lucene se divide en archivos más pequeños llamados segmentos. Los segmentos son un índice invertido y son inmutables. Lucene busca en todos los segmentos de forma secuencial. Por lo tanto, tener muchos segmentos puede afectar el rendimiento. Elasticsearch fusiona los segmentos para crear nuevos segmentos eliminando documentos eliminados. La fusión también ayuda a combinar segmentos más pequeños en segmentos más grandes, ya que los segmentos más pequeños tienen un rendimiento de búsqueda deficiente.
 
 ## Documentos
 
@@ -149,7 +150,6 @@ tipos de datos como binario, booleano, palabra clave, números, fechas, texto, g
 
 Mapeo indicativo del objeto ES con la base de datos:
 
-    
 > MySQL => Bases de datos => Tablas => Fila => Columna => Índice
 > Elasticsearch => Índices => Tipos => Documentos => Propiedades => Mapeo
 
@@ -161,7 +161,7 @@ Mapeo indicativo del objeto ES con la base de datos:
 
 ## Analizadores
 
-Elasticsearch proporciona analizadores que definen cómo se debe indexar y buscar el texto. Los analizadores se utilizan durante la indexación para analizar frases y expresiones en sus términos constituyentes. Definido dentro de un índice, un analizador consta de un único tokenizador y cualquier número de filtros de tokens.
+Elasticsearch proporciona analizadores que definen cómo se debe indexar y buscar el texto. Los analizadores se utilizan durante la indexación para analizar frases y expresiones en sus términos constitutivos. Definido dentro de un índice, un analizador consta de un único tokenizador y cualquier número de filtros de tokens.
 
 ![Analizadores](assets/analyzers.png)
 
