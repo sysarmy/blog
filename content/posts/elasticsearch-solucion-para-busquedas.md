@@ -35,7 +35,7 @@ _La versión original de este post se puede encontrar en [Medium](https://blog.d
 
 ### Un motor de búsqueda y análisis de nivel empresarial
 
-Elasticsearch es un motor de búsqueda de texto completo para nuestros propios datos. Indexa y permite buscarlos a través de una interfaz HTTP. Es un motor de búsqueda distribuido basado en Lucene. Puede escalar a petabytes de datos. Admite multiples usuarios y alta concurrencia. Ofrece resultados de búsqueda casi en tiempo real. Elasticsearch también es un componente de un conjunto de herramientas de código abierto conocido como ELK Stack.
+Elasticsearch es un motor de búsqueda de texto completo para nuestros propios datos. Indexa y permite buscarlos a través de una interfaz HTTP. Es un motor de búsqueda distribuido basado en Lucene. Puede escalar a petabytes de datos. Admite múltiples usuarios y alta concurrencia. Ofrece resultados de búsqueda casi en tiempo real. Elasticsearch también es un componente de un conjunto de herramientas de código abierto conocido como ELK Stack.
 
 ## Casos de uso de Elasticsearch
 
@@ -67,7 +67,7 @@ Los nodos de datos contienen los datos del índice real y manejan la búsqueda y
 
 ## Nodo solo coordinador
 
-Estos nodos transmiten solicitudes de consulta a todos los fragmentos relevantes y agregan sus respuestas en un conjunto ordenado globalmente, que se devuelve al cliente. Estos nodos actúan como equilibrador de carga.
+Estos nodos transmiten solicitudes de consulta a todos los fragmentos relevantes y agregan sus respuestas en un conjunto ordenado globalmente, que se devuelve al cliente. Estos nodos actúan como balanceadores de carga.
 
 ## Nodo de ingesta
 
@@ -135,9 +135,10 @@ Ciclo de vida del fragmento: Inicializando → Iniciado → Reubicación → No 
 Las confirmaciones de Lucene son demasiado costosas para realizar en cada cambio individual, por lo que cada copia de fragmento también escribe operaciones en su registro de transacciones conocido como translog. Cada fragmento tiene un translog. Los datos del translog solo se conservan en un disco con la confirmación de Lucene. En caso de error, esto se repite para confirmar los cambios no guardados. Durante una confirmación, todos los segmentos en la memoria se fusionan en un solo segmento y se guardan en el disco.
 
 ![Modelo de persistencia](assets/elasticsearch-persis-model.png)
+
 ![Ciclo de vida de un documento](assets/elasticsearch-persis-model2.png)
 
-> Actualizacion (refresh): el contenido del búfer de memoria se copia en un segmento recién creado en la memoria y se borra el translog. Sucede cada segundo.
+> Actualización (refresh): el contenido del búfer de memoria se copia en un segmento recién creado en la memoria y se borra el translog. Sucede cada segundo.
 
 > Tirado (flush): los segmentos en memoria se escriben en el disco. Los segmentos más pequeños se fusionan en segmentos más grandes.
 
@@ -345,7 +346,7 @@ A menos que sea una búsqueda de texto completo o un tipo de búsqueda de puntua
 
 ## Enfoques de paginación
 
-- **from / size**: el fromparámetro define la cantidad de elementos que queremos omitir desde el principio. El sizeparámetro es el número máximo de visitas que se devolverán.
+- **from / size**: el parámetro `from` define la cantidad de elementos que queremos omitir desde el principio. El parámetro `size` es el número máximo de visitas que se devolverán.
 - **API _scroll**: se utiliza para recuperar una gran cantidad de resultados. Se parece a los cursores de las bases de datos SQL. No recomendado para solicitudes de usuarios. Debe usarse en modo por lotes.
 - **buscar_después**
 - **Punto en el tiempo (PIT)**
@@ -384,7 +385,7 @@ kubectl port-forward svc/elasticsearch-master 9200
 curl localhost:9200
 ```
 
-_Nota: ES utiliza 9200 para API y búsqueda, 9300 para comunicación entre nodos._
+_Nota: ES utiliza 9200 para API y búsqueda, y 9300 para comunicación entre nodos._
 
 ## Operadores de K8
 
@@ -398,7 +399,7 @@ helm repo add opensearch-operator https://opster.github.io/opensearch-k8s-operat
 helm install opensearch-operator opensearch-operator/opensearch-operator
 ```
 
-Trabajando con Python
+## Trabajando con Python
 
 ```python
 # pip install elasticsearch
