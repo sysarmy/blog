@@ -1,23 +1,34 @@
 ---
-Description: "Elasticsearch solucion para la busqueda"
+Title: "Elasticsearch, solución para la busqueda"
+Description: "Descubre cómo Elasticsearch permite indexar, buscar y analizar grandes volúmenes de datos en tiempo real, convirtiéndolo en una herramienta esencial para empresas que requieren alta escalabilidad y rendimiento."
 Keywords:
-- elasticsearch 
+- sysarmy
+- elasticsearch
 - elk
-Section: 
-- section1
+- observability
+- logging
+
 Tags:
-- tag1 
-- tag2
-- tag3
-Thumbnail: assets/template.jpg
-socialImage: assets/template.jpg
-featuredImage: assets/template.jpg
-Title: "Elasticsearch solucion para la busqueda"
+- sysarmy
+- elasticsearch
+- elk
+- observability
+- logging
+
+Thumbnail: assets/elasticesarch-cover.png
+socialImage: assets/elasticesarch-cover.png
+featuredImage: assets/elasticesarch-cover.png
+externalPermlink: "https://blog.devgenius.io/elasticsearch-solution-to-searching-71116220c82f"
+
 Topics:
-- elastisearch 
+- elasticsearch
+- elk
+- observability
+- logging
+
 markup: markdown
-date: 2024-02-21
-draft: true
+date: 2024-03-20
+draft: false
 ---
 # Un motor de búsqueda y análisis de nivel empresarial
 
