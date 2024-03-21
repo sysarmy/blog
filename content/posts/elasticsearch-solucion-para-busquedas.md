@@ -136,7 +136,7 @@ Las confirmaciones de Lucene son demasiado costosas para realizar en cada cambio
 
 ![Modelo de persistencia](assets/elasticsearch-persis-model.png)
 
-![Ciclo de vida de un documento](assets/elasticsearch-persis-model2.png)
+![Ciclo de vida de un documento](assets/elasticsearch-persis-model-2.png)
 
 > Actualización (refresh): el contenido del búfer de memoria se copia en un segmento recién creado en la memoria y se borra el translog. Sucede cada segundo.
 
