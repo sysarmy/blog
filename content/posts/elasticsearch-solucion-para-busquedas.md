@@ -30,7 +30,10 @@ markup: markdown
 date: 2024-03-20
 draft: false
 ---
-# Un motor de búsqueda y análisis de nivel empresarial
+
+_La versión original de este post se puede encontrar en [Medium](https://blog.devgenius.io/elasticsearch-solution-to-searching-71116220c82f) (inglés)._
+
+### Un motor de búsqueda y análisis de nivel empresarial
 
 Elasticsearch es un motor de búsqueda de texto completo para nuestros propios datos. Indexa y permite buscarlos a través de una interfaz HTTP. Es un motor de búsqueda distribuido basado en Lucene. Puede escalar a petabytes de datos. Admite multiples usuarios y alta concurrencia. Ofrece resultados de búsqueda casi en tiempo real. Elasticsearch también es un componente de un conjunto de herramientas de código abierto conocido como ELK Stack.
 <!--more-->
@@ -184,18 +187,18 @@ El analizador tiene tres componentes:
 
 Elasticsearch tiene muchos analizadores, tokenizadores y filtros de tokens integrados.
 ```
-POST /_analyze 
-{ 
-  "texto" : "Este texto será analizado con el analizador ESTÁNDAR" 
+POST /_analyze
+{
+  "texto" : "Este texto será analizado con el analizador ESTÁNDAR"
   "analizador" : "estándar"
- } 
+ }
 
-POST /_analyze 
-{ 
-  "texto" : "Este texto será analizado con el analizador ESTÁNDAR" 
-  "char_filter" : [] , 
-  "tokenizer" : "estándar" , 
-  "filtro" : [ "minúsculas" ] 
+POST /_analyze
+{
+  "texto" : "Este texto será analizado con el analizador ESTÁNDAR"
+  "char_filter" : [] ,
+  "tokenizer" : "estándar" ,
+  "filtro" : [ "minúsculas" ]
 }
 ```
 
@@ -215,51 +218,51 @@ Cada índice pasa por diferentes fases (caliente → tibio → frío → elimina
 Los canales de ingesta nos permiten aplicar transformaciones como eliminación de campos , extracción de información o incluso enriquecimiento de datos antes de indexar un documento. Una canalización consta de varias tareas configurables conocidas como procesadores . Elasticsearch almacena las canalizaciones como una estructura de datos interna en el estado del clúster.
 
 ```
-GET _nodes/ingest?filter_path=nodes.*.ingest.processors 
-PUT _ingest/pipeline/blog-demo-pipeline 
-{ 
-  "versión" : 1, 
-  "descripción" : "Canalización de demostración para blog mediano" , 
+GET _nodes/ingest?filter_path=nodes.*.ingest.processors
+PUT _ingest/pipeline/blog-demo-pipeline
+{
+  "versión" : 1,
+  "descripción" : "Canalización de demostración para blog mediano" ,
   "procesadores" : [ {
-     " 
-      set" : { 
-        "descripción" : "Establecer valor predeterminado de etiqueta" , 
-        "campo" : "StoryTag" , 
+     "
+      set" : {
+        "descripción" : "Establecer valor predeterminado de etiqueta" ,
+        "campo" : "StoryTag" ,
         "valor" : "Ingeniería de datos"
-       } 
-    }, 
-    { 
-      "minúsculas" : { 
+       }
+    },
+    {
+      "minúsculas" : {
         "campo" : "autor"
-       } 
-    } , 
-    { 
-      "eliminar" : { 
+       }
+    } ,
+    {
+      "eliminar" : {
         "campo" : "lecturas_externas"
-       } 
-    } 
-  ] 
-} 
+       }
+    }
+  ]
+}
 
-POST _ingest/pipeline/blog-demo-pipeline/_simulate 
-{ 
-  "docs" : [ 
-    {...} 
-  ] 
-} 
-POST usuarios /_doc?pipeline= blog-demo-pipeline 
-{...} 
+POST _ingest/pipeline/blog-demo-pipeline/_simulate
+{
+  "docs" : [
+    {...}
+  ]
+}
+POST usuarios /_doc?pipeline= blog-demo-pipeline
+{...}
 
-POST _reindex 
-{ 
-  "fuente" : { 
+POST _reindex
+{
+  "fuente" : {
     "índice" : "nombre de índice existente"
-   }, 
-  "destino" : { 
-    "índice" : "nuevo nombre de índice" , 
-    "tipo_op" : "crear " , 
+   },
+  "destino" : {
+    "índice" : "nuevo nombre de índice",
+    "tipo_op" : "crear ",
     "pipeline" : "blog-demo-pipeline"
-   } 
+   }
 }
 ```
 ## Replicación de datos
@@ -369,9 +372,9 @@ Trabajando con Python
 
 ```
 # pip install elasticsearch
-# pip install opensearch-py 
+# pip install opensearch-py
 
-from elasticsearch import Elasticsearch 
+from elasticsearch import Elasticsearch
 from elasticsearch import helpers
 import pandas as pd
 
@@ -381,9 +384,9 @@ df = (
     .sample(5000, random_state=42)
     .reset_index()
 )
- 
-url = 'http://root:root@localhost:9200'  
-es = Elasticsearch(url)  
+
+url = 'http://root:root@localhost:9200'
+es = Elasticsearch(url)
 # es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 
 mappings = {
@@ -404,7 +407,7 @@ index_name = "movies"
 
 index_exists = es.indices.exists(index = index_name)
 
-if not index_exists:  
+if not index_exists:
   es.indices.create(index = index_name, mappings = mapping, ignore=400)
 
 # curl -XGET [http://localhost:9200/retail_store]
@@ -421,26 +424,26 @@ for i, row in df.iterrows():
         "wiki_page": row["Wiki Page"]
     }
     docs.append(doc)
-            
+
 helpers.bulk(es, docs, index=index_name, doc_type='_doc')
 
-query = {  
-  "query" : {  
-    "bool" : {  
-      "must" : {  
-         "match_phrase" : {  
+query = {
+  "query" : {
+    "bool" : {
+      "must" : {
+         "match_phrase" : {
             "cast" : "jack nicholson",
-         }  
+         }
       },
-      "filter": {"bool": {"must_not": {"match_phrase": {"director": "roman polanski"}}}},  
-    }  
-  }  
+      "filter": {"bool": {"must_not": {"match_phrase": {"director": "roman polanski"}}}},
+    }
+  }
 }
 
 results = es.search(index=index_name, body=query, size = 20)
 
 # get all hits
-# helpers.scan(client=es, query=query, index=index_name) 
+# helpers.scan(client=es, query=query, index=index_name)
 
 es.delete(index = index_name, id = doc_id)
 # es.delete_by_query(index = index_name, query = query)
@@ -469,7 +472,7 @@ Elasticsearch nos permite tener diferentes niveles y, por tanto, diferentes perf
 
 ```
 POST <index-name>/_search?explain=true
-GET <index1>,<index2>,<index3>/_search 
+GET <index1>,<index2>,<index3>/_search
 GET /_cluster/health
 GET /_cat/indices?h=index
 GET index/_settings
@@ -518,9 +521,9 @@ df.write
 
 Elasticsearch tiene una arquitectura de complemento que permite ampliar y personalizar la funcionalidad. Los complementos son generalmente archivos de artefactos empaquetados (jar, zip, rpm) que se guardan en una ubicación específica. Podemos utilizar elasticsearch-pluginla herramienta de línea de comandos para instalar, enumerar y eliminar complementos. Algunas categorías de complementos comunes son:
 
-> Complemento de extensión API 
-> Complemento de snapshots 
-> Complemento de discovery 
+> Complemento de extensión API
+> Complemento de snapshots
+> Complemento de discovery
 > Complemento de mapeo
 > Complemento de integración
 
@@ -563,7 +566,8 @@ En pocas palabras, la indexación de ES se puede resumir en los siguientes pasos
 - Persistencia al disco
 - Datos disponibles para buscar
 
-Gracias por leer !!
+Gracias por leer!!
 
-* Traducción, revisión y publicación colaborativa de @vmariano, @nachichurri.
-* articulo original: https://blog.devgenius.io/elasticsearch-solution-to-searching-71116220c82f
+
+* La versión original de este post se puede encontrar en [Medium](https://blog.devgenius.io/elasticsearch-solution-to-searching-71116220c82f) (inglés).
+* Autoría por [Amit Singh Rathore](https://asrathore08.medium.com/), traducción por [@vmariano](https://github.com/vmariano), revisión por [@nachichuri](https://twitter.com/nachichuri).
