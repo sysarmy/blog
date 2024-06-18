@@ -1,5 +1,5 @@
 ---
-Title: "Tus primeros 60 días trabajando como ingeniero"
+Title: "Tus primeros 60 días trabajando en sistemas"
 Description: "Consejos para hacerte tu lugar en el ambiente laboral cuando recién arrancás a trabajar"
 Keywords:
 - principiantes
