@@ -13,6 +13,7 @@ Tags:
 - dev
 - desarrolladores
 - mejores-practicas
+- sistemas
 
 Thumbnail: assets/primeros-60-dias-ingeniero.jpg
 socialImage: assets/primeros-60-dias-ingeniero.jpg
@@ -23,18 +24,19 @@ Topics:
 - desarrollo
 - software
 - mejores-practicas
-
+- sistemas
 
 markup: markdown
-date: 2023-01-10
+date: 2024-06-18
 draft: false
 ---
 
+_La versión original de este post se puede encontrar en [dB.dblock.org](https://code.dblock.org/2015/04/23/your-first-60-days-at-an-engineering-job.html) (inglés)._
 
-Te acabás de recibir y estás buscando trabajo. Armás un buen CV y lo mandás por mail a todos lados. Recibís respuestas interesadas de algunas compañías de tecnología y tal vez algunas tareas de programación para hacer en casa, seguido de una entrevista telefónica. ¡Te fue bien y te ofrecieron a una entrevista! Luego de varias horas de conversaciones inspiradas en la tortura del pizarrón, almuerzo y referencias te ofrecieron tu primer trabajo en ingenieria y has aceptado. Empezás en dos semanas. ¡Felicitaciones!
+Te acabás de recibir y estás buscando trabajo. Armás un buen CV y lo mandás por mail a todos lados. Recibís respuestas interesadas de algunas compañías de tecnología y tal vez algunas tareas de programación para hacer en casa, seguido de una entrevista telefónica. ¡Te fue bien y te ofrecieron una entrevista! Luego de varias horas de conversaciones inspiradas en la tortura del pizarrón, almuerzo y referencias te ofrecieron tu primer trabajo en ingenieria y has aceptado. Empezás en dos semanas. ¡Felicitaciones!
 
 ## ¿Y ahora qué?
-Primero, *no hagas nada*. Tomate esas dos semanas para relajarte y adelantar tus lecturas recreacionales.Tirate en la playa. Tomate un trago. Algunos jefes te van a ofrecer algunas cosas para hacer (por lo general leer o repasar algún lenguaje en particular), aceptá estas sugerencias con gusto, pero no las pidas. No te sientas obligado a hacer nada. Personalmente, espero que mis nuevas contrataciones lleguen descansadas y frescas a su primer día laboral - si hubiera querido que empiecen antes, lo hubiera pedido.
+Primero, *no hagas nada*. Tomate esas dos semanas para relajarte y adelantar tus lecturas recreacionales. Tirate en la playa. Tomate un trago. Algunos jefes te van a ofrecer algunas cosas para hacer (por lo general leer o repasar algún lenguaje en particular), aceptá estas sugerencias con gusto, pero no las pidas. No te sientas obligado a hacer nada. Personalmente, espero que mis nuevas contrataciones lleguen descansadas y frescas a su primer día laboral - si hubiera querido que empiecen antes, lo hubiera pedido.
 
 ## Tu primer día
 Cuando llegás al trabajo sos un pasajero solitario que se enfrenta a una organización entera que se mueve como un tren de alta velocidad. No hay manera de que te subas de un salto a toda velocidad, necesitas ganar algo de momento propio. Tu primer día querés descubrir quién es tu *mentor* - una persona técnica a quién recurrir por defecto. También querrás encontrar a tu *guía espiritual* - un individuo amigable, no técnico, tal vez del equipo comercial. Siempre podes consultar con quienes te entrevistaron y mejor si ambas personas han estado con la compañía por mucho tiempo.
@@ -44,7 +46,7 @@ Es muy posible que hayas caído como en paracaídas en un proyecto de software g
 
 Generalmente se te asigna un tema pequeño semi trivial, hacé tu *mejor esfuerzo*, incluso para una tarea completamente trivial. Asegurate de seguirla hasta producción.
 
-## Primeros pasos no *ingenieriles* 
+## Primeros pasos no *ingenieriles*
 Cuando conozcas a otros integrantes del equipo, siempre preguntales *qué hacen* y cómo sus tareas *encajan en el panorama general*. Eventualmente querés entender quién es quién en la organización, cómo está estructurada y en qué consiste el negocio. Procurate un organigrama. Averiguá cuáles son las metas de tu equipo como así también los objetivos y metas de la compañía. Entendé el itinerario y encontrarte en él.
 
 ## Lográ un impacto que sume
@@ -58,14 +60,14 @@ Si tu *trabajo no es criticado*, si tus PR (contribuciones al código) son merge
 Siempre mirá si falta algo. ¿No hay pruebas en este proyecto? Agregá algunas. ¿No hay documentación sobre cómo arrancar? Escribila.
 
 ## Cómo comportarse
-Como un nuevo empleado no tenés idea de cómo es la cultura o el ambiente, pero hay cosas que son aplicables universalmente. Se *modesto y respetuoso*, se *conciso, breve y claro* en tus comunicaciones y *hacé declaraciones precisas*. Mirá [Leyes no escritas de la ingeniería](https://books.google.com.ar/books/about/Leyes_no_escritas_de_la_ingenieria.html?id=FPvhMgEACAAJ&redir_esc=y), una buena lectura que todavía es relevante hoy en día.
+Como un nuevo empleado no tenés idea de cómo es la cultura o el ambiente, pero hay cosas que son aplicables universalmente. Sé *modesto y respetuoso*, sé *conciso, breve y claro* en tus comunicaciones y *hacé declaraciones precisas*. Mirá [Leyes no escritas de la ingeniería](https://books.google.com.ar/books/about/Leyes_no_escritas_de_la_ingenieria.html?id=FPvhMgEACAAJ&redir_esc=y), una buena lectura que todavía es relevante hoy en día.
 
 No te olvides de que trabajás para alguien más. Te van a felicitar por tus logros, pero los líderes de tu equipo se responsabilizarán de tus fallas. Trabajá con ellos y prestá atención a lo que dicen o el trabajo que quieran que hagas.
 
-Tratá de no *quejarte sobre la gente* a menos que sea de manera directa y en privado. Si tenés algo malo para decir sobre alguien, decíselo a ellos, no a tu jefe o, peor, su jefe. También considerá el viejo proverbio ruso que reza que criticar a la gerencia es como hacer pis contra el viento - siempre te pega a vos.
+Tratá de no *quejarte sobre la gente* a menos que sea de manera directa y en privado. Si tenés algo malo para decir sobre alguien, decíselo a ellos, no a tu jefe o, peor, a su jefe. También considerá el viejo proverbio ruso que reza que criticar a la gerencia es como hacer pis contra el viento - siempre te pega a vos.
 
 ## Charla
 Hace poco presenté esto en la Flatiron school, [link con las diapositivas](https://www.slideshare.net/dblockdotorg/howto-developer-thriving-in-your-first-60-days-at-work).
 
 * La versión original de este post se puede encontrar en [dB.dblock.org](https://code.dblock.org/2015/04/23/your-first-60-days-at-an-engineering-job.html) (inglés).
-* Autoría por [Daniel Doubrovkine](https://code.dblock.org/about/), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por []().
+* Autoría por [Daniel Doubrovkine](https://code.dblock.org/about/), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por [@nachichuri](https://twitter.com/nachichuri).
