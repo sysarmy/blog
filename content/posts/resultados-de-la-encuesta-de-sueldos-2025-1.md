@@ -34,7 +34,7 @@ En esta ocasión contamos con la participación de casi 5400 personas que se tom
 
 Si tienen sugerencias para futuras encuestas, pueden dejarlas en nuestro [repo Disneyland](https://github.com/sysarmy/disneyland/issues).
 
-Como siempre, nos encuentran en nuestro [Discord](https://sysar.my/discord), [Slack](https://sysar.my/slack), o IRC ([#sysarmy en LiberaChat](https://web.libera.chat/?channel=#sysarmy)) y si están buscando su primer empleo en tecnología, pueden ingresar al canal [#primer-trabajo-en-it](https://discord.com/channels/128531369788833793/766105730801467422).
+Como siempre, nos encuentran en [Discord](https://sysar.my/discord), [Slack](https://sysar.my/slack), o IRC ([#sysarmy en LiberaChat](https://web.libera.chat/?channel=#sysarmy)) y si están buscando su primer empleo en tecnología, pueden ingresar al canal [#primer-trabajo-en-it](https://discord.com/channels/128531369788833793/766105730801467422).
 
 | [Análisis de Openqube](https://openqube.io/sueldos) |
 | :-------------------------------------------------: |
