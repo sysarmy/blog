@@ -142,13 +142,13 @@ Esto es algo que noté al revisar propuestas como parte de la votación de la co
 
 Sí, sé que tienes una gran historia. Es interesante. Tiene lecciones importantes aprendidas y algunos ejemplos de código hermosos que harán del mundo de Python un lugar mejor. Pero **necesitas convencer a un grupo de personas con diferentes niveles de conocimiento de Python, diferentes antecedentes e intereses de que tu charla es interesante**. Que es más interesante que las otras 400 charlas que esperan ocupar tu lugar en el programa.
 
-### Votación de la comunidad
-
-Aunque no formo parte de ningún comité de programa oficial, intento participar en la votación de la comunidad para varias conferencias siempre que puedo. Durante este tiempo, las personas que ya han comprado una entrada y los participantes de años anteriores pueden votar qué charlas les gustaría ver esta vez.
-
-Reviso las propuestas durante la votación de la comunidad como si estuviera revisando un currículum. Dedico unos 10 segundos a la mayoría de ellas, hojeando rápidamente el título y el resumen. Si parece interesante, leo más. Quizás los miembros de la junta de programas sean más minuciosos, ¿pero quizás no lo sean? Así que, al igual que con tu currículum, debes asegurarte de captar mi atención en esos 10 segundos.
-
-Dedicar solo 10 segundos a la propuesta de alguien puede parecer injusto, pero hagamos algunos cálculos. De las propuestas que hojeo, quizás una de cada tres parece lo suficientemente interesante como para leerla a fondo. Se tarda alrededor de 1 minuto en leer completamente una propuesta y decidir si es una charla que quiero ver. Por ejemplo, EuroPython recibió [429 propuestas en 2022](https://twitter.com/europython/status/1510988056878206979). Así que dedicar 10 segundos (ojeando) al 66% de ellas y 1 minuto (revisando realmente) al 33% de esas 429 propuestas lleva 11.440 segundos. Eso es más de 3 horas para revisar todas las charlas (lo cual es una tarea muy concentrada y suele llevar mucho más tiempo). Quiero dar a todas las presentaciones las mismas oportunidades, así que las reviso todas. Por eso, cada propuesta tiene un tiempo muy limitado para captar mi interés.
+> ### Votación de la comunidad
+>
+> Aunque no formo parte de ningún comité de programa oficial, intento participar en la votación de la comunidad para varias conferencias siempre que puedo. Durante este tiempo, las personas que ya han comprado una entrada y los participantes de años anteriores pueden votar qué charlas les gustaría ver esta vez.
+>
+> Reviso las propuestas durante la votación de la comunidad como si estuviera revisando un currículum. Dedico unos 10 segundos a la mayoría de ellas, hojeando rápidamente el título y el resumen. Si parece interesante, leo más. Quizás los miembros de la junta de programas sean más minuciosos, ¿pero quizás no lo sean? Así que, al igual que con tu currículum, debes asegurarte de captar mi atención en esos 10 segundos.
+>
+> Dedicar solo 10 segundos a la propuesta de alguien puede parecer injusto, pero hagamos algunos cálculos. De las propuestas que hojeo, quizás una de cada tres parece lo suficientemente interesante como para leerla a fondo. Se tarda alrededor de 1 minuto en leer completamente una propuesta y decidir si es una charla que quiero ver. Por ejemplo, EuroPython recibió [429 propuestas en 2022](https://twitter.com/europython/status/1510988056878206979). Así que dedicar 10 segundos (ojeando) al 66% de ellas y 1 minuto (revisando realmente) al 33% de esas 429 propuestas lleva 11.440 segundos. Eso es más de 3 horas para revisar todas las charlas (lo cual es una tarea muy concentrada y suele llevar mucho más tiempo). Quiero dar a todas las presentaciones las mismas oportunidades, así que las reviso todas. Por eso, cada propuesta tiene un tiempo muy limitado para captar mi interés.
 
 Hay muchas propuestas compitiendo con la tuya, por lo que es importante captar la atención del lector y reducir las posibilidades de que pasen por alto tu propuesta.
 
@@ -210,22 +210,22 @@ Ahora que has enviado tu propuesta, puedes esperar los resultados o comenzar una
 
 [Uso Obsidian para recopilar mis notas](https://switowski.com/blog/obsidian/), y tengo una plantilla que me ayuda a escribir la propuesta y luego expandirla en una charla completa:
 
-**Qué**: Presentación sobre cómo escribir código Python más rápido
-**Por qué**: Por diversión - optimizaciones a nivel de código fuente. Pero también con un propósito educativo - cómo acelerar tu código y ver qué está pasando bajo el capó.
-**Quién**: Desarrolladores principiantes/intermedios
-**Cómo**: Charla de 45 minutos
-
-### Esquema
-*   Introducción [2 min]
-*   ¿Por qué Python es lento? [3 min]
-    *   Python es dinámico...
-### Presentación
-*   ¿Por qué Python es lento?
-    *   ...
-*   #TODO Investigar tema XYZ
-### Recursos
-*   Enlace 1
-*   Enlace 2
+> **Qué**: Presentación sobre cómo escribir código Python más rápido
+> **Por qué**: Por diversión - optimizaciones a nivel de código fuente. Pero también con un propósito educativo - cómo acelerar tu código y ver qué está pasando bajo el capó.
+> **Quién**: Desarrolladores principiantes/intermedios
+> **Cómo**: Charla de 45 minutos
+>
+> ### Esquema
+> *   Introducción [2 min]
+> *   ¿Por qué Python es lento? [3 min]
+>     *   Python es dinámico...
+> ### Presentación
+> *   ¿Por qué Python es lento?
+>     *   ...
+> *   #TODO Investigar tema XYZ
+> ### Recursos
+> *   Enlace 1
+> *   Enlace 2
 
 El **Qué**, **Por qué**, **Quién** y **Cómo** son algo que escribo primero y quizás modifico ligeramente más tarde a medida que escribo la propuesta. Lo mantengo en la parte superior del archivo para ver cuándo me desvío demasiado de la idea inicial.
 
@@ -294,15 +294,15 @@ Aquí tienes algunas otras sugerencias sobre cómo preparar una buena charla:
 
 No hay una única mejor manera de preparar tu charla. Algunos argumentan que memorizar un guion te hará sonar poco natural, mientras que otros (incluido yo mismo) prefieren un enfoque más guionizado. Yo preparo mi charla expandiendo la parte de "Presentación" de mi plantilla de un simple esquema a una presentación completa. En última instancia, se parece a una publicación de blog, y me resulta natural escribir todo tal como lo diré durante mi charla.
 
-#### Esa vez que un guion me salvó la vida
-
-Una vez, un guion me salvó la vida. ¡Prepárense para la hora del cuento!
-
-Era una perezosa mañana de jueves en el trabajo. El sol brillaba a través de la ventana, y yo estaba sentado en mi escritorio, revisando algo de código y disfrutando de mi segunda taza de café. Mi lista de tareas para el día incluía actualizar las diapositivas y ensayar para una conferencia en línea programada para el día siguiente. Como ya había dado esta charla varias veces, conocía el contenido lo suficientemente bien, así que no había necesidad de dedicar más de una tarde a prepararme.
-
-De repente, al mediodía, recibí una notificación por correo electrónico. Decía: "Tienes un nuevo mensaje en LinkedIn". Lo abrí, y por una fracción de segundo, mi corazón se detuvo (lo que, supongo, es lo que hace el corazón todo el tiempo entre latidos). El mensaje decía: "¡Oye, ¿dónde estás? ¡Estamos esperando en la sala de streaming!". No era spam, ni era un príncipe nigeriano queriendo desprenderse de su dinero, esta vez en forma de videollamada, ya que todos los métodos anteriores para contactarme habían fallado. En cambio, eran los organizadores de la conferencia.
-
-Sí, lo adivinaste. Había puesto la fecha equivocada en mi calendario. Solo tuve tiempo de eliminar rápidamente la referencia a la conferencia anterior de la primera diapositiva antes de comenzar mi presentación. Estuve rezando todo el tiempo para no encontrar más diapositivas que hubiera olvidado actualizar. Por suerte, no lo hice. Y toda la presentación salió... bastante bien. Con la descarga de adrenalina, la mayor parte del contenido volvió a mí mientras repasaba las diapositivas. Así que en algún momento, ya ni siquiera estaba leyendo mi guion. Pero no había forma de que hubiera podido lograr esto sin preparación ni ensayos si no hubiera tenido el guion en mis notas del orador.
+> #### Esa vez que un guion me salvó la vida
+>
+> Una vez, un guion me salvó la vida. ¡Prepárense para la hora del cuento!
+>
+> Era una perezosa mañana de jueves en el trabajo. El sol brillaba a través de la ventana, y yo estaba sentado en mi escritorio, revisando algo de código y disfrutando de mi segunda taza de café. Mi lista de tareas para el día incluía actualizar las diapositivas y ensayar para una conferencia en línea programada para el día siguiente. Como ya había dado esta charla varias veces, conocía el contenido lo suficientemente bien, así que no había necesidad de dedicar más de una tarde a prepararme.
+>
+> De repente, al mediodía, recibí una notificación por correo electrónico. Decía: "Tienes un nuevo mensaje en LinkedIn". Lo abrí, y por una fracción de segundo, mi corazón se detuvo (lo que, supongo, es lo que hace el corazón todo el tiempo entre latidos). El mensaje decía: "¡Oye, ¿dónde estás? ¡Estamos esperando en la sala de streaming!". No era spam, ni era un príncipe nigeriano queriendo desprenderse de su dinero, esta vez en forma de videollamada, ya que todos los métodos anteriores para contactarme habían fallado. En cambio, eran los organizadores de la conferencia.
+>
+> Sí, lo adivinaste. Había puesto la fecha equivocada en mi calendario. Solo tuve tiempo de eliminar rápidamente la referencia a la conferencia anterior de la primera diapositiva antes de comenzar mi presentación. Estuve rezando todo el tiempo para no encontrar más diapositivas que hubiera olvidado actualizar. Por suerte, no lo hice. Y toda la presentación salió... bastante bien. Con la descarga de adrenalina, la mayor parte del contenido volvió a mí mientras repasaba las diapositivas. Así que en algún momento, ya ni siquiera estaba leyendo mi guion. Pero no había forma de que hubiera podido lograr esto sin preparación ni ensayos si no hubiera tenido el guion en mis notas del orador.
 
 No dejes que nadie te diga que un guion, los puntos clave o no usar notas del orador es mejor que las otras opciones. Elige la que te resulte más cómoda. Yo siempre empiezo con el guion, y a medida que ensayo, dependo menos de él. Pero cuando me estreso o me distraigo, suelo recurrir a mis notas del orador.
 
