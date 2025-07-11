@@ -1,32 +1,33 @@
--- Pequeña todo list para mati o el interesado
-- [ ] Ver si funcionan las imagenes
-- [ ] Ver si el articulo fue traducido bien.
-- [ ] Buscar una imagen de portada
 ---
+Title: "Cómo dar una gran charla en una conferencia"
 Description: "Una guía extensa y práctica para dar charlas increíbles en conferencias, ideal para desarrolladores y oradores técnicos."
 Keywords:
 - conferencias
 - presentaciones técnicas
 - hablar en público
-Section:
-- speaking
+
 Tags:
+- sysarmy
 - python
 - charlas
 - eventos
-Thumbnail: assets/template.jpg
-socialImage: assets/template.jpg
-featuredImage: assets/template.jpg
 
-Title: "Cómo dar una gran charla en una conferencia"
+Thumbnail: assets/dar-una-gran-charla.jpg
+socialImage: assets/dar-una-gran-charla.jpg
+featuredImage: assets/dar-una-gran-charla.jpg
+
 Topics:
 - desarrollo profesional
 - comunicación efectiva
 - comunidad tech
+
 markup: markdown
-date: 2023-03-20
-draft: true
+date: 2025-07-11
+draft: false
 ---
+
+_La versión original de este post se puede encontrar en [switowski.com](https://switowski.com/blog/how-to-make-a-great-conference-talk/) (inglés)._
+
 El año pasado, participé en un taller organizado por la conferencia EuroPython para oradores principiantes, donde compartí mis consejos para hacer buenas presentaciones. Fue una gran idea, y ojalá hubiera tenido acceso a un taller así cuando preparé mis primeras charlas.
 
 He decidido escribir esta guía para ayudar a mis lectores que aspiran a ser oradores en conferencias. Espero que les ayude a preparar su primera presentación o a mejorar aún más sus charlas.
@@ -473,3 +474,8 @@ Aquí hay otras excelentes publicaciones de blog que me ayudaron a escribir esta
 *   La publicación de blog de Kate Matsudaira sobre [hablar en público en conferencias](https://katemats.com/blog/public-speaking-at-a-conference).
 *   [Diez consejos para que las charlas de conferencias apesten menos](https://www.morling.dev/blog/ten-tips-make-conference-talks-suck-less).
 *   [7 mejores prácticas para dar una charla en una conferencia](https://opensource.com/article/17/9/7-best-practices-giving-conference-talk).
+
+---
+
+* La versión original de este artículo se puede encontrar en [switowski.com](https://switowski.com/blog/how-to-make-a-great-conference-talk/) (inglés).
+* Autoría por [Sebastian Witowski](https://x.com/SebaWitowski), traducción por [@elflacodeit](https://www.instagram.com/elflacodeit/), revisión por [@nachichuri](https://twitter.com/nachichuri).
