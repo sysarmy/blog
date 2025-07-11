@@ -35,17 +35,17 @@ He decidido escribir esta guía para ayudar a mis lectores que aspiran a ser ora
 Este artículo resultó ser mucho más largo de lo que pensé inicialmente.
 Puedes saltar directamente a la parte que más te interese:
 
-*   [Beneficios de hablar en una conferencia](#beneficios-de-hablar-en-una-conferencia)
-*   [¿Por qué deberías seguir mis consejos?](#por-que-deberias-seguir-mis-consejos)
-*   [Desmintiendo algunos mitos](#desmintiendo-algunos-mitos)
-*   [Convocatoria de Propuestas (CFP)](#convocatoria-de-propuestas-cfp)
-*   [Investigación](#investigacion)
-*   [Preparación](#preparacion)
-*   [Diapositivas](#diapositivas)
-*   [Demostraciones en vivo](#demostraciones-en-vivo)
-*   [Ensayo](#ensayo)
-*   [Día de la presentación](#dia-de-la-presentacion)
-*   [Preguntas y Respuestas (Q&A)](#preguntas-y-respuestas-qa)
+*   [Beneficios de hablar en una conferencia](posts/como-dar-una-gran-charla-en-una-conferencia/#beneficios-de-hablar-en-una-conferencia)
+*   [¿Por qué deberías seguir mis consejos?](posts/como-dar-una-gran-charla-en-una-conferencia/#por-qué-deberías-seguir-mis-consejos)
+*   [Desmintiendo algunos mitos](posts/como-dar-una-gran-charla-en-una-conferencia/#desmintiendo-algunos-mitos)
+*   [Convocatoria de Propuestas (CFP)](posts/como-dar-una-gran-charla-en-una-conferencia/#convocatoria-de-propuestas-cfp)
+*   [Investigación](posts/como-dar-una-gran-charla-en-una-conferencia/#investigación)
+*   [Preparación](posts/como-dar-una-gran-charla-en-una-conferencia/#preparación)
+*   [Diapositivas](posts/como-dar-una-gran-charla-en-una-conferencia/#diapositivas)
+*   [Demostraciones en vivo](posts/como-dar-una-gran-charla-en-una-conferencia/#demostraciones-en-vivo)
+*   [Ensayo](posts/como-dar-una-gran-charla-en-una-conferencia/#ensayo)
+*   [Día de la presentación](posts/como-dar-una-gran-charla-en-una-conferencia/#día-de-la-presentación)
+*   [Preguntas y Respuestas (Q&A)](posts/como-dar-una-gran-charla-en-una-conferencia/#preguntas-y-respuestas-qa)
 
 Intento mantener mis sugerencias lo más abiertas posible, incluyendo cosas que no funcionan para mí pero que pueden funcionar para ti. El hecho de que yo haga algo de una manera específica no significa que todos los demás lo hagan también. También intentaré que mis consejos sean breves en lugar de apoyar cada uno con una historia de mi vida.
 
@@ -53,7 +53,7 @@ Más adelante, escribiré otro artículo centrado en cómo _yo_ hago presentacio
 
 En primer lugar, ¿por qué querrías dedicar tiempo a preparar una charla gratis?
 
-## Beneficios de hablar en una conferencia [#](#beneficios-de-hablar-en-una-conferencia)
+## Beneficios de hablar en una conferencia
 
 *   La razón más obvia es que, como orador, obtienes una **entrada gratuita** a la conferencia (esto se aplica a la mayoría, pero no a todas, las conferencias). A lo largo de los años, probablemente ahorré miles de dólares en tarifas de conferenciasFootnote 1.
 *   **Reconocimiento**. Cuantas más presentaciones des, más famoso te harás. A veces la gente te reconocerá por una charla, o verás una publicación de blog donde alguien califica tu presentación de _interesante_, lo que te hará muy feliz.
@@ -63,7 +63,7 @@ En primer lugar, ¿por qué querrías dedicar tiempo a preparar una charla grati
 *   **Podrías ser invitado a otras conferencias**. Como ex orador, estarás en el radar de conferencias más pequeñas que invitan a los oradores a postularse para sus Convocatorias de Propuestas. También tendrás algo que poner en la sección "comparte un enlace a tu charla anterior". Así que cuantas más charlas des, más fácil será que te acepten en el futuro. En algunas ocasiones, fui invitado a una conferencia semi-comercial (una conferencia sobre Python que fue principalmente patrocinada y organizada por una sola empresa) que pagó los vuelos y hoteles. Así que fue un fin de semana gratuito y geek para mí. Lamentablemente, después del COVID, la mayoría de las veces me invitan a conferencias en línea.
 *   Finalmente, es posible que genuinamente **quieras compartir tus conocimientos**. Disfruto hablando en conferencias (de la misma manera que disfruto escribiendo este blog). Cada año elijo 2-3 conferencias en las que quiero hablarFootnote 3.
 
-## ¿Por qué deberías seguir mis consejos? [#](#por-que-deberias-seguir-mis-consejos)
+## ¿Por qué deberías seguir mis consejos?
 
 Ahora, ¿por qué deberías seguir mis consejos?
 
@@ -78,11 +78,11 @@ Y por qué **no** querrías seguir mis consejos:
 
 Hay muchos oradores mucho más experimentados que también han compartido sus ideas. Los enlazo al [final](#lectura-adicional) de este artículo.
 
-## Desmintiendo algunos mitos [#](#desmintiendo-algunos-mitos)
+## Desmintiendo algunos mitos
 
 Si aún dudas si deberías enviar una charla, desmintamos algunos de los mitos más comunes que podrían estar deteniéndote.
 
-### "¡No soy un experto!" [#](#no-soy-un-experto)
+### "¡No soy un experto!"
 
 No tienes por qué serlo. Para dar una gran charla, no tienes que ser un experto, pero sí debes sentir pasión por el tema. Si eres un experto y puedes presentar un tema de forma accesible, eso es fantástico. Pero también es raro. No todos los oradores son expertos, e incluso si lo son, no todos los expertos pueden explicar temas complejos de forma sencilla. Muy a menudo, las personas que son nuevas en algo tienen las ideas más interesantes y frescas. Son mucho mejores explicando un tema a principiantes porque ellos mismos fueron principiantes no hace mucho. Las personas que pasaron 10 años escribiendo modelos de aprendizaje automático (además de pasar cuatro años escribiendo un doctorado sobre aprendizaje automático) podrían omitir demasiados detalles que no son obvios para alguien nuevo en el tema.
 
@@ -92,7 +92,7 @@ Finalmente, si eres un orador más avanzado, probablemente esté bien asumir alg
 
 La charla más entretenida que vi en PyCon Polonia el año pasado fue sobre cómo enseñar nuevos trucos a un perro con MicroPython. Y aunque este proyecto fracasó, aun así resultó en una historia fascinante y lecciones valiosas para cualquiera que quiera experimentar con MicroPython y hardware casero. Esta charla es el segundo video más visto de esa conferencia (y si hablas polaco, puedes verlo [aquí](https://www.youtube.com/watch?v=6_VxIq-4j7c)).
 
-### "¡Ya hay demasiadas charlas sobre X!" [#](#ya-hay-demasiadas-charlas-sobre-x)
+### "¡Ya hay demasiadas charlas sobre X!"
 
 Donde "X" puede ser "pytest", "type hints" o "pandas para principiantes". Créeme, **nunca hay suficientes charlas sobre temas que parecen obvios**.
 
@@ -106,7 +106,7 @@ Y cada lenguaje, framework o biblioteca popular está evolucionando. Una charla 
 
 Por eso, las charlas sobre pytest, pandas y las características recientes de CPython son y serán aceptadas cada año.
 
-### "Me estreso demasiado para dar una buena charla" [#](#me-estreso-demasiado-para-dar-una-buena-charla)
+### "Me estreso demasiado para dar una buena charla"
 
 La mayoría de los oradores se estresan, aunque no lo demuestren. La primera vez que di una charla ante 100 personas en el CERN, me temblaban tanto las piernas que tuve que sujetar el podio todo el tiempo. Algunas personas se han [desmayado](https://hynek.me/articles/hallway-track/#:~:text=At%20the%20end%20of%20the%20talk%20I%20fainted).
 
@@ -118,7 +118,7 @@ Para mí, aunque se volvió menos estresante que la primera vez, seguí bastante
 
 Si temes que el estrés te deje la mente en blanco y olvides lo que ibas a decir, considera escribir y memorizar un guion para tu primera charla (más sobre esto [más adelante](#wing-it-or-script-it)).
 
-## "Tengo miedo a las preguntas del público" [#](#tengo-miedo-a-las-preguntas-del-publico)
+## "Tengo miedo a las preguntas del público"
 
 ¿Adivina qué? ¡No tienes que responderlas!
 
@@ -132,7 +132,7 @@ Déjame saber en los comentarios si tienes otras razones para no dar una charla,
 
 Ahora hablemos de uno de los pasos más críticos que determinará si siquiera tendrás la oportunidad de dar tu presentación.
 
-## Convocatoria de Propuestas (CFP) [#](#convocatoria-de-propuestas-cfp)
+## Convocatoria de Propuestas (CFP)
 
 Si pudiera darte un solo consejo aquí, sería: "**no lo descuides**". No deberías descuidar ninguna parte del proceso de presentación, pero si tu charla no es aceptada, el hecho de que puedas contar las historias más cautivadoras no importa. No habrá una conferencia dispuesta a escucharlas.
 
@@ -142,7 +142,7 @@ Esto es algo que noté al revisar propuestas como parte de la votación de la co
 
 Sí, sé que tienes una gran historia. Es interesante. Tiene lecciones importantes aprendidas y algunos ejemplos de código hermosos que harán del mundo de Python un lugar mejor. Pero **necesitas convencer a un grupo de personas con diferentes niveles de conocimiento de Python, diferentes antecedentes e intereses de que tu charla es interesante**. Que es más interesante que las otras 400 charlas que esperan ocupar tu lugar en el programa.
 
-### Votación de la comunidad [#](#votacion-de-la-comunidad)
+### Votación de la comunidad
 
 Aunque no formo parte de ningún comité de programa oficial, intento participar en la votación de la comunidad para varias conferencias siempre que puedo. Durante este tiempo, las personas que ya han comprado una entrada y los participantes de años anteriores pueden votar qué charlas les gustaría ver esta vez.
 
@@ -165,7 +165,7 @@ Aquí hay algunas formas de lograr esto:
 
 Si eres un orador más experimentado, **no tengas miedo de salir de tu zona de confort**. Proponer una charla es una excelente manera de explorar un tema con mayor profundidad. Un tema de nicho puede tener una audiencia más pequeña, pero puede conducir a conversaciones más profundas con aquellos que están genuinamente interesados en el tema.
 
-### Encontrando ejemplos de propuestas aceptadas y rechazadas [#](#encontrando-ejemplos-de-propuestas-aceptadas-y-rechazadas)
+### Encontrando ejemplos de propuestas aceptadas y rechazadas
 
 Si quieres ver cómo es una buena propuesta, consulta los programas de años anteriores. Por ejemplo, EuroPython mantiene los sitios web de [todas las ediciones anteriores](https://www.europython-society.org/europython/) en línea. De esta manera, puedes comprobar fácilmente qué propuestas fueron aceptadas.
 
@@ -179,7 +179,7 @@ Al final, siempre hay algo de suerte involucrada en que tu charla sea aceptada. 
 
 No te desanimes. Intenta enviar tu charla a otra conferencia o a un meetup local para ganar más experiencia, mejorar tu propuesta y tener un portafolio de "charlas anteriores" que puedas presentar la próxima vez.
 
-### Ideas para charlas [#](#ideas-para-charlas)
+### Ideas para charlas
 
 La forma "más fácil" (entre comillas, porque no hay nada fácil en preparar una buena charla) de tener una idea es presentar algo que hayas usado en el trabajo porque:
 
@@ -202,7 +202,7 @@ Otra forma sorprendentemente efectiva es pedirle a la IA que te ayude a generar 
 
 También puedes preguntar a tus compañeros de trabajo. Una pregunta al azar en el dispensador de agua ("¿Qué charlas te gustaría ver en una conferencia de Python?") también puede ayudarte a generar ideas.
 
-## Investigación [#](#investigacion)
+## Investigación
 
 Ahora que has enviado tu propuesta, puedes esperar los resultados o comenzar una investigación preliminar. Recomiendo encarecidamente lo segundo, pero quizás no de forma súper intensiva. Solo ten en cuenta que podrías estar preparando esta presentación en un par de semanas.
 
@@ -215,15 +215,15 @@ Ahora que has enviado tu propuesta, puedes esperar los resultados o comenzar una
 **Quién**: Desarrolladores principiantes/intermedios
 **Cómo**: Charla de 45 minutos
 
-### Esquema [#](#esquema)
+### Esquema
 *   Introducción [2 min]
 *   ¿Por qué Python es lento? [3 min]
     *   Python es dinámico...
-### Presentación [#](#presentacion)
+### Presentación
 *   ¿Por qué Python es lento?
     *   ...
 *   #TODO Investigar tema XYZ
-### Recursos [#](#recursos)
+### Recursos
 *   Enlace 1
 *   Enlace 2
 
@@ -241,13 +241,13 @@ La fase de investigación no termina realmente hasta que tienes las diapositivas
 
 Pero en general, no voy más allá de recopilar todas esas notas, enlaces e ideas aleatorias hasta que recibo noticias de los organizadores de la conferencia.
 
-## Preparación [#](#preparacion)
+## Preparación
 
 "Tu propuesta ha sido aceptada" - ese es el correo electrónico que has estado esperando impacientemente durante semanas.
 
 ¡Felicidades! Ahora comienza el verdadero trabajo.
 
-### Organizando tus ideas [#](#organizando-tus-ideas)
+### Organizando tus ideas
 
 Primero, necesitas reunir todos tus pensamientos aleatorios y organizarlos. Una excelente manera de hacerlo es construir un mapa mental. Te permite agrupar temas similares y ver el panorama general de los puntos principales de tu presentación. Combinado con los tiempos de la propuesta, facilita ver en qué áreas tienes demasiado contenido y dónde tienes muy poco. Tu nuevo y detallado esquema en forma de mapa mental debe coincidir con el esquema de la propuesta. Pero a veces, a medida que investigas más, podrías desviarte ligeramente del esquema inicial.
 
@@ -259,7 +259,7 @@ Plugin de mapas mentales para Obsidian
 
 Si necesitas recomendaciones para herramientas más avanzadas o consejos generales sobre cómo crear mapas mentales eficientes, [este episodio](https://www.asianefficiency.com/podcasts/131-mindmapping-vs-outlining/) de _The Productivity Show_ puede ser útil.
 
-### Preparando tu charla [#](#preparando-tu-charla)
+### Preparando tu charla
 
 Al preparar una presentación, siempre empiezo escribiendo mi charla antes de tocar las diapositivas. Aunque no tiene que ser 100% final, prefiero tener una idea clara de lo que quiero decir antes de crear las ayudas visuales. Si tengo una idea brillante para una diapositiva que explica perfectamente algún concepto, la anoto en lugar de abrir Keynote. Así que, primero, hablemos de cómo escribir tu charla.
 
@@ -288,13 +288,13 @@ Aquí tienes algunas otras sugerencias sobre cómo preparar una buena charla:
 *   Si quieres que la gente recuerde mejor puntos clave específicos, repítelos varias veces. Al igual que con el aprendizaje de cosas nuevas, memorizamos por repetición. **Di de qué vas a hablar, habla de ello y luego resume lo que acabas de decir**. Se quedará con tu audiencia por más tiempo.
 *   Aunque debes ajustar el nivel de tu charla a la audiencia que elegiste en la CFP, a veces tienes que elegir entre ideas demasiado básicas o demasiado avanzadas. **Inclínate por lo "demasiado avanzado"**. Es mucho más interesante hablar de un tema avanzado con el que quizás parte de la audiencia no esté familiarizada que explicar algo tan básico que la mayoría ya lo sabe.
 
-### ¿Improvisar o guionizar? [#](#improvisar-o-guionizar)
+### ¿Improvisar o guionizar?
 
 ¿Cómo escribirás tu charla? ¿Improvisarás sin notas en tus diapositivas? ¿Anotarás puntos clave en las notas del orador como referencia? ¿O escribirás un guion con frases completas que dirás?
 
 No hay una única mejor manera de preparar tu charla. Algunos argumentan que memorizar un guion te hará sonar poco natural, mientras que otros (incluido yo mismo) prefieren un enfoque más guionizado. Yo preparo mi charla expandiendo la parte de "Presentación" de mi plantilla de un simple esquema a una presentación completa. En última instancia, se parece a una publicación de blog, y me resulta natural escribir todo tal como lo diré durante mi charla.
 
-#### Esa vez que un guion me salvó la vida [#](#esa-vez-que-un-guion-me-salvo-la-vida)
+#### Esa vez que un guion me salvó la vida
 
 Una vez, un guion me salvó la vida. ¡Prepárense para la hora del cuento!
 
@@ -308,7 +308,7 @@ No dejes que nadie te diga que un guion, los puntos clave o no usar notas del or
 
 Echa un vistazo a la historia de la [charla TED de Tim Urban](https://waitbutwhy.com/2016/03/doing-a-ted-talk-the-full-story.html), donde habla más sobre el espectro de la "Exactitud de la planificación" (también conocido como "improvisar vs. guionizar").
 
-### Diapositivas [#](#diapositivas)
+### Diapositivas
 
 La primera regla para hacer diapositivas es que **deben apoyar tu presentación, no reemplazarla**. Como extensión de esta regla, si puedes dar tu presentación sin tus diapositivas, eso es fantástico. Si no, no te preocupes demasiado. Dudo que mucha gente pueda (yo no puedo). Sin embargo, intenta depender lo menos posible de tus diapositivas. Si el proyector se estropea, pierdes tu presentación, o incluso si alguien está sentado demasiado lejos de la pantalla, la gente debería poder entender tu presentación y sacar algo de ella sin ver las diapositivas.
 
@@ -339,7 +339,7 @@ Dicho esto, no significa que las diapositivas deban ser una ocurrencia tardía d
 
 ¿Y quizás quieras darle un toque especial con una sesión de codificación en vivo?
 
-## Demostraciones en vivo [#](#demostraciones-en-vivo)
+## Demostraciones en vivo
 
 Las demostraciones en vivo son difíciles.
 
@@ -365,7 +365,7 @@ Aquí tienes algunos consejos finales más para las demostraciones:
 *   Tu genial tema de color podría ser completamente ilegible con poca luz. Considera tener un **tema simple, claro y fácil de ver** para la demostración.
 *   Muchas demostraciones nunca llegan al final. Si tu demostración falla debido a algún problema técnico, no dejes que esto te estrese durante el resto de la charla. **Explica lo que intentaste mostrar y sigue adelante**. No olvides tener un plan de respaldo como un video o código terminado, como sugerí antes. Tu audiencia está acostumbrada a los problemas con la codificación en vivo. Si superas una demostración fallida, ellos también lo harán.
 
-## Ensayo [#](#ensayo)
+## Ensayo
 
 Felicidades, has preparado tu presentación, completado el mazo de diapositivas, y ahora es el momento de practicar. A continuación, algunos consejos para ayudarte a mejorar:
 
@@ -377,7 +377,7 @@ Felicidades, has preparado tu presentación, completado el mazo de diapositivas,
 *   Grábate a ti mismo o pide a alguien que te dé su opinión para **ver cómo hablas**. ¿Usas, _ehh_, muchas, _ehh_, palabras de relleno y, _ehh_, _quizás_ sería mejor, _ehh_, dejar de hacerlo? ¿Hablas lo suficientemente alto y claro? ¿O murmuras y no todo se entiende?
 *   **Concéntrate en perfeccionar los primeros 5-10 minutos** (la introducción del problema) **y la parte final de tu charla**. Estos son los momentos más críticos. Al principio, necesitas captar la atención de tu audiencia, y cómo hables al final es cómo la gente recordará tu charla. A nadie le importa si, en el medio, miraste tus notas un poco más a menudo.
 
-## Día de la presentación [#](#dia-de-la-presentacion)
+## Día de la presentación
 
 *   **Evita beber demasiado alcohol el día antes de la presentación y asegúrate de dormir lo suficiente**. Ya estarás bajo suficiente estrés, y añadir una resaca y una noche sin dormir solo lo hará más difícil para ti.
 *   Intenta **desayunar bien**. A medida que te acerques a tu charla, es posible que te estreses más y no tengas ganas de comer nada. Durante mucho tiempo, no pude comer nada horas antes de mi charla, por lo que era esencial para mí desayunar bien.
@@ -387,7 +387,7 @@ Felicidades, has preparado tu presentación, completado el mazo de diapositivas,
 *   **Sé puntual**. ¿Quieres asistir a otra charla en una sala diferente justo antes de la tuya? Siempre puedes verla más tarde. No querrás apresurarte a tu sala y llegar tarde a tu propia presentación. Normalmente voy a la sala donde hablo una charla antes, para poder empezar a prepararme tan pronto como el orador anterior termine.
 *   **Preséntate al presidente de la sesión** una vez que termine la charla anterior. Te explicarán todo, configurarán tu computadora y quizás te pregunten cómo quieres que te anuncien al público.
 
-### Lista de verificación para empacar [#](#lista-de-verificacion-para-empacar)
+### Lista de verificación para empacar
 
 No olvides empacar los siguientes elementos (si crees que los necesitas):
 
@@ -399,7 +399,7 @@ No olvides empacar los siguientes elementos (si crees que los necesitas):
 *   Memoria USB con tu presentación. Guarda tus diapositivas como PDF en una memoria USB como último recurso si tu portátil se pierde, se estropea o simplemente no puede conectarse al proyector. También puedes usar otros formatos de archivo, pero el PDF es imprescindible, ya que cualquier computadora puede abrirlo y, a diferencia de Keynote/Powerpoint, no tienes que preocuparte por la falta de fuentes en otra computadora. Nunca hago esto, y probablemente me condenará algún día, pero mantengo mi presentación en la nube en un formato que se puede abrir en el navegador (normalmente un PDF que guardo en Dropbox y puedo compartir instantáneamente con alguien).
 *   Cronómetro, si tu software de presentación no lo tiene incorporado.
 
-### Antes de subir al escenario [#](#antes-de-subir-al-escenario)
+### Antes de subir al escenario
 
 *   **Quítate los objetos de los bolsillos y el cordón de identificación**.
 *   **Silencia tu teléfono y reloj**.
@@ -407,7 +407,7 @@ No olvides empacar los siguientes elementos (si crees que los necesitas):
 *   **Desactiva cualquier filtro nocturno**. No querrás que tu pantalla se vuelva cada vez más amarilla si das una charla por la noche, o si tu ordenador está configurado en una zona horaria diferente.
 *   **Prepara un poco de agua**. Puede que pienses que no la necesitas, pero te será útil de más formas de las que puedas imaginar. ¿Perdiste el hilo? Bebe agua. ¿Te sientes nervioso? Relájate dando un sorbo de aguaFootnote 9. ¿Un sabelotodo acaparando el micrófono en la sesión de preguntas y respuestas? ¡Lánzale la botella!
 
-### En el escenario [#](#en-el-escenario)
+### En el escenario
 
 *   Intenta **conectar con la audiencia**. Haz una pregunta (la forma _fácil_) o cuenta un chiste (la forma _difícil_ pero más gratificante). Habla de algo relacionado con la situación actual ("Habrá almuerzo después de mi charla, así que intentaré ser breve ya que probablemente estén hambrientos"), o con otros eventos ("Recuerdo cuando vine por primera vez a la conferencia XYZ. Vaya, esta conferencia ha crecido mucho. ¿Cuántos de ustedes están aquí por primera vez?").
 *   **No te disculpes por no ser un experto** en el tema. En primer lugar, quieres generar credibilidad, no perderla. En segundo lugar, ¿no acabas de pasar semanas intentando aprender todo lo que puedes para dar una gran charla?
@@ -419,7 +419,7 @@ No olvides empacar los siguientes elementos (si crees que los necesitas):
 *   Al hablar, **concéntrate en personas individuales y alterna entre las personas a las que te diriges**. Para muchos oradores, esto resultará más natural que hablar a un punto aleatorio frente a ti (pero no para todos; algunas personas se estresan al mirar a otras personas). Elijas lo que elijas, **no mires fijamente a tu ordenador** todo el tiempo ni des la espalda/el costado a la audiencia y mires las diapositivas proyectadas detrás de ti. Si necesitas mirar tus notas del orador, intenta echar un vistazo rápido al cambiar a la siguiente diapositiva y luego vuelve a mirar a la audiencia.
 *   Si tienes pocas personas en la sala, **anímales a acercarse y sentarse en las primeras filas**. También puedes pedir al presidente de tu sesión que lo haga por ti. Es mucho más cómodo hablar con la gente delante de ti que con unas pocas personas dispersas en los rincones oscuros de la sala.
 
-### Preguntas y Respuestas (Q&A) [#](#preguntas-y-respuestas-qa)
+### Preguntas y Respuestas (Q&A)
 
 "Preguntas y Respuestas", o Q&A, puede ser un desafío. No porque puedas enfrentarte a preguntas difíciles que debas responder frente a cientos de personas. Esa es la parte fácil. Siempre puedes decir "no lo sé".
 
@@ -435,7 +435,7 @@ Sea cual sea la opción que elijas, comunícasela a tu audiencia al principio de
 
 Además, cuando te hagan una pregunta sin micrófono, por favor, repítela. La gente que vea la grabación de tu charla y todos los demás que no escucharon la pregunta te lo agradecerán. También te ayudará a asegurarte de que entiendes la pregunta correctamente.
 
-#### Lidiando con preguntas difíciles [#](#lidiando-con-preguntas-dificiles)
+#### Lidiando con preguntas difíciles
 
 Si decides tener una sesión de preguntas y respuestas y recibes una pregunta difícil, hay diferentes maneras de lidiar con ella:
 
@@ -447,13 +447,13 @@ Finalmente, están las temidas preguntas de [Tengo una pregunta, bueno, más bie
 
 Tu trabajo en el escenario durante la sesión de preguntas y respuestas es responder preguntas que sean útiles para toda la audiencia, no discutir con alguien sobre detalles menores del código. Si alguien bloquea el micrófono durante demasiado tiempo, intenta decir algo como "Hablemos de esto después de mi charla" y luego pasa a la siguiente pregunta. Sus preguntas pueden dar lugar a conversaciones interesantes y profundas, pero esas conversaciones no deben tener lugar frente a toda la audiencia.
 
-### Después de la charla [#](#despues-de-la-charla)
+### Después de la charla
 
 *   **Quédate** para responder algunas preguntas que la gente no tuvo la oportunidad de hacer cuando estabas en el escenario. O al menos para escuchar "¡buen trabajo!" de extraños. ¡Es una gran sensación!
 *   **Pide retroalimentación**. Es realmente difícil obtener retroalimentación de la gente más allá del típico "fue una gran charla". Quiero decir, es genial escuchar que la gente lo disfrutó, pero eso no te ayudará a mejorar. Obtener algunas críticas constructivas de amigos que asistieron a tu charla suele ser más fácil. Cuando hablo con ellos, voy directo a "¿qué mejorarías en mi charla?". Algunos organizadores de conferencias (aunque solo vi esa práctica en conferencias más pequeñas) piden a los participantes que envíen retroalimentación para los oradores, lo cual es extremadamente útil.
 *   Y lo más importante: **¡disfruta el resto de la conferencia!** Ya no necesitas estresarte por tu charla.
 
-#### Reutiliza tus charlas [#](#reutiliza-tus-charlas)
+#### Reutiliza tus charlas
 
 Reutilizar tus charlas debería ser perfectamente aceptable, sin embargo, algunas conferencias son quisquillosas y solo quieren presentaciones completamente nuevas, nunca antes presentadas en ningún lugar.
 
@@ -461,7 +461,7 @@ No. La gente también tiene vida. A menos que me paguen por hacer una presentaci
 
 Pero como orador, no te desanimes de enviar tu charla a varias conferencias. Por supuesto, cuando te pregunten, revela que ya fue presentada o que se presentará en otros lugares. Sin embargo, la mayoría de las conferencias entienden que estás dedicando docenas de horas de tu tiempo personal a hacer esta charla. Siempre que encaje con el tema de la conferencia/pista, no les importa el hecho de que no sean los únicos que la tendrán en su canal de YouTube.
 
-### Lectura adicional [#](#lectura-adicional)
+### Lectura adicional
 
 Aquí hay otras excelentes publicaciones de blog que me ayudaron a escribir esta (sin ningún orden en particular):
 
