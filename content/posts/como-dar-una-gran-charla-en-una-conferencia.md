@@ -76,7 +76,7 @@ Y por qué **no** querrías seguir mis consejos:
 *   ¿Conoces a esos oradores que suben al escenario y explican disculpándose que _su presentación podría ser un poco tosca porque la terminaron ayer en el avión_? Y luego dan una charla mejor que cualquiera que yo haya creado. Ese no soy yo. Y por mucho que lo intente, nunca lo seré. Dedico muchas horas a la investigación, a hacer diapositivas y a ensayar. La mayoría de los oradores lo hacen. Si buscas un "Cómo hacer una presentación durante el fin de semana (mientras también obtienes una licencia de piloto, porque, vamos, ¿qué tan difícil puede ser hacer una presentación tonta?)", esta guía no es para ti. Aún así, podrías disfrutar de los consejos generales sobre el diseño de diapositivas o qué hacer antes/durante/después de la presentación.
 *   Escribo guiones completos para mis presentaciones (es decir, todo el texto de lo que diré). Los memorizo aproximadamente la primera vez que doy la charla. Y cuantas más veces la presento, menos dependo de mis notas, pero aún las necesito. Escribir las cosas como quiero decirlas me resulta natural. No me convence el argumento de que "usar un guion no suena en absoluto como hablas". Créeme, hablo de una manera mucho más aburrida de lo que escribo. No querrías oírme improvisar una charla. Así que, aunque intento que los consejos de este artículo sean lo más genéricos posible, probablemente no pueda darte el mejor consejo sobre cómo improvisar la charla o prescindir de las notas.
 
-Hay muchos oradores mucho más experimentados que también han compartido sus ideas. Los enlazo al [final](#lectura-adicional) de este artículo.
+Hay muchos oradores mucho más experimentados que también han compartido sus ideas. Los enlazo al [final](posts/como-dar-una-gran-charla-en-una-conferencia/#lectura-adicional) de este artículo.
 
 ## Desmintiendo algunos mitos
 
@@ -116,7 +116,7 @@ Para algunas personas, se volverá menos estresante a medida que adquieran más 
 
 Para mí, aunque se volvió menos estresante que la primera vez, seguí bastante estresado durante mucho tiempo. No podía comer nada antes de la charla. Lo que finalmente me ayudó a superar el estrés y lo redujo a un nivel mucho más manejable fue que empecé a hacer más demostraciones en el trabajo. Con puestos más senior, regularmente tenía que unirme a reuniones y mostrar características a partes interesadas aleatorias. Inicialmente, esas reuniones eran estresantes, pero después de un tiempo, me acostumbré a dar presentaciones improvisadas. Y he notado que esto redujo mis niveles de estrés al hablar en conferencias. Así que intenta hablar más en el trabajo y en meetups locales si quieres lidiar con tu estrés.
 
-Si temes que el estrés te deje la mente en blanco y olvides lo que ibas a decir, considera escribir y memorizar un guion para tu primera charla (más sobre esto [más adelante](#wing-it-or-script-it)).
+Si temes que el estrés te deje la mente en blanco y olvides lo que ibas a decir, considera escribir y memorizar un guion para tu primera charla (más sobre esto más adelante).
 
 ## "Tengo miedo a las preguntas del público"
 
@@ -124,7 +124,7 @@ Si temes que el estrés te deje la mente en blanco y olvides lo que ibas a decir
 
 Siempre puedes pedir a los organizadores de la conferencia o al presidente de tu sesión (la persona que te presentará y luego moderará las Preguntas y Respuestas) que no quieres tener la sesión de Q&A, y lo más probable es que accedan.
 
-Y si decides ir a la sesión de preguntas y respuestas y te hacen una pregunta difícil, decir "no lo sé" está perfectamente bien. Nadie espera que lo sepas todo. Más adelante, cubriré más tácticas sobre [cómo sobrevivir a la sesión de preguntas y respuestas](#dealing-with-difficult-questions).
+Y si decides ir a la sesión de preguntas y respuestas y te hacen una pregunta difícil, decir "no lo sé" está perfectamente bien. Nadie espera que lo sepas todo. Más adelante, cubriré más tácticas sobre [cómo sobrevivir a la sesión de preguntas y respuestas](posts/como-dar-una-gran-charla-en-una-conferencia/#preguntas-y-respuestas-qa).
 
 ---
 
@@ -463,7 +463,7 @@ Pero como orador, no te desanimes de enviar tu charla a varias conferencias. Por
 
 ### Lectura adicional
 
-Aquí hay otras excelentes publicaciones de blog que me ayudaron a escribir esta (sin ningún orden en particular):
+Aquí hay otras excelentes publicaciones de blog que me ayudaron a escribir esta (sin ningún orden en particular, todos en inglés):
 
 *   Eric Snow publicó el sitio web [Consejos para oradores de PyCon](https://ref.readthedocs.io/en/latest/advice_for_pycon_speakers/) con muchísimos consejos para oradores. Aunque puede ser antiguo, sigue siendo tan relevante hoy como lo fue en 2012. Al final, incluye enlaces a consejos de otros oradores destacados.
 *   La guía completa de Lena Reinhard sobre [cómo preparar y escribir una charla para una conferencia tecnológica](https://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/), con muchos enlaces adicionales a otros recursos.
