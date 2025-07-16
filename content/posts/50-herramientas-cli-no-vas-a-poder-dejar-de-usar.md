@@ -1010,3 +1010,8 @@ Si eres nuevo en la línea de comandos, **[The Art of Command Line](https://gith
 Y si buscas inspiración, te encantará **[r/unixporn](https://www.reddit.com/r/unixporn/)** ⚡
 
 ___
+
+* La versión original de este artículo se puede encontrar en [dev.to/lissy93](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6) (inglés).
+
+
+* Autoría por [Alicia Sykes](https://www.aliciasykes.com/), traducción por [@elflacodeit](https://www.instagram.com/elflacodeit/)
