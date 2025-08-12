@@ -5,13 +5,15 @@ Keywords:
 - history
 - historia
 - adobe
+- postscript
 
 
 Tags:
 - sysarmy
 - history
 - historia
-
+- adobe
+- postscript
 
 Thumbnail: assets/historia-postscript-0.jpg
 socialImage: assets/historia-postscript-0.jpg
@@ -19,10 +21,11 @@ featuredImage: assets/historia-postscript-0.jpg
 
 Topics:
 - historia
-
+- adobe
+- postscript
 
 markup: markdown
-date: 2023-01-03
+date: 2025-08-12
 draft: false
 ---
 
@@ -123,4 +126,4 @@ Este ensayo está basado en historia oral y entrevistas llevadas a cabo por el C
 Legalmente, PostScript® es una marca registrada de Adobe, Inc. usada para identificar su lenguaje e intérprete. Para facilidad de lectura, usamos la forma más común “PostScript” para denotar tanto el lenguaje PostScript® y el intérprete de PostScript®.
 
 * La versión original de este post se puede encontrar en [Computer History Museum](https://computerhistory.org/blog/postscript-a-digital-printing-press/) (inglés).
-* Autoría de [David C. Brock](https://computerhistory.org/profile/david-brock/), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por [@]().
+* Autoría de [David C. Brock](https://computerhistory.org/profile/david-brock/), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por [@nachichuri](https://twitter.com/nachichuri).
