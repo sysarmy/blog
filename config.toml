@@ -4,7 +4,9 @@ theme = "hello-friend"
 publishDir = "/"
 MetaDataFormat = "toml"
 #googleAnalytics = "UA-36359098-1"
-paginate = 10
+
+[pagination]
+  pagerSize = 10 # Sets 10 items per page
 
 [params]
   # dir name of your blog content (default is `content/posts`).
