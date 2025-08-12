@@ -1,0 +1,33 @@
+name: Deploy to GitHub Pages
+
+on: 
+  push:
+    branches:
+      - '*'
+      - '!master' # Trigger on any branch distinct to master
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_BRANCH: gh-pages
+      GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
+      HUGO_VERSION: "0.110.0"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install Hugo
+        run: |
+          echo '=================== Install Hugo ==================='
+          DOWNLOAD_HUGO_VERSION=${HUGO_VERSION:-0.109.0}
+          GITHUB_DEPLOY_REPOSITORY=${GITHUB_REMOTE_REPOSITORY:-$GITHUB_REPOSITORY}
+          GITHUB_DEPLOY_BRANCH=${GITHUB_BRANCH:-"gh-pages"}
+          echo "Installing Hugo $DOWNLOAD_HUGO_VERSION"
+          wget -O /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${DOWNLOAD_HUGO_VERSION}/hugo_extended_${DOWNLOAD_HUGO_VERSION}_Linux-64bit.tar.gz &&\
+          tar -zxf /tmp/hugo.tar.gz -C /tmp &&\
+          mv /tmp/hugo /usr/local/bin/hugo
+          echo '=================== Build site ==================='
+          HUGO_ENV=production hugo -v --minify -d dist
+          echo '=================== Done  ==================='
