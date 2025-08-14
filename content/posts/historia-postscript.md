@@ -43,13 +43,13 @@ La impresión ha sido siempre una tecnología con consecuencias culturales profu
 
 ![](assets/historia-postscript-1.jpg)
 |:--:|
-| <b>Los cofundadores de Adobe John Warnock (izquierda) y Chuck Geschke (derecha). Cortesía de Adobe Inc. y Doug Menuez</b>|
+|Los cofundadores de Adobe John Warnock (izquierda) y Chuck Geschke (derecha). Cortesía de Adobe Inc. y Doug Menuez|
 
 Desde el inicio de Adobe Systems Incorporated (ahora Adobe Inc.) exactamente cuarenta años atrás en diciembre de 1982, los cofundadores de la firma imaginaron un nuevo tipo de imprenta—una que era fundamentalmente digital, usando los últimos avances en informática. Las discusiones iniciales entre los cofundadores Chuck Geschke y John Warnock con armadores de computadoras como Digital Equipment Corporation (DEC) y Apple los convencieron de que el software era la clave para la nueva imprenta digital. Su visión: Cualquier computadora podría conectarse con impresoras y tipógrafos mediante un lenguaje común para imprimir palabras e imágenes con la más alta fidelidad. Liderado por Warnock, Adobe armó un equipo de programadores habilidosos y creativos para crear este nuevo lenguaje. Además de los dos cofundadores, el equipo incluía a Doug Brotz, Bill Paxton y Ed Taft. El lenguaje que crearon fue en efecto un lenguaje de programación completo, llamado PostScript, y fue lanzado por Adobe en 1984.
 
 {{< youtube id="5xB_w5Nuwvg" >}}
 |:--:|
-| <b>Chuck Geschke cuenta cómo Adobe se enfocó en PostScript como su negocio inicial</b>|
+|Chuck Geschke cuenta cómo Adobe se enfocó en PostScript como su negocio inicial|
 
 Al tratar de la misma manera todo lo que se iba a imprimir, con una descripción matemática común, PostScript tenía habilidades que nadie más ofrecía.
 El texto y las imágenes podían ser escaladas, rotadas y movidas a voluntad, como en la imagen que se encuentra al inicio de este ensayo. Adobe licenció PostScript a armadores de PCs y fabricantes de impresoras, y el negocio saltó a un período de hipercrecimiento. Había una demanda tremenda por la nueva imprenta digital por software. Los armadores de PCs, desde los establecidos mundos de las minicomputadoras y estaciones de trabajo al rápidamente creciente mundo de las computadoras personales, adoptaron la tecnología. Los fabricantes de impresoras se unieron, desde las ya establecidas impresoras a las nuevas impresoras laser y tipógrafos profesionales. Los desarrolladores de software se apresuraron en hacer sus productos compatibles con PostScript.
@@ -58,7 +58,7 @@ Alimentando este crecimiento había avances que Adobe estaba haciendo sobre nece
 
 ![](assets/historia-postscript-2.png)
 |:--:|
-| <b>Una de las primera tipografías creadas por Adobe usando su nueva tecnología. Cortesía de Adobe Inc.</b>|
+|Una de las primera tipografías creadas por Adobe usando su nueva tecnología. Cortesía de Adobe Inc.|
 
 John Warnock lideró el desarrollo del PDF en los 90, transformando al PostScript en una tecnología más segura y fácil de usar como base para los documentos digitales, pero manteniendo todos los beneficios de la interoperabilidad, fidelidad y calidad. A lo largo de las décadas, Adobe ha desarrollado tremendamente el PDF, mejorando sus características, y convirtiéndolo en un estándar crucial para los documentos digitales, impresión, y para la visualización de gráficos de todo tipo en pantallas desde laptops a celulares y relojes.
 
@@ -72,19 +72,19 @@ En 1978, Chuck Geschke había recientemente armado una nueva organización en el
 
 ![](assets/historia-postscript-3.png)
 |:--:|
-| <b>Una imagen hecha usando JaM, el predecesor de PostScript. Cortesía de Adobe Inc.</b>|
+|Una imagen hecha usando JaM, el predecesor de PostScript. Cortesía de Adobe Inc.|
 
 Desde 1979 a 1981, JaM se convirtió en un componente importante en el nuevo trabajo del laboratorio de Geschke. Esto consistía en un esfuerzo para desarrollar un lenguaje de impresión que pudiera comercializarse, para ser usado en la versión productiva de las computadoras experimentales de PARC llamadas Xerox Star, y más ampliamente usada en toda la línea de impresoras de Xerox. Un grupo de seis desarrolladores de Xerox—Chuck Geschke, Butler Lampson, Jerry Mendelson, Brian Reid, Bob Sproull, y John Warnock—fusionó el enfoque de JaM con técnicas de protocolos más establecidos. El resultado fue llamado Interpress.
 La gerencia de Xerox se convenció rápidamente del potencial de Interpress, y decidió que sería incluido en el el estándar de impresión de la compañía. Sin embargo, migrar a este estándar tomaría varios años durante los cuales Interpress se mantendría en secreto. Este retraso en el refinamiento de Interpress que podía ser generado por su uso y desafío de una base de usuarios más amplia por fuera de Xerox hizo que Geschke y Warnock se fueran. Se irían de PARC para crear una startup en la cual crearían un rival de Interpress, pero armado más en son del enfoque del lenguaje procedural geométrico que Warnock creía tan poderoso. Pero para que la nueva startup pudiera convertir este nuevo lenguaje, PostScript, en la nueva imprenta digital iba a requerir un equipo brillante.
 
 {{< youtube id="_FI3LA6wV1g" >}}
 |:--:|
-| <b>Chuck Geschke cuenta las motivaciones para la formación de Adobe. https://www.computerhistory.org/collections/catalog/102738493</b>|
+|Chuck Geschke cuenta las motivaciones para la formación de Adobe. https://www.computerhistory.org/collections/catalog/102738493|
 
 
 {{< youtube id="9S64_MgF_lQ" >}}
 |:--:|
-| <b>Warnock cuenta los primeros pasos clave para fundar Adobe</b>|
+| Warnock cuenta los primeros pasos clave para fundar Adobe|
 
 ## El equipo de PostScript
 
@@ -92,7 +92,7 @@ En diciembre de 1982, cuando Chuck Geschke y John Warnock crearon Adobe Systems 
 
 ![](assets/historia-postscript-4.png)
 |:--:|
-| <b>Esta foto muestra a los primeros empleados de Adobe y algunos amigos durante una fiesta corporativa, navegando en el Bahía de San Francisco. Muchos de ellos fueron traídos por Chuck Geschke (segundo de la derecha en el fondo) y John Warnock (en el medio, al fondo) del PARC de Xerox, incluído Doug Brotz (a la izquierda atrás), Dan Putman (tercero a la izquierda al frente) y Tom Boyton (a la derecha de Putman). Steve MacDonald (entre Brotz y Warnock) vinieron de Hewlett-Packard para trabajar como los primeros jefes de ventas y marketing. Linda Garger (tercera de la derecha al frente) era la asistente administrativa de Geschke y Warnock y la primera empleada oficial de Adobe. Carolyn Bell (primera a la derecha) era una ingeniera. Marva Warnock, quien diseñó el primer logo de Adobe está sentada inmediatamente delante de John Warnock. Nancy Geschke, una bibliotecaria, se sienta en frente y a la izquierda de Chuck Geshcke. Cortesía de Adobe, Inc.</b>|
+|Esta foto muestra a los primeros empleados de Adobe y algunos amigos durante una fiesta corporativa, navegando en el Bahía de San Francisco. Muchos de ellos fueron traídos por Chuck Geschke (segundo de la derecha en el fondo) y John Warnock (en el medio, al fondo) del PARC de Xerox, incluído Doug Brotz (a la izquierda atrás), Dan Putman (tercero a la izquierda al frente) y Tom Boyton (a la derecha de Putman). Steve MacDonald (entre Brotz y Warnock) vinieron de Hewlett-Packard para trabajar como los primeros jefes de ventas y marketing. Linda Garger (tercera de la derecha al frente) era la asistente administrativa de Geschke y Warnock y la primera empleada oficial de Adobe. Carolyn Bell (primera a la derecha) era una ingeniera. Marva Warnock, quien diseñó el primer logo de Adobe está sentada inmediatamente delante de John Warnock. Nancy Geschke, una bibliotecaria, se sienta en frente y a la izquierda de Chuck Geshcke. Cortesía de Adobe, Inc.|
 
 El equipo de PostScript de Adobe rápidamente tomó forma cuando otros tres creadores de software altamente capacitados de PARC decidieron irse y reunirse con Geschke y Warnock: Doug Brotz, Bill Paxton y Ed Taft. Brotz había obtenido su Ph.D. en ciencias de la computación de Stanford antes de unirse a PARC en 1977, y se convirtió en el primer científico informático de la nómina, luego de los cofundadores por supuesto. Paxton también tenía un Ph.D. en ciencias de la computación de Stanford, y entró a PARC el mismo año que Bortz. Taft había entrado a PARC antes, contratado por Geshcke al momento en que Taft terminó sus estudios de grado en Harvard en 1973. Juntos, con ayuda de colegas de la compañía como Andy Shore, el equipo creó PostScript para fines de 1984.
 
@@ -102,7 +102,7 @@ En Adobe, el equipo siguió con este enfoque de descripción matemática para co
 
 ![](assets/historia-postscript-5.png)
 |:--:|
-| <b>Elementos de la solución secreta de Adobe para crear fuentes de calidad profesional para diferentes resoluciones. Cortesía de John Warnock.</b>|
+|Elementos de la solución secreta de Adobe para crear fuentes de calidad profesional para diferentes resoluciones. Cortesía de John Warnock.|
 
 Fue John Warnock a quien se le ocurrió la solución de Adobe, convirtiendo el problema en sí en una solución. La resolución de salida determinaría un conjunto de procedimientos que corregirían las fuentes para optimizar su apariencia en esa resolución. Warnock, Brotz y Paxton trabajaron en los procedimientos por meses, eventualmente decidiendo quedarse con maneras para definir aspectos clave de las formas de las fuentes, y acomodándolos en las filas y columnas de píxeles de la resolución especificada, y cambiando algunos aspectos de las formas de los carácteres dependiendo de la resolución. Eventualmente, el equipo de Adobe decidió que lo mejor era mantener este enfoque y procedimientos como secreto comercial. Se mantuvieron en secreto en el código fuente de PostScript, conocidos por muy pocos en la compañía, hasta que Warnock los dio a conocer públicamente en una conferencia en 2010.
 
@@ -110,7 +110,7 @@ La versión del código fuente de PostScript publicada por el Computer History M
 
 {{< youtube id="ry3nmWzsomQ" >}}
 |:--:|
-| <b>Chuck Geschke habla sobre los secretos comerciales en el código fuente de PostScript.</b>|
+|Chuck Geschke habla sobre los secretos comerciales en el código fuente de PostScript.|
 
 ## Agradecimientos
 
