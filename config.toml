@@ -3,10 +3,10 @@ languageCode = "en-us"
 theme = "hello-friend"
 publishDir = "/"
 MetaDataFormat = "toml"
-#googleAnalytics = "UA-36359098-1"
 
 [pagination]
-  pagerSize = 10 # Sets 10 items per page
+  # Sets 10 items per page
+  pagerSize = 10
 
 [params]
   # dir name of your blog content (default is `content/posts`).
