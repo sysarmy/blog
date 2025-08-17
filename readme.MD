@@ -63,7 +63,7 @@ Si querés darle el formato vos, en [este artículo](https://github.com/firstcon
   Una vez clonado el repositorio y desde el directorio blog, iniciar Go Hugo en modo Develop (no genera los archivos estáticos):
   
   <div class="highlight highlight-source-shell position-relative overflow-auto">
-    <pre>hugo server -D</pre>
+    <pre>hugo server --renderToMemory</pre>
   </div>
   Por defecto vas a poder acceder al blog entrando a <a href='http://localhost:1313/blog/'>http://localhost:1313/blog/</a>.
 </details>
@@ -94,7 +94,7 @@ Si querés darle el formato vos, en [este artículo](https://github.com/firstcon
   
   Una vez instalado Hugo, independientemente de tu distribución, y desde el directorio clonado del repositorio, podés iniciar Hugo con el siguiente comando:
   <div class="highlight highlight-source-shell position-relative overflow-auto">
-    <pre lang="console">hugo server --renderToMemory</pre>
+    <pre lang="console">hugo server -D</pre>
   </div>
   Por defecto vas a poder acceder al blog entrando a <a href='http://localhost:1313/blog/'>http://localhost:1313/blog/</a>.
 </details>
