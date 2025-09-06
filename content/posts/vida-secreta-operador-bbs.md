@@ -26,7 +26,7 @@ _La versión original de este post se puede encontrar en [Ars Technica](https://
 
 ![](assets/bbs-1.jpg)
 |:--:|
-| <b>**La computadora de Benj Edwards corriendo The Cave BBS en 1994.**</b>|
+|**La computadora de Benj Edwards corriendo The Cave BBS en 1994.**|
 
 Treinta años atrás —el 25 de noviembre de 1992— mi BBS [se conectó](https://www.vintagecomputing.com/index.php/archives/914/retro-scan-of-the-week-the-cave-bbs-turns-20) por primera vez. Solo tenía 11 años de edad, trabajaba desde la laptop Tandy 1800HD de mi papá y un módem de 2400 baudios (nota del traductor _viejo_: baudios se le decía a los bits por segundo "bps"). La BBS "The Cave" rápidamente creció hasta convertirse en un bullicioso sistema de 24 horas con más de 1000 usuarios. Luego de una pausa de siete años entre 1998 y 2005, la he estado corriendo [de nuevo](https://www.howtogeek.com/686600/remember-bbses-heres-how-you-can-visit-one-today/). Acá está la historia de cómo empezó y los desafíos que enfrenté en el camino.
 
@@ -37,7 +37,7 @@ Mientras que servicios comerciales de conectividad como [CompuServe](https://www
 
 ![](assets/bbs-2.jpg)
 |:--:|
-| <b>**Foto del módem Zoom 2400 BPS que usé en 1992.**</b>|
+|**Foto del módem Zoom 2400 BPS que usé en 1992.**|
 
 Mientras que Internet es una enorme red de sistemas conectados con billones de usuarios, la mayoría de las BBS eran pequeños feudos de aficionados con una sola línea telefónica, solo una persona podía llamar y usarla a la vez. Aunque los mensajes entre BBSs eran algo común, cada sistema se sentía como su propia isla cultural con un dictador de pacotilla (el operador del sistema – o “_sysop_”) que regía sobre cualquier visitante.
 
@@ -45,7 +45,7 @@ No mucho tiempo después de que mi papá trajera a casa el módem, me dió una l
 
 ![](assets/bbs-3.jpg)
 |:--:|
-| <b>**Mi lista original de las BBS del área de Raleigh de 1992, fechada el 9 de diciembre de 1991.**</b>|
+|**Mi lista original de las BBS del área de Raleigh de 1992, fechada el 9 de diciembre de 1991.**|
 
 Con el modem conectado, mi hermano mayor –unos cinco años mayor que yo– se tomó el trabajo de llamar a las BBSs primero (lo llamábamos “BBSsear”). Completó su directorio de discado de [Procomm Plus](https://www.vintagecomputing.com/index.php/archives/696/retro-scan-of-the-week-procomm-plus-for-windows) con las BBSs locales favoritas como “The Octopus’s Garden”, “The Body Shop”, y “Chalkboard”. Cada sistema tenía su propio “sabor” definido por el _sysop_, que lo decoraba con gráficos [ANSI](https://www.howtogeek.com/781276/what-is-ansi-art-and-why-was-it-popular-in-the-1990s/) o menúes especiales y también tomaba el papel de maestro de ceremonias y moderador de las conversaciones del sistema.
 
@@ -66,7 +66,7 @@ Eventualmente, convencí a mis padres para que contraten una segunda línea tele
 
 ![](assets/bbs-4.jpg)
 |:--:|
-| <b>**El directorio de discado original de mi hermano en Procomm Plus, de 1992.**</b>|
+|**El directorio de discado original de mi hermano en Procomm Plus, de 1992.**|
 
 Al igual que mi hermano, yo usaba Procomm Plus (o “PCPLUS” como le decíamos), que soportaba colores IBM PC ANSI y códigos de terminal y proveía un lindo directorio de discado automático. Para llamar a una BBS, apretabas Alt+D, seleccionabas el nombre de la BBS en la lista con las teclas del cursor, y presionabas enter. Tu modem hacía la llamada (oh, el [ruido glorioso](https://www.howtogeek.com/670455/why-did-dial-up-modems-screech-and-make-funny-noises/), y si la línea daba ocupada, intentaría llamar a la BBS una y otra vez hasta que conectara. Entonces esperabas sentado.
 Una vez que el otro modem atendía y se establecía una conexión exitosa, Procomm Plus reproduciría una melodía de 3 notas en el parlante interno de la PC, la pantalla se borraría y mostraría los gráficos de bienvenida de la BBS, luego la pantalla de inicio de sesión donde ponías tu usuario y contraseña. Era todo un viaje.
@@ -84,7 +84,7 @@ De acuerdo a las anotaciones que sobrevivieron de esa época (mencionaba haber p
 
 ![](assets/bbs-5.jpg)
 |:--:|
-| <b>**Impresión de 1992 en una Canon BubbleJet que muestra The Cave BBS en línea por primera vez el 25 de noviembre de 1992.**</b>|
+|**Impresión de 1992 en una Canon BubbleJet que muestra The Cave BBS en línea por primera vez el 25 de noviembre de 1992.**|
 
 En algún momento, decidí llamar a mi BBS “The Cave” (“La Cueva”). Mi razonamiento de 11 años era el siguiente: Mi nombre era Red Wolf. ¿Dónde viven los lobos? ¡En cuevas, por supuesto! Dejando de lado la realidad biológica, tal vez pensaba en una guarida de lobos. El sentimiento acogedor de una guarida o una cuadra, rodeado por tierra segura, me gustaba.
 
@@ -94,7 +94,7 @@ Usé una laptop Tandy 1800HD basada en 286 que tomé prestada de mi papá, pero 
 
 ![](assets/bbs-6.gif)
 |:--:|
-| <b>**Capturas de video que me muestran diferentes equipos donde corrió la BBS.**</b>|
+|**Capturas de video que me muestran diferentes equipos donde corrió la BBS.**|
 
 Incluso antes de tener todo listo, me adelanté y empecé a promocionar el número de teléfono de mi BBS en otras BBSs. Empecé a recibir llamadas en la línea de la BBS a la noche, lo que molestó a mis padres. Por alguna razón, todavía tenía en mi habitación un teléfono convencional (con la campanilla activada).
 
@@ -108,7 +108,7 @@ Pero entonces golpeó el desastre. Ese mismo mes, luego de que anuncié a todo e
 
 ![](assets/bbs-7.jpg)
 |:--:|
-| <b>**El menú original de Cave BBS, creado por Radon en 1992 o 1993.**</b>|
+|**El menú original de Cave BBS, creado por Radon en 1992 o 1993.**|
 
 En esos días, usaba la misma contraseña en todas las BBS a las que llamaba, incluída la BBS de mi amigo a distancia. Como resultado, él y sus amigos tenían mis credenciales de inicio de sesión de todas las BBS, y empezaron a iniciar sesión en ellas haciéndose pasar por mi y publicando mensajes públicos inapropiados bajo mi nombre, y empezando discusiones con otras personas. Cuando me dí cuenta de eso, estaba devastado. Intenté defenderme, pero era imposible. Mi amigo y sus compañeros jugaron con mi nombre y persona como si fuera una marioneta, burlándose de mí y humillandome en frente de otros.
 
@@ -118,7 +118,7 @@ Eran vísperas de Año Nuevo de 1992, y me senté a ver como un troyano llamado 
 
 ![](assets/bbs-8.jpg)
 |:--:|
-| <b>**Impresión de pantalla del troyano que limpió mi BBS en 1992.**</b>|
+|**Impresión de pantalla del troyano que limpió mi BBS en 1992.**|
 
 Apreté Print Screen y lloré. Tenía 11 años, y no tenía backups. Gracias a mi mejor amigo.
 
@@ -132,7 +132,7 @@ Sin embargo, hubo buenos momentos también. En enero de 1993, conocí a mi mejor
 
 ![](assets/bbs-9.gif)
 |:--:|
-| <b>**Arte ANSI creado por Nukemaster / Benj Edwards.**</b>|
+|**Arte ANSI creado por Nukemaster / Benj Edwards.**|
 
 Al empezar mi nueva vida como una persona ficticia de 33 años, las cosas empezaron a mejorar. 1993 fue un año movido para la actividad de las BBS. Le agregué [juegos de puerta](https://www.pcmag.com/news/the-forgotten-world-of-bbs-door-games) a mi BBS, como TradeWars 2002, Operation: Overkill II, Global War y [Food Fight](https://breakintochat.com/wiki/Food_Fight). Con la ayuda de muchos usuarios que subían juegos, utilitarios, y gráficos, rellené la sección de archivos de The Cave BBS, que era lo principal del sistema. Hoy en día, podés encontrar [mi sección de archivos antiguos de la BBS](https://archive.org/details/1999-cave-bbs-file-section) en The Internet Archive.
 
@@ -142,7 +142,7 @@ Sin embargo, la tecnología de mi BBS mejoró en el camino. Luego de que los usu
 
 ![](assets/bbs-10.jpg)
 |:--:|
-| <b>**La computadora de The Cave BBS en marzo de 1996, una PC DX4 de 130 Mhz corriendo MS-DOS y Windows 3.1**</b>|
+|**La computadora de The Cave BBS en marzo de 1996, una PC DX4 de 130 Mhz corriendo MS-DOS y Windows 3.1**|
 
 1996 y 1997 vieron caer las llamadas, pero se sentía relativamente activo. Para fines de 1998, quedaban muy pocas BBSs locales, y el volumen de llamadas a The Cave se sentía como un goteo de lo que alguna vez fue. Además, tenía cada vez más interés en usar mi segunda línea telefónica para conectarme las 24 horas a Internet.
 
@@ -156,7 +156,7 @@ En 2005, empecé a revisitar mi pasado de BBS en Internet con publicaciones en [
 
 ![](assets/bbs-11.png)
 |:--:|
-| <b>**Menú principal de la versión Telnet de Cave BBS, 2005-presente.**</b>|
+|**Menú principal de la versión Telnet de Cave BBS, 2005-presente.**|
 
 Por ese entonces, instalé una versión telnet de The Cave BBS usando el [software Syncronet](https://www.synchro.net/), que era compatible con Internet y muy fácil de usar. Hoy, todavía corro esa versión de The Cave BBS, y escribí una útil guía de [cómo conectarse](https://www.howtogeek.com/686600/remember-bbses-heres-how-you-can-visit-one-today/).
 
@@ -165,4 +165,4 @@ La Cave BBS original corrió por solo cinco años, pero la versión Telnet ha es
 Y para mí, mi identidad de _sysop_ de BBS está ahora completamente integrada a mi vida en general. Ya no es un secreto o un rol separado, es algo que puedo aceptar con orgullo, reviendo juntos esa era formativa. En esa época, nosotros los BBSers éramos los nerds, los raritos. Ahora todo el mundo está usando servicios en línea muy parecidos a una BBS, y ni siquiera se dan cuenta.
 
 * La versión original de este post se puede encontrar en [Ars Technica](https://arstechnica.com/information-technology/2022/12/my-secret-life-as-an-11-year-old-bbs-sysop/) (inglés).
-* Autoría por [Benj Edwards](https://twitter.com/benjedwards), traducción por [@jcasarini](https://twitter.com/jcasarini), revisión por [@nachichuri](https://twitter.com/nachichuri).
+* Autoría por [Benj Edwards](https://x.com/benjedwards), traducción por [@jcasarini](https://x.com/jcasarini), revisión por [@nachichuri](https://x.com/nachichuri).

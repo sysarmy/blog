@@ -1,0 +1,29 @@
+name: Build check with Hugo
+
+on: 
+  push:
+    branches:
+      - '*'
+      - '!master' # Trigger on any branch distinct to master
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: "0.148.2"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install Hugo and build
+        run: |
+          echo '=================== Install Hugo ==================='
+          DOWNLOAD_HUGO_VERSION=${HUGO_VERSION:-0.110.0}
+          echo "Installing Hugo $DOWNLOAD_HUGO_VERSION"
+          wget -O /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${DOWNLOAD_HUGO_VERSION}/hugo_extended_${DOWNLOAD_HUGO_VERSION}_Linux-64bit.tar.gz &&\
+          tar -zxf /tmp/hugo.tar.gz -C /tmp &&\
+          mv /tmp/hugo /usr/local/bin/hugo
+          echo '=================== Build site ==================='
+          HUGO_ENV=production hugo --minify -d dist
+          echo '=================== Done  ==================='
