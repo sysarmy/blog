@@ -1,5 +1,5 @@
 ---
-Description: "Sysarmy - Comunidad de sistemas"
+Description: "¿Te apasiona la tecnología, el software libre y la ciencia? Ya publicamos la agenda de esta nueva edición de #Nerdearla 2025 🇦🇷."
 Keywords:
 - sysadmin 
 - sistemas
