@@ -12,6 +12,7 @@ Tags:
 - bash
 - tooling
 - productividad
+- cli
 
 Thumbnail: assets/50-cli-command-tools.png
 socialImage: assets/50-cli-command-tools.png
@@ -23,11 +24,10 @@ Topics:
 - productividad técnica
 
 markup: markdown
-date: 2025-07-16
+date: 2025-10-05
 draft: true
 ---
 
-![logo](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.ibb.co%2FF4THZ2T%2Fcli-tools-banner.png)
 Como desarrolladores, pasamos gran parte de nuestro tiempo en el terminal. Hay un montón de herramientas útiles CLI, que pueden hacer su vida en la línea de comandos más fácil, más rápido y más divertido en general.
 
 Este post describe mi top 50 de herramientas CLI imprescindibles, en las que he llegado a confiar. Si hay algo que me falta - hágamelo saber en los comentarios :)
@@ -127,8 +127,6 @@ Al final del artículo, he incluido algunas secuencias de comandos para ayudarle
 Instalacion
 
 ```
-
-
 # MacOS (via Homebrew)
 brew Instalacion thefuck
 
@@ -137,7 +135,6 @@ sudo pacman -S thefuck
 
 # FreeBSD
 pkg Instalacion thefuck
-
 
 ```
 
@@ -971,31 +968,6 @@ Un gran reconocimiento a los autores y comunidades detrás de cada una de estas 
 ¿Qué me he perdido? Me encantaría conocer tus aplicaciones CLI favoritas, ¡especialmente si hay alguna increíble que no he incluido!
 
 También me gustaría conocer tus opiniones y sugerencias; siempre busco mejorar :)
-
-#### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#insignias)Insignias
-
-A continuación el script que hice para generar las insignias de Autor, lenguaje y estrellas de GitHub:
-
-## Acerca de
-
-He creado esto para generar rápidamente los enlaces del proyecto, para esta publicación: [Herramientas CLI sin las que no podrás vivir 🔧](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)
-
-Es solo un script sencillo para generar rápidamente insignias Markdown incrustables que muestran información del repositorio.  
-Los datos se obtienen de la API de GitHub y las insignias se sirven utilizando la API de [Shields.io](https://shields.io/).  
-Incluye una insignia para + enlace a: el autor, el repositorio + recuento de estrellas y el lenguaje utilizado.  
-Pega la URL de un repositorio, pulsa «Generar» y los resultados se copiarán en tu portapapeles.
-
-## Implementación
-
-Es solo una página HTML estática, así que puedes servirla con cualquier servidor web, CDN o host estático.  
-Hay una demo alojada en GH Pages, en: [lissy93.github.io/repo-badge-maker](https://lissy93.github.io/repo-badge-maker/)
-
-## Informar de un problema
-
-¿Has encontrado algo que no funciona? [Abre un problema](https://github.com/Lissy93/repo-badge-maker/issues/new/choose) y describe el problema, los pasos para reproducirlo junto con...
-
-[Ver en Github](https://github.com/Lissy93/repo-badge-maker)
-
 
 #### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#find-more)Más información
 
