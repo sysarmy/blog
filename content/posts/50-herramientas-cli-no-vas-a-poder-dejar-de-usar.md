@@ -25,7 +25,7 @@ Topics:
 
 markup: markdown
 date: 2025-10-05
-draft: false
+draft: true
 ---
 
 Como desarrolladores, pasamos gran parte de nuestro tiempo en el terminal. Hay un montón de herramientas útiles CLI, que pueden hacer su vida en la línea de comandos más fácil, más rápido y más divertido en general.
