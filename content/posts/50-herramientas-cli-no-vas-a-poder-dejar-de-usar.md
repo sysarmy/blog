@@ -506,9 +506,9 @@ ___
 
 > `rip` es una herramienta de borrado segura, ergonómica y eficaz. Le permite eliminar archivos y directorios de forma intuitiva y restaurar fácilmente los archivos eliminados.
 
-[![rip-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2F10DTvT2%2Frip.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2F10DTvT2%2Frip.gif)
+![rip-example-usage](assets/50-rip.webp)
 
-[![Ver rip en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fnivekuil%2Frip%3Fcolor%3D232323%26label%3Drip%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/nivekuil/rip) [![Autor nivekuil](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fnivekuil-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/nivekuil) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver rip en Github](https://github.com/nivekuil/rip) [Autor nivekuil](https://github.com/nivekuil) Escrito en Rust
 
 ___
 
@@ -516,36 +516,33 @@ ___
 
 > `ripgrep` es una herramienta de búsqueda orientada a líneas que busca recursivamente un patrón regex en el directorio actual. Puede ignorar el contenido de `.gitignore` y omitir archivos binarios. Es capaz de buscar dentro de archivos comprimidos, o sólo buscar en una extensión específica, y entiende los archivos que utilizan varios métodos de codificación
 
-[![ripgrep-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxbmr38l5sfeynfy4yu1l.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxbmr38l5sfeynfy4yu1l.png)
+![ripgrep-example-usage](assets/50-ripgrep.webp)
 
-[![Ver ripgrep en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2FBurntSushi%2Fripgrep%3Fcolor%3D232323%26label%3Dripgrep%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/BurntSushi/ripgrep) [![Autor BurntSushi](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2FBurntSushi-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/BurntSushi) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
-
+[Ver ripgrep en Github](https://github.com/BurntSushi/ripgrep) [Autor BurntSushi](https://github.com/BurntSushi) Escrito en Rust
 ___
 
 ### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-rsync-endraw-fast-incremental-file-transfer)[`rsync`](https://rsync.samba.org/) - Transferencia rápida e incremental de archivos
 
 > `rsync` te permite copiar archivos grandes localmente o desde o hacia hosts remotos o unidades externas. Puede utilizarse para mantener sincronizados archivos de varias ubicaciones y es perfecto para crear, actualizar y restaurar copias de seguridad.
 
-[![Ver rsync en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2FWayneD%2Frsync%3Fcolor%3D232323%26label%3Drsync%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/WayneD/rsync) [![Autor WayneD](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2FWayneD-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/WayneD) [![Escrito en C](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)
+[Ver rsync en Github](https://github.com/WayneD/rsync) [Autor WayneD](https://github.com/WayneD) Escrito en C
 
 ___
 
 ### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-sd-endraw-find-and-replace-better-raw-sed-endraw-)[`sd`](https://github.com/chmln/sd) - Buscar y reemplazar _(mejor `sed`)_
 > `sd` es una herramienta de búsqueda y reemplazo fácil, rápida e intuitiva, basada en literales de cadena. Puede ejecutarse sobre un fichero, un directorio entero o cualquier texto canalizado.
+![sd-example-usage](assets/50-sd.webp)
 
-[![sd-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu1nd67tliy5l7b34r21r.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu1nd67tliy5l7b34r21r.png)
-
-[![Ver sd en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fchmln%2Fsd%3Fcolor%3D232323%26label%3Dsd%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/chmln/sd) [![Autor chmln](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fchmln-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/chmln) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
-
+[Ver sd en Github](https://github.com/chmln/sd) [Autor chmln](https://github.com/chmln) Escrito en Rust
 ___
 
 ### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-tre-endraw-directory-hierarchy-better-raw-tree-endraw-)[`tre`](https://github.com/dduan/tre) - Jerarquía de directorios _(mejor `tree`)_
 
 > `tre` muestra una lista de archivos en forma de árbol para tu directorio actual o uno especificado, con colores. Al ejecutarlo con la opción `-e`, numera cada elemento y crea un alias temporal que puedes usar para saltar rápidamente a esa ubicación
 
-[![tre-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5dl6kxdum67xexkztr8d.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5dl6kxdum67xexkztr8d.png)
+![tre-example-usage](assets/50-tre.webp)
 
-[![Ver tre en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fdduan%2Ftre%3Fcolor%3D232323%26label%3Dtre%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/dduan/tre) [![Autor dduan](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fdduan-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/dduan) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver tre en Github](https://github.com/dduan/tre) [Autor dduan](https://github.com/dduan) Escrito en Rust
 
 ___
 
@@ -553,8 +550,7 @@ ___
 
 > `xsel` te permite leer y escribir en el portapapeles de selección X desde la línea de comandos. Es útil para enviar la salida de un comando al portapapeles o para pegar datos copiados en un comando.
 
-[![Ver xsel en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fkfish%2Fxsel%3Fcolor%3D232323%26label%3Dxsel%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/kfish/xsel) [![Autor kfish](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fkfish-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/kfish) [![Escrito en C](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)
-
+[Ver xsel en Github](https://github.com/kfish/xsel) [Autor kfish](https://github.com/kfish) Escrito en C
 ___
 
 ## [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#cli-monitoring-and-performance-apps)CLI - Aplicaciones de monitorización y rendimiento 
@@ -562,10 +558,9 @@ ___
 ### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-bandwhich-endraw-bandwidth-utilization-monitor)[`bandwhich`](https://github.com/imsnif/bandwhich) - Monitor de utilización de ancho de banda
 
 > Muestra el uso de ancho de banda, información de conexión, hosts salientes y consultas DNS en tiempo real
+![bandwhich-example-usage](assets/50-bandwhich.webp)
 
-[![bandwhich-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fps64sac0bije443ql4ba.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fps64sac0bije443ql4ba.png)
-
-[![Ver bandwhich en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fimsnif%2Fbandwhich%3Fcolor%3D232323%26label%3Dbandwhich%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/imsnif/bandwhich) [![Autor imsnif](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fimsnif-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/imsnif) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver bandwhich en Github](https://github.com/imsnif/bandwhich) [Autor imsnif](https://github.com/imsnif) Escrito en Rust
 
 ___
 
@@ -576,6 +571,10 @@ ___
 [![ctop-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foq52gq649s5tfe6u2snx.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foq52gq649s5tfe6u2snx.gif)
 
 [![Ver ctop en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fbcicen%2Fctop%3Fcolor%3D232323%26label%3Dctop%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/bcicen/ctop) [![Autor bcicen](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fbcicen-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/bcicen) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+
+![bandwhich-example-usage](assets/50-bandwhich.webp)
+
+[Ver bandwhich en Github](https://github.com/imsnif/bandwhich) [Autor imsnif](https://github.com/imsnif) Escrito en Rust
 
 ___
 
