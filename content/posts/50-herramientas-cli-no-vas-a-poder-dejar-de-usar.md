@@ -25,7 +25,7 @@ Topics:
 
 markup: markdown
 date: 2025-10-05
-draft: true
+draft: false
 ---
 
 Como desarrolladores, pasamos gran parte de nuestro tiempo en el terminal. Hay un montón de herramientas útiles CLI, que pueden hacer su vida en la línea de comandos más fácil, más rápido y más divertido en general.
@@ -108,10 +108,6 @@ Al final del artículo, he incluido algunas secuencias de comandos para ayudarle
     - [Qué no se incluyó](#qué-no-se-incluyó)
     - [Créditos](#créditos)
     - [Comentarios](#comentarios)
-    - [Insignias](#insignias)
-- [Acerca de](#acerca-de)
-- [Implementación](#implementación)
-- [Informar de un problema](#informar-de-un-problema)
     - [Más información](#más-información)
 
 ## [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#utils)Utils
@@ -120,9 +116,9 @@ Al final del artículo, he incluido algunas secuencias de comandos para ayudarle
 
 > `thefuck` es una de esas utilidades sin las que no podrás vivir una vez que la hayas probado. Siempre que escribas mal un comando y obtengas un error, simplemente ejecuta `fuck` y lo autocorregirá. Usa arriba/abajo para elegir una corrección, o simplemente ejecuta `fuck --yeah` para ejecutar inmediatamente la más probable.
 
-[![the-fuck-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsd34cab0xeybo4lu2wkf.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsd34cab0xeybo4lu2wkf.gif)
+![the-fuck-example-usage](assets/50-thefuck.gif)
 
-[![Ver thefuck en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fnvbn%2Fthefuck%3Fcolor%3D232323%26label%3Dthefuck%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/nvbn/thefuck) [![Autor nvbn](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fnvbn-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/nvbn) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
+[Ver thefuck en Github](https://github.com/nvbn/thefuck) [Autor nvbn](https://github.com/nvbn) Escrito en Python
 
 Instalacion
 
@@ -144,9 +140,9 @@ ___
 
 > `z` te permite saltar a cualquier directorio sin necesidad de recordar o especificar su ruta completa. Recuerda los directorios que has visitado, para que puedas saltar rápidamente; ni siquiera necesitas escribir el nombre completo de la carpeta. También dispone de una opción de selección interactiva, mediante `fzf`, que permite filtrar los resultados de los directorios en tiempo real.
 
-[![zoxide-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1gvi17q5n2607trw6bnb.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1gvi17q5n2607trw6bnb.gif)
+![zoxide-example-usage](assets/50-zoxide.gif)
 
-[![Ver zoxide en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fajeetdsouza%2Fzoxide%3Fcolor%3D232323%26label%3Dzoxide%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/ajeetdsouza/zoxide) [![Autor ajeetdsouza](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fajeetdsouza-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/ajeetdsouza) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver zoxide en Github](https://github.com/nvbn/ajeetdsouza/zoxide) [Autor nvbn](https://github.com/ajeetdsouza) Escrito en Rust
 
 Instalacion
 
@@ -177,9 +173,10 @@ ___
 
 > `tldr` es una enorme colección de páginas de manual mantenidas por la comunidad. A diferencia de las páginas de manual tradicionales, están resumidas, contienen ejemplos de uso útiles y están coloreadas para facilitar la lectura.
 
-[![tldr-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9vbps7vlm9r42qfk69w8.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9vbps7vlm9r42qfk69w8.gif)
 
-[![Ver tldr en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Ftldr-pages%2Ftldr%3Fcolor%3D232323%26label%3Dtldr%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/tldr-pages/tldr) [![Autor tldr-pages](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Ftldr-pages-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/tldr-pages)
+![tldr-example-usage](assets/50-tldr.gif)
+
+[Ver tldr en Github](https://github.com/tldr-pages/tldr) [Autor tldr-pages](https://github.com/tldr-pages)
 
 Instalacion
 
@@ -201,9 +198,9 @@ ___
 
 > `scc` te da un desglose del número de líneas de código Escrito en cada lenguaje para un directorio específico. También muestra algunas estadísticas divertidas, como el coste estimado de desarrollo e información sobre la complejidad. Es increíblemente rápido, muy preciso y tiene soporte para una amplia gama de lenguajes.
 
-[![scc-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fewcq7bbenleoyy4pztrm.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fewcq7bbenleoyy4pztrm.png)
+![scc-example-usage](assets/50-scc.webp)
 
-[![Ver scc en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fboyter%2Fscc%3Fcolor%3D232323%26label%3Dscc%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/boyter/scc) [![Autor boyter](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fboyter-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/boyter) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver scc en Github](https://github.com/boyter/scc) [Autor boyter-pages](https://github.com/boyter) Escrito en Go
 
 Instalacion
 
@@ -225,9 +222,10 @@ ___
 
 > `exa` es un reemplazo moderno basado en Rust para el comando `ls`, para listar archivos. Puede mostrar iconos de tipo de archivo, colores, información de archivo/carpeta y tiene varios formatos de salida - árbol, cuadrícula o lista.
 
-[![exa-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3tkddmk9z6vpejnpw5we.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3tkddmk9z6vpejnpw5we.png)
+![exa-example-usage](assets/50-exa.webp)
 
-[![Ver exa en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fogham%2Fexa%3Fcolor%3D232323%26label%3Dexa%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/ogham/exa) [![Autor ogham](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fogham-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/ogham) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver exa en Github](https://github.com/ogham/exa)) [Autor boyter-pages](https://github.com/ogham) Escrito en Rust
+
 
 Instalacion
 
@@ -252,9 +250,9 @@ ___
 
 > `duf` es genial para mostrar información sobre discos montados y comprobar el espacio libre. Produce una salida clara y colorida, e incluye opciones para ordenar y personalizar los resultados.
 
-[![duf-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feaf6xpek2h2nevhmepaa.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feaf6xpek2h2nevhmepaa.png)
+![duf-example-usage](assets/50-duf.png)
 
-[![Ver duf en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fmuesli%2Fduf%3Fcolor%3D232323%26label%3Dduf%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/muesli/duf) [![Autor muesli](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fmuesli-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/muesli) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver duf en Github](https://github.com/muesli/duf) [Autor muesli](https://github.com/muesli) Escrito en Go
 
 Instalacion
 
@@ -282,9 +280,9 @@ ___
 
 > `aria2` es una utilidad ligera, multiprotocolo, de reanudación de descargas para HTTP/HTTPS, FTP, SFTP, BitTorrent y Metalink, con soporte para control a través de una interfaz RPC. Es increíblemente [rico en funciones](https://aria2.github.io/manual/en/html/README.html), y tiene toneladas de [opciones](https://aria2.github.io/manual/en/html/aria2c.html). También existe [ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2) - un buen compañero de interfaz web.
 
-[![aria2c-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffwgy2nq04kxwbrqdlvgc.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffwgy2nq04kxwbrqdlvgc.png)
+![aria2-example-usage](assets/50-aria2c.png)
 
-[![Ver aria2 en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Faria2%2Faria2%3Fcolor%3D232323%26label%3Daria2%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/aria2/aria2) [![Autor aria2](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Faria2-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/aria2) [![Escrito en C++](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF)
+[Ver aria2 en Github](https://github.com/aria2/aria2) [Autor aria2](https://github.com/aria2) Escrito en C++
 
 Instalacion
 
@@ -309,9 +307,9 @@ ___
 
 > `bat` es un clon de `cat` con resaltado de sintaxis e integración con git. Escrito en Rust, es muy performante, y tiene varias opciones para personalizar la salida y la tematización. Hay soporte para tuberías automáticas y concatenación de archivos.
 
-[![bat-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkmu0xst70282uodok8ar.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkmu0xst70282uodok8ar.png)
+![bat-example-usage](assets/50-bat.png)
 
-[![Ver bat en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fsharkdp%2Fbat%3Fcolor%3D232323%26label%3Dbat%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/sharkdp/bat) [![Autor sharkdp](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fsharkdp-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/sharkdp) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver bat en Github](https://github.com/sharkdp/bat) [Autor sharkdp](https://github.com/sharkdp) Escrito en Rust
 
 Instalacion
 
@@ -336,9 +334,9 @@ ___
 
 > `diff-so-fancy` le da un mejor aspecto a los diffs para comparar cadenas, archivos, directorios y cambios git. El resaltado de cambios hace que detectar los cambios sea mucho más fácil, y puedes personalizar el diseño y los colores de la salida.
 
-[![diff-so-fancy-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F77uu6c0pqoa8j8ft50u9.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F77uu6c0pqoa8j8ft50u9.png)
+![diff-so-fancy-example-usage](assets/50-diff.png)
 
-[![Ver diff-so-fancy en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fso-fancy%2Fdiff-so-fancy%3Fcolor%3D232323%26label%3Ddiff-so-fancy%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/so-fancy/diff-so-fancy) [![Autor so-fancy](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fso-fancy-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/so-fancy) [![Escrito en Perl](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPerl%26color%3D39457E%26logo%3Dperl%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPerl%26color%3D39457E%26logo%3Dperl%26logoColor%3DFFFFFF)
+[Ver diff so fancy en Github](https://github.com/so-fancy/diff-so-fancy) [Autor so-fancy](https://github.com/so-fancy) Escrito en Perl
 
 Instalacion
 
@@ -363,9 +361,9 @@ ___
 
 > `entr` le permite ejecutar un comando arbitrario cada vez que un archivo cambia. Puedes pasar un archivo, directorio, enlace simbólico o regex para especificar qué archivos debe vigilar. Es realmente útil para reconstruir proyectos automáticamente, reaccionar a logs, pruebas automatizadas, etc. A diferencia de otros proyectos similares, utiliza kqueue(2) o inotify(7) para evitar el sondeo y mejorar el rendimiento.
 
-[![entr-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F414s8q5lrqtpm9lhpwd4.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F414s8q5lrqtpm9lhpwd4.png)
+![entr-example-usage](assets/50-entr.png)
 
-[![Ver entr en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Feradman%2Fentr%3Fcolor%3D232323%26label%3Dentr%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/eradman/entr) [![Autor eradman](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Feradman-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/eradman) [![Escrito en C](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)
+[Ver entr en Github](https://github.com/eradman/entr) [Autor entr](https://github.com/eradman) Escrito en C
 
 Instalacion
 
@@ -390,9 +388,9 @@ ___
 
 > ExifTool es una práctica utilidad para leer, escribir, eliminar y crear metainformación para una amplia variedad de tipos de archivos. No vuelva a filtrar accidentalmente su ubicación al compartir una foto.
 
-[![exiftool-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fthmzq7zswauycd3rr9ki.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fthmzq7zswauycd3rr9ki.png)
+![exiftool-example-usage](assets/50-exiftool.png)
 
-[![Ver exiftool en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fexiftool%2Fexiftool%3Fcolor%3D232323%26label%3Dexiftool%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/exiftool/exiftool) [![Autor exiftool](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fexiftool-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/exiftool) [![Escrito en Perl](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPerl%26color%3D39457E%26logo%3Dperl%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPerl%26color%3D39457E%26logo%3Dperl%26logoColor%3DFFFFFF)
+[Ver exiftool en Github](https://github.com/exiftool/exiftool) [Autor exiftool](https://github.com/exiftool) Escrito en Perl
 
 ___
 
@@ -400,19 +398,18 @@ ___
 
 > `jdupes` se utiliza para identificar y/o eliminar archivos duplicados dentro de directorios especificados. Es útil para liberar espacio en disco cuando tiene dos o más archivos idénticos.
 
-[![fdupes-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy2w432abh09dpel0olro.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy2w432abh09dpel0olro.png)
+![fdupes-example-usage](assets/50-fdupes.png)
 
-[![Ver jdupes en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fjbruchon%2Fjdupes%3Fcolor%3D232323%26label%3Djdupes%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/jbruchon/jdupes) [![Autor jbruchon](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fjbruchon-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/jbruchon) [![Escrito en C](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)
-
+[Ver jdupes en Github](https://github.com/jbruchon/jdupes) [Autor jbruchon](https://github.com/jbruchon) Escrito en C
 ___
 
 ### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-fzf-endraw-fuzzy-file-finder-better-raw-find-endraw-)[`fzf`](https://github.com/junegunn/fzf) - Buscador de archivos difuso _(mejor `find`)_
 
 > `fzf` es un buscador de archivos difusos y una herramienta de filtrado extremadamente potente y fácil de usar. También tiene [plugins](https://github.com/junegunn/fzf/wiki/Related-projects) disponibles para la mayoría de los shells e IDEs, para mostrar resultados instantáneos durante la búsqueda. Este [post](https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/) de Alexey Samoshkin destaca algunos de sus casos de uso.
 
-[![fzf-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe3mmtc4oero27c4nfwes.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe3mmtc4oero27c4nfwes.gif)
+![fzf-example-usage](assets/50-fzf.gif)
 
-[![Ver fzf en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fjunegunn%2Ffzf%3Fcolor%3D232323%26label%3Dfzf%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/junegunn/fzf) [![Autor junegunn](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fjunegunn-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/junegunn) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver fzf en Github](https://github.com/jbruchon/jdupes/fzf) [Autor junegunn](https://github.com/junegunn) Escrito en Go
 
 Instalacion
 
@@ -437,15 +434,13 @@ ___
 
 >`hyperfine` facilita la evaluación comparativa precisa de comandos o scripts arbitrarios. Se encarga de las ejecuciones de calentamiento, de limpiar la caché para obtener resultados precisos y de evitar interferencias de otros programas. También puede exportar los resultados como datos sin procesar y generar gráficos.
 
-[![hyperfine-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo7ttudho3xuwtb9v9v6h.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo7ttudho3xuwtb9v9v6h.png)
+![hyperfine-example-usage](assets/50-hyperfine.png)
 
-[![Ver hyperfine en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fsharkdp%2Fhyperfine%3Fcolor%3D232323%26label%3Dhyperfine%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/sharkdp/hyperfine) [![Autor sharkdp](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fsharkdp-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/sharkdp) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver hyperfine en Github](https://github.com/sharkdp/hyperfine) [Autor sharkdp](https://github.com/sharkdp) Escrito en Rust
 
 Instalacion
 
 ```
-
-
 # MacOS (via Homebrew)
 brew Instalacion hyperfine
 
@@ -454,8 +449,6 @@ sudo pacman -S hyperfine
 
 # Debian / Ubuntu
 sudo apt Instalacion hyperfine
-
-
 ```
 
 ___
@@ -464,13 +457,13 @@ ___
 
 > `just` es similar a `make` pero con algunas buenas adiciones. Te permite agrupar los comandos de tus proyectos en recopilaciones, que pueden ser fácilmente listadas y ejecutadas. Soporta alias, argumentos posicionales, diferentes shells, integración dot env, interprulación de cadenas, y casi todo lo que puedas necesitar.
 
-[![Ver just en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fcasey%2Fjust%3Fcolor%3D232323%26label%3Djust%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/casey/just) [![Autor casey](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fcasey-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/casey) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+![just-example-usage](assets/50-just.png)
+
+[Ver just en Github](https://github.com/casey/just) [Autor casey](https://github.com/casey) Escrito en Rust
 
 Instalacion
 
 ```
-
-
 # MacOS (via Homebrew)
 brew Instalacion just
 
@@ -489,7 +482,7 @@ ___
 
 > `jq` es como `sed`, pero para JSON - puedes usarlo para cortar y filtrar y mapear y transformar datos estructurados con facilidad. Se puede utilizar para escribir consultas complejas para extraer o manipular datos JSON. También hay un [jq playground](https://jqplay.org/) que puedes usar para probarlo, o formular consultas con información en tiempo real.
 
-[![Ver jq en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fstedolan%2Fjq%3Fcolor%3D232323%26label%3Djq%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/stedolan/jq) [![Autor stedolan](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fstedolan-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/stedolan) [![Escrito en C](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)
+[Ver jq en Github](https://github.com/stedolan/jq) [Autor stedolan](https://github.com/stedolan) Escrito en C
 
 ___
 
@@ -497,17 +490,15 @@ ___
 
 > `most` es un paginador, para leer archivos largos o salidas de comandos. `most` soporta multi-ventanas y tiene la opción de no ajustar el texto.
 
-[![Autor Jed](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fjed-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://www.jedsoft.org/aboutme.html) [![Escrito en S-Lang](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DS_Lang%26color%3D000000%26logo%3Dsimkl%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DS_Lang%26color%3D000000%26logo%3Dsimkl%26logoColor%3DFFFFFF)
-
+[Autor Jed](https://www.jedsoft.org/aboutme.html) Escrito en S-Lang
 ___
 
 ### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-procs-endraw-process-viewer-better-ps)[`procs`](https://github.com/dalance/procs) - Visor de procesos _(mejor ps)_
 
 > `procs` es un visor de procesos fácil de navegar, tiene resaltado de color, facilita la clasificación y búsqueda de procesos, tiene árbol Ver y se actualiza en tiempo real.
+![procs-example-usage](assets/50-procs.webp)
 
-![procs-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F66aux8de5ayqzdjxeu7b.gif)
-
-[![Ver procs en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fdalance%2Fprocs%3Fcolor%3D232323%26label%3Dprocs%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/dalance/procs) [![Autor dalance](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fdalance-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/dalance) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver procs en Github](https://github.com/dalance/procs) [Autor dalance](https://github.com/dalance) Escrito en Rust
 
 ___
 
