@@ -25,7 +25,7 @@ Topics:
 
 markup: markdown
 date: 2025-10-05
-draft: true
+draft: false
 ---
 
 Como desarrolladores, pasamos gran parte de nuestro tiempo en el terminal. Hay un montón de herramientas útiles CLI, que pueden hacer su vida en la línea de comandos más fácil, más rápido y más divertido en general.
@@ -110,9 +110,9 @@ Al final del artículo, he incluido algunas secuencias de comandos para ayudarle
     - [Comentarios](#comentarios)
     - [Más información](#más-información)
 
-## [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#utils)Utils
+## [](#utils)Utils
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-thefuck-endraw-autocorrect-misstyped-commands)[`thefuck`](https://github.com/nvbn/thefuck) - Autocorrección de comandos mal escritos
+### [](#thefuck---autocorrección-de-comandos-mal-escritos)[`thefuck`](https://github.com/nvbn/thefuck) - Autocorrección de comandos mal escritos
 
 > `thefuck` es una de esas utilidades sin las que no podrás vivir una vez que la hayas probado. Siempre que escribas mal un comando y obtengas un error, simplemente ejecuta `fuck` y lo autocorregirá. Usa arriba/abajo para elegir una corrección, o simplemente ejecuta `fuck --yeah` para ejecutar inmediatamente la más probable.
 
@@ -136,7 +136,7 @@ pkg Instalacion thefuck
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-zoxide-endraw-easy-navigation-better-cd)[`zoxide`](https://github.com/ajeetdsouza/zoxide) - Fácil navegación _(mejor cd)_
+### [](#zoxide---fácil-navegación-mejor-cd)[`zoxide`](https://github.com/ajeetdsouza/zoxide) - Fácil navegación _(mejor cd)_
 
 > `z` te permite saltar a cualquier directorio sin necesidad de recordar o especificar su ruta completa. Recuerda los directorios que has visitado, para que puedas saltar rápidamente; ni siquiera necesitas escribir el nombre completo de la carpeta. También dispone de una opción de selección interactiva, mediante `fzf`, que permite filtrar los resultados de los directorios en tiempo real.
 
@@ -169,7 +169,7 @@ cargo Instalacion zoxide --locked
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-tldr-endraw-communitymaintained-docs-better-raw-man-endraw-)[`tldr`](https://github.com/tldr-pages/tldr) - Documentos mantenidos por la comunidad _(mejor `man`)_
+### [](#tldr---documentos-mantenidos-por-la-comunidad-mejor-man)[`tldr`](https://github.com/tldr-pages/tldr) - Documentos mantenidos por la comunidad _(mejor `man`)_
 
 > `tldr` es una enorme colección de páginas de manual mantenidas por la comunidad. A diferencia de las páginas de manual tradicionales, están resumidas, contienen ejemplos de uso útiles y están coloreadas para facilitar la lectura.
 
@@ -218,7 +218,7 @@ go Instalacion github.com/boyter/scc/v3@latest
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-exa-endraw-listing-files-better-raw-ls-endraw-)[`exa`](https://github.com/ogham/exa) - Archivos de listado _(mejor `ls`)_
+### [](#exa---archivos-de-listado-mejor-ls)[`exa`](https://github.com/ogham/exa) - Archivos de listado _(mejor `ls`)_
 
 > `exa` es un reemplazo moderno basado en Rust para el comando `ls`, para listar archivos. Puede mostrar iconos de tipo de archivo, colores, información de archivo/carpeta y tiene varios formatos de salida - árbol, cuadrícula o lista.
 
@@ -246,7 +246,7 @@ sudo apt Instalacion exa
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-duf-endraw-disk-usage-better-raw-df-endraw-)[`duf`](https://github.com/muesli/duf) - Uso del disco _(mejor `df`)_
+### [](#duf---uso-del-disco-mejor-df)[`duf`](https://github.com/muesli/duf) - Uso del disco _(mejor `df`)_
 
 > `duf` es genial para mostrar información sobre discos montados y comprobar el espacio libre. Produce una salida clara y colorida, e incluye opciones para ordenar y personalizar los resultados.
 
@@ -276,7 +276,7 @@ pkg Instalacion duf
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-aria2-endraw-download-utility-better-raw-wget-endraw-)[`aria2`](https://github.com/aria2/aria2) - Utilidad de descarga _(mejor `wget`)_
+### [](#aria2---utilidad-de-descarga-mejor-wget)[`aria2`](https://github.com/aria2/aria2) - Utilidad de descarga _(mejor `wget`)_
 
 > `aria2` es una utilidad ligera, multiprotocolo, de reanudación de descargas para HTTP/HTTPS, FTP, SFTP, BitTorrent y Metalink, con soporte para control a través de una interfaz RPC. Es increíblemente [rico en funciones](https://aria2.github.io/manual/en/html/README.html), y tiene toneladas de [opciones](https://aria2.github.io/manual/en/html/aria2c.html). También existe [ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2) - un buen compañero de interfaz web.
 
@@ -303,7 +303,7 @@ sudo apt Instalacion aria2
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-bat-endraw-reading-files-better-raw-cat-endraw-)[`bat`](https://github.com/sharkdp/bat) - Lectura de archivos _(mejor `cat`)_
+### [](#bat---lectura-de-archivos-mejor-cat)[`bat`](https://github.com/sharkdp/bat) - Lectura de archivos _(mejor `cat`)_
 
 > `bat` es un clon de `cat` con resaltado de sintaxis e integración con git. Escrito en Rust, es muy performante, y tiene varias opciones para personalizar la salida y la tematización. Hay soporte para tuberías automáticas y concatenación de archivos.
 
@@ -330,7 +330,7 @@ sudo apt Instalacion bat
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-diffsofancy-endraw-file-comparisons-better-raw-diff-endraw-)[`diff-so-fancy`](https://github.com/so-fancy/diff-so-fancy) - Comparación de archivos _(mejor `diff`)_
+### [](#diff-so-fancy---comparación-de-archivos-mejor-diff)[`diff-so-fancy`](https://github.com/so-fancy/diff-so-fancy) - Comparación de archivos _(mejor `diff`)_
 
 > `diff-so-fancy` le da un mejor aspecto a los diffs para comparar cadenas, archivos, directorios y cambios git. El resaltado de cambios hace que detectar los cambios sea mucho más fácil, y puedes personalizar el diseño y los colores de la salida.
 
@@ -357,7 +357,7 @@ sudo apt Instalacion diff-so-fancy
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-entr-endraw-watch-for-changes)[`entr`](https://github.com/eradman/entr) - Esté atento a los cambios
+### [](#entr---esté-atento-a-los-cambios)[`entr`](https://github.com/eradman/entr) - Esté atento a los cambios
 
 > `entr` le permite ejecutar un comando arbitrario cada vez que un archivo cambia. Puedes pasar un archivo, directorio, enlace simbólico o regex para especificar qué archivos debe vigilar. Es realmente útil para reconstruir proyectos automáticamente, reaccionar a logs, pruebas automatizadas, etc. A diferencia de otros proyectos similares, utiliza kqueue(2) o inotify(7) para evitar el sondeo y mejorar el rendimiento.
 
@@ -384,7 +384,7 @@ sudo apt Instalacion entr
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-exiftool-endraw-reading-writing-metadata)[`exiftool`](https://github.com/exiftool/exiftool) - Lectura y escritura de metadatos
+### [](#exiftool---lectura-y-escritura-de-metadatos)[`exiftool`](https://github.com/exiftool/exiftool) - Lectura y escritura de metadatos
 
 > ExifTool es una práctica utilidad para leer, escribir, eliminar y crear metainformación para una amplia variedad de tipos de archivos. No vuelva a filtrar accidentalmente su ubicación al compartir una foto.
 
@@ -394,7 +394,7 @@ ___
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-fdupes-endraw-duplicate-file-finder)[`fdupes`](https://github.com/jbruchon/jdupes) - Buscador de archivos duplicados
+### [](#fdupes---buscador-de-archivos-duplicados)[`fdupes`](https://github.com/jbruchon/jdupes) - Buscador de archivos duplicados
 
 > `jdupes` se utiliza para identificar y/o eliminar archivos duplicados dentro de directorios especificados. Es útil para liberar espacio en disco cuando tiene dos o más archivos idénticos.
 
@@ -403,7 +403,7 @@ ___
 [Ver jdupes en Github](https://github.com/jbruchon/jdupes) [Autor jbruchon](https://github.com/jbruchon) Escrito en C
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-fzf-endraw-fuzzy-file-finder-better-raw-find-endraw-)[`fzf`](https://github.com/junegunn/fzf) - Buscador de archivos difuso _(mejor `find`)_
+### [](#fzf---buscador-de-archivos-difuso-mejor-find)[`fzf`](https://github.com/junegunn/fzf) - Buscador de archivos difuso _(mejor `find`)_
 
 > `fzf` es un buscador de archivos difusos y una herramienta de filtrado extremadamente potente y fácil de usar. También tiene [plugins](https://github.com/junegunn/fzf/wiki/Related-projects) disponibles para la mayoría de los shells e IDEs, para mostrar resultados instantáneos durante la búsqueda. Este [post](https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/) de Alexey Samoshkin destaca algunos de sus casos de uso.
 
@@ -430,7 +430,7 @@ sudo apt Instalacion fzf
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-hyperfine-endraw-command-benchmarking)[`hyperfine`](https://github.com/sharkdp/hyperfine) - Evaluación comparativa de mandos
+### [](#hyperfine---evaluación-comparativa-de-mandos)[`hyperfine`](https://github.com/sharkdp/hyperfine) - Evaluación comparativa de mandos
 
 >`hyperfine` facilita la evaluación comparativa precisa de comandos o scripts arbitrarios. Se encarga de las ejecuciones de calentamiento, de limpiar la caché para obtener resultados precisos y de evitar interferencias de otros programas. También puede exportar los resultados como datos sin procesar y generar gráficos.
 
@@ -453,7 +453,7 @@ sudo apt Instalacion hyperfine
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-just-endraw-modern-command-runner-better-raw-make-endraw-)[`just`](https://github.com/casey/just) - Corredor de comandos moderno _(mejor `make`)_
+### [](#just---corredor-de-comandos-moderno-mejor-make)[`just`](https://github.com/casey/just) - Corredor de comandos moderno _(mejor `make`)_
 
 > `just` es similar a `make` pero con algunas buenas adiciones. Te permite agrupar los comandos de tus proyectos en recopilaciones, que pueden ser fácilmente listadas y ejecutadas. Soporta alias, argumentos posicionales, diferentes shells, integración dot env, interprulación de cadenas, y casi todo lo que puedas necesitar.
 
@@ -478,7 +478,7 @@ sudo apt Instalacion just
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-jq-endraw-json-processor)[`jq`](https://github.com/stedolan/jq) - Procesador JSON
+### [](#jq---procesador-json)[`jq`](https://github.com/stedolan/jq) - Procesador JSON
 
 > `jq` es como `sed`, pero para JSON - puedes usarlo para cortar y filtrar y mapear y transformar datos estructurados con facilidad. Se puede utilizar para escribir consultas complejas para extraer o manipular datos JSON. También hay un [jq playground](https://jqplay.org/) que puedes usar para probarlo, o formular consultas con información en tiempo real.
 
@@ -486,14 +486,14 @@ ___
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-most-endraw-multiwindow-scroll-pager-better-less)[`most`](https://www.jedsoft.org/most/) - Localizador de desplazamiento multiventana _(mejor less)_
+### [](#most---localizador-de-desplazamiento-multiventana-mejor-less)[`most`](https://www.jedsoft.org/most/) - Localizador de desplazamiento multiventana _(mejor less)_
 
 > `most` es un paginador, para leer archivos largos o salidas de comandos. `most` soporta multi-ventanas y tiene la opción de no ajustar el texto.
 
 [Autor Jed](https://www.jedsoft.org/aboutme.html) Escrito en S-Lang
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-procs-endraw-process-viewer-better-ps)[`procs`](https://github.com/dalance/procs) - Visor de procesos _(mejor ps)_
+### [](#procs---visor-de-procesos-mejor-ps)[`procs`](https://github.com/dalance/procs) - Visor de procesos _(mejor ps)_
 
 > `procs` es un visor de procesos fácil de navegar, tiene resaltado de color, facilita la clasificación y búsqueda de procesos, tiene árbol Ver y se actualiza en tiempo real.
 ![procs-example-usage](assets/50-procs.webp)
@@ -502,7 +502,7 @@ ___
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-rip-endraw-deletion-tool-better-rm)[`rip`](https://github.com/nivekuil/rip) - Herramienta de borrado _(mejor rm)_
+### [](#rip---herramienta-de-borrado-mejor-rm)[`rip`](https://github.com/nivekuil/rip) - Herramienta de borrado _(mejor rm)_
 
 > `rip` es una herramienta de borrado segura, ergonómica y eficaz. Le permite eliminar archivos y directorios de forma intuitiva y restaurar fácilmente los archivos eliminados.
 
@@ -512,7 +512,7 @@ ___
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-ripgrep-endraw-search-within-files-better-raw-grep-endraw-)[`ripgrep`](https://github.com/BurntSushi/ripgrep) - Búsqueda dentro de archivos _(mejor `grep`)_
+### [](#ripgrep---búsqueda-dentro-de-archivos-mejor-grep)[`ripgrep`](https://github.com/BurntSushi/ripgrep) - Búsqueda dentro de archivos _(mejor `grep`)_
 
 > `ripgrep` es una herramienta de búsqueda orientada a líneas que busca recursivamente un patrón regex en el directorio actual. Puede ignorar el contenido de `.gitignore` y omitir archivos binarios. Es capaz de buscar dentro de archivos comprimidos, o sólo buscar en una extensión específica, y entiende los archivos que utilizan varios métodos de codificación
 
@@ -521,7 +521,7 @@ ___
 [Ver ripgrep en Github](https://github.com/BurntSushi/ripgrep) [Autor BurntSushi](https://github.com/BurntSushi) Escrito en Rust
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-rsync-endraw-fast-incremental-file-transfer)[`rsync`](https://rsync.samba.org/) - Transferencia rápida e incremental de archivos
+### [](#rsync---transferencia-rápida-e-incremental-de-archivos)[`rsync`](https://rsync.samba.org/) - Transferencia rápida e incremental de archivos
 
 > `rsync` te permite copiar archivos grandes localmente o desde o hacia hosts remotos o unidades externas. Puede utilizarse para mantener sincronizados archivos de varias ubicaciones y es perfecto para crear, actualizar y restaurar copias de seguridad.
 
@@ -529,14 +529,14 @@ ___
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-sd-endraw-find-and-replace-better-raw-sed-endraw-)[`sd`](https://github.com/chmln/sd) - Buscar y reemplazar _(mejor `sed`)_
+### [](#sd---buscar-y-reemplazar-mejor-sed)[`sd`](https://github.com/chmln/sd) - Buscar y reemplazar _(mejor `sed`)_
 > `sd` es una herramienta de búsqueda y reemplazo fácil, rápida e intuitiva, basada en literales de cadena. Puede ejecutarse sobre un fichero, un directorio entero o cualquier texto canalizado.
 ![sd-example-usage](assets/50-sd.webp)
 
 [Ver sd en Github](https://github.com/chmln/sd) [Autor chmln](https://github.com/chmln) Escrito en Rust
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-tre-endraw-directory-hierarchy-better-raw-tree-endraw-)[`tre`](https://github.com/dduan/tre) - Jerarquía de directorios _(mejor `tree`)_
+### [](#tre---jerarquía-de-directorios-mejor-tree)[`tre`](https://github.com/dduan/tre) - Jerarquía de directorios _(mejor `tree`)_
 
 > `tre` muestra una lista de archivos en forma de árbol para tu directorio actual o uno especificado, con colores. Al ejecutarlo con la opción `-e`, numera cada elemento y crea un alias temporal que puedes usar para saltar rápidamente a esa ubicación
 
@@ -546,16 +546,16 @@ ___
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-xsel-endraw-access-the-clipboard)[`xsel`](https://github.com/kfish/xsel) - Acceso al portapapeles
+### [](#xsel---acceso-al-portapapeles)[`xsel`](https://github.com/kfish/xsel) - Acceso al portapapeles
 
 > `xsel` te permite leer y escribir en el portapapeles de selección X desde la línea de comandos. Es útil para enviar la salida de un comando al portapapeles o para pegar datos copiados en un comando.
 
 [Ver xsel en Github](https://github.com/kfish/xsel) [Autor kfish](https://github.com/kfish) Escrito en C
 ___
 
-## [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#cli-monitoring-and-performance-apps)CLI - Aplicaciones de monitorización y rendimiento 
+## [](#cli---aplicaciones-de-monitorización-y-rendimiento)CLI - Aplicaciones de monitorización y rendimiento 
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-bandwhich-endraw-bandwidth-utilization-monitor)[`bandwhich`](https://github.com/imsnif/bandwhich) - Monitor de utilización de ancho de banda
+### [](#bandwhich---monitor-de-utilización-de-ancho-de-banda)[`bandwhich`](https://github.com/imsnif/bandwhich) - Monitor de utilización de ancho de banda
 
 > Muestra el uso de ancho de banda, información de conexión, hosts salientes y consultas DNS en tiempo real
 ![bandwhich-example-usage](assets/50-bandwhich.webp)
@@ -564,13 +564,15 @@ ___
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-ctop-endraw-container-metrics-and-monitoring)[`ctop`](https://github.com/bcicen/ctop) - Métricas y monitoreo de contenedores
+### [](#ctop---métricas-y-monitoreo-de-contenedores)[`ctop`](https://github.com/bcicen/ctop) - Métricas y monitoreo de contenedores
 
 > Como `top`, pero para monitorear el uso de recursos de contenedores en ejecución (Docker y runC). Muestra CPU, memoria y ancho de banda de red en tiempo real, así como el nombre, estado e ID de cada contenedor. También incluye un visor de logs integrado y opciones para gestionar (detener, iniciar, ejecutar, etc.) contenedores.
 
-[![ctop-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foq52gq649s5tfe6u2snx.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foq52gq649s5tfe6u2snx.gif)
+![ctop-example-usage](assets/50-ctop.webp)
 
-[![Ver ctop en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fbcicen%2Fctop%3Fcolor%3D232323%26label%3Dctop%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/bcicen/ctop) [![Autor bcicen](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fbcicen-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/bcicen) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver ctop en Github](https://github.com/bcicen/ctop) [Autor bcicen](https://github.com/bcicen) Escrito en Go
+
+___
 
 ![bandwhich-example-usage](assets/50-bandwhich.webp)
 
@@ -578,166 +580,166 @@ ___
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-bpytop-endraw-resource-monitoring-better-raw-htop-endraw-)[`bpytop`](https://github.com/aristocratos/bpytop) - Monitoreo de recursos _(mejor `htop`)_
+### [](#bpytop---monitoreo-de-recursos-mejor-htop)[`bpytop`](https://github.com/aristocratos/bpytop) - Monitoreo de recursos _(mejor `htop`)_
 
 > `bpytop` es un monitor de recursos rápido, interactivo y visual. Muestra los procesos principales en ejecución, el historial reciente de CPU, memoria, disco y red. Desde la interfaz puedes navegar, ordenar y buscar; también hay soporte para temas de color personalizados.
 
-[![bpytop-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdp97y4vlwmqstfr0yyg3.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdp97y4vlwmqstfr0yyg3.gif)
+![bpytop-example-usage](assets/50-bpytop.webp)
 
-[![Ver bpytop en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Faristocratos%2Fbpytop%3Fcolor%3D232323%26label%3Dbpytop%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/aristocratos/bpytop) [![Autor aristocratos](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Faristocratos-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/aristocratos) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
+[Ver bpytop en Github](https://github.com/aristocratos/bpytop) [Autor aristocratos](https://github.com/aristocratos) Escrito en Python
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-glances-endraw-resource-monitor-web-and-api)[`glances`](https://github.com/nicolargo/glances) - Monitor de recursos + web y API
+### [](#glances---monitor-de-recursos--web-y-api)[`glances`](https://github.com/nicolargo/glances) - Monitor de recursos + web y API
 
 > `glances` es otro monitor de recursos, pero con un conjunto de características diferente. Incluye una vista web totalmente responsiva, una API REST y monitoreo histórico. Es fácilmente extensible y puede integrarse con otros servicios.
 
-[![glances-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F77lyqbdf6pcjolhjk0oi.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F77lyqbdf6pcjolhjk0oi.gif)
+![glances-example-usage](assets/50-glances.webp)
 
-[![Ver glances en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fnicolargo%2Fglances%3Fcolor%3D232323%26label%3Dglances%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/nicolargo/glances) [![Autor nicolargo](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fnicolargo-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/nicolargo) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
+[Ver glances en Github](https://github.com/nicolargo/glances) [Autor nicolargo](https://github.com/nicolargo) Escrito en Python
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-gping-endraw-interactive-ping-tool-better-raw-ping-endraw-)[`gping`](https://github.com/orf/gping) - Herramienta de ping interactiva _(mejor `ping`)_
+### [](#gping---herramienta-de-ping-interactiva-mejor-ping)[`gping`](https://github.com/orf/gping) - Herramienta de ping interactiva _(mejor `ping`)_
 
 > `gping` puede ejecutar pruebas de ping en varios hosts, mostrando los resultados en un gráfico en tiempo real. También puede usarse para monitorear el tiempo de ejecución, cuando se usa con la opción `--cmd`.
 
-[![gping-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnpgzre8kagt1j6yzy4uc.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnpgzre8kagt1j6yzy4uc.gif)
+![gping-example-usage](assets/50-gping.gif)
 
-[![Ver gping en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Forf%2Fgping%3Fcolor%3D232323%26label%3Dgping%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/orf/gping) [![Autor orf](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Forf-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/orf) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver gping en Github](https://github.com/orf/gping) [Autor orf](https://github.com/orf) Escrito en Rust
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-duacli-endraw-disk-usage-analyzer-and-monitor-better-raw-du-endraw-)[`dua-cli`](https://github.com/Byron/dua-cli) - Analizador y monitor de uso de disco _(mejor `du`)_
+### [](#dua-cli---analizador-y-monitor-de-uso-de-disco-mejor-du)[`dua-cli`](https://github.com/Byron/dua-cli) - Analizador y monitor de uso de disco _(mejor `du`)_
 
 > `dua-cli` te permite ver de forma interactiva el espacio usado y disponible en cada unidad montada, y facilita liberar almacenamiento.
 
-[![dua-cli-usage-example](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3c46q1bh8qdfvy5s1sm6.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3c46q1bh8qdfvy5s1sm6.gif)
+![dua-cli-usage-example](assets/50-dua-cli.webp)
 
-[![Ver dua-cli en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2FByron%2Fdua-cli%3Fcolor%3D232323%26label%3Ddua-cli%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/Byron/dua-cli) [![Autor Byron](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2FByron-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/Byron) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver dua-cli en Github](https://github.com/Byron/dua-cli) [Autor Byron](https://github.com/Byron) Escrito en Rust
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-speedtestcli-endraw-command-line-speed-test-utility)[`speedtest-cli`](https://github.com/sivel/speedtest-cli) - Utilidad de prueba de velocidad en línea de comandos
+### [](#speedtest-cli---utilidad-de-prueba-de-velocidad-en-línea-de-comandos)[`speedtest-cli`](https://github.com/sivel/speedtest-cli) - Utilidad de prueba de velocidad en línea de comandos
 
 > `speedtest-cli` simplemente ejecuta una prueba de velocidad de internet, usando speedtest.net, pero directamente desde la terminal :)
 
-[![speedtest-cli-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Femb2z6s2wovmtywb3lcz.gif)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Femb2z6s2wovmtywb3lcz.gif)
+![speedtest-cli-example-usage](assets/50-speedtest-cli.webp)
 
-[![Ver speedtest-cli en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fsivel%2Fspeedtest-cli%3Fcolor%3D232323%26label%3Dspeedtest-cli%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/sivel/speedtest-cli) [![Autor sivel](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fsivel-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/sivel) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
+[Ver speedtest-cli en Github](https://github.com/sivel/speedtest-cli) [Autor sivel](https://github.com/sivel) Escrito en Python
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-dog-endraw-dns-lookup-client-better-raw-dig-endraw-)[`dog`](https://github.com/ogham/dog) - Cliente de búsqueda DNS _(mejor `dig`)_
+### [](#dog---cliente-de-búsqueda-dns-mejor-dig)[`dog`](https://github.com/ogham/dog) - Cliente de búsqueda DNS _(mejor `dig`)_
 
 > `dog` es un cliente de búsqueda DNS fácil de usar, con soporte para DoT y DoH, salidas coloridas y la opción de emitir JSON.
 
-[![dog-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpym49mhc8gsbgx0u89da.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpym49mhc8gsbgx0u89da.png)
+![dog-example-usage](assets/50-dog.webp)
 
-[![Ver dog en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fogham%2Fdog%3Fcolor%3D232323%26label%3Ddog%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/ogham/dog) [![Autor ogham](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fogham-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/ogham) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver dog en Github](https://github.com/ogham/dog) [Autor ogham](https://github.com/ogham) Escrito en Rust
 
 ___
 
-## [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#productividad-cli)CLI Productividad
+## [](#cli-productividad)CLI Productividad
 
 > Navega por la web, escucha música, revisa correos, gestiona calendarios, lee noticias y más, ¡todo sin salir de la terminal!
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#browsh---navegador-web-cli)[`browsh`](https://github.com/browsh-org/browsh) - Navegador web CLI
+### [](#browsh---navegador-web-cli)[`browsh`](https://github.com/browsh-org/browsh) - Navegador web CLI
 
 > `browsh` es un navegador de texto moderno, interactivo y en tiempo real, renderizado para TTYs y navegadores. Soporta navegación tanto con ratón como con teclado, y tiene muchas más funciones de lo que esperarías para una aplicación puramente de terminal. Además, ayuda a reducir el consumo de batería que afecta a los navegadores modernos y, con soporte para MoSH, puedes experimentar tiempos de carga más rápidos gracias al menor uso de ancho de banda.
 
-![browsh-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8wk8p8i33telyx5li3t4.gif)
+![browsh-example-usage](assets/50-browsh.webp)
 
-[![Ver browsh en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fbrowsh-org%2Fbrowsh%3Fcolor%3D232323%26label%3Dbrowsh%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/browsh-org/browsh) [![Autor browsh-org](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fbrowsh-org-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/browsh-org) [![Escrito en JavaScript](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DJavaScript%26color%3DF7DF1E%26logo%3Djavascript%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DJavaScript%26color%3DF7DF1E%26logo%3Djavascript%26logoColor%3DFFFFFF)
+[Ver browsh en Github] [Autor browsh-org](https://github.com/browsh-org) Escrito en JavaScript
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#buku---gestor-de-marcadores)[`buku`](https://github.com/jarun/buku) - Gestor de marcadores
+### [](#buku---gestor-de-marcadores)[`buku`](https://github.com/jarun/buku) - Gestor de marcadores
 
 > `buku` es un gestor de marcadores para terminal, con muchas opciones de configuración, almacenamiento y uso. También dispone de una [interfaz web opcional](https://github.com/jarun/buku/tree/master/bukuserver#screenshots) y un [plugin para navegador](https://github.com/samhh/bukubrow-webext#installation) para acceder a tus marcadores fuera de la terminal.
 
-[![buku-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3sdudxkh620u0e19bu3.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3sdudxkh620u0e19bu3.png)
+![buku-example-usage](assets/50-buku.webp)
 
-[![Ver buku en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fjarun%2Fbuku%3Fcolor%3D232323%26label%3Dbuku%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/jarun/buku) [![Autor jarun](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fjarun-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/jarun) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
+[Ver buku en Github] [Autor jarun](https://github.com/jarun) Escrito en Python
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#cmus---reproductor--navegador-de-musica)[`cmus`](https://github.com/cmus/cmus) - Reproductor / navegador de música
+### [](#cmus---reproductor--navegador-de-música)[`cmus`](https://github.com/cmus/cmus) - Reproductor / navegador de música
 
 > `cmus` es un reproductor de música para terminal, controlado con atajos de teclado. Soporta una amplia gama de formatos y códecs de audio, y permite organizar pistas en listas de reproducción y aplicar configuraciones de reproducción.
 
-[![cmus-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3x53mxo9ynnflesyk6xr.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3x53mxo9ynnflesyk6xr.png)
+![cmus-example-usage](assets/50-cmus.webp)
 
-[![Ver cmus en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fcmus%2Fcmus%3Fcolor%3D232323%26label%3Dcmus%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/cmus/cmus) [![Autor cmus](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fcmus-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/cmus) [![Escrito en C](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)
+[Ver cmus en Github] [Autor cmus](https://github.com/cmus) Escrito en C
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#cointop---seguimiento-de-precios-cripto)[`cointop`](https://github.com/cointop-sh/cointop) - Seguimiento de precios cripto
+### [](#cointop---seguimiento-de-precios-cripto)[`cointop`](https://github.com/cointop-sh/cointop) - Seguimiento de precios cripto
 
 > `cointop` muestra los precios actuales de criptomonedas y el historial de precios de tu portafolio. Soporta alertas de precio, gráficos históricos, conversión de divisas, búsqueda difusa y mucho más. Puedes probar la demo en la web [cointop.sh](https://cointop.sh/) o ejecutando `ssh cointop.sh`.
 
-[![cointop-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo58mhjhmw0hzglbsy4tg.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo58mhjhmw0hzglbsy4tg.png)
+![cointop-example-usage](assets/50-cointop.webp)
 
-[![Ver cointop en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fcointop-sh%2Fcointop%3Fcolor%3D232323%26label%3Dcointop%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/cointop-sh/cointop) [![Autor cointop-sh](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fcointop-sh-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/cointop-sh) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver cointop en Github](https://github.com/cointop-sh/cointop) [Autor cointop-sh](https://github.com/cointop-sh) Escrito en Go
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#ddgr---buscar-en-la-web-desde-terminal)[`ddgr`](https://github.com/jarun/ddgr) - Buscar en la web desde terminal
+### [](#ddgr---buscar-en-la-web-desde-terminal)[`ddgr`](https://github.com/jarun/ddgr) - Buscar en la web desde terminal
 
 > `ddgr` es como [googler](https://github.com/jarun/googler), pero para DuckDuckGo. Es rápido, limpio y fácil, con soporte para respuestas instantáneas, autocompletado, bangs de búsqueda y búsqueda avanzada. Respeta tu privacidad por defecto, también tiene soporte para proxy HTTPS y funciona con Tor.
 
-[![dggr-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc25z80hclk61z2vrm5sp.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc25z80hclk61z2vrm5sp.png)
+![dggr-example-usage](assets/50-ddgr.webp)
 
-[![Ver ddgr en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fjarun%2Fddgr%3Fcolor%3D232323%26label%3Dddgr%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/jarun/ddgr) [![Autor jarun](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fjarun-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/jarun) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
+[Ver ddgr en Github][Autor jarun](https://github.com/jarun) Escrito en Python
 
 ___
 
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-micro-endraw-code-editor-better-raw-nano-endraw-)[`micro`](https://github.com/zyedidia/micro) - Editor de código _(mejor `nano`)_
+### [](#micro---editor-de-código-mejor-nano)[`micro`](https://github.com/zyedidia/micro) - Editor de código _(mejor `nano`)_
 
 > `micro` es un editor de código fácil de usar, rápido y extensible, con soporte para ratón. Como viene en un solo binario, la instalación es tan simple como `curl https://getmic.ro | bash`.
 
-[![micro-screenshot](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5mqf1nz04pqx9wnr8ivj.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5mqf1nz04pqx9wnr8ivj.png)
+![micro-screenshot](assets/50-micro.webp)
 
-[![Ver micro en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fzyedidia%2Fmicro%3Fcolor%3D232323%26label%3Dmicro%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/zyedidia/micro) [![Autor zyedidia](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fzyedidia-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/zyedidia) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver micro en Github](https://github.com/zyedidia/micro) [Autor zyedidia](https://github.com/zyedidia) Escrito en Go
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-khal-endraw-calendar-client)[`khal`](https://github.com/pimutils/khal) - Cliente de Calendario
+### [](#khal---cliente-de-calendario)[`khal`](https://github.com/pimutils/khal) - Cliente de Calendario
 
 > `khal` es una aplicación de calendario para terminales, que muestra los próximos eventos, vistas del mes y de la agenda. Puedes sincronizarlo con cualquier calendario CalDAV, y añadir, editar y eliminar eventos directamente.
 
-[![khal-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh9rvj3xn074gt3r7wvct.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh9rvj3xn074gt3r7wvct.png)
+![khal-example-usage](assets/50-khal.webp)
 
-[![Ver khal en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fpimutils%2Fkhal%3Fcolor%3D232323%26label%3Dkhal%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/pimutils/khal) [![Autor pimutils](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fpimutils-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/pimutils) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
-
-___
-
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-mutt-endraw-email-client)[`mutt`](https://gitlab.com/muttmua/mutt) - Cliente de Email
-
-> `mut` es un cliente de correo clásico, basado en terminal, para enviar, leer y gestionar correos electrónicos. Soporta todos los principales protocolos de correo electrónico y formatos de buzón, permite archivos adjuntos, CCO/CC, hilos, listas de correo y notificaciones de estado de entrega.
-
-[![mutt-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2FzVVsG3s%2Fmutt.webp)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2FzVVsG3s%2Fmutt.webp)
-
-[![Ver mutt en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fmuttmua%2Fmutt%3Fcolor%3D232323%26label%3Dmutt%26logo%3Dgithub%26labelColor%3D232323)](https://gitlab.com/muttmua/mutt) [![Autor muttmua](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fmuttmua-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/muttmua) [![Escrito en C](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)
+[Ver khal en Github](https://github.com/pimutils/khal) [Autor pimutils](https://github.com/pimutils) Escrito en Python
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-newsboat-endraw-rss-atom-news-reader)[`newsboat`](https://github.com/newsboat/newsboat) - Lector de noticias RSS / ATOM
+### [](#mutt---cliente-de-email)[`mutt`](https://gitlab.com/muttmua/mutt) - Cliente de Email
+
+> `mutt` es un cliente de correo clásico, basado en terminal, para enviar, leer y gestionar correos electrónicos. Soporta todos los principales protocolos de correo electrónico y formatos de buzón, permite archivos adjuntos, CCO/CC, hilos, listas de correo y notificaciones de estado de entrega.
+
+![mutt-example-usage](assets/50-mutt.webp)
+
+[Ver mutt en Github](https://gitlab.com/muttmua/mutt) [Autor muttmua](https://github.com/muttmua) Escrito en C
+
+___
+
+### [](#newsboat---lector-de-noticias-rss--atom)[`newsboat`](https://github.com/newsboat/newsboat) - Lector de noticias RSS / ATOM
 
 > `newsboat` es un lector y agregador de feeds RSS, para leer las noticias, blogs y seguir las actualizaciones directamente desde el terminal.
 
-[![newsboat-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcdx7nffucs0vgubg1q4p.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcdx7nffucs0vgubg1q4p.png)
+![newsboat-example-usage](assets/50-newsboat.webp)
 
-[![Ver newsboat en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fnewsboat%2Fnewsboat%3Fcolor%3D232323%26label%3Dnewsboat%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/newsboat/newsboat) [![Autor newsboat](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fnewsboat-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/newsboat) [![Escrito en C++](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF)
+[Ver newsboat en Github](https://github.com/newsboat/newsboat) [Autor newsboat](https://github.com/newsboat) Escrito en C++
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-rclone-endraw-manage-cloud-storage)[`rclone`](https://github.com/rclone/rclone) - Gestionar el almacenamiento en la nube
+### [](#rclone---gestionar-el-almacenamiento-en-la-nube)[`rclone`](https://github.com/rclone/rclone) - Gestionar el almacenamiento en la nube
 
 > `rclone` es una práctica utilidad para sincronizar archivos y carpetas con varios proveedores de almacenamiento en la nube. Puede invocarse directamente desde la línea de comandos o integrarse fácilmente en un script como sustituto de las pesadas aplicaciones de sincronización de escritorio.
 
-[![Ver rclone en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Frclone%2Frclone%3Fcolor%3D232323%26label%3Drclone%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/rclone/rclone) [![Autor rclone](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Frclone-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/rclone) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver rclone en Github](https://github.com/rclone) Escrito en Go
 
 ___
 
