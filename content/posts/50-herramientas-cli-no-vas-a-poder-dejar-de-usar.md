@@ -194,7 +194,7 @@ npm Instalacion -g tldr
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-scc-endraw-count-lines-of-code-better-raw-cloc-endraw-)[`scc`](https://github.com/boyter/scc) - Contar líneas de código _(mejor `cloc`)_
+### [](#scc---contar-líneas-de-código-mejor-cloc)[`scc`](https://github.com/boyter/scc) - Contar líneas de código _(mejor `cloc`)_
 
 > `scc` te da un desglose del número de líneas de código Escrito en cada lenguaje para un directorio específico. También muestra algunas estadísticas divertidas, como el coste estimado de desarrollo e información sobre la complejidad. Es increíblemente rápido, muy preciso y tiene soporte para una amplia gama de lenguajes.
 
@@ -946,7 +946,7 @@ Espero que algunas de estas te sean útiles :)
 
 ### Información adicional
 
-#### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#que-no-se-incluyo)Qué no se incluyó
+#### [](#qué-no-se-incluyó)Qué no se incluyó
 
 -   Esta lista no incluye lo básico, como Vim, Tmux, Ranger, ZSH, Git, etc., que probablemente ya usas
 -   Tampoco he incluido nada demasiado específico o solo relevante para pocos usuarios
@@ -954,17 +954,17 @@ Espero que algunas de estas te sean útiles :)
 -   Tampoco apps relacionadas con la terminal pero que no sean CLI (como emuladores de terminal)
 -   Para la mayoría de los proyectos listados, hay muchas alternativas que logran cosas similares; por brevedad, esas tampoco se incluyeron
 
-#### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#creditos)Créditos
+#### [](#créditos)Créditos
 
 Un gran reconocimiento a los autores y comunidades detrás de cada una de estas apps. Sin ellos y su trabajo, nuestra vida en la línea de comandos sería mucho menos genial. Donde ha sido posible, he intentado dar crédito a los autores, pero si me he olvidado de alguno, avísame abajo y haré una actualización.
 
-#### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#comentarios)Comentarios
+#### [](#comentarios)Comentarios
 
 ¿Qué me he perdido? Me encantaría conocer tus aplicaciones CLI favoritas, ¡especialmente si hay alguna increíble que no he incluido!
 
 También me gustaría conocer tus opiniones y sugerencias; siempre busco mejorar :)
 
-#### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#find-more)Más información
+#### [](#más-información)Más información
 
 Si te ha gustado esto, te recomiendo que eches un vistazo también a:
 
