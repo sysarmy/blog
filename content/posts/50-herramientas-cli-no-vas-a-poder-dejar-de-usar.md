@@ -24,8 +24,8 @@ Topics:
 - productividad técnica
 
 markup: markdown
-date: 2025-10-05
-draft: false
+date: 2025-10-13
+draft: true
 ---
 
 Como desarrolladores, pasamos gran parte de nuestro tiempo en el terminal. Hay un montón de herramientas útiles CLI, que pueden hacer su vida en la línea de comandos más fácil, más rápido y más divertido en general.
@@ -743,185 +743,188 @@ ___
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-taskwarrior-endraw-todo-task-management)[`taskwarrior`](https://github.com/GothenburgBitFactory/taskwarrior) - Todo + gestión de tareas
+### [](#taskwarrior---todo--gestión-de-tareas)[`taskwarrior`](https://github.com/GothenburgBitFactory/taskwarrior) - Todo + gestión de tareas
 
 > `task` es una aplicación CLI de gestión de tareas/todo. Es simple y discreta, pero también increíblemente potente y escalable, con funciones avanzadas de organización y consulta. También hay un montón (¡más de 700!) de [plugins] adicionales (https://taskwarrior.org/tools/) para ampliar su funcionalidad e integrarse con servicios de terceros.
 
-[![task-warrior-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa19870j5shovm8wa0540.jpg)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa19870j5shovm8wa0540.jpg)
+![task-warrior-example-usage](assets/50-taskwarrior.webp)
 
-[![Ver taskwarrior en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2FGothenburgBitFactory%2Ftaskwarrior%3Fcolor%3D232323%26label%3Dtaskwarrior%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/GothenburgBitFactory/taskwarrior) [![Autor GothenburgBitFactory](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2FGothenburgBitFactory-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/GothenburgBitFactory) [![Escrito en C++](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF)
+[Ver taskwarrior en Github](https://github.com/GothenburgBitFactory/taskwarrior) [Autor GothenburgBitFactory](https://github.com/GothenburgBitFactory) Escrito en C++
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-tuir-endraw-terminal-ui-for-reddit)[`tuir`](https://gitlab.com/ajak/tuir) - Terminal UI para Reddit
+### [](#tuir---terminal-ui-para-reddit)[`tuir`](https://gitlab.com/ajak/tuir) - Terminal UI para Reddit
 
 > `tuir` es genial si quieres parecer que estás trabajando, ¡mientras en realidad navegas por Reddit! Tiene combinaciones de teclas intuitivas, temas personalizados, y también puede renderizar imágenes y contenido multimedia. También está [haxor](https://github.com/donnemartin/haxor-news) para noticias de hackers.
 
-[![tuir-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fynv7v3iubo16pywpz008.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fynv7v3iubo16pywpz008.png)
+![tuir-example-usage](assets/50-tuir.webp)
 
-[![Ver tuir on GitLab](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgitlab%2Fstars%2Fajak%2Ftuir%3Fcolor%3Dfc6d26%26label%3Dtuir%26logo%3Dgitlab%26labelColor%3D232323)](https://gitlab.com/ajak/tuir) [![Autor ajak](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fajak-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/ajak) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
+[Ver tuir on GitLab](https://gitlab.com/ajak/tuir) [Autor ajak](https://github.com/ajak) Escrito en Python
 
 ___
 
-## [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#cli-dev-suits)CLI Dev Suits
+## [](#cli-dev-suits)CLI Dev Suits
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-httpie-endraw-http-api-testing-testing-client)[`httpie`](https://github.com/httpie/httpie) - Cliente de pruebas HTTP / API
+### [](#httpie---cliente-de-pruebas-http--api)[`httpie`](https://github.com/httpie/httpie) - Cliente de pruebas HTTP / API
 
 > `httpie` es un cliente HTTP, para pruebas, depuración y uso de APIs. Soporta todo lo que se puede esperar - HTTPS, proxies, autenticación, cabeceras personalizadas, sesiones persistentes, análisis JSON. El uso es simple con una sintaxis expresiva y salida coloreada. Al igual que otros clientes HTTP (Postman, Hopscotch, Insomnia, etc) HTTPie también incluye una interfaz web.
 
-[![httpie-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgf1gdlvo5czinlxl2k8z.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgf1gdlvo5czinlxl2k8z.png)
+![httpie-example-usage](assets/50-httpie.webp)
 
-[![Ver httpie en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fhttpie%2Fhttpie%3Fcolor%3D232323%26label%3Dhttpie%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/httpie/httpie) [![Autor httpie](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fhttpie-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/httpie) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
+[Ver httpie en Github](https://github.com/httpie/httpie) [Autor httpie](https://github.com/httpie) Escrito en Python
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-lazydocker-endraw-full-docker-management-app)[`lazydocker`](https://github.com/jesseduffield/lazydocker) - Aplicación completa de gestión de Docker
+### [](#lazydocker---aplicación-completa-de-gestión-de-docker)[`lazydocker`](https://github.com/jesseduffield/lazydocker) - Aplicación completa de gestión de Docker
 
 > `lazydocker` es una aplicación de gestión de Docker, que te permite Ver todos los contenedores e imágenes, gestionar su estado, leer registros, comprobar el uso de recursos, reiniciar/reconstruir, analizar capas, podar contenedores, imágenes y volúmenes no utilizados, y mucho más. Te ahorra la necesidad de recordar, escribir y encadenar múltiples comandos Docker.
 
-[![lazy-docker-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcp3b6fc4kzuoj746hmb6.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcp3b6fc4kzuoj746hmb6.png)
+![lazy-docker-example-usage](assets/50-lazydocker.webp)
 
-[![Ver lazydocker en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fjesseduffield%2Flazydocker%3Fcolor%3D232323%26label%3Dlazydocker%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/jesseduffield/lazydocker) [![Autor jesseduffield](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fjesseduffield-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/jesseduffield) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver lazydocker en Github](https://github.com/jesseduffield/lazydocker) [Autor jesseduffield](https://github.com/jesseduffield) Escrito en Go
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-lazygit-endraw-full-git-management-app)[`lazygit`](https://github.com/jesseduffield/lazygit) - Aplicación completa de gestión Git
+### [](#lazygit---aplicación-completa-de-gestión-git)[`lazygit`](https://github.com/jesseduffield/lazygit) - Aplicación completa de gestión Git
 
 > `lazygit` es un cliente git visual, en la línea de comandos. Fácilmente añadir, confirmar y puch archivos, resolver conflictos, comparar diffs, gestión de registros, y hacer operaciones complejas como aplasta y rebobina. Hay combinaciones de teclas para todo, colores, y es fácilmente configurable y ampliable.
 
-[![lazy-git-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhijyjh8rytgwxcqra8n2.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhijyjh8rytgwxcqra8n2.png)
+![lazy-git-example-usage](assets/50-lazygit.webp)
 
-[![Ver lazygit en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fjesseduffield%2Flazygit%3Fcolor%3D232323%26label%3Dlazygit%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/jesseduffield/lazygit) [![Autor jesseduffield](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fjesseduffield-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/jesseduffield) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver lazygit en Github](https://github.com/jesseduffield/lazygit) [Autor jesseduffield](https://github.com/jesseduffield) Escrito en Go
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-kdash-endraw-kubernetes-dashboard-app)[`kdash`](https://github.com/kdash-rs/kdash/) - Aplicación del panel de control de Kubernetes
+### [](#kdash---aplicación-del-panel-de-control-de-kubernetes)[`kdash`](https://github.com/kdash-rs/kdash/) - Aplicación del panel de control de Kubernetes
 
 > `kdash` es una herramienta de gestión de Kubernetes todo en uno. Ver métricas de nodo, ver recursos, transmitir registros de contenedor, analizar contextos y gestionar nodos, pods y espacios de nombres.
 
-[![Ver kdash en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fkdash-rs%2Fkdash%3Fcolor%3D232323%26label%3Dkdash%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/kdash-rs/kdash/) [![Autor kdash-rs](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fkdash-rs-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/kdash-rs) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver kdash en Github](https://github.com/kdash-rs/kdash/) [Autor kdash-rs](https://github.com/kdash-rs) Escrito en Rust
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-gdpdashboard-endraw-visual-gdp-debugger)[`gdp-dashboard`](https://github.com/cyrus-and/gdb-dashboard) - Depurador de Visual GDP
+### [](#gdp-dashboard---depurador-de-visual-gdp)[`gdp-dashboard`](https://github.com/cyrus-and/gdb-dashboard) - Depurador de Visual GDP
 
 > `gdp-dashboard` añade un elemento visual al depurador de GNU, para depurar programas C y C++. Analiza fácilmente la memoria, pasa por puntos de interrupción y registros Ver.
 
-[![gdp-dashboard-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fumijepka2llahumhpub7.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fumijepka2llahumhpub7.png)
+![gdp-dashboard-example-usage](assets/50-gdp-dashboard.webp)
 
-[![Ver gdb-dashboard en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fcyrus-and%2Fgdb-dashboard%3Fcolor%3D232323%26label%3Dgdb-dashboard%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/cyrus-and/gdb-dashboard) [![Autor cyrus-and](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fcyrus-and-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/cyrus-and) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
-
-___
-
-
-## [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#cli-external-sercvices)CLI Servicios Externos
-
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-ngrok-endraw-reverse-proxy-for-sharing-localhost)[`ngrok`](https://ngrok.com/) - Proxy inverso para compartir localhost
-
-> `ngrok` de forma segura* expone tu localhost a internet detrás de una URL única. Esto te permite compartir lo que estás trabajando con tus colegas remotos, en tiempo real. El uso es [muy simple](https://notes.aliciasykes.com/p/RUi22QSyWe), pero también tiene un montón de características avanzadas para cosas como la autenticación, webhooks, cortafuegos, inspección de tráfico, dominios personalizados / comodín y mucho más.
-
-[![ngrok-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr9pomjvv8v7lf6gapw4r.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr9pomjvv8v7lf6gapw4r.png)
-
-[![Ver ngrok en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Finconshreveable%2Fngrok%3Fcolor%3D232323%26label%3Dngrok%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/inconshreveable/ngrok) [![Autor inconshreveable](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Finconshreveable-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/inconshreveable) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver gdb-dashboard en Github](https://github.com/cyrus-and/gdb-dashboard) [Autor cyrus-and](https://github.com/cyrus-and) Escrito en Python
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-tmate-endraw-share-a-terminal-session-via-internet)[`tmate`](https://tmate.io/) - Compartir una sesión de terminal a través de Internet
+
+## [](#cli-servicios-externos)CLI Servicios Externos
+
+### [](#ngrok---proxy-inverso-para-compartir-localhost)[`ngrok`](https://ngrok.com/) - Proxy inverso para compartir localhost
+
+> `ngrok` de forma segura* expone tu localhost a internet detrás de una URL única. Esto te permite compartir lo que estás trabajando con tus colegas remotos, en tiempo real. El uso es muy simple, pero también tiene un montón de características avanzadas para cosas como la autenticación, webhooks, cortafuegos, inspección de tráfico, dominios personalizados / comodín y mucho más.
+
+![ngrok-example-usage](assets/50-ngrok.webp)
+
+[Ver ngrok en Github](https://github.com/inconshreveable/ngrok) [Autor inconshreveable](https://github.com/inconshreveable) Escrito en Go
+
+___
+
+### [](#tmate---compartir-una-sesión-de-terminal-a-través-de-internet)[`tmate`](https://tmate.io/) - Compartir una sesión de terminal a través de Internet
+
 > `tmate` te permite compartir instantáneamente una sesión de terminal en vivo con alguien en otra parte del mundo. Funciona a través de diferentes sistemas, soporta control de acceso / auth, puede ser auto-alojado, y tiene todas las características de Tmux
-[![Ver tmate en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Ftmate-io%2Ftmate%3Fcolor%3D232323%26label%3Dtmate%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/tmate-io/tmate) [![Autor tmate-io](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Ftmate-io-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/tmate-io) [![Escrito en C](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)
+
+[Ver tmate en Github](https://github.com/tmate-io/tmate) [Autor tmate-io](https://github.com/tmate-io)Escrito en C
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-asciinema-endraw-recording-sharing-terminal-sessions)[`asciinema`](https://asciinema.org/) - Grabar y compartir sesiones de terminal
+### [](#asciinema---grabar-y-compartir-sesiones-de-terminal)[`asciinema`](https://asciinema.org/) - Grabar y compartir sesiones de terminal
+
 > `asciinema` es muy útil para grabar, compartir e incrustar fácilmente una sesión de terminal. Ideal para mostrar algo que has construido, o para mostrar los pasos de línea de comandos para un tutorial. A diferencia de los vídeos de grabación de pantalla, el usuario puede copiar y pegar el contenido, cambiar el tema sobre la marcha y controlar la reproducción.
 
-[![Ver asciinema en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fasciinema%2Fasciinema%3Fcolor%3D232323%26label%3Dasciinema%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/asciinema/asciinema) [![Autor asciinema](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fasciinema-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/asciinema) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
+[Ver asciinema en Github](https://github.com/asciinema/asciinema) [Autor asciinema](https://github.com/asciinema) Escrito en Python
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-navi-endraw-interactive-cheat-sheet)[`navi`](https://github.com/denisidoro/navi) - Hoja de trucos interactiva
+### [](#navi---hoja-de-trucos-interactiva)[`navi`](https://github.com/denisidoro/navi) - Hoja de trucos interactiva
 
 > `navi` permite navegar por las hojas de trucos y ejecutar comandos. Los valores sugeridos para los argumentos se muestran dinámicamente en una lista. Escribe menos, reduce los errores y ahórrate tener que memorizar miles de comandos. Se integra con [tldr](https://github.com/tldr-pages/tldr) y [cheat.sh](https://github.com/chubin/cheat.sh) para obtener contenido, pero también puedes importar otras cheatsheets, o incluso escribir las tuyas propias.
 
-[![Ver navi en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fdenisidoro%2Fnavi%3Fcolor%3D232323%26label%3Dnavi%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/denisidoro/navi) [![Autor denisidoro](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fdenisidoro-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/denisidoro) [![Escrito en Rust](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF)
+[Ver navi en Github](https://github.com/denisidoro/navi) [Autor denisidoro](https://github.com/denisidoro) Escrito en Rust
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-transfersh-endraw-fast-file-sharing)[`transfer.sh`](https://github.com/dutchcoders/transfer.sh/) - Intercambio rápido de archivos
+### [](#transfersh---intercambio-rápido-de-archivos)[`transfer.sh`](https://github.com/dutchcoders/transfer.sh/) - Intercambio rápido de archivos
 
 > `transfer` hace que subir y compartir archivos sea realmente fácil, directamente desde la línea de comandos. Es gratis, soporta encriptación, te da una URL única, y también puede ser auto-alojado.  
 > He escrito una función de ayuda Bash para hacer el uso un poco más fácil, puedes [encontrarla aquí](https://github.com/Lissy93/dotfiles/blob/master/utils/transfer.sh) o probarla ejecutando `bash <(curl -L -s https://alicia.url.lol/transfer)`.
 
-[![transfer-sh-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2vl1k2i4tgvww87khlz1.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2vl1k2i4tgvww87khlz1.png)
+![transfer-sh-example-usage](assets/50-transfer-sh.webp)
 
-[![Ver transfer.sh en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fdutchcoders%2Ftransfer.sh%3Fcolor%3D232323%26label%3Dtransfer.sh%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/dutchcoders/transfer.sh) [![Autor dutchcoders](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fdutchcoders-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/dutchcoders) [![Escrito en Go](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF)
+[Ver transfer.sh en Github](https://github.com/dutchcoders/transfer.sh) [Autor dutchcoders](https://github.com/dutchcoders) Escrito en Go
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-surge-endraw-deploy-a-site-in-seconds)[`surge`](https://surge.sh/) - Despliegue un sitio en segundos
+### [](#surge---despliegue-un-sitio-en-segundos)[`surge`](https://surge.sh/) - Despliegue un sitio en segundos
 
 > `surge` es un proveedor de alojamiento estático gratuito, que puedes desplegar directamente desde el terminal en un solo comando, ¡sólo ejecuta `surge` desde dentro de tu directorio `dist`! Soporta dominios personalizados, certificados SSL automáticos, soporte pushState, soporte de recursos cross-origin - ¡y es gratis!
 
-[![surge-sh-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkwmm4qte24btl41amyol.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkwmm4qte24btl41amyol.png)
+![surge-sh-example-usage](assets/50-surge.webp)
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-wttrin-endraw-check-the-weather)[`wttr.in`](https://github.com/chubin/wttr.in) - Compruebe el tiempo
+### [](#wttrin---compruebe-el-tiempo)[`wttr.in`](https://github.com/chubin/wttr.in) - Compruebe el tiempo
 
 > `wttr.in` es un servicio que muestra el tiempo en un formato digerible en la línea de comandos. Sólo tienes que ejecutar `curl wttr.in` o `curl wttr.in/London` para probarlo. Hay parámetros de URL para personalizar los datos devueltos, así como el formato.
 
-[![wrrt-in-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0xm7lb85oat23vtsj20i.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0xm7lb85oat23vtsj20i.png)
+![wrrt-in-example-usage](assets/50-wttr-in.webp)
 
-[![Ver wttr.in en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fchubin%2Fwttr.in%3Fcolor%3D232323%26label%3Dwttr.in%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/chubin/wttr.in) [![Autor chubin](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fchubin-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/chubin) [![Escrito en Python](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF)
+[Ver wttr.in en Github](https://github.com/chubin/wttr.in) [Autor chubin](https://github.com/chubin) Escrito en Python
 
 ___
 
-## [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#cli-fun)CLI Divertidos
+## [](#cli-divertidos)CLI Divertidos
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-cowsay-endraw-have-an-ascii-cow-say-your-message)[`cowsay`](https://en.wikipedia.org/wiki/Cowsay) - Haz que una vaca ASCII diga tu mensaje
+### [](#cowsay---haz-que-una-vaca-ascii-diga-tu-mensaje)[`cowsay`](https://en.wikipedia.org/wiki/Cowsay) - Haz que una vaca ASCII diga tu mensaje
 
 > `cowsay` es una vaca parlante configurable. Está basado en el [original](https://github.com/tnalpgge/rank-amateur-cowsay) de Tony Monroe
 
-[![cowsay-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fazoieebcf11io8mhkc45.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fazoieebcf11io8mhkc45.png)
+![cowsay-example-usage](assets/50-cowsay.webp)
 
-[![Ver cowsay en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fpiuccio%2Fcowsay%3Fcolor%3D232323%26label%3Dcowsay%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/piuccio/cowsay) [![Autor piuccio](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fpiuccio-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/piuccio) [![Escrito en JavaScript](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DJavaScript%26color%3DF7DF1E%26logo%3Djavascript%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DJavaScript%26color%3DF7DF1E%26logo%3Djavascript%26logoColor%3DFFFFFF)
+[Ver cowsay en Github](https://github.com/piuccio/cowsay) [Autor piuccio](https://github.com/piuccio) Escrito en JavaScript
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-figlet-endraw-output-text-as-big-ascii-art-text)[`figlet`](http://www.figlet.org/) - Texto de salida como texto de arte ASCII grande
+### [](#figlet---texto-de-salida-como-texto-de-arte-ascii-grande)[`figlet`](http://www.figlet.org/) - Texto de salida como texto de arte ASCII grande
 
 > `figlet` muestra el texto como arte ASCII
 
-[![figlet-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxpaq8ufvoru1ijm8oj2c.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxpaq8ufvoru1ijm8oj2c.png)
+![figlet-example-usage](assets/50-figlet.webp)
 
-[![Ver figlet en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fcmatsuoka%2Ffiglet%3Fcolor%3D232323%26label%3Dfiglet%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/cmatsuoka/figlet) [![Autor cmatsuoka](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fcmatsuoka-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/cmatsuoka) [![Escrito en C](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF)
+[Ver figlet en Github](https://github.com/cmatsuoka/figlet) [Autor cmatsuoka](https://github.com/cmatsuoka) Escrito en C
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-lolcat-endraw-make-console-output-raibow-colored)[`lolcat`](https://github.com/busyloop/lolcat) - Haz que la salida de la consola tenga los colores del arco iris
+### [](#lolcat---haz-que-la-salida-de-la-consola-tenga-los-colores-del-arco-iris)[`lolcat`](https://github.com/busyloop/lolcat) - Haz que la salida de la consola tenga los colores del arco iris
 
 > `lolcat` colorea de arco iris cualquier texto que se le pase
 
-[![lolcat-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsp719mxeffx3zfecm2hs.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsp719mxeffx3zfecm2hs.png)
+![lolcat-example-usage](assets/50-lolcat.webp)
 
-[![Ver lolcat en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fbusyloop%2Flolcat%3Fcolor%3D232323%26label%3Dlolcat%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/busyloop/lolcat) [![Autor busyloop](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fbusyloop-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/busyloop) [![Escrito en Ruby](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRuby%26color%3DCC342D%26logo%3Druby%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DRuby%26color%3DCC342D%26logo%3Druby%26logoColor%3DFFFFFF)
+[Ver lolcat en Github](https://github.com/busyloop/lolcat) [Autor busyloop](https://github.com/busyloop) Escrito en Ruby
 
 ___
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#-raw-neofetch-endraw-show-system-data-and-ditstro-info)[`neofetch`](https://github.com/dylanaraps/neofetch) - Mostrar datos del sistema e información de la distribución
+### [](#neofetch---mostrar-datos-del-sistema-e-información-de-la-distribución)[`neofetch`](https://github.com/dylanaraps/neofetch) - Mostrar datos del sistema e información de la distribución
 
 > `neofetch` imprime información de la distro y del sistema (para que puedas flexionar que usas Arch btw en r/unixporn)
 
-[![neofetch-example-usage](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu2jus0pzbtrz4nc624u0.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu2jus0pzbtrz4nc624u0.png)
+![neofetch-example-usage](assets/50-neofetch.webp)
 
-[![Ver neofetch en Github](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fgithub%2Fstars%2Fdylanaraps%2Fneofetch%3Fcolor%3D232323%26label%3Dneofetch%26logo%3Dgithub%26labelColor%3D232323)](https://github.com/dylanaraps/neofetch) [![Autor dylanaraps](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fdylanaraps-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff)](https://github.com/dylanaraps) [![Escrito en Bash](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DBash%26color%3Dgreen%26logo%3Dgnubash%26logoColor%3DFFFFFF)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fstatic%2Fv1%3Flabel%3D%26message%3DBash%26color%3Dgreen%26logo%3Dgnubash%26logoColor%3DFFFFFF)
+[Ver neofetch en Github](https://github.com/dylanaraps/neofetch) [Autor dylanaraps](https://github.com/dylanaraps) Escrito en Bash
 
 Como ejemplo, estoy usando `cowsay`, `figlet`, `lolcat` y `neofetch` para crear un MOTD personalizado basado en el tiempo que se muestra al usuario cuando se conecta por primera vez. Les saluda por su nombre, muestra información del servidor y la hora, fecha, tiempo e IP. [Aquí está el código fuente](https://github.com/Lissy93/dotfiles/blob/master/utils/welcome-banner.sh).
 
-[![welcome](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fobdjwjl5on1mdst6lvkh.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fobdjwjl5on1mdst6lvkh.png)
+![welcome](assets/50-neofetch-2.webp)
 ___
 
-## [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#instalacion-y-gestion)Instalación y Gestión
+## [](#instalación-y-gestión)Instalación y Gestión
 
 La mayoría de nosotros tenemos un conjunto básico de aplicaciones y utilidades CLI en las que confiamos. Configurar una nueva máquina e instalar cada programa individualmente sería muy tedioso. Por eso, la tarea de instalar y actualizar tus apps de terminal es perfecta para automatizar. [Aquí](https://github.com/Lissy93/dotfiles/tree/master/scripts/installs) tienes algunos scripts de ejemplo que he escrito, que puedes añadir fácilmente a tus dotfiles o ejecutar de forma independiente para asegurarte de que nunca te falte una app.
 
@@ -933,7 +936,7 @@ Las aplicaciones de escritorio en Linux pueden gestionarse de forma similar, usa
 
 ___
 
-## [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#conclusion)Conclusión
+## [](#conclusión)Conclusión
 
 ... Y eso es todo: una lista de útiles aplicaciones CLI y un método para instalarlas y mantenerlas actualizadas en todos tus sistemas.
 
@@ -941,7 +944,7 @@ Espero que algunas de estas te sean útiles :)
 
 ¡Me encantaría saber cuáles son tus aplicaciones CLI favoritas! Déjalo en los comentarios abajo.
 
-### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#informacion-adicional)Información adicional
+### Información adicional
 
 #### [](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#que-no-se-incluyo)Qué no se incluyó
 
@@ -978,4 +981,4 @@ ___
 * La versión original de este artículo se puede encontrar en [dev.to/lissy93](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6) (inglés).
 
 
-* Autoría por [Alicia Sykes](https://www.aliciasykes.com/), traducción por [@elflacodeit](https://www.instagram.com/elflacodeit/)
+* Autoría por [Alicia Sykes](https://www.aliciasykes.com/), traducción por [@elflacodeit](https://www.instagram.com/elflacodeit/), formateo y revisión por [@axelvf](https://www.instagram.com/axelvf/)
