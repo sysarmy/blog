@@ -138,7 +138,7 @@ ___
 
 ### [](#zoxide---fácil-navegación-mejor-cd)[`zoxide`](https://github.com/ajeetdsouza/zoxide) - Fácil navegación _(mejor cd)_
 
-> `z` te permite saltar a cualquier directorio sin necesidad de recordar o especificar su ruta completa. Recuerda los directorios que has visitado, para que puedas saltar rápidamente; ni siquiera necesitas escribir el nombre completo de la carpeta. También dispone de una opción de selección interactiva, mediante `fzf`, que permite filtrar los resultados de los directorios en tiempo real.
+> `zoxide` te permite saltar a cualquier directorio sin necesidad de recordar o especificar su ruta completa. Recuerda los directorios que has visitado, para que puedas saltar rápidamente; ni siquiera necesitas escribir el nombre completo de la carpeta. También dispone de una opción de selección interactiva, mediante `fzf`, que permite filtrar los resultados de los directorios en tiempo real.
 
 ![zoxide-example-usage](assets/50-zoxide.gif)
 
@@ -386,7 +386,7 @@ ___
 
 ### [](#exiftool---lectura-y-escritura-de-metadatos)[`exiftool`](https://github.com/exiftool/exiftool) - Lectura y escritura de metadatos
 
-> ExifTool es una práctica utilidad para leer, escribir, eliminar y crear metainformación para una amplia variedad de tipos de archivos. No vuelva a filtrar accidentalmente su ubicación al compartir una foto.
+> `exiftool` es una práctica utilidad para leer, escribir, eliminar y crear metainformación para una amplia variedad de tipos de archivos. No vuelva a filtrar accidentalmente su ubicación al compartir una foto.
 
 ![exiftool-example-usage](assets/50-exiftool.png)
 
@@ -396,7 +396,7 @@ ___
 
 ### [](#fdupes---buscador-de-archivos-duplicados)[`fdupes`](https://github.com/jbruchon/jdupes) - Buscador de archivos duplicados
 
-> `jdupes` se utiliza para identificar y/o eliminar archivos duplicados dentro de directorios especificados. Es útil para liberar espacio en disco cuando tiene dos o más archivos idénticos.
+> `fdupes` se utiliza para identificar y/o eliminar archivos duplicados dentro de directorios especificados. Es útil para liberar espacio en disco cuando tiene dos o más archivos idénticos.
 
 ![fdupes-example-usage](assets/50-fdupes.png)
 
@@ -745,7 +745,7 @@ ___
 
 ### [](#taskwarrior---todo--gestión-de-tareas)[`taskwarrior`](https://github.com/GothenburgBitFactory/taskwarrior) - Todo + gestión de tareas
 
-> `task` es una aplicación CLI de gestión de tareas/todo. Es simple y discreta, pero también increíblemente potente y escalable, con funciones avanzadas de organización y consulta. También hay un montón (¡más de 700!) de [plugins] adicionales (https://taskwarrior.org/tools/) para ampliar su funcionalidad e integrarse con servicios de terceros.
+> `taskwarrior` es una aplicación CLI de gestión de tareas/todo. Es simple y discreta, pero también increíblemente potente y escalable, con funciones avanzadas de organización y consulta. También hay un montón (¡más de 700!) de [plugins] adicionales (https://taskwarrior.org/tools/) para ampliar su funcionalidad e integrarse con servicios de terceros.
 
 ![task-warrior-example-usage](assets/50-taskwarrior.webp)
 
