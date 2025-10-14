@@ -148,8 +148,6 @@ ___
 Instalación
 
 ```
-
-
 # macOS (vía Homebrew)
 brew install zoxide
 
@@ -164,7 +162,6 @@ pkg install zoxide
 
 # Otros (vía Rust Creates)
 cargo install zoxide --locked
-
 
 ```
 
@@ -182,14 +179,11 @@ ___
 Instalación
 
 ```
-
-
 # macOS (vía Homebrew)
 brew install tldr
 
 # Otros (vía NPM)
 npm install -g tldr
-
 
 ```
 
@@ -206,14 +200,11 @@ ___
 Instalación
 
 ```
-
-
 # macOS (vía Homebrew)
 brew install scc
 
 # Otros (vía go)
 go install github.com/boyter/scc/v3@latest
-
 
 ```
 
@@ -231,8 +222,6 @@ ___
 Instalación
 
 ```
-
-
 # macOS (vía Homebrew)
 brew install exa
 
@@ -241,7 +230,6 @@ sudo pacman -S exa
 
 # Debian / Ubuntu
 sudo apt install exa
-
 
 ```
 
@@ -258,8 +246,6 @@ ___
 Instalación
 
 ```
-
-
 # macOS (vía Homebrew)
 brew install duf
 
@@ -271,7 +257,6 @@ sudo apt install duf
 
 # FreeBSD
 pkg install duf
-
 
 ```
 
@@ -288,8 +273,6 @@ ___
 Instalación
 
 ```
-
-
 # macOS (vía Homebrew)
 brew install aria2
 
@@ -298,7 +281,6 @@ sudo pacman -S aria2
 
 # Debian / Ubuntu
 sudo apt install aria2
-
 
 ```
 
@@ -315,8 +297,6 @@ ___
 Instalación
 
 ```
-
-
 # macOS (vía Homebrew)
 brew install bat
 
@@ -325,7 +305,6 @@ sudo pacman -S bat
 
 # Debian / Ubuntu
 sudo apt install bat
-
 
 ```
 
@@ -342,8 +321,6 @@ ___
 Instalación
 
 ```
-
-
 # macOS (vía Homebrew)
 brew install diff-so-fancy
 
@@ -352,7 +329,6 @@ sudo pacman -S diff-so-fancy
 
 # Debian / Ubuntu
 sudo apt install diff-so-fancy
-
 
 ```
 
@@ -369,8 +345,6 @@ ___
 Instalación
 
 ```
-
-
 # macOS (vía Homebrew)
 brew install entr
 
@@ -379,7 +353,6 @@ sudo pacman -S entr
 
 # Debian / Ubuntu
 sudo apt install entr
-
 
 ```
 
@@ -415,8 +388,6 @@ ___
 Instalación
 
 ```
-
-
 # macOS (vía Homebrew)
 brew install fzf
 
@@ -425,7 +396,6 @@ sudo pacman -S fzf
 
 # Debian / Ubuntu
 sudo apt install fzf
-
 
 ```
 
