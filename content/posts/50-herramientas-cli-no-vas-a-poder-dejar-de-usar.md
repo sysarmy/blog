@@ -575,12 +575,6 @@ ___
 
 ___
 
-![bandwhich-example-usage](assets/50-bandwhich.webp)
-
-[Ver bandwhich en GitHub](https://github.com/imsnif/bandwhich) [Autor imsnif](https://github.com/imsnif) Escrito en Rust
-
-___
-
 ### [](#bpytop---monitoreo-de-recursos-mejor-htop)[`bpytop`](https://github.com/aristocratos/bpytop) - Monitoreo de recursos _(mejor `htop`)_
 
 > `bpytop` es un monitor de recursos rápido, interactivo y visual. Muestra los procesos principales en ejecución, el historial reciente de CPU, memoria, disco y red. Desde la interfaz puedes navegar, ordenar y buscar; también hay soporte para temas de color personalizados.
