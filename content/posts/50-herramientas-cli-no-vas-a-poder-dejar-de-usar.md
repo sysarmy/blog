@@ -645,7 +645,7 @@ ___
 
 ![browsh-example-usage](assets/50-browsh.webp)
 
-[Ver browsh en GitHub] [Autor browsh-org](https://github.com/browsh-org) Escrito en JavaScript
+[Ver browsh en GitHub](https://github.com/browsh-org/browsh) [Autor browsh-org](https://github.com/browsh-org) Escrito en JavaScript
 
 ___
 
@@ -655,7 +655,7 @@ ___
 
 ![buku-example-usage](assets/50-buku.webp)
 
-[Ver buku en GitHub] [Autor jarun](https://github.com/jarun) Escrito en Python
+[Ver buku en GitHub](https://github.com/jarun/buku) [Autor jarun](https://github.com/jarun) Escrito en Python
 
 ___
 
@@ -665,7 +665,7 @@ ___
 
 ![cmus-example-usage](assets/50-cmus.webp)
 
-[Ver cmus en GitHub] [Autor cmus](https://github.com/cmus) Escrito en C
+[Ver cmus en GitHub](https://github.com/cmus/cmus) [Autor cmus](https://github.com/cmus) Escrito en C
 
 ___
 
