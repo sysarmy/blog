@@ -162,7 +162,7 @@ sudo apt install zoxide
 pkg install zoxide
 
 # Other (via Rust Creates)
-cargo Instalacion zoxide --locked
+cargo install zoxide --locked
 
 
 ```
@@ -187,7 +187,7 @@ Instalacion
 brew install tldr
 
 # Other (via NPM)
-npm Instalacion -g tldr
+npm install -g tldr
 
 
 ```
@@ -211,7 +211,7 @@ Instalacion
 brew install scc
 
 # Other (via go)
-go Instalacion github.com/boyter/scc/v3@latest
+go install github.com/boyter/scc/v3@latest
 
 
 ```
