@@ -124,13 +124,13 @@ Instalacion
 
 ```
 # MacOS (via Homebrew)
-brew Instalacion thefuck
+brew install thefuck
 
 # Arch Linux
 sudo pacman -S thefuck
 
 # FreeBSD
-pkg Instalacion thefuck
+pkg install thefuck
 
 ```
 
@@ -150,16 +150,16 @@ Instalacion
 
 
 # MacOS (via Homebrew)
-brew Instalacion zoxide
+brew install zoxide
 
 # Arch Linux
 sudo pacman -S zoxide
 
 # Debian / Ubuntu
-sudo apt Instalacion zoxide
+sudo apt install zoxide
 
 # FreeBSD
-pkg Instalacion zoxide
+pkg install zoxide
 
 # Other (via Rust Creates)
 cargo Instalacion zoxide --locked
@@ -184,7 +184,7 @@ Instalacion
 
 
 # MacOS (via Homebrew)
-brew Instalacion tldr
+brew install tldr
 
 # Other (via NPM)
 npm Instalacion -g tldr
@@ -208,7 +208,7 @@ Instalacion
 
 
 # MacOS (via Homebrew)
-brew Instalacion scc
+brew install scc
 
 # Other (via go)
 go Instalacion github.com/boyter/scc/v3@latest
@@ -233,13 +233,13 @@ Instalacion
 
 
 # MacOS (via Homebrew)
-brew Instalacion exa
+brew install exa
 
 # Arch Linux
 sudo pacman -S exa
 
 # Debian / Ubuntu
-sudo apt Instalacion exa
+sudo apt install exa
 
 
 ```
@@ -260,16 +260,16 @@ Instalacion
 
 
 # MacOS (via Homebrew)
-brew Instalacion duf
+brew install duf
 
 # Arch Linux
 sudo pacman -S duf
 
 # Debian / Ubuntu
-sudo apt Instalacion duf
+sudo apt install duf
 
 # FreeBSD
-pkg Instalacion duf
+pkg install duf
 
 
 ```
@@ -290,13 +290,13 @@ Instalacion
 
 
 # MacOS (via Homebrew)
-brew Instalacion aria2
+brew install aria2
 
 # Arch Linux
 sudo pacman -S aria2
 
 # Debian / Ubuntu
-sudo apt Instalacion aria2
+sudo apt install aria2
 
 
 ```
@@ -317,13 +317,13 @@ Instalacion
 
 
 # MacOS (via Homebrew)
-brew Instalacion bat
+brew install bat
 
 # Arch Linux
 sudo pacman -S bat
 
 # Debian / Ubuntu
-sudo apt Instalacion bat
+sudo apt install bat
 
 
 ```
@@ -344,13 +344,13 @@ Instalacion
 
 
 # MacOS (via Homebrew)
-brew Instalacion diff-so-fancy
+brew install diff-so-fancy
 
 # Arch Linux
 sudo pacman -S diff-so-fancy
 
 # Debian / Ubuntu
-sudo apt Instalacion diff-so-fancy
+sudo apt install diff-so-fancy
 
 
 ```
@@ -371,13 +371,13 @@ Instalacion
 
 
 # MacOS (via Homebrew)
-brew Instalacion entr
+brew install entr
 
 # Arch Linux
 sudo pacman -S entr
 
 # Debian / Ubuntu
-sudo apt Instalacion entr
+sudo apt install entr
 
 
 ```
@@ -417,13 +417,13 @@ Instalacion
 
 
 # MacOS (via Homebrew)
-brew Instalacion fzf
+brew install fzf
 
 # Arch Linux
 sudo pacman -S fzf
 
 # Debian / Ubuntu
-sudo apt Instalacion fzf
+sudo apt install fzf
 
 
 ```
@@ -442,13 +442,13 @@ Instalacion
 
 ```
 # MacOS (via Homebrew)
-brew Instalacion hyperfine
+brew install hyperfine
 
 # Arch Linux
 sudo pacman -S hyperfine
 
 # Debian / Ubuntu
-sudo apt Instalacion hyperfine
+sudo apt install hyperfine
 ```
 
 ___
@@ -465,13 +465,13 @@ Instalacion
 
 ```
 # MacOS (via Homebrew)
-brew Instalacion just
+brew install just
 
 # Arch Linux
 sudo pacman -S just
 
 # Debian / Ubuntu
-sudo apt Instalacion just
+sudo apt install just
 
 
 ```
