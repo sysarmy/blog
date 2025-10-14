@@ -37,81 +37,81 @@ Este post describe mi top 50 de herramientas CLI imprescindibles, en las que he 
 Al final del artículo, he incluido algunas secuencias de comandos para ayudarle a automatizar la instalación y actualización de estas herramientas en varios sistemas / distros.
 
 ↕️ **Índice**
-- [Utils](#utils)
-  - [`thefuck` - Autocorrección de comandos mal escritos](#thefuck---autocorrección-de-comandos-mal-escritos)
-  - [`zoxide` - Fácil navegación _(mejor cd)_](#zoxide---fácil-navegación-mejor-cd)
-  - [`tldr` - Documentos mantenidos por la comunidad _(mejor `man`)_](#tldr---documentos-mantenidos-por-la-comunidad-mejor-man)
-  - [`scc` - Contar líneas de código _(mejor `cloc`)_](#scc---contar-líneas-de-código-mejor-cloc)
-  - [`exa` - Archivos de listado _(mejor `ls`)_](#exa---archivos-de-listado-mejor-ls)
-  - [`duf` - Uso del disco _(mejor `df`)_](#duf---uso-del-disco-mejor-df)
-  - [`aria2` - Utilidad de descarga _(mejor `wget`)_](#aria2---utilidad-de-descarga-mejor-wget)
-  - [`bat` - Lectura de archivos _(mejor `cat`)_](#bat---lectura-de-archivos-mejor-cat)
-  - [`diff-so-fancy` - Comparación de archivos _(mejor `diff`)_](#diff-so-fancy---comparación-de-archivos-mejor-diff)
-  - [`entr` - Esté atento a los cambios](#entr---esté-atento-a-los-cambios)
-  - [`exiftool` - Lectura y escritura de metadatos](#exiftool---lectura-y-escritura-de-metadatos)
-  - [`fdupes` - Buscador de archivos duplicados](#fdupes---buscador-de-archivos-duplicados)
-  - [`fzf` - Buscador de archivos difuso _(mejor `find`)_](#fzf---buscador-de-archivos-difuso-mejor-find)
-  - [`hyperfine` - Evaluación comparativa de mandos](#hyperfine---evaluación-comparativa-de-mandos)
-  - [`just` - Corredor de comandos moderno _(mejor `make`)_](#just---corredor-de-comandos-moderno-mejor-make)
-  - [`jq` - Procesador JSON](#jq---procesador-json)
-  - [`most` - Localizador de desplazamiento multiventana _(mejor less)_](#most---localizador-de-desplazamiento-multiventana-mejor-less)
-  - [`procs` - Visor de procesos _(mejor ps)_](#procs---visor-de-procesos-mejor-ps)
-  - [`rip` - Herramienta de borrado _(mejor rm)_](#rip---herramienta-de-borrado-mejor-rm)
-  - [`ripgrep` - Búsqueda dentro de archivos _(mejor `grep`)_](#ripgrep---búsqueda-dentro-de-archivos-mejor-grep)
-  - [`rsync` - Transferencia rápida e incremental de archivos](#rsync---transferencia-rápida-e-incremental-de-archivos)
-  - [`sd` - Buscar y reemplazar _(mejor `sed`)_](#sd---buscar-y-reemplazar-mejor-sed)
-  - [`tre` - Jerarquía de directorios _(mejor `tree`)_](#tre---jerarquía-de-directorios-mejor-tree)
-  - [`xsel` - Acceso al portapapeles](#xsel---acceso-al-portapapeles)
-- [CLI - Aplicaciones de monitorización y rendimiento](#cli---aplicaciones-de-monitorización-y-rendimiento)
-  - [`bandwhich` - Monitor de utilización de ancho de banda](#bandwhich---monitor-de-utilización-de-ancho-de-banda)
-  - [`ctop` - Métricas y monitoreo de contenedores](#ctop---métricas-y-monitoreo-de-contenedores)
-  - [`bpytop` - Monitoreo de recursos _(mejor `htop`)_](#bpytop---monitoreo-de-recursos-mejor-htop)
-  - [`glances` - Monitor de recursos + web y API](#glances---monitor-de-recursos--web-y-api)
-  - [`gping` - Herramienta de ping interactiva _(mejor `ping`)_](#gping---herramienta-de-ping-interactiva-mejor-ping)
-  - [`dua-cli` - Analizador y monitor de uso de disco _(mejor `du`)_](#dua-cli---analizador-y-monitor-de-uso-de-disco-mejor-du)
-  - [`speedtest-cli` - Utilidad de prueba de velocidad en línea de comandos](#speedtest-cli---utilidad-de-prueba-de-velocidad-en-línea-de-comandos)
-  - [`dog` - Cliente de búsqueda DNS _(mejor `dig`)_](#dog---cliente-de-búsqueda-dns-mejor-dig)
-- [CLI Productividad](#cli-productividad)
-  - [`browsh` - Navegador web CLI](#browsh---navegador-web-cli)
-  - [`buku` - Gestor de marcadores](#buku---gestor-de-marcadores)
-  - [`cmus` - Reproductor / navegador de música](#cmus---reproductor--navegador-de-música)
-  - [`cointop` - Seguimiento de precios cripto](#cointop---seguimiento-de-precios-cripto)
-  - [`ddgr` - Buscar en la web desde terminal](#ddgr---buscar-en-la-web-desde-terminal)
-  - [`micro` - Editor de código _(mejor `nano`)_](#micro---editor-de-código-mejor-nano)
-  - [`khal` - Cliente de Calendario](#khal---cliente-de-calendario)
-  - [`mutt` - Cliente de Email](#mutt---cliente-de-email)
-  - [`newsboat` - Lector de noticias RSS / ATOM](#newsboat---lector-de-noticias-rss--atom)
-  - [`rclone` - Gestionar el almacenamiento en la nube](#rclone---gestionar-el-almacenamiento-en-la-nube)
-  - [`taskwarrior` - Todo + gestión de tareas](#taskwarrior---todo--gestión-de-tareas)
-  - [`tuir` - Terminal UI para Reddit](#tuir---terminal-ui-para-reddit)
-- [CLI Dev Suits](#cli-dev-suits)
-  - [`httpie` - Cliente de pruebas HTTP / API](#httpie---cliente-de-pruebas-http--api)
-  - [`lazydocker` - Aplicación completa de gestión de Docker](#lazydocker---aplicación-completa-de-gestión-de-docker)
-  - [`lazygit` - Aplicación completa de gestión Git](#lazygit---aplicación-completa-de-gestión-git)
-  - [`kdash` - Aplicación del panel de control de Kubernetes](#kdash---aplicación-del-panel-de-control-de-kubernetes)
-  - [`gdp-dashboard` - Depurador de Visual GDP](#gdp-dashboard---depurador-de-visual-gdp)
-- [CLI Servicios Externos](#cli-servicios-externos)
-  - [`ngrok` - Proxy inverso para compartir localhost](#ngrok---proxy-inverso-para-compartir-localhost)
-  - [`tmate` - Compartir una sesión de terminal a través de Internet](#tmate---compartir-una-sesión-de-terminal-a-través-de-internet)
-  - [`asciinema` - Grabar y compartir sesiones de terminal](#asciinema---grabar-y-compartir-sesiones-de-terminal)
-  - [`navi` - Hoja de trucos interactiva](#navi---hoja-de-trucos-interactiva)
-  - [`transfer.sh` - Intercambio rápido de archivos](#transfersh---intercambio-rápido-de-archivos)
-  - [`surge` - Despliegue un sitio en segundos](#surge---despliegue-un-sitio-en-segundos)
-  - [`wttr.in` - Compruebe el tiempo](#wttrin---compruebe-el-tiempo)
-- [CLI Divertidos](#cli-divertidos)
-  - [`cowsay` - Haz que una vaca ASCII diga tu mensaje](#cowsay---haz-que-una-vaca-ascii-diga-tu-mensaje)
-  - [`figlet` - Texto de salida como texto de arte ASCII grande](#figlet---texto-de-salida-como-texto-de-arte-ascii-grande)
-  - [`lolcat` - Haz que la salida de la consola tenga los colores del arco iris](#lolcat---haz-que-la-salida-de-la-consola-tenga-los-colores-del-arco-iris)
-  - [`neofetch` - Mostrar datos del sistema e información de la distribución](#neofetch---mostrar-datos-del-sistema-e-información-de-la-distribución)
-- [Instalación y Gestión](#instalación-y-gestión)
-- [Conclusión](#conclusión)
-  - [Información adicional](#información-adicional)
-    - [Qué no se incluyó](#qué-no-se-incluyó)
-    - [Créditos](#créditos)
-    - [Comentarios](#comentarios)
-    - [Más información](#más-información)
+- [Utilidades](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#utilidades)
+  - [`thefuck` - Autocorrección de comandos mal escritos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#thefuck---autocorrección-de-comandos-mal-escritosthefuckhttpsgithubcomnvbnthefuck---autocorrección-de-comandos-mal-escritos)
+  - [`zoxide` - Fácil navegación _(mejor `cd`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#zoxide---fácil-navegación-mejor-cdzoxidehttpsgithubcomajeetdsouzazoxide---fácil-navegación-_mejor-cd_)
+  - [`tldr` - Documentos mantenidos por la comunidad _(mejor `man`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#tldr---documentos-mantenidos-por-la-comunidad-mejor-mantldrhttpsgithubcomtldr-pagestldr---documentos-mantenidos-por-la-comunidad-_mejor-man_)
+  - [`scc` - Contar líneas de código _(mejor `cloc`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#scc---contar-líneas-de-código-mejor-clocscchttpsgithubcomboyterscc---contar-líneas-de-código-_mejor-cloc_)
+  - [`exa` - Archivos de listado _(mejor `ls`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#exa---archivos-de-listado-mejor-lsexahttpsgithubcomoghamexa---archivos-de-listado-_mejor-ls_)
+  - [`duf` - Uso del disco _(mejor `df`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#duf---uso-del-disco-mejor-dfdufhttpsgithubcommuesliduf---uso-del-disco-_mejor-df_)
+  - [`aria2` - Utilidad de descarga _(mejor `wget`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#aria2---utilidad-de-descarga-mejor-wgetaria2httpsgithubcomaria2aria2---utilidad-de-descarga-_mejor-wget_)
+  - [`bat` - Lectura de archivos _(mejor `cat`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#bat---lectura-de-archivos-mejor-catbathttpsgithubcomsharkdpbat---lectura-de-archivos-_mejor-cat_)
+  - [`diff-so-fancy` - Comparación de archivos _(mejor `diff`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#diff-so-fancy---comparación-de-archivos-mejor-diffdiff-so-fancyhttpsgithubcomso-fancydiff-so-fancy---comparación-de-archivos-_mejor-diff_)
+  - [`entr` - Esté atento a los cambios](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#entr---esté-atento-a-los-cambiosentrhttpsgithubcomeradmanentr---esté-atento-a-los-cambios)
+  - [`exiftool` - Lectura y escritura de metadatos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#exiftool---lectura-y-escritura-de-metadatosexiftoolhttpsgithubcomexiftoolexiftool---lectura-y-escritura-de-metadatos)
+  - [`fdupes` - Buscador de archivos duplicados](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#fdupes---buscador-de-archivos-duplicadosfdupeshttpsgithubcomjbruchonjdupes---buscador-de-archivos-duplicados)
+  - [`fzf` - Buscador de archivos difuso _(mejor `find`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#fzf---buscador-de-archivos-difuso-mejor-findfzfhttpsgithubcomjunegunnfzf---buscador-de-archivos-difuso-_mejor-find_)
+  - [`hyperfine` - Evaluación comparativa de mandos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#hyperfine---evaluación-comparativa-de-mandoshyperfinehttpsgithubcomsharkdphyperfine---evaluación-comparativa-de-mandos)
+  - [`just` - Corredor de comandos moderno _(mejor `make`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#just---corredor-de-comandos-moderno-mejor-makejusthttpsgithubcomcaseyjust---corredor-de-comandos-moderno-_mejor-make_)
+  - [`jq` - Procesador JSON](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#jq---procesador-jsonjqhttpsgithubcomstedolanjq---procesador-json)
+  - [`most` - Localizador de desplazamiento multiventana _(mejor less)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#most---localizador-de-desplazamiento-multiventana-mejor-lessmosthttpswwwjedsoftorgmost---localizador-de-desplazamiento-multiventana-_mejor-less_)
+  - [`procs` - Visor de procesos _(mejor ps)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#procs---visor-de-procesos-mejor-psprocshttpsgithubcomdalanceprocs---visor-de-procesos-_mejor-ps_)
+  - [`rip` - Herramienta de borrado _(mejor rm)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#rip---herramienta-de-borrado-mejor-rmriphttpsgithubcomnivekuilrip---herramienta-de-borrado-_mejor-rm_)
+  - [`ripgrep` - Búsqueda dentro de archivos _(mejor `grep`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#ripgrep---búsqueda-dentro-de-archivos-mejor-grepripgrephttpsgithubcomburntsushiripgrep---búsqueda-dentro-de-archivos-_mejor-grep_)
+  - [`rsync` - Transferencia rápida e incremental de archivos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#rsync---transferencia-rápida-e-incremental-de-archivosrsynchttpsrsyncsambaorg---transferencia-rápida-e-incremental-de-archivos)
+  - [`sd` - Buscar y reemplazar _(mejor `sed`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#sd---buscar-y-reemplazar-mejor-sedsdhttpsgithubcomchmlnsd---buscar-y-reemplazar-_mejor-sed_)
+  - [`tre` - Jerarquía de directorios _(mejor `tree`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#tre---jerarquía-de-directorios-mejor-treetrehttpsgithubcomdduantre---jerarquía-de-directorios-_mejor-tree_)
+  - [`xsel` - Acceso al portapapeles](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#xsel---acceso-al-portapapelesxselhttpsgithubcomkfishxsel---acceso-al-portapapeles)
+- [Aplicaciones de monitorización y rendimiento](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#aplicaciones-de-monitorización-y-rendimiento)
+  - [`bandwhich` - Monitor de utilización de ancho de banda](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#bandwhich---monitor-de-utilización-de-ancho-de-bandabandwhichhttpsgithubcomimsnifbandwhich---monitor-de-utilización-de-ancho-de-banda)
+  - [`ctop` - Métricas y monitoreo de contenedores](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#ctop---métricas-y-monitoreo-de-contenedoresctophttpsgithubcombcicenctop---métricas-y-monitoreo-de-contenedores)
+  - [`bpytop` - Monitoreo de recursos _(mejor `htop`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#bpytop---monitoreo-de-recursos-mejor-htopbpytophttpsgithubcomaristocratosbpytop---monitoreo-de-recursos-_mejor-htop_)
+  - [`glances` - Monitor de recursos + web y API](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#glances---monitor-de-recursos--web-y-apiglanceshttpsgithubcomnicolargoglances---monitor-de-recursos--web-y-api)
+  - [`gping` - Herramienta de ping interactiva _(mejor `ping`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#gping---herramienta-de-ping-interactiva-mejor-pinggpinghttpsgithubcomorfgping---herramienta-de-ping-interactiva-_mejor-ping_)
+  - [`dua-cli` - Analizador y monitor de uso de disco _(mejor `du`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#dua-cli---analizador-y-monitor-de-uso-de-disco-mejor-dudua-clihttpsgithubcombyrondua-cli---analizador-y-monitor-de-uso-de-disco-_mejor-du_)
+  - [`speedtest-cli` - Utilidad de prueba de velocidad en línea de comandos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#speedtest-cli---utilidad-de-prueba-de-velocidad-en-línea-de-comandosspeedtest-clihttpsgithubcomsivelspeedtest-cli---utilidad-de-prueba-de-velocidad-en-línea-de-comandos)
+  - [`dog` - Cliente de búsqueda DNS _(mejor `dig`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#dog---cliente-de-búsqueda-dns-mejor-digdoghttpsgithubcomoghamdog---cliente-de-búsqueda-dns-_mejor-dig_)
+- [Productividad](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#productividad)
+  - [`browsh` - Navegador web CLI](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#browsh---navegador-web-clibrowshhttpsgithubcombrowsh-orgbrowsh---navegador-web-cli)
+  - [`buku` - Gestor de marcadores](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#buku---gestor-de-marcadoresbukuhttpsgithubcomjarunbuku---gestor-de-marcadores)
+  - [`cmus` - Reproductor / navegador de música](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#cmus---reproductor--navegador-de-músicacmushttpsgithubcomcmuscmus---reproductor--navegador-de-música)
+  - [`cointop` - Seguimiento de precios cripto](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#cointop---seguimiento-de-precios-criptocointophttpsgithubcomcointop-shcointop---seguimiento-de-precios-cripto)
+  - [`ddgr` - Buscar en la web desde terminal](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#ddgr---buscar-en-la-web-desde-terminalddgrhttpsgithubcomjarunddgr---buscar-en-la-web-desde-terminal)
+  - [`micro` - Editor de código _(mejor `nano`)_](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#micro---editor-de-código-mejor-nanomicrohttpsgithubcomzyedidiamicro---editor-de-código-_mejor-nano_)
+  - [`khal` - Cliente de Calendario](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#khal---cliente-de-calendariokhalhttpsgithubcompimutilskhal---cliente-de-calendario)
+  - [`mutt` - Cliente de Email](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#mutt---cliente-de-emailmutthttpsgitlabcommuttmuamutt---cliente-de-email)
+  - [`newsboat` - Lector de noticias RSS / ATOM](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#newsboat---lector-de-noticias-rss--atomnewsboathttpsgithubcomnewsboatnewsboat---lector-de-noticias-rss--atom)
+  - [`rclone` - Gestionar el almacenamiento en la nube](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#rclone---gestionar-el-almacenamiento-en-la-nuberclonehttpsgithubcomrclonerclone---gestionar-el-almacenamiento-en-la-nube)
+  - [`taskwarrior` - Todo + gestión de tareas](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#taskwarrior---todo--gestión-de-tareastaskwarriorhttpsgithubcomgothenburgbitfactorytaskwarrior---todo--gestión-de-tareas)
+  - [`tuir` - Terminal UI para Reddit](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#tuir---terminal-ui-para-reddittuirhttpsgitlabcomajaktuir---terminal-ui-para-reddit)
+- [Dev Tools](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#dev-tools)
+  - [`httpie` - Cliente de pruebas HTTP / API](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#httpie---cliente-de-pruebas-http--apihttpiehttpsgithubcomhttpiehttpie---cliente-de-pruebas-http--api)
+  - [`lazydocker` - Aplicación completa de gestión de Docker](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#lazydocker---aplicación-completa-de-gestión-de-dockerlazydockerhttpsgithubcomjesseduffieldlazydocker---aplicación-completa-de-gestión-de-docker)
+  - [`lazygit` - Aplicación completa de gestión Git](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#lazygit---aplicación-completa-de-gestión-gitlazygithttpsgithubcomjesseduffieldlazygit---aplicación-completa-de-gestión-git)
+  - [`kdash` - Aplicación del panel de control de Kubernetes](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#kdash---aplicación-del-panel-de-control-de-kuberneteskdashhttpsgithubcomkdash-rskdash---aplicación-del-panel-de-control-de-kubernetes)
+  - [`gdp-dashboard` - Depurador de Visual GDP](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#gdp-dashboard---depurador-de-visual-gdpgdp-dashboardhttpsgithubcomcyrus-andgdb-dashboard---depurador-de-visual-gdp)
+- [Servicios Externos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#servicios-externos)
+  - [`ngrok` - Proxy inverso para compartir localhost](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#ngrok---proxy-inverso-para-compartir-localhostngrokhttpsngrokcom---proxy-inverso-para-compartir-localhost)
+  - [`tmate` - Compartir una sesión de terminal a través de Internet](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#tmate---compartir-una-sesión-de-terminal-a-través-de-internettmatehttpstmateio---compartir-una-sesión-de-terminal-a-través-de-internet)
+  - [`asciinema` - Grabar y compartir sesiones de terminal](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#asciinema---grabar-y-compartir-sesiones-de-terminalasciinemahttpsasciinemaorg---grabar-y-compartir-sesiones-de-terminal)
+  - [`navi` - Hoja de trucos interactiva](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#navi---hoja-de-trucos-interactivanavihttpsgithubcomdenisidoronavi---hoja-de-trucos-interactiva)
+  - [`transfer.sh` - Intercambio rápido de archivos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#transfersh---intercambio-rápido-de-archivostransfershhttpsgithubcomdutchcoderstransfersh---intercambio-rápido-de-archivos)
+  - [`surge` - Despliegue un sitio en segundos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#surge---despliegue-un-sitio-en-segundossurgehttpssurgesh---despliegue-un-sitio-en-segundos)
+  - [`wttr.in` - Compruebe el tiempo](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#wttrin---compruebe-el-tiempowttrinhttpsgithubcomchubinwttrin---compruebe-el-tiempo)
+- [Divertidos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#divertidos)
+  - [`cowsay` - Haz que una vaca ASCII diga tu mensaje](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#cowsay---haz-que-una-vaca-ascii-diga-tu-mensajecowsayhttpsenwikipediaorgwikicowsay---haz-que-una-vaca-ascii-diga-tu-mensaje)
+  - [`figlet` - Texto de salida como texto de arte ASCII grande](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#figlet---texto-de-salida-como-texto-de-arte-ascii-grandefiglethttpwwwfigletorg---texto-de-salida-como-texto-de-arte-ascii-grande)
+  - [`lolcat` - Haz que la salida de la consola tenga los colores del arco iris](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#lolcat---haz-que-la-salida-de-la-consola-tenga-los-colores-del-arco-irislolcathttpsgithubcombusylooplolcat---haz-que-la-salida-de-la-consola-tenga-los-colores-del-arco-iris)
+  - [`neofetch` - Mostrar datos del sistema e información de la distribución](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#neofetch---mostrar-datos-del-sistema-e-información-de-la-distribuciónneofetchhttpsgithubcomdylanarapsneofetch---mostrar-datos-del-sistema-e-información-de-la-distribución)
+- [Instalación y Gestión](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#instalación-y-gestión)
+- [Conclusión](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#conclusión)
+  - [Información adicional](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#información-adicional)
+    - [Qué no se incluyó](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#qué-no-se-incluyó)
+    - [Créditos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#créditos)
+    - [Comentarios](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#comentarios)
+    - [Más información](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#más-información)
 
-## [](#utils)Utils
+## Utilidades
 
 ### [](#thefuck---autocorrección-de-comandos-mal-escritos)[`thefuck`](https://github.com/nvbn/thefuck) - Autocorrección de comandos mal escritos
 
@@ -554,7 +554,7 @@ ___
 [Ver xsel en GitHub](https://github.com/kfish/xsel) [Autor kfish](https://github.com/kfish) Escrito en C
 ___
 
-## [](#cli---aplicaciones-de-monitorización-y-rendimiento)CLI - Aplicaciones de monitorización y rendimiento 
+## Aplicaciones de monitorización y rendimiento
 
 ### [](#bandwhich---monitor-de-utilización-de-ancho-de-banda)[`bandwhich`](https://github.com/imsnif/bandwhich) - Monitor de utilización de ancho de banda
 
@@ -641,7 +641,7 @@ ___
 
 ___
 
-## [](#cli-productividad)CLI Productividad
+## Productividad
 
 > Navega por la web, escucha música, revisa correos, gestiona calendarios, lee noticias y más, ¡todo sin salir de la terminal!
 
@@ -764,7 +764,7 @@ ___
 
 ___
 
-## [](#cli-dev-suits)CLI Dev Suits
+## Dev Tools
 
 ### [](#httpie---cliente-de-pruebas-http--api)[`httpie`](https://github.com/httpie/httpie) - Cliente de pruebas HTTP / API
 
@@ -815,7 +815,7 @@ ___
 ___
 
 
-## [](#cli-servicios-externos)CLI Servicios Externos
+## Servicios Externos
 
 ### [](#ngrok---proxy-inverso-para-compartir-localhost)[`ngrok`](https://ngrok.com/) - Proxy inverso para compartir localhost
 
@@ -880,7 +880,7 @@ ___
 
 ___
 
-## [](#cli-divertidos)CLI Divertidos
+## Divertidos
 
 ### [](#cowsay---haz-que-una-vaca-ascii-diga-tu-mensaje)[`cowsay`](https://en.wikipedia.org/wiki/Cowsay) - Haz que una vaca ASCII diga tu mensaje
 
@@ -925,7 +925,7 @@ Como ejemplo, estoy usando `cowsay`, `figlet`, `lolcat` y `neofetch` para crear 
 ![welcome](assets/50-neofetch-2.webp)
 ___
 
-## [](#instalación-y-gestión)Instalación y Gestión
+## Instalación y Gestión
 
 La mayoría de nosotros tenemos un conjunto básico de aplicaciones y utilidades CLI en las que confiamos. Configurar una nueva máquina e instalar cada programa individualmente sería muy tedioso. Por eso, la tarea de instalar y actualizar tus apps de terminal es perfecta para automatizar. [Aquí](https://github.com/Lissy93/dotfiles/tree/master/scripts/installs) tienes algunos scripts de ejemplo que he escrito, que puedes añadir fácilmente a tus dotfiles o ejecutar de forma independiente para asegurarte de que nunca te falte una app.
 
@@ -937,7 +937,7 @@ Las aplicaciones de escritorio en Linux pueden gestionarse de forma similar, usa
 
 ___
 
-## [](#conclusión)Conclusión
+## Conclusión
 
 ... Y eso es todo: una lista de útiles aplicaciones CLI y un método para instalarlas y mantenerlas actualizadas en todos tus sistemas.
 
@@ -947,7 +947,7 @@ Espero que algunas de estas te sean útiles :)
 
 ### Información adicional
 
-#### [](#qué-no-se-incluyó)Qué no se incluyó
+#### Qué no se incluyó
 
 -   Esta lista no incluye lo básico, como Vim, Tmux, Ranger, ZSH, Git, etc., que probablemente ya usas
 -   Tampoco he incluido nada demasiado específico o solo relevante para pocos usuarios
@@ -955,17 +955,17 @@ Espero que algunas de estas te sean útiles :)
 -   Tampoco apps relacionadas con la terminal pero que no sean CLI (como emuladores de terminal)
 -   Para la mayoría de los proyectos listados, hay muchas alternativas que logran cosas similares; por brevedad, esas tampoco se incluyeron
 
-#### [](#créditos)Créditos
+#### Créditos
 
 Un gran reconocimiento a los autores y comunidades detrás de cada una de estas apps. Sin ellos y su trabajo, nuestra vida en la línea de comandos sería mucho menos genial. Donde ha sido posible, he intentado dar crédito a los autores, pero si me he olvidado de alguno, avísame abajo y haré una actualización.
 
-#### [](#comentarios)Comentarios
+#### Comentarios
 
 ¿Qué me he perdido? Me encantaría conocer tus aplicaciones CLI favoritas, ¡especialmente si hay alguna increíble que no he incluido!
 
 También me gustaría conocer tus opiniones y sugerencias; siempre busco mejorar :)
 
-#### [](#más-información)Más información
+#### Más información
 
 Si te ha gustado esto, te recomiendo que eches un vistazo también a:
 
