@@ -89,7 +89,7 @@ Al final del artículo, he incluido algunas secuencias de comandos para ayudarle
   - [`lazydocker` - Aplicación completa de gestión de Docker](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#lazydocker---aplicación-completa-de-gestión-de-dockerlazydockerhttpsgithubcomjesseduffieldlazydocker---aplicación-completa-de-gestión-de-docker)
   - [`lazygit` - Aplicación completa de gestión Git](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#lazygit---aplicación-completa-de-gestión-gitlazygithttpsgithubcomjesseduffieldlazygit---aplicación-completa-de-gestión-git)
   - [`kdash` - Aplicación del panel de control de Kubernetes](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#kdash---aplicación-del-panel-de-control-de-kuberneteskdashhttpsgithubcomkdash-rskdash---aplicación-del-panel-de-control-de-kubernetes)
-  - [`gdp-dashboard` - Depurador de Visual GDP](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#gdp-dashboard---depurador-de-visual-gdpgdp-dashboardhttpsgithubcomcyrus-andgdb-dashboard---depurador-de-visual-gdp)
+  - [`gdb-dashboard` - Depurador de Visual GDP](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#gdb-dashboard---depurador-de-visual-gdpgdb-dashboardhttpsgithubcomcyrus-andgdb-dashboard---depurador-de-visual-gdp)
 - [Servicios Externos](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#servicios-externos)
   - [`ngrok` - Proxy inverso para compartir localhost](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#ngrok---proxy-inverso-para-compartir-localhostngrokhttpsngrokcom---proxy-inverso-para-compartir-localhost)
   - [`tmate` - Compartir una sesión de terminal a través de Internet](/blog/posts/50-herramientas-cli-no-vas-a-poder-dejar-de-usar/#tmate---compartir-una-sesión-de-terminal-a-través-de-internettmatehttpstmateio---compartir-una-sesión-de-terminal-a-través-de-internet)
@@ -804,11 +804,11 @@ ___
 
 ___
 
-### [](#gdp-dashboard---depurador-de-visual-gdp)[`gdp-dashboard`](https://github.com/cyrus-and/gdb-dashboard) - Depurador de Visual GDP
+### [](#gdb-dashboard---depurador-de-visual-gdp)[`gdb-dashboard`](https://github.com/cyrus-and/gdb-dashboard) - Depurador de Visual GDP
 
-> `gdp-dashboard` añade un elemento visual al depurador de GNU, para depurar programas C y C++. Analiza fácilmente la memoria, pasa por puntos de interrupción y registros Ver.
+> `gdb-dashboard` añade un elemento visual al depurador de GNU, para depurar programas C y C++. Analiza fácilmente la memoria, pasa por puntos de interrupción y registros Ver.
 
-![gdp-dashboard-example-usage](assets/50-gdp-dashboard.webp)
+![gdb-dashboard-example-usage](assets/50-gdp-dashboard.webp)
 
 [Ver gdb-dashboard en GitHub](https://github.com/cyrus-and/gdb-dashboard) [Autor cyrus-and](https://github.com/cyrus-and) Escrito en Python
 
