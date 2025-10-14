@@ -35,7 +35,7 @@ Este post describe mi top 50 de herramientas CLI imprescindibles, en las que he 
 Al final del artículo, he incluido algunas secuencias de comandos para ayudarle a automatizar la instalación y actualización de estas herramientas en varios sistemas / distros.
 
 
-↕️ **Índice** (haz clic para expandir)  
+↕️ **Índice** (haz clic para expandir)
 - [Utils](#utils)
   - [`thefuck` - Autocorrección de comandos mal escritos](#thefuck---autocorrección-de-comandos-mal-escritos)
   - [`zoxide` - Fácil navegación _(mejor cd)_](#zoxide---fácil-navegación-mejor-cd)
@@ -118,12 +118,12 @@ Al final del artículo, he incluido algunas secuencias de comandos para ayudarle
 
 ![the-fuck-example-usage](assets/50-thefuck.gif)
 
-[Ver thefuck en Github](https://github.com/nvbn/thefuck) [Autor nvbn](https://github.com/nvbn) Escrito en Python
+[Ver thefuck en GitHub](https://github.com/nvbn/thefuck) [Autor nvbn](https://github.com/nvbn) Escrito en Python
 
-Instalacion
+Instalación
 
 ```
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install thefuck
 
 # Arch Linux
@@ -142,14 +142,14 @@ ___
 
 ![zoxide-example-usage](assets/50-zoxide.gif)
 
-[Ver zoxide en Github](https://github.com/nvbn/ajeetdsouza/zoxide) [Autor nvbn](https://github.com/ajeetdsouza) Escrito en Rust
+[Ver zoxide en GitHub](https://github.com/nvbn/ajeetdsouza/zoxide) [Autor nvbn](https://github.com/ajeetdsouza) Escrito en Rust
 
-Instalacion
+Instalación
 
 ```
 
 
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install zoxide
 
 # Arch Linux
@@ -161,7 +161,7 @@ sudo apt install zoxide
 # FreeBSD
 pkg install zoxide
 
-# Other (via Rust Creates)
+# Otros (vía Rust Creates)
 cargo install zoxide --locked
 
 
@@ -176,17 +176,17 @@ ___
 
 ![tldr-example-usage](assets/50-tldr.gif)
 
-[Ver tldr en Github](https://github.com/tldr-pages/tldr) [Autor tldr-pages](https://github.com/tldr-pages)
+[Ver tldr en GitHub](https://github.com/tldr-pages/tldr) [Autor tldr-pages](https://github.com/tldr-pages)
 
-Instalacion
+Instalación
 
 ```
 
 
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install tldr
 
-# Other (via NPM)
+# Otros (vía NPM)
 npm install -g tldr
 
 
@@ -200,17 +200,17 @@ ___
 
 ![scc-example-usage](assets/50-scc.webp)
 
-[Ver scc en Github](https://github.com/boyter/scc) [Autor boyter-pages](https://github.com/boyter) Escrito en Go
+[Ver scc en GitHub](https://github.com/boyter/scc) [Autor boyter-pages](https://github.com/boyter) Escrito en Go
 
-Instalacion
+Instalación
 
 ```
 
 
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install scc
 
-# Other (via go)
+# Otros (vía go)
 go install github.com/boyter/scc/v3@latest
 
 
@@ -224,15 +224,15 @@ ___
 
 ![exa-example-usage](assets/50-exa.webp)
 
-[Ver exa en Github](https://github.com/ogham/exa)) [Autor boyter-pages](https://github.com/ogham) Escrito en Rust
+[Ver exa en GitHub](https://github.com/ogham/exa)) [Autor boyter-pages](https://github.com/ogham) Escrito en Rust
 
 
-Instalacion
+Instalación
 
 ```
 
 
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install exa
 
 # Arch Linux
@@ -252,14 +252,14 @@ ___
 
 ![duf-example-usage](assets/50-duf.png)
 
-[Ver duf en Github](https://github.com/muesli/duf) [Autor muesli](https://github.com/muesli) Escrito en Go
+[Ver duf en GitHub](https://github.com/muesli/duf) [Autor muesli](https://github.com/muesli) Escrito en Go
 
-Instalacion
+Instalación
 
 ```
 
 
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install duf
 
 # Arch Linux
@@ -282,14 +282,14 @@ ___
 
 ![aria2-example-usage](assets/50-aria2c.png)
 
-[Ver aria2 en Github](https://github.com/aria2/aria2) [Autor aria2](https://github.com/aria2) Escrito en C++
+[Ver aria2 en GitHub](https://github.com/aria2/aria2) [Autor aria2](https://github.com/aria2) Escrito en C++
 
-Instalacion
+Instalación
 
 ```
 
 
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install aria2
 
 # Arch Linux
@@ -309,14 +309,14 @@ ___
 
 ![bat-example-usage](assets/50-bat.png)
 
-[Ver bat en Github](https://github.com/sharkdp/bat) [Autor sharkdp](https://github.com/sharkdp) Escrito en Rust
+[Ver bat en GitHub](https://github.com/sharkdp/bat) [Autor sharkdp](https://github.com/sharkdp) Escrito en Rust
 
-Instalacion
+Instalación
 
 ```
 
 
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install bat
 
 # Arch Linux
@@ -336,14 +336,14 @@ ___
 
 ![diff-so-fancy-example-usage](assets/50-diff.png)
 
-[Ver diff so fancy en Github](https://github.com/so-fancy/diff-so-fancy) [Autor so-fancy](https://github.com/so-fancy) Escrito en Perl
+[Ver diff so fancy en GitHub](https://github.com/so-fancy/diff-so-fancy) [Autor so-fancy](https://github.com/so-fancy) Escrito en Perl
 
-Instalacion
+Instalación
 
 ```
 
 
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install diff-so-fancy
 
 # Arch Linux
@@ -363,14 +363,14 @@ ___
 
 ![entr-example-usage](assets/50-entr.png)
 
-[Ver entr en Github](https://github.com/eradman/entr) [Autor entr](https://github.com/eradman) Escrito en C
+[Ver entr en GitHub](https://github.com/eradman/entr) [Autor entr](https://github.com/eradman) Escrito en C
 
-Instalacion
+Instalación
 
 ```
 
 
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install entr
 
 # Arch Linux
@@ -390,7 +390,7 @@ ___
 
 ![exiftool-example-usage](assets/50-exiftool.png)
 
-[Ver exiftool en Github](https://github.com/exiftool/exiftool) [Autor exiftool](https://github.com/exiftool) Escrito en Perl
+[Ver exiftool en GitHub](https://github.com/exiftool/exiftool) [Autor exiftool](https://github.com/exiftool) Escrito en Perl
 
 ___
 
@@ -400,7 +400,7 @@ ___
 
 ![fdupes-example-usage](assets/50-fdupes.png)
 
-[Ver jdupes en Github](https://github.com/jbruchon/jdupes) [Autor jbruchon](https://github.com/jbruchon) Escrito en C
+[Ver jdupes en GitHub](https://github.com/jbruchon/jdupes) [Autor jbruchon](https://github.com/jbruchon) Escrito en C
 ___
 
 ### [](#fzf---buscador-de-archivos-difuso-mejor-find)[`fzf`](https://github.com/junegunn/fzf) - Buscador de archivos difuso _(mejor `find`)_
@@ -409,14 +409,14 @@ ___
 
 ![fzf-example-usage](assets/50-fzf.gif)
 
-[Ver fzf en Github](https://github.com/jbruchon/jdupes/fzf) [Autor junegunn](https://github.com/junegunn) Escrito en Go
+[Ver fzf en GitHub](https://github.com/jbruchon/jdupes/fzf) [Autor junegunn](https://github.com/junegunn) Escrito en Go
 
-Instalacion
+Instalación
 
 ```
 
 
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install fzf
 
 # Arch Linux
@@ -436,12 +436,12 @@ ___
 
 ![hyperfine-example-usage](assets/50-hyperfine.png)
 
-[Ver hyperfine en Github](https://github.com/sharkdp/hyperfine) [Autor sharkdp](https://github.com/sharkdp) Escrito en Rust
+[Ver hyperfine en GitHub](https://github.com/sharkdp/hyperfine) [Autor sharkdp](https://github.com/sharkdp) Escrito en Rust
 
-Instalacion
+Instalación
 
 ```
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install hyperfine
 
 # Arch Linux
@@ -459,12 +459,12 @@ ___
 
 ![just-example-usage](assets/50-just.png)
 
-[Ver just en Github](https://github.com/casey/just) [Autor casey](https://github.com/casey) Escrito en Rust
+[Ver just en GitHub](https://github.com/casey/just) [Autor casey](https://github.com/casey) Escrito en Rust
 
-Instalacion
+Instalación
 
 ```
-# MacOS (via Homebrew)
+# macOS (vía Homebrew)
 brew install just
 
 # Arch Linux
@@ -482,7 +482,7 @@ ___
 
 > `jq` es como `sed`, pero para JSON - puedes usarlo para cortar y filtrar y mapear y transformar datos estructurados con facilidad. Se puede utilizar para escribir consultas complejas para extraer o manipular datos JSON. También hay un [jq playground](https://jqplay.org/) que puedes usar para probarlo, o formular consultas con información en tiempo real.
 
-[Ver jq en Github](https://github.com/stedolan/jq) [Autor stedolan](https://github.com/stedolan) Escrito en C
+[Ver jq en GitHub](https://github.com/stedolan/jq) [Autor stedolan](https://github.com/stedolan) Escrito en C
 
 ___
 
@@ -498,7 +498,7 @@ ___
 > `procs` es un visor de procesos fácil de navegar, tiene resaltado de color, facilita la clasificación y búsqueda de procesos, tiene árbol Ver y se actualiza en tiempo real.
 ![procs-example-usage](assets/50-procs.webp)
 
-[Ver procs en Github](https://github.com/dalance/procs) [Autor dalance](https://github.com/dalance) Escrito en Rust
+[Ver procs en GitHub](https://github.com/dalance/procs) [Autor dalance](https://github.com/dalance) Escrito en Rust
 
 ___
 
@@ -508,7 +508,7 @@ ___
 
 ![rip-example-usage](assets/50-rip.webp)
 
-[Ver rip en Github](https://github.com/nivekuil/rip) [Autor nivekuil](https://github.com/nivekuil) Escrito en Rust
+[Ver rip en GitHub](https://github.com/nivekuil/rip) [Autor nivekuil](https://github.com/nivekuil) Escrito en Rust
 
 ___
 
@@ -518,14 +518,14 @@ ___
 
 ![ripgrep-example-usage](assets/50-ripgrep.webp)
 
-[Ver ripgrep en Github](https://github.com/BurntSushi/ripgrep) [Autor BurntSushi](https://github.com/BurntSushi) Escrito en Rust
+[Ver ripgrep en GitHub](https://github.com/BurntSushi/ripgrep) [Autor BurntSushi](https://github.com/BurntSushi) Escrito en Rust
 ___
 
 ### [](#rsync---transferencia-rápida-e-incremental-de-archivos)[`rsync`](https://rsync.samba.org/) - Transferencia rápida e incremental de archivos
 
 > `rsync` te permite copiar archivos grandes localmente o desde o hacia hosts remotos o unidades externas. Puede utilizarse para mantener sincronizados archivos de varias ubicaciones y es perfecto para crear, actualizar y restaurar copias de seguridad.
 
-[Ver rsync en Github](https://github.com/WayneD/rsync) [Autor WayneD](https://github.com/WayneD) Escrito en C
+[Ver rsync en GitHub](https://github.com/WayneD/rsync) [Autor WayneD](https://github.com/WayneD) Escrito en C
 
 ___
 
@@ -533,7 +533,7 @@ ___
 > `sd` es una herramienta de búsqueda y reemplazo fácil, rápida e intuitiva, basada en literales de cadena. Puede ejecutarse sobre un fichero, un directorio entero o cualquier texto canalizado.
 ![sd-example-usage](assets/50-sd.webp)
 
-[Ver sd en Github](https://github.com/chmln/sd) [Autor chmln](https://github.com/chmln) Escrito en Rust
+[Ver sd en GitHub](https://github.com/chmln/sd) [Autor chmln](https://github.com/chmln) Escrito en Rust
 ___
 
 ### [](#tre---jerarquía-de-directorios-mejor-tree)[`tre`](https://github.com/dduan/tre) - Jerarquía de directorios _(mejor `tree`)_
@@ -542,7 +542,7 @@ ___
 
 ![tre-example-usage](assets/50-tre.webp)
 
-[Ver tre en Github](https://github.com/dduan/tre) [Autor dduan](https://github.com/dduan) Escrito en Rust
+[Ver tre en GitHub](https://github.com/dduan/tre) [Autor dduan](https://github.com/dduan) Escrito en Rust
 
 ___
 
@@ -550,7 +550,7 @@ ___
 
 > `xsel` te permite leer y escribir en el portapapeles de selección X desde la línea de comandos. Es útil para enviar la salida de un comando al portapapeles o para pegar datos copiados en un comando.
 
-[Ver xsel en Github](https://github.com/kfish/xsel) [Autor kfish](https://github.com/kfish) Escrito en C
+[Ver xsel en GitHub](https://github.com/kfish/xsel) [Autor kfish](https://github.com/kfish) Escrito en C
 ___
 
 ## [](#cli---aplicaciones-de-monitorización-y-rendimiento)CLI - Aplicaciones de monitorización y rendimiento 
@@ -560,7 +560,7 @@ ___
 > Muestra el uso de ancho de banda, información de conexión, hosts salientes y consultas DNS en tiempo real
 ![bandwhich-example-usage](assets/50-bandwhich.webp)
 
-[Ver bandwhich en Github](https://github.com/imsnif/bandwhich) [Autor imsnif](https://github.com/imsnif) Escrito en Rust
+[Ver bandwhich en GitHub](https://github.com/imsnif/bandwhich) [Autor imsnif](https://github.com/imsnif) Escrito en Rust
 
 ___
 
@@ -570,13 +570,13 @@ ___
 
 ![ctop-example-usage](assets/50-ctop.webp)
 
-[Ver ctop en Github](https://github.com/bcicen/ctop) [Autor bcicen](https://github.com/bcicen) Escrito en Go
+[Ver ctop en GitHub](https://github.com/bcicen/ctop) [Autor bcicen](https://github.com/bcicen) Escrito en Go
 
 ___
 
 ![bandwhich-example-usage](assets/50-bandwhich.webp)
 
-[Ver bandwhich en Github](https://github.com/imsnif/bandwhich) [Autor imsnif](https://github.com/imsnif) Escrito en Rust
+[Ver bandwhich en GitHub](https://github.com/imsnif/bandwhich) [Autor imsnif](https://github.com/imsnif) Escrito en Rust
 
 ___
 
@@ -586,7 +586,7 @@ ___
 
 ![bpytop-example-usage](assets/50-bpytop.webp)
 
-[Ver bpytop en Github](https://github.com/aristocratos/bpytop) [Autor aristocratos](https://github.com/aristocratos) Escrito en Python
+[Ver bpytop en GitHub](https://github.com/aristocratos/bpytop) [Autor aristocratos](https://github.com/aristocratos) Escrito en Python
 
 ___
 
@@ -596,7 +596,7 @@ ___
 
 ![glances-example-usage](assets/50-glances.webp)
 
-[Ver glances en Github](https://github.com/nicolargo/glances) [Autor nicolargo](https://github.com/nicolargo) Escrito en Python
+[Ver glances en GitHub](https://github.com/nicolargo/glances) [Autor nicolargo](https://github.com/nicolargo) Escrito en Python
 
 ___
 
@@ -606,7 +606,7 @@ ___
 
 ![gping-example-usage](assets/50-gping.gif)
 
-[Ver gping en Github](https://github.com/orf/gping) [Autor orf](https://github.com/orf) Escrito en Rust
+[Ver gping en GitHub](https://github.com/orf/gping) [Autor orf](https://github.com/orf) Escrito en Rust
 
 ___
 
@@ -616,7 +616,7 @@ ___
 
 ![dua-cli-usage-example](assets/50-dua-cli.webp)
 
-[Ver dua-cli en Github](https://github.com/Byron/dua-cli) [Autor Byron](https://github.com/Byron) Escrito en Rust
+[Ver dua-cli en GitHub](https://github.com/Byron/dua-cli) [Autor Byron](https://github.com/Byron) Escrito en Rust
 
 ___
 
@@ -626,7 +626,7 @@ ___
 
 ![speedtest-cli-example-usage](assets/50-speedtest-cli.webp)
 
-[Ver speedtest-cli en Github](https://github.com/sivel/speedtest-cli) [Autor sivel](https://github.com/sivel) Escrito en Python
+[Ver speedtest-cli en GitHub](https://github.com/sivel/speedtest-cli) [Autor sivel](https://github.com/sivel) Escrito en Python
 
 ___
 
@@ -636,7 +636,7 @@ ___
 
 ![dog-example-usage](assets/50-dog.webp)
 
-[Ver dog en Github](https://github.com/ogham/dog) [Autor ogham](https://github.com/ogham) Escrito en Rust
+[Ver dog en GitHub](https://github.com/ogham/dog) [Autor ogham](https://github.com/ogham) Escrito en Rust
 
 ___
 
@@ -650,7 +650,7 @@ ___
 
 ![browsh-example-usage](assets/50-browsh.webp)
 
-[Ver browsh en Github] [Autor browsh-org](https://github.com/browsh-org) Escrito en JavaScript
+[Ver browsh en GitHub] [Autor browsh-org](https://github.com/browsh-org) Escrito en JavaScript
 
 ___
 
@@ -660,7 +660,7 @@ ___
 
 ![buku-example-usage](assets/50-buku.webp)
 
-[Ver buku en Github] [Autor jarun](https://github.com/jarun) Escrito en Python
+[Ver buku en GitHub] [Autor jarun](https://github.com/jarun) Escrito en Python
 
 ___
 
@@ -670,7 +670,7 @@ ___
 
 ![cmus-example-usage](assets/50-cmus.webp)
 
-[Ver cmus en Github] [Autor cmus](https://github.com/cmus) Escrito en C
+[Ver cmus en GitHub] [Autor cmus](https://github.com/cmus) Escrito en C
 
 ___
 
@@ -680,7 +680,7 @@ ___
 
 ![cointop-example-usage](assets/50-cointop.webp)
 
-[Ver cointop en Github](https://github.com/cointop-sh/cointop) [Autor cointop-sh](https://github.com/cointop-sh) Escrito en Go
+[Ver cointop en GitHub](https://github.com/cointop-sh/cointop) [Autor cointop-sh](https://github.com/cointop-sh) Escrito en Go
 
 ___
 
@@ -690,7 +690,7 @@ ___
 
 ![dggr-example-usage](assets/50-ddgr.webp)
 
-[Ver ddgr en Github][Autor jarun](https://github.com/jarun) Escrito en Python
+[Ver ddgr en GitHub][Autor jarun](https://github.com/jarun) Escrito en Python
 
 ___
 
@@ -701,7 +701,7 @@ ___
 
 ![micro-screenshot](assets/50-micro.webp)
 
-[Ver micro en Github](https://github.com/zyedidia/micro) [Autor zyedidia](https://github.com/zyedidia) Escrito en Go
+[Ver micro en GitHub](https://github.com/zyedidia/micro) [Autor zyedidia](https://github.com/zyedidia) Escrito en Go
 
 ___
 
@@ -711,7 +711,7 @@ ___
 
 ![khal-example-usage](assets/50-khal.webp)
 
-[Ver khal en Github](https://github.com/pimutils/khal) [Autor pimutils](https://github.com/pimutils) Escrito en Python
+[Ver khal en GitHub](https://github.com/pimutils/khal) [Autor pimutils](https://github.com/pimutils) Escrito en Python
 
 ___
 
@@ -721,7 +721,7 @@ ___
 
 ![mutt-example-usage](assets/50-mutt.webp)
 
-[Ver mutt en Github](https://gitlab.com/muttmua/mutt) [Autor muttmua](https://github.com/muttmua) Escrito en C
+[Ver mutt en GitHub](https://gitlab.com/muttmua/mutt) [Autor muttmua](https://github.com/muttmua) Escrito en C
 
 ___
 
@@ -731,7 +731,7 @@ ___
 
 ![newsboat-example-usage](assets/50-newsboat.webp)
 
-[Ver newsboat en Github](https://github.com/newsboat/newsboat) [Autor newsboat](https://github.com/newsboat) Escrito en C++
+[Ver newsboat en GitHub](https://github.com/newsboat/newsboat) [Autor newsboat](https://github.com/newsboat) Escrito en C++
 
 ___
 
@@ -739,7 +739,7 @@ ___
 
 > `rclone` es una práctica utilidad para sincronizar archivos y carpetas con varios proveedores de almacenamiento en la nube. Puede invocarse directamente desde la línea de comandos o integrarse fácilmente en un script como sustituto de las pesadas aplicaciones de sincronización de escritorio.
 
-[Ver rclone en Github](https://github.com/rclone) Escrito en Go
+[Ver rclone en GitHub](https://github.com/rclone) Escrito en Go
 
 ___
 
@@ -749,7 +749,7 @@ ___
 
 ![task-warrior-example-usage](assets/50-taskwarrior.webp)
 
-[Ver taskwarrior en Github](https://github.com/GothenburgBitFactory/taskwarrior) [Autor GothenburgBitFactory](https://github.com/GothenburgBitFactory) Escrito en C++
+[Ver taskwarrior en GitHub](https://github.com/GothenburgBitFactory/taskwarrior) [Autor GothenburgBitFactory](https://github.com/GothenburgBitFactory) Escrito en C++
 
 ___
 
@@ -771,7 +771,7 @@ ___
 
 ![httpie-example-usage](assets/50-httpie.webp)
 
-[Ver httpie en Github](https://github.com/httpie/httpie) [Autor httpie](https://github.com/httpie) Escrito en Python
+[Ver httpie en GitHub](https://github.com/httpie/httpie) [Autor httpie](https://github.com/httpie) Escrito en Python
 
 ___
 
@@ -781,7 +781,7 @@ ___
 
 ![lazy-docker-example-usage](assets/50-lazydocker.webp)
 
-[Ver lazydocker en Github](https://github.com/jesseduffield/lazydocker) [Autor jesseduffield](https://github.com/jesseduffield) Escrito en Go
+[Ver lazydocker en GitHub](https://github.com/jesseduffield/lazydocker) [Autor jesseduffield](https://github.com/jesseduffield) Escrito en Go
 
 ___
 
@@ -791,7 +791,7 @@ ___
 
 ![lazy-git-example-usage](assets/50-lazygit.webp)
 
-[Ver lazygit en Github](https://github.com/jesseduffield/lazygit) [Autor jesseduffield](https://github.com/jesseduffield) Escrito en Go
+[Ver lazygit en GitHub](https://github.com/jesseduffield/lazygit) [Autor jesseduffield](https://github.com/jesseduffield) Escrito en Go
 
 ___
 
@@ -799,7 +799,7 @@ ___
 
 > `kdash` es una herramienta de gestión de Kubernetes todo en uno. Ver métricas de nodo, ver recursos, transmitir registros de contenedor, analizar contextos y gestionar nodos, pods y espacios de nombres.
 
-[Ver kdash en Github](https://github.com/kdash-rs/kdash/) [Autor kdash-rs](https://github.com/kdash-rs) Escrito en Rust
+[Ver kdash en GitHub](https://github.com/kdash-rs/kdash/) [Autor kdash-rs](https://github.com/kdash-rs) Escrito en Rust
 
 ___
 
@@ -809,7 +809,7 @@ ___
 
 ![gdp-dashboard-example-usage](assets/50-gdp-dashboard.webp)
 
-[Ver gdb-dashboard en Github](https://github.com/cyrus-and/gdb-dashboard) [Autor cyrus-and](https://github.com/cyrus-and) Escrito en Python
+[Ver gdb-dashboard en GitHub](https://github.com/cyrus-and/gdb-dashboard) [Autor cyrus-and](https://github.com/cyrus-and) Escrito en Python
 
 ___
 
@@ -822,7 +822,7 @@ ___
 
 ![ngrok-example-usage](assets/50-ngrok.webp)
 
-[Ver ngrok en Github](https://github.com/inconshreveable/ngrok) [Autor inconshreveable](https://github.com/inconshreveable) Escrito en Go
+[Ver ngrok en GitHub](https://github.com/inconshreveable/ngrok) [Autor inconshreveable](https://github.com/inconshreveable) Escrito en Go
 
 ___
 
@@ -830,7 +830,7 @@ ___
 
 > `tmate` te permite compartir instantáneamente una sesión de terminal en vivo con alguien en otra parte del mundo. Funciona a través de diferentes sistemas, soporta control de acceso / auth, puede ser auto-alojado, y tiene todas las características de Tmux
 
-[Ver tmate en Github](https://github.com/tmate-io/tmate) [Autor tmate-io](https://github.com/tmate-io)Escrito en C
+[Ver tmate en GitHub](https://github.com/tmate-io/tmate) [Autor tmate-io](https://github.com/tmate-io)Escrito en C
 
 ___
 
@@ -838,7 +838,7 @@ ___
 
 > `asciinema` es muy útil para grabar, compartir e incrustar fácilmente una sesión de terminal. Ideal para mostrar algo que has construido, o para mostrar los pasos de línea de comandos para un tutorial. A diferencia de los vídeos de grabación de pantalla, el usuario puede copiar y pegar el contenido, cambiar el tema sobre la marcha y controlar la reproducción.
 
-[Ver asciinema en Github](https://github.com/asciinema/asciinema) [Autor asciinema](https://github.com/asciinema) Escrito en Python
+[Ver asciinema en GitHub](https://github.com/asciinema/asciinema) [Autor asciinema](https://github.com/asciinema) Escrito en Python
 
 ___
 
@@ -846,7 +846,7 @@ ___
 
 > `navi` permite navegar por las hojas de trucos y ejecutar comandos. Los valores sugeridos para los argumentos se muestran dinámicamente en una lista. Escribe menos, reduce los errores y ahórrate tener que memorizar miles de comandos. Se integra con [tldr](https://github.com/tldr-pages/tldr) y [cheat.sh](https://github.com/chubin/cheat.sh) para obtener contenido, pero también puedes importar otras cheatsheets, o incluso escribir las tuyas propias.
 
-[Ver navi en Github](https://github.com/denisidoro/navi) [Autor denisidoro](https://github.com/denisidoro) Escrito en Rust
+[Ver navi en GitHub](https://github.com/denisidoro/navi) [Autor denisidoro](https://github.com/denisidoro) Escrito en Rust
 
 ___
 
@@ -857,7 +857,7 @@ ___
 
 ![transfer-sh-example-usage](assets/50-transfer-sh.webp)
 
-[Ver transfer.sh en Github](https://github.com/dutchcoders/transfer.sh) [Autor dutchcoders](https://github.com/dutchcoders) Escrito en Go
+[Ver transfer.sh en GitHub](https://github.com/dutchcoders/transfer.sh) [Autor dutchcoders](https://github.com/dutchcoders) Escrito en Go
 
 ___
 
@@ -875,7 +875,7 @@ ___
 
 ![wrrt-in-example-usage](assets/50-wttr-in.webp)
 
-[Ver wttr.in en Github](https://github.com/chubin/wttr.in) [Autor chubin](https://github.com/chubin) Escrito en Python
+[Ver wttr.in en GitHub](https://github.com/chubin/wttr.in) [Autor chubin](https://github.com/chubin) Escrito en Python
 
 ___
 
@@ -887,7 +887,7 @@ ___
 
 ![cowsay-example-usage](assets/50-cowsay.webp)
 
-[Ver cowsay en Github](https://github.com/piuccio/cowsay) [Autor piuccio](https://github.com/piuccio) Escrito en JavaScript
+[Ver cowsay en GitHub](https://github.com/piuccio/cowsay) [Autor piuccio](https://github.com/piuccio) Escrito en JavaScript
 
 ___
 
@@ -897,7 +897,7 @@ ___
 
 ![figlet-example-usage](assets/50-figlet.webp)
 
-[Ver figlet en Github](https://github.com/cmatsuoka/figlet) [Autor cmatsuoka](https://github.com/cmatsuoka) Escrito en C
+[Ver figlet en GitHub](https://github.com/cmatsuoka/figlet) [Autor cmatsuoka](https://github.com/cmatsuoka) Escrito en C
 
 ___
 
@@ -907,7 +907,7 @@ ___
 
 ![lolcat-example-usage](assets/50-lolcat.webp)
 
-[Ver lolcat en Github](https://github.com/busyloop/lolcat) [Autor busyloop](https://github.com/busyloop) Escrito en Ruby
+[Ver lolcat en GitHub](https://github.com/busyloop/lolcat) [Autor busyloop](https://github.com/busyloop) Escrito en Ruby
 
 ___
 
@@ -917,7 +917,7 @@ ___
 
 ![neofetch-example-usage](assets/50-neofetch.webp)
 
-[Ver neofetch en Github](https://github.com/dylanaraps/neofetch) [Autor dylanaraps](https://github.com/dylanaraps) Escrito en Bash
+[Ver neofetch en GitHub](https://github.com/dylanaraps/neofetch) [Autor dylanaraps](https://github.com/dylanaraps) Escrito en Bash
 
 Como ejemplo, estoy usando `cowsay`, `figlet`, `lolcat` y `neofetch` para crear un MOTD personalizado basado en el tiempo que se muestra al usuario cuando se conecta por primera vez. Les saluda por su nombre, muestra información del servidor y la hora, fecha, tiempo e IP. [Aquí está el código fuente](https://github.com/Lissy93/dotfiles/blob/master/utils/welcome-banner.sh).
 
@@ -928,7 +928,7 @@ ___
 
 La mayoría de nosotros tenemos un conjunto básico de aplicaciones y utilidades CLI en las que confiamos. Configurar una nueva máquina e instalar cada programa individualmente sería muy tedioso. Por eso, la tarea de instalar y actualizar tus apps de terminal es perfecta para automatizar. [Aquí](https://github.com/Lissy93/dotfiles/tree/master/scripts/installs) tienes algunos scripts de ejemplo que he escrito, que puedes añadir fácilmente a tus dotfiles o ejecutar de forma independiente para asegurarte de que nunca te falte una app.
 
-Para usuarios de MacOS, el método más sencillo es usar [Homebrew](https://brew.sh/). Solo tienes que crear un Brewfile (con `touch ~/.Brewfile`), luego listar cada una de tus apps y ejecutar `brew bundle`. Puedes mantener tu lista de paquetes respaldada poniéndola en un repositorio Git. Aquí tienes un ejemplo para empezar: [https://github.com/Lissy93/Brewfile](https://github.com/Lissy93/Brewfile)
+Para usuarios de macOS, el método más sencillo es usar [Homebrew](https://brew.sh/). Solo tienes que crear un Brewfile (con `touch ~/.Brewfile`), luego listar cada una de tus apps y ejecutar `brew bundle`. Puedes mantener tu lista de paquetes respaldada poniéndola en un repositorio Git. Aquí tienes un ejemplo para empezar: [https://github.com/Lissy93/Brewfile](https://github.com/Lissy93/Brewfile)
 
 En Linux, normalmente querrás usar el gestor de paquetes nativo (por ejemplo, `pacman`, `apt`). Por ejemplo, [aquí tienes un script](https://github.com/Lissy93/dotfiles/blob/master/scripts/installs/arch-pacman.sh) para instalar las apps anteriores en sistemas Arch Linux.
 
@@ -950,7 +950,7 @@ Espero que algunas de estas te sean útiles :)
 
 -   Esta lista no incluye lo básico, como Vim, Tmux, Ranger, ZSH, Git, etc., que probablemente ya usas
 -   Tampoco he incluido nada demasiado específico o solo relevante para pocos usuarios
--   No se incluye nada específico de un sistema o que no sea multiplataforma (Linux/Unix, MacOS)
+-   No se incluye nada específico de un sistema o que no sea multiplataforma (Linux/Unix, macOS)
 -   Tampoco apps relacionadas con la terminal pero que no sean CLI (como emuladores de terminal)
 -   Para la mayoría de los proyectos listados, hay muchas alternativas que logran cosas similares; por brevedad, esas tampoco se incluyeron
 
