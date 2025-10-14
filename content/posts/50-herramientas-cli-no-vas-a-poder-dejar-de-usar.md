@@ -25,17 +25,18 @@ Topics:
 
 markup: markdown
 date: 2025-10-13
-draft: true
+draft: false
 ---
 
-Como desarrolladores, pasamos gran parte de nuestro tiempo en el terminal. Hay un montón de herramientas útiles CLI, que pueden hacer su vida en la línea de comandos más fácil, más rápido y más divertido en general.
+_La versión original de este post se puede encontrar en [dev.to/lissy93](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6) (inglés)._
 
-Este post describe mi top 50 de herramientas CLI imprescindibles, en las que he llegado a confiar. Si hay algo que me falta - hágamelo saber en los comentarios :)
+Como desarrolladores, pasamos gran parte de nuestro tiempo en el terminal. Hay un montón de herramientas CLI útiles que pueden hacer tu vida en la línea de comandos más fácil, más rápida y más divertida.
+
+Este post describe mi top 50 de herramientas CLI imprescindibles, en las que he llegado a confiar.
 
 Al final del artículo, he incluido algunas secuencias de comandos para ayudarle a automatizar la instalación y actualización de estas herramientas en varios sistemas / distros.
 
-
-↕️ **Índice** (haz clic para expandir)
+↕️ **Índice**
 - [Utils](#utils)
   - [`thefuck` - Autocorrección de comandos mal escritos](#thefuck---autocorrección-de-comandos-mal-escritos)
   - [`zoxide` - Fácil navegación _(mejor cd)_](#zoxide---fácil-navegación-mejor-cd)
