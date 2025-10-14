@@ -24,7 +24,7 @@ Topics:
 - productividad técnica
 
 markup: markdown
-date: 2025-10-13
+date: 2025-10-14
 draft: false
 ---
 
