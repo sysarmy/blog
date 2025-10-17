@@ -13,7 +13,7 @@ jobs:
     env:
       GITHUB_BRANCH: gh-pages
       GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
-      HUGO_VERSION: "0.148.2"
+      HUGO_VERSION: "0.151.0"
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -53,9 +53,9 @@ jobs:
           timestamp=$(date +%s%3N) && \
           git commit -m "Automated deployment to GitHub Pages on $timestamp" > /dev/null 2>&1 && \
           git push deploy $remote_branch --force && \
-          rm -fr .git && \
+          rm -rf .git && \
           cd ../
-          echo '=================== Done  ==================='
+          echo '=================== Done ==================='
   Push:
     needs: Build
     runs-on: ubuntu-latest
