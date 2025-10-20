@@ -43,6 +43,7 @@ jobs:
           remote_repo="git@github.com:${GITHUB_DEPLOY_REPOSITORY}.git" && \
           remote_branch=${GITHUB_DEPLOY_BRANCH} && \
           echo "Pushing Builds to $remote_repo:$remote_branch" && \
+          git config set advice.defaultBranchName false && \
           git init && \
           git remote add deploy $remote_repo && \
           git checkout $remote_branch || git checkout --orphan $remote_branch && \
