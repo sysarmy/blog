@@ -13,7 +13,6 @@ Keywords:
 - kubernetes
 Section: 
 Tags:
-Tags:
 - sysarmy
 - podcast
 - polemicaenvar

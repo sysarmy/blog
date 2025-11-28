@@ -17,7 +17,6 @@ Tags:
 - netflix
 featuredImage: assets/https3a2f2fcdn-images-1-medium-com2fmax2f16002f04q74mywyhitabob1-jpg.jpeg
 socialImage: assets/https3a2f2fcdn-images-1-medium-com2fmax2f16002f04q74mywyhitabob1-jpg.jpeg
-featuredImage: assets/https3a2f2fcdn-images-1-medium-com2fmax2f16002f04q74mywyhitabob1-jpg.jpeg
 Title: Cómo funciona Netflix - el complejo proceso en términos sencillos
 Topics:
 - Development
