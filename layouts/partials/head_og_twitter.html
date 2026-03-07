@@ -24,7 +24,7 @@
 {{ end }}
 
 {{ with $description }}<meta name="description" content="{{ . }}">{{ end }}
-<meta name="keywords" content="{{ if .Params.Keywords }}{{ delimit .Params.Keywords ", " }}{{ else if isset .Params "tags" }}{{ range .Params.tags }}{{ . }}, {{ end }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}">
+<meta name="keywords" content="{{ if .Params.Keywords }}{{ delimit .Params.Keywords ", " }}{{ else if isset .Params "tags" }}{{ range .Params.tags }}{{ . }}, {{ end }}{{ else }}{{ $.Site.Params.Keywords | default $.Site.Params.keywords }}{{ end }}">
 
 <meta name="author" content="sysarmy">
 <meta property="fb:admins" content="ajolo" />
@@ -41,8 +41,9 @@
   <meta property="twitter:description" content="{{ .Title }}">
   <meta name="description" content="{{ $description }}">
 {{ else }}
-  <meta property="og:title" content="{{ .Site.Title }}{{ with .Site.Params.Subtitle }} — {{ . }}{{ end }}">
-  <meta property="twitter:title" content="{{ .Site.Title }}">
+  {{ $subtitle := .Site.Params.Subtitle | default .Site.Params.subtitle }}
+  <meta property="og:title" content="{{ .Site.Title }}{{ with $subtitle }} — {{ . }}{{ end }}">
+  <meta property="twitter:title" content="{{ .Site.Title }}{{ with $subtitle }} — {{ . }}{{ end }}">
   <meta property="og:type" content="website">
   <meta property="og:description" content="{{ $description }}">
   <meta property="twitter:description" content="{{ $description }}">
@@ -52,9 +53,16 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="sysarmy">
 <meta property="og:image" content="{{ $ogImage }}">
+<meta property="og:image:secure_url" content="{{ $ogImage }}">
+{{/* Dimensions only when using default hero image (not post-specific featured/social image) */}}
+{{ if not (or .Params.socialImage .Params.featuredImage) }}
+  {{ with .Site.Params.heroImageWidth }}<meta property="og:image:width" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.heroImageHeight }}<meta property="og:image:height" content="{{ . }}">{{ end }}
+{{ end }}
 <meta name="twitter:image" content="{{ $ogImage }}">
 <meta name="twitter:image:src" content="{{ $ogImage }}">
 <meta property="og:image:alt" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta name="twitter:image:alt" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
 
 {{ if .Params.tags }}
   {{ range .Params.tags }}

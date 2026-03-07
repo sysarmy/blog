@@ -10,11 +10,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else }}{{ .Summary | plainify }}{{ end }}"
+  content="{{ if .IsHome }}{{ $.Site.Params.Subtitle | default $.Site.Params.subtitle }}{{ else }}{{ .Summary | plainify }}{{ end }}"
 />
 <meta
   name="keywords"
-  content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"
+  content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords | default $.Site.Params.keywords }}{{ end }}"
 />
 <meta name="robots" content="noodp" />
 

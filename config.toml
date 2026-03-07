@@ -14,6 +14,8 @@ MetaDataFormat = "toml"
   # For link previews use image 1200×630px (1.91:1), ideally under 300KB
   description = "El blog de quienes dan soporte - Sysarmy"
   heroImage = "images/og-image.png"
+  heroImageWidth = 1200
+  heroImageHeight = 630
   favicon = "images/og-image.png"
 
   # dir name of your blog content (default is `content/posts`).
