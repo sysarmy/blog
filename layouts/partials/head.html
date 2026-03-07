@@ -32,11 +32,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 <!-- Icons -->
-<link
-  rel="apple-touch-icon-precomposed"
-  sizes="144x144"
-  href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}"
-/>
 {{ $favicon := or .Site.Params.favicon "img/favicon.png" }}
 <link rel="shortcut icon" href="{{ if hasPrefix $favicon "http" }}{{ $favicon }}{{ else }}{{ $favicon | absURL }}{{ end }}" />
 
