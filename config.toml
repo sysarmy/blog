@@ -9,6 +9,10 @@ MetaDataFormat = "toml"
   pagerSize = 10
 
 [params]
+  # Site description and default image for Open Graph / Twitter cards (social embeds)
+  description = "El blog de quienes dan soporte - Sysarmy"
+  heroImage = "https://sysarmy.com/images/logo.png"
+
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
