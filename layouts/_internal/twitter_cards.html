@@ -9,24 +9,23 @@
   {{ else if .Params.featuredImage }}
     {{ $ogImage = .Params.featuredImage | absURL }}
   {{ else }}
-    {{ $ogImage = (.Site.Params.heroImage | default "https://sysarmy.com/images/logo.png") | absURL }}
+    {{ $ogImage = (.Site.Params.heroImage | default "images/og-image.png") | absURL }}
   {{ end }}
 {{ else }}
-  {{ $description = .Site.Params.description | default .Site.Params.subtitle | default "El blog de Sysarmy" }}
-  {{ $ogImage = (.Site.Params.heroImage | default "https://sysarmy.com/images/logo.png") | absURL }}
+  {{ $description = .Site.Params.description | default .Site.Params.subtitle | default "El blog de quienes dan soporte - Sysarmy" }}
+  {{ $ogImage = (.Site.Params.heroImage | default "images/og-image.png") | absURL }}
 {{ end }}
 
 {{ with $description }}<meta name="description" content="{{ . }}">{{ end }}
-<meta name="keywords" content="{{ if .Keywords }}{{ range .Keywords }}{{ . }}, {{ end }}{{ else if isset .Params "tags" }}{{ range .Params.tags }}{{ . }}, {{ end }}{{ end }}">
+<meta name="keywords" content="{{ if .Keywords }}{{ range .Keywords }}{{ . }}, {{ end }}{{ else if isset .Params "tags" }}{{ range .Params.tags }}{{ . }}, {{ end }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}">
 
 <meta name="author" content="sysarmy">
-<meta property="fb:admins" content="218813981488432"/>
+<meta property="fb:admins" content="ajolo" />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@sysarmy">
 <meta name="twitter:creator" content="@sysarmy">
 
 {{ if .IsPage }}
-  <title>{{ .Title }}</title>
   <meta property="og:title" content="{{ .Title }}">
   <meta property="twitter:title" content="{{ .Title }}">
   <meta property="og:type" content="article">
@@ -35,8 +34,7 @@
   <meta property="twitter:description" content="{{ $description }}">
   <meta name="description" content="{{ $description }}">
 {{ else }}
-  <title>{{ .Site.Title }}</title>
-  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ .Site.Title }}{{ with .Site.Params.Subtitle }} — {{ . }}{{ end }}">
   <meta property="twitter:title" content="{{ .Site.Title }}">
   <meta property="og:type" content="website">
   <meta property="og:description" content="{{ $description }}">
@@ -48,6 +46,7 @@
 <meta property="og:site_name" content="sysarmy">
 <meta property="og:image" content="{{ $ogImage }}">
 <meta property="twitter:image" content="{{ $ogImage }}">
+<meta name="twitter:image:src" content="{{ $ogImage }}">
 <meta property="og:image:alt" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
 
 {{ range .Params.tags }}

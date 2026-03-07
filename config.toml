@@ -10,8 +10,10 @@ MetaDataFormat = "toml"
 
 [params]
   # Site description and default image for Open Graph / Twitter cards (social embeds)
+  # Hero image is used when your blog URL is shared (Twitter, WhatsApp, etc.). Put the file in static/images/
+  # For link previews use image 1200×630px (1.91:1), ideally under 300KB
   description = "El blog de quienes dan soporte - Sysarmy"
-  heroImage = "https://sysarmy.com/images/logo.png"
+  heroImage = "images/og-image.png"
 
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
@@ -39,7 +41,7 @@ MetaDataFormat = "toml"
     title = "Sysarmy"
   [languages.en.params]
     subtitle = "El blog de quienes dan soporte"
-    keywords = ""
+    keywords = "sysadmin, sistemas, desarrollo, developer, administración de sistemas, administrador de sistemas, linux, cloud, docker, kubernetes"
     copyright = ""
     menuMore = "Mostrar mas"
     writtenBy = "Escrito por"
