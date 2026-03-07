@@ -37,7 +37,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   sizes="144x144"
   href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}"
 />
-<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
+{{ $favicon := or .Site.Params.favicon "img/favicon.png" }}
+<link rel="shortcut icon" href="{{ if hasPrefix $favicon "http" }}{{ $favicon }}{{ else }}{{ $favicon | absURL }}{{ end }}" />
 
 <!-- Fonts -->
 <link href="{{ "assets/fonts/Inter-Italic.woff2" | absURL }}" rel="preload" type="font/woff2" as="font" crossorigin="">
@@ -47,8 +48,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="{{ "assets/fonts/Inter-Bold.woff2" | absURL }}" rel="preload" type="font/woff2" as="font" crossorigin="">
 <link href="{{ "assets/fonts/Inter-BoldItalic.woff2" | absURL }}" rel="preload" type="font/woff2" as="font" crossorigin="">
 
-<!-- Open Graph / Twitter Card -->
-{{ template "_internal/twitter_cards.html" . }}
+<!-- Open Graph / Twitter Card (partial so OG image URL is built correctly with baseURL subpath) -->
+{{ partial "head_og_twitter.html" . }}
 
 <!-- RSS | JSON -->
 {{ range .AlternativeOutputFormats -}}
