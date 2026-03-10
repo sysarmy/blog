@@ -41,9 +41,4 @@ Como siempre, nos encuentran en [Discord](https://sysar.my/discord), [Slack](htt
 | [Análisis de Openqube](https://openqube.io/sueldos) |
 | :-------------------------------------------------: |
 
-| [GPT para chatear con el dataset](https://sysar.my/sueldosgpt) |
-| :-------------------------------------------------: |
-
-| [Dataset original](https://sysar.my/sueldos20261) |
-| :-------------------------------------------------: |
 ¡Muchas gracias a todas las personas que colaboraron!
