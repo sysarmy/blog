@@ -81,7 +81,7 @@ footnoteReturnLinkContents = ":leftwards_arrow_with_hook:"
     name = "Sysarmy"
 
 [security]
-  allowContent = ['! ^text/html$']
+  allowContent = ['text/html', 'text/markdown']
   enableInlineShortcodes = false
   [security.exec]
     allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
