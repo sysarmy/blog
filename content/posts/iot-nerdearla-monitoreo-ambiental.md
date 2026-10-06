@@ -28,6 +28,8 @@ socialImage: assets/nerdearla-iot-portada.webp
 featuredImage: assets/nerdearla-iot-portada.webp
 ---
 
+_Por Inti María Tidball. [GitHub](https://github.com/Intimaria), [LinkedIn](https://www.linkedin.com/in/intimariatidball/)._
+
 Estoy muy contenta de poder compartir finalmente parte del trabajo que estuve haciendo durante el último mes para **Nerdearla**, junto con el equipo de Nerdearla — Eduardo Casarero, Emilio Nagy (Nachi) y Lole.
 
 <!--more-->
