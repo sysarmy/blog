@@ -300,3 +300,7 @@ Tener ese tipo de apoyo hizo una diferencia enorme: me permitió tomar algo que 
 Ojalá más chicas y mujeres se animen a estos desafíos. Yo empecé con dudas y miedos, pero terminé con un sistema funcionando en un evento real. Si yo pude, muchas más pueden.
 
 Estoy muy agradecida con todas las personas que hicieron posible que esto sucediera.
+
+---
+
+_Este artículo también está publicado en AWS Builder Center: [Sistema IoT para monitoreo ambiental en un evento de gran escala](https://builder.aws.com/content/3KKH4HCvufqkOIqE5ZICZEzukHP/sistema-iot-para-monitoreo-ambiental-en-un-evento-de-gran-escala-arquitectura-hardware-y-aprendizajes)._
