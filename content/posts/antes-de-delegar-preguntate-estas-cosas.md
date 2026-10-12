@@ -1,29 +1,29 @@
 ---
 title: "Antes de delegar, hacete estas 6 preguntas"
-date: 2026-10-11
-Description: "Estas preguntas van a ayudar a que tus compañeros tenga éxito y también te pueden ayudar si vas a delegarle tareas a una AI."
+date: 2026-10-12
+Description: "Estas preguntas van a ayudar a que tus compañeros tengan éxito y también te pueden ayudar si vas a delegarle tareas a una AI."
 draft: false
 
 Keywords:
-  - management   
-  - strategy   
-  - delegate     
-  - softwaredevelopment   
-  - softwareengineering   
-  - coding   
+  - management
+  - strategy
+  - delegate
+  - softwaredevelopment
+  - softwareengineering
+  - coding
 
 Tags:
-  - management 
+  - management
   - priorización
   - mejores-prácticas
 
-Topics:  
-  - strategy    
-  - softwaredevelopment   
-  - softwareengineering   
-  - management 
+Topics:
+  - strategy
+  - softwaredevelopment
+  - softwareengineering
+  - management
   - priorización
-  - mejores-prácticas 
+  - mejores-prácticas
   - startups
 
 Thumbnail: assets/antes-de-delegar-preguntate-estas-cosas.jpg
@@ -37,11 +37,9 @@ _La versión original de este post de [Wes Kao](https://substack.com/@weskao) se
 
 **“Va a llevar demasiado tiempo explicar cómo hacer esto.”**
 
-Durante años me resistí a delegar porque me resultaba más rápido hacer la tarea yo mismo. Intelectualmente entendía los beneficios de delegar: tener mas productividad, trabajar a través de otros, aumentar mi impacto, etc., etc., etc.
+Durante años me resistí a delegar porque me resultaba más rápido hacer la tarea yo mismo. Intelectualmente entendía los beneficios de delegar: tener más productividad, trabajar a través de otros, aumentar mi impacto, etc., etc., etc.
 
 Pero reservar el tiempo para explicar todos los matices de una tarea me parecía un montón de trabajo. Tenía miedo de no explicar bien y de que la persona no hiciera un buen trabajo, lo que terminaría haciendo que yo tuviera que rehacer todo igual.
-
-<!--more-->
 
 Un día me di cuenta de que tener una checklist podía ayudarme a identificar rápido qué contarle a alguien por fuera de mi propia cabeza. Desde entonces usé checklists como la de abajo en cientos de pedidos a otras personas. Funciona en un montón de situaciones donde necesitás establecer un contexto compartido:
 
@@ -66,9 +64,9 @@ Además, saber cómo tu parte encaja en un proyecto más grande hace que cualqui
 > 🚫: [Silencio]
 >
 > ✅: “Esto importa porque…”
-> 
+>
 > ✅: “Nuestro objetivo es evaluar a qué microinfluencers contactar para nuestra próxima campaña. Queremos asegurarnos de que sean un buen fit para la marca y este lanzamiento específico.”
-> 
+>
 > ✅: “Una vez que termines esto, lo vamos a compartir con el equipo de X y ellos van a tomar eso y…”
 
 #### 3. ¿Qué necesitan para hacer esta tarea?
@@ -82,9 +80,9 @@ Tratá de *“mostrar, no contar”* cómo se ve lo excelente. Por ejemplo, comp
 Incluso si no tenés un ejemplo uno a uno porque lo que estás pidiendo es nuevo, podés mostrar ejemplos y decir “Es como esto, excepto…”
 
 > 🚫: [Silencio]
-> 
+>
 > ✅: “El documento final debería verse similar a este.”
-> 
+>
 > ✅: “Acá hay algunos ejemplos de documentos de estrategia. El tuyo no tiene que tener exactamente las mismas secciones, pero fijate cómo estos docs cubren el ‘¿por qué ahora?’ del problema y [insertá las otras cosas que querés señalar].”
 
 #### 5. ¿Cuál es el timeline y el nivel de prioridad?
@@ -98,9 +96,9 @@ Me gusta pedirle a mis colegas que me avisen si van a mitad del proyecto y se da
 #### 6. ¿Qué es lo más probable que salga mal? ¿Qué puedo hacer para evitar que pase?
 
 Estas dos preguntas cubren **prácticamente el 99 % de la reducción de riesgos**. Si las apuestas son bajas, dedicá menos tiempo a esto. Si las apuestas son altas, armá un set más completo de riesgos para poder evaluar la probabilidad y el impacto de cada problema. ¿Qué no querés que haga la persona?
- 
+
 > 🚫: [Silencio]
-> 
+>
 > ✅: “No necesito párrafos de explicación o contexto de cada cliente. Solo necesito el nombre del cliente y algunos bullet points de por qué los elegiste. A partir de ahí, voy a revisar yo mismo el perfil de cada cliente que recomendaste.”
 
 Para recapitular, estas son las preguntas:
