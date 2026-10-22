@@ -131,7 +131,7 @@ Nació para resolver un problema concreto: los **bastiones de menú**, en los qu
 - **IA con tu propio agente** (Claude Code, Gemini CLI, Codex) o tu propia clave de API. Por defecto solo lee, cada orden se confirma y las contraseñas nunca se envían al modelo.
 - Importa `~/.ssh/config`, MobaXterm y SecureCRT.
 
-Lo que tienes que saber: funciona en **Windows y Linux** (macOS no), es **código cerrado** y es un proyecto joven. La versión gratuita no incluye RDP ni IA, y las automatizaciones están limitadas; el plan Pro está en beta y puedes pedir acceso en [synapterm.com](https://synapterm.com) o por Discord (KineticK). Agradezco las críticas más que los elogios.
+Lo que tienes que saber: funciona en **Windows y Linux** (macOS no), es **código cerrado** y es un proyecto joven. La versión gratuita no incluye RDP ni IA, y las automatizaciones están limitadas; puedes [descargarla gratis](https://synapterm.com/download?ref=sysarmy), sin cuenta ni registro. El plan Pro está en beta y puedes pedir acceso en [synapterm.com](https://synapterm.com/#beta) o por Discord (KineticK). Agradezco las críticas más que los elogios.
 
 ## Para llevarte
 
