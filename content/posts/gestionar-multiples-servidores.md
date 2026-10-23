@@ -26,6 +26,8 @@ date: 2026-10-22
 draft: false
 ---
 
+_Por Sergio Lagüéns. [GitHub](https://github.com/xKineticK), [LinkedIn](https://www.linkedin.com/in/sergio-laguens)._
+
 Todo empieza con un par de servidores y un `ssh usuario@ip`. Luego llegan staging, los clientes, las VPN, el bastión para llegar a producción, el switch por consola serie y el Windows Server que alguien sigue necesitando por RDP. Y un día tienes quince pestañas abiertas, un `.txt` con contraseñas que no debería existir y la duda de siempre: *¿esta terminal es la de staging o la de producción?*
 
 Vamos a ordenar ese caos por capas: primero lo que ya trae OpenSSH (que es muchísimo), después tmux y, al final, un repaso a los clientes gráficos.
